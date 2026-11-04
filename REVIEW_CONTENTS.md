@@ -2,6 +2,8 @@
 
 Prepared UTC: 2026-11-04T18:15:47.293876+00:00
 
+Inventory/status update UTC: 2026-11-04T20:54:07.446064+00:00
+
 This initial private review set contains two reported-account documents and four technical/visual files. The three poster formats show the same conceptual work. Source files are preserved at their original local paths and uploaded without editing their contents.
 
 ## Included files
@@ -21,7 +23,9 @@ This initial private review set contains two reported-account documents and four
 
 [WORKSPACE_FILE_TYPES.csv](WORKSPACE_FILE_TYPES.csv) summarizes the larger **local workspace before archive moves**, not the contents uploaded here. Its source census covered 253,594 entries (226,870 regular files, 24,316 directories, 2,408 symlinks), excluding Git internals and the current agent archive. Extensions are filename labels rather than verified content types. No source-body review follows from these counts.
 
-The detailed local inventory includes potentially sensitive paths and remains local. Agent execution records, build caches, tool environments, unreviewed bundles and the wider cloud-only corpus are outside this first upload. Confirmed agent-only intermediates are being sequestered separately with their path and hash records; uncertain or substantive material is retained.
+The detailed local inventory includes potentially sensitive paths and remains local. Agent execution records, build caches, tool environments, unreviewed bundles and the wider cloud-only corpus are outside this first upload. The 1,072 audited agent-only intermediates are preserved separately in the local archive with their path, hash and timestamp records; uncertain and substantive material remains in place.
+
+The [after-archive type inventory](WORKSPACE_FILE_TYPES_AFTER_ARCHIVE.csv) tracks the same original census by retained and archived location. [Workspace preservation status](REVIEW_WORKSPACE_STATUS.md) explains the verified archive scope, dates and remaining review. These aggregates describe the local corpus, not additional uploaded source files.
 
 ## Review limits
 
@@ -29,4 +33,4 @@ Personal descriptions remain reported accounts. Technical sources and diagrams r
 
 Some source IDs and companion links in the unchanged account documents refer to material outside this first release. Those references are retained as provenance and are not represented as complete here.
 
-This is a bounded first release. Remaining corpus classification, audience-specific selection and cloud retrieval are tracked locally and remain incomplete.
+This is a bounded first release. Starting path/rule classification is complete; wider file-content review, audience-specific selection and remaining cloud retrieval are tracked locally and remain incomplete.

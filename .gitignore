@@ -1,4 +1,4 @@
-# Explicit initial review-set allowlist. All other workspace files remain local.
+# Explicit review-set allowlist. All other workspace files remain local.
 /*
 !/.gitignore
 !/.github/
@@ -13,3 +13,5 @@
 !/voice_auditory_architecture_60x36.pdf
 !/voice_auditory_architecture.svg
 !/voice_auditory_architecture_18000x10800.png
+!/REVIEW_WORKSPACE_STATUS.md
+!/WORKSPACE_FILE_TYPES_AFTER_ARCHIVE.csv
