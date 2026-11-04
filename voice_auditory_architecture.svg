@@ -1,0 +1,779 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="60in" height="36in" viewBox="0 0 3600 2160">
+<title>Voice &amp; Auditory Interface Architecture</title>
+<desc>Hypothetical consent-based research integration. Proposed connections require validation.</desc>
+<g id="layer-0">
+<rect x="0" y="0" width="3600" height="2160" rx="0" fill="white" stroke="none" stroke-width="0"/>
+<rect x="60" y="365" width="540" height="1350" rx="20" fill="#FBFCFD" stroke="#89959B" stroke-width="2.3" stroke-dasharray="9,8"/>
+<rect x="650" y="365" width="2890" height="1350" rx="24" fill="#ECF8F3" stroke="#A9CDC1" stroke-width="2"/>
+<rect x="940" y="165" width="850" height="155" rx="17" fill="#F7FAFB" stroke="#D6E2E6" stroke-width="1.5"/>
+<rect x="2040" y="165" width="1500" height="155" rx="17" fill="#F7FAFB" stroke="#D6E2E6" stroke-width="1.5"/>
+<rect x="680" y="420" width="1325" height="665" rx="17" fill="#F7FAFB" stroke="#D6E2E6" stroke-width="1.5"/>
+<rect x="2040" y="420" width="1470" height="665" rx="17" fill="#F7FAFB" stroke="#D6E2E6" stroke-width="1.5"/>
+<rect x="680" y="1125" width="730" height="550" rx="17" fill="#F7FAFB" stroke="#D6E2E6" stroke-width="1.5"/>
+<rect x="1445" y="1125" width="2065" height="550" rx="17" fill="white" stroke="#9DC6BA" stroke-width="1.5"/>
+<rect x="60" y="1760" width="3480" height="285" rx="17" fill="#F7FAFB" stroke="#D6E2E6" stroke-width="1.5"/>
+</g>
+<g id="layer-1">
+<polyline points="890,255.0 965,255.0 965,256.0" fill="none" stroke="#078F91" stroke-width="2.7" stroke-linejoin="round"/>
+<polygon points="965,256.0 959.515,244.3 970.485,244.3" fill="#078F91" stroke="none" stroke-width="1"/>
+<polyline points="1135,256.0 1155,256.0" fill="none" stroke="#078F91" stroke-width="2.7" stroke-linejoin="round"/>
+<polygon points="1155,256.0 1143.3,261.485 1143.3,250.515" fill="#078F91" stroke="none" stroke-width="1"/>
+<polyline points="1315,256.0 1335,256.0" fill="none" stroke="#078F91" stroke-width="2.7" stroke-linejoin="round"/>
+<polygon points="1335,256.0 1323.3,261.485 1323.3,250.515" fill="#078F91" stroke="none" stroke-width="1"/>
+<polyline points="1530,256.0 1550,256.0" fill="none" stroke="#078F91" stroke-width="2.7" stroke-linejoin="round"/>
+<polygon points="1550,256.0 1538.3,261.485 1538.3,250.515" fill="#078F91" stroke="none" stroke-width="1"/>
+<polyline points="2215,260.5 2235,260.5" fill="none" stroke="#172B46" stroke-width="2.7" stroke-linejoin="round"/>
+<polygon points="2235,260.5 2223.3,265.985 2223.3,255.015" fill="#172B46" stroke="none" stroke-width="1"/>
+<polyline points="2455,260 2480,260 2480,211 3200,211" fill="none" stroke="#172B46" stroke-width="1.6" stroke-linejoin="round"/>
+<polyline points="2592.5,211 2592.5,228" fill="none" stroke="#172B46" stroke-width="1.5" stroke-linejoin="round"/>
+<polygon points="2592.5,228 2587.675,217.5 2597.325,217.5" fill="#172B46" stroke="none" stroke-width="1"/>
+<polyline points="2785.0,211 2785.0,228" fill="none" stroke="#172B46" stroke-width="1.5" stroke-linejoin="round"/>
+<polygon points="2785.0,228 2780.175,217.5 2789.825,217.5" fill="#172B46" stroke="none" stroke-width="1"/>
+<polyline points="2977.5,211 2977.5,228" fill="none" stroke="#172B46" stroke-width="1.5" stroke-linejoin="round"/>
+<polygon points="2977.5,228 2972.675,217.5 2982.325,217.5" fill="#172B46" stroke="none" stroke-width="1"/>
+<polyline points="3152.5,211 3152.5,228" fill="none" stroke="#172B46" stroke-width="1.5" stroke-linejoin="round"/>
+<polygon points="3152.5,228 3147.675,217.5 3157.325,217.5" fill="#172B46" stroke="none" stroke-width="1"/>
+<polyline points="199,551.0 207,551.0" fill="none" stroke="#078F91" stroke-width="2.7" stroke-linejoin="round"/>
+<polygon points="207,551.0 195.3,556.485 195.3,545.515" fill="#078F91" stroke="none" stroke-width="1"/>
+<polyline points="326,551.0 334,551.0" fill="none" stroke="#078F91" stroke-width="2.7" stroke-linejoin="round"/>
+<polygon points="334,551.0 322.3,556.485 322.3,545.515" fill="#078F91" stroke="none" stroke-width="1"/>
+<polyline points="453,551.0 461,551.0" fill="none" stroke="#078F91" stroke-width="2.7" stroke-linejoin="round"/>
+<polygon points="461,551.0 449.3,556.485 449.3,545.515" fill="#078F91" stroke="none" stroke-width="1"/>
+<polyline points="199,826.0 207,826.0" fill="none" stroke="#078F91" stroke-width="2.7" stroke-linejoin="round"/>
+<polygon points="207,826.0 195.3,831.485 195.3,820.515" fill="#078F91" stroke="none" stroke-width="1"/>
+<polyline points="326,826.0 334,826.0" fill="none" stroke="#078F91" stroke-width="2.7" stroke-linejoin="round"/>
+<polygon points="334,826.0 322.3,831.485 322.3,820.515" fill="#078F91" stroke="none" stroke-width="1"/>
+<polyline points="453,826.0 461,826.0" fill="none" stroke="#078F91" stroke-width="2.7" stroke-linejoin="round"/>
+<polygon points="461,826.0 449.3,831.485 449.3,820.515" fill="#078F91" stroke="none" stroke-width="1"/>
+<polyline points="580,551.0 715,551.0" fill="none" stroke="#078F91" stroke-width="2.7" stroke-linejoin="round" stroke-dasharray="4,7"/>
+<polygon points="715,551.0 703.3,556.485 703.3,545.515" fill="#078F91" stroke="none" stroke-width="1"/>
+<polygon points="602.0,551.0 595.0,556.0 588.0,551.0 595.0,546.0" fill="white" stroke="#078F91" stroke-width="1.5"/>
+<polyline points="875,551.0 900,551.0" fill="none" stroke="#078F91" stroke-width="2.7" stroke-linejoin="round"/>
+<polygon points="900,551.0 888.3,556.485 888.3,545.515" fill="#078F91" stroke="none" stroke-width="1"/>
+<polyline points="1060,551.0 1085,551.0" fill="none" stroke="#078F91" stroke-width="2.7" stroke-linejoin="round"/>
+<polygon points="1085,551.0 1073.3,556.485 1073.3,545.515" fill="#078F91" stroke="none" stroke-width="1"/>
+<polyline points="1245,551.0 1270,551.0" fill="none" stroke="#078F91" stroke-width="2.7" stroke-linejoin="round"/>
+<polygon points="1270,551.0 1258.3,556.485 1258.3,545.515" fill="#078F91" stroke="none" stroke-width="1"/>
+<polyline points="1430,551.0 1455,551.0" fill="none" stroke="#078F91" stroke-width="2.7" stroke-linejoin="round"/>
+<polygon points="1455,551.0 1443.3,556.485 1443.3,545.515" fill="#078F91" stroke="none" stroke-width="1"/>
+<polyline points="1615,551.0 1640,551.0" fill="none" stroke="#078F91" stroke-width="2.7" stroke-linejoin="round"/>
+<polygon points="1640,551.0 1628.3,556.485 1628.3,545.515" fill="#078F91" stroke="none" stroke-width="1"/>
+<polyline points="1800,551.0 1825,551.0" fill="none" stroke="#078F91" stroke-width="2.7" stroke-linejoin="round"/>
+<polygon points="1825,551.0 1813.3,556.485 1813.3,545.515" fill="#078F91" stroke="none" stroke-width="1"/>
+<polyline points="580,826.0 715,826.0" fill="none" stroke="#078F91" stroke-width="2.7" stroke-linejoin="round" stroke-dasharray="4,7"/>
+<polygon points="715,826.0 703.3,831.485 703.3,820.515" fill="#078F91" stroke="none" stroke-width="1"/>
+<polygon points="602.0,826.0 595.0,831.0 588.0,826.0 595.0,821.0" fill="white" stroke="#078F91" stroke-width="1.5"/>
+<polyline points="875,826.0 900,826.0" fill="none" stroke="#078F91" stroke-width="2.7" stroke-linejoin="round"/>
+<polygon points="900,826.0 888.3,831.485 888.3,820.515" fill="#078F91" stroke="none" stroke-width="1"/>
+<polyline points="1060,826.0 1085,826.0" fill="none" stroke="#078F91" stroke-width="2.7" stroke-linejoin="round"/>
+<polygon points="1085,826.0 1073.3,831.485 1073.3,820.515" fill="#078F91" stroke="none" stroke-width="1"/>
+<polyline points="1245,826.0 1270,826.0" fill="none" stroke="#078F91" stroke-width="2.7" stroke-linejoin="round"/>
+<polygon points="1270,826.0 1258.3,831.485 1258.3,820.515" fill="#078F91" stroke="none" stroke-width="1"/>
+<polyline points="1430,826.0 1455,826.0" fill="none" stroke="#078F91" stroke-width="2.7" stroke-linejoin="round"/>
+<polygon points="1455,826.0 1443.3,831.485 1443.3,820.515" fill="#078F91" stroke="none" stroke-width="1"/>
+<polyline points="1615,826.0 1640,826.0" fill="none" stroke="#078F91" stroke-width="2.7" stroke-linejoin="round"/>
+<polygon points="1640,826.0 1628.3,831.485 1628.3,820.515" fill="#078F91" stroke="none" stroke-width="1"/>
+<polyline points="1800,826.0 1825,826.0" fill="none" stroke="#078F91" stroke-width="2.7" stroke-linejoin="round"/>
+<polygon points="1825,826.0 1813.3,831.485 1813.3,820.515" fill="#078F91" stroke="none" stroke-width="1"/>
+<polyline points="1897.5,862 1890.0,862 1890.0,912" fill="none" stroke="#078F91" stroke-width="2.7" stroke-linejoin="round"/>
+<polygon points="1890.0,912 1884.515,900.3 1895.485,900.3" fill="#078F91" stroke="none" stroke-width="1"/>
+<polyline points="1897.5,862 1897.5,890 1675,890 1675.0,912" fill="none" stroke="#078F91" stroke-width="2.7" stroke-linejoin="round"/>
+<polygon points="1675.0,912 1669.515,900.3 1680.485,900.3" fill="#078F91" stroke="none" stroke-width="1"/>
+<polyline points="1750,286 1750,339 1988,339 1988,665 1255,665 1255,1019 1270,1019" fill="none" stroke="#078F91" stroke-width="2" stroke-linejoin="round" stroke-dasharray="4,7"/>
+<polygon points="1270,1019 1259.0,1024.1 1259.0,1013.9" fill="#078F91" stroke="none" stroke-width="1"/>
+<polygon points="1750.0,308.0 1745.0,301.0 1750.0,294.0 1755.0,301.0" fill="white" stroke="#078F91" stroke-width="1.5"/>
+<polyline points="1790,255 1845,255 1845,339 2025,339 2025,507 2080,507" fill="none" stroke="#172B46" stroke-width="2.2" stroke-linejoin="round"/>
+<polygon points="2080,507 2068.8,512.21 2068.8,501.79" fill="#172B46" stroke="none" stroke-width="1"/>
+<polygon points="1790,255 1801.2,249.79 1801.2,260.21" fill="#172B46" stroke="none" stroke-width="1"/>
+<polyline points="3230,507.0 3155,507.0" fill="none" stroke="#172B46" stroke-width="2.7" stroke-linejoin="round" stroke-dasharray="4,7"/>
+<polygon points="3155,507.0 3166.7,501.515 3166.7,512.485" fill="#172B46" stroke="none" stroke-width="1"/>
+<polygon points="3208.0,507.0 3215.0,502.0 3222.0,507.0 3215.0,512.0" fill="white" stroke="#172B46" stroke-width="1.5"/>
+<polyline points="2960,602 2988,602 2988,577 3022,577" fill="none" stroke="#172B46" stroke-width="2" stroke-linejoin="round"/>
+<polygon points="3022,577 3011.0,582.1 3011.0,571.9" fill="#172B46" stroke="none" stroke-width="1"/>
+<polyline points="2988,602 2988,627 3022,627" fill="none" stroke="#172B46" stroke-width="2" stroke-linejoin="round"/>
+<polygon points="3022,627 3011.0,632.1 3011.0,621.9" fill="#172B46" stroke="none" stroke-width="1"/>
+<polyline points="2320,714.5 2360,714.5" fill="none" stroke="#172B46" stroke-width="2.7" stroke-linejoin="round"/>
+<polygon points="2360,714.5 2348.3,719.985 2348.3,709.015" fill="#172B46" stroke="none" stroke-width="1"/>
+<polyline points="2600,714.5 2640,714.5" fill="none" stroke="#172B46" stroke-width="2.7" stroke-linejoin="round"/>
+<polygon points="2640,714.5 2628.3,719.985 2628.3,709.015" fill="#172B46" stroke="none" stroke-width="1"/>
+<polyline points="2880,714.5 2920,714.5" fill="none" stroke="#172B46" stroke-width="2.7" stroke-linejoin="round"/>
+<polygon points="2920,714.5 2908.3,719.985 2908.3,709.015" fill="#172B46" stroke="none" stroke-width="1"/>
+<polyline points="3160,714.5 3200,714.5" fill="none" stroke="#172B46" stroke-width="2.7" stroke-linejoin="round"/>
+<polygon points="3200,714.5 3188.3,719.985 3188.3,709.015" fill="#172B46" stroke="none" stroke-width="1"/>
+<polyline points="2182.5,627 2200.0,627 2200.0,678" fill="none" stroke="#172B46" stroke-width="2.7" stroke-linejoin="round"/>
+<polygon points="2200.0,678 2194.515,666.3 2205.485,666.3" fill="#172B46" stroke="none" stroke-width="1"/>
+<polyline points="2440.0,627 2480.0,627 2480.0,678" fill="none" stroke="#172B46" stroke-width="2.7" stroke-linejoin="round"/>
+<polygon points="2480.0,678 2474.515,666.3 2485.485,666.3" fill="#172B46" stroke="none" stroke-width="1"/>
+<polyline points="2765.0,627 2760.0,627 2760.0,678" fill="none" stroke="#172B46" stroke-width="2.7" stroke-linejoin="round"/>
+<polygon points="2760.0,678 2754.515,666.3 2765.485,666.3" fill="#172B46" stroke="none" stroke-width="1"/>
+<polyline points="3025.0,537 3025,650 2760,650 2760.0,678" fill="none" stroke="#172B46" stroke-width="2.7" stroke-linejoin="round" stroke-dasharray="4,7"/>
+<polygon points="2760.0,678 2754.515,666.3 2765.485,666.3" fill="#172B46" stroke="none" stroke-width="1"/>
+<polygon points="3025.0,559.0 3020.0,552.0 3025.0,545.0 3030.0,552.0" fill="white" stroke="#172B46" stroke-width="1.5"/>
+<polyline points="2130,293 2130,338 2590,338 2590,599 2630,599" fill="none" stroke="#172B46" stroke-width="2" stroke-linejoin="round" stroke-dasharray="4,7"/>
+<polygon points="2630,599 2619.0,604.1 2619.0,593.9" fill="#172B46" stroke="none" stroke-width="1"/>
+<polygon points="2130.0,315.0 2125.0,308.0 2130.0,301.0 2135.0,308.0" fill="white" stroke="#172B46" stroke-width="1.5"/>
+<polyline points="1970,551.0 2014,551 2014,645 2400,645 2400,678" fill="none" stroke="#078F91" stroke-width="2.7" stroke-linejoin="round" stroke-dasharray="4,7"/>
+<polygon points="2400,678 2394.515,666.3 2405.485,666.3" fill="#078F91" stroke="none" stroke-width="1"/>
+<polygon points="1992.0,551.0 1985.0,556.0 1978.0,551.0 1985.0,546.0" fill="white" stroke="#078F91" stroke-width="1.5"/>
+<polyline points="1975,946.0 2025,946 2025,662 2460,662 2460,678" fill="none" stroke="#078F91" stroke-width="2.7" stroke-linejoin="round" stroke-dasharray="4,7"/>
+<polygon points="2460,678 2454.515,666.3 2465.485,666.3" fill="#078F91" stroke="none" stroke-width="1"/>
+<polygon points="1997.0,946.0 1990.0,951.0 1983.0,946.0 1990.0,941.0" fill="white" stroke="#078F91" stroke-width="1.5"/>
+<polyline points="1455,1019.0 1490,1019 1490,1062 2012,1062 2012,765 2500,765 2500,751" fill="none" stroke="#078F91" stroke-width="1.8" stroke-linejoin="round" stroke-dasharray="4,7"/>
+<polygon points="2500,751 2504.99,761.8 2495.01,761.8" fill="#078F91" stroke="none" stroke-width="1"/>
+<polygon points="1477.0,1019.0 1470.0,1024.0 1463.0,1019.0 1470.0,1014.0" fill="white" stroke="#078F91" stroke-width="1.5"/>
+<polyline points="2230.0,850 2230,833 2480,833 2480.0,751" fill="none" stroke="#172B46" stroke-width="1.3" stroke-linejoin="round"/>
+<polygon points="2480.0,751 2484.715,761.3 2475.285,761.3" fill="#172B46" stroke="none" stroke-width="1"/>
+<polyline points="2192.5,990 2192.5,1002" fill="none" stroke="#172B46" stroke-width="1.2" stroke-linejoin="round"/>
+<polygon points="2192.5,1002 2187.84,991.8 2197.16,991.8" fill="#172B46" stroke="none" stroke-width="1"/>
+<polyline points="2442.5,990 2442.5,1002" fill="none" stroke="#172B46" stroke-width="1.2" stroke-linejoin="round"/>
+<polygon points="2442.5,1002 2437.84,991.8 2447.16,991.8" fill="#172B46" stroke="none" stroke-width="1"/>
+<polyline points="2692.5,990 2692.5,1002" fill="none" stroke="#172B46" stroke-width="1.2" stroke-linejoin="round"/>
+<polygon points="2692.5,1002 2687.84,991.8 2697.16,991.8" fill="#172B46" stroke="none" stroke-width="1"/>
+<polyline points="2192,990 2692,990" fill="none" stroke="#172B46" stroke-width="1.2" stroke-linejoin="round"/>
+<polyline points="2442.5,1002 2442,1002 2442,985 2535,985 2535.0,974" fill="none" stroke="#172B46" stroke-width="1.2" stroke-linejoin="round"/>
+<polygon points="2535.0,974 2539.66,984.2 2530.34,984.2" fill="#172B46" stroke="none" stroke-width="1"/>
+<polyline points="2535.0,928 2535,916 2395,916 2395,833 2480,833 2480,751" fill="none" stroke="#172B46" stroke-width="1.2" stroke-linejoin="round"/>
+<polygon points="2480,751 2484.66,761.2 2475.34,761.2" fill="#172B46" stroke="none" stroke-width="1"/>
+<polyline points="194.5,1330 194.5,1385" fill="none" stroke="#CE8A1D" stroke-width="2.7" stroke-linejoin="round" stroke-dasharray="4,7"/>
+<polygon points="194.5,1385 189.015,1373.3 199.985,1373.3" fill="#CE8A1D" stroke="none" stroke-width="1"/>
+<polygon points="194.5,1352.0 189.5,1345.0 194.5,1338.0 199.5,1345.0" fill="white" stroke="#CE8A1D" stroke-width="1.5"/>
+<polyline points="457.5,1330 457.5,1385" fill="none" stroke="#CE8A1D" stroke-width="2.7" stroke-linejoin="round" stroke-dasharray="4,7"/>
+<polygon points="457.5,1385 452.015,1373.3 462.985,1373.3" fill="#CE8A1D" stroke="none" stroke-width="1"/>
+<polygon points="457.5,1352.0 452.5,1345.0 457.5,1338.0 462.5,1345.0" fill="white" stroke="#CE8A1D" stroke-width="1.5"/>
+<polyline points="85,1626 72,1626 72,414 585,414 585,1550" fill="none" stroke="#89959B" stroke-width="1.5" stroke-linejoin="round"/>
+<polyline points="585,551 580,551" fill="none" stroke="#89959B" stroke-width="1.5" stroke-linejoin="round"/>
+<polygon points="580,551 590.5,546.175 590.5,555.825" fill="#89959B" stroke="none" stroke-width="1"/>
+<polyline points="585,826 580,826" fill="none" stroke="#89959B" stroke-width="1.5" stroke-linejoin="round"/>
+<polygon points="580,826 590.5,821.175 590.5,830.825" fill="#89959B" stroke="none" stroke-width="1"/>
+<polyline points="585,1290 570,1290" fill="none" stroke="#89959B" stroke-width="1.5" stroke-linejoin="round"/>
+<polygon points="570,1290 580.5,1285.175 580.5,1294.825" fill="#89959B" stroke="none" stroke-width="1"/>
+<polyline points="1180,1243.5 1145,1243.5" fill="none" stroke="#CE8A1D" stroke-width="2.7" stroke-linejoin="round"/>
+<polygon points="1145,1243.5 1156.7,1238.015 1156.7,1248.985" fill="#CE8A1D" stroke="none" stroke-width="1"/>
+<polyline points="950,1243.5 915,1243.5" fill="none" stroke="#CE8A1D" stroke-width="2.7" stroke-linejoin="round"/>
+<polygon points="915,1243.5 926.7,1238.015 926.7,1248.985" fill="#CE8A1D" stroke="none" stroke-width="1"/>
+<polyline points="817.5,1277 817,1277 817,1296 1020,1296 1020.0,1310" fill="none" stroke="#CE8A1D" stroke-width="2.7" stroke-linejoin="round" stroke-dasharray="4,7"/>
+<polygon points="1020.0,1310 1014.515,1298.3 1025.485,1298.3" fill="#CE8A1D" stroke="none" stroke-width="1"/>
+<polygon points="795.5,1277.0 802.5,1272.0 809.5,1277.0 802.5,1282.0" fill="white" stroke="#CE8A1D" stroke-width="1.5"/>
+<polyline points="1180,1462.5 1145,1462.5" fill="none" stroke="#CE8A1D" stroke-width="2.7" stroke-linejoin="round" stroke-dasharray="4,7"/>
+<polygon points="1145,1462.5 1156.7,1457.015 1156.7,1467.985" fill="#CE8A1D" stroke="none" stroke-width="1"/>
+<polygon points="1158.0,1462.5 1165.0,1457.5 1172.0,1462.5 1165.0,1467.5" fill="white" stroke="#CE8A1D" stroke-width="1.5"/>
+<polyline points="950,1462.5 915,1462.5" fill="none" stroke="#CE8A1D" stroke-width="2.7" stroke-linejoin="round"/>
+<polygon points="915,1462.5 926.7,1457.015 926.7,1467.985" fill="#CE8A1D" stroke="none" stroke-width="1"/>
+<polyline points="817.5,1500 817,1500 817,1516 932,1516 932.5,1516 932.5,1540" fill="none" stroke="#CE8A1D" stroke-width="2.7" stroke-linejoin="round"/>
+<polygon points="932.5,1540 927.015,1528.3 937.985,1528.3" fill="#CE8A1D" stroke="none" stroke-width="1"/>
+<polyline points="720,1559 625,1559 625,1217 195,1217 195,1250" fill="none" stroke="#CE8A1D" stroke-width="3" stroke-linejoin="round" stroke-dasharray="4,7"/>
+<polygon points="195,1250 189.35,1238.0 200.65,1238.0" fill="#CE8A1D" stroke="none" stroke-width="1"/>
+<polygon points="698.0,1559.0 705.0,1554.0 712.0,1559.0 705.0,1564.0" fill="white" stroke="#CE8A1D" stroke-width="1.5"/>
+<polyline points="720,1579 640,1579 640,1235 457,1235 457,1250" fill="none" stroke="#CE8A1D" stroke-width="3" stroke-linejoin="round" stroke-dasharray="4,7"/>
+<polygon points="457,1250 451.35,1238.0 462.65,1238.0" fill="#CE8A1D" stroke="none" stroke-width="1"/>
+<polygon points="698.0,1579.0 705.0,1574.0 712.0,1579.0 705.0,1584.0" fill="white" stroke="#CE8A1D" stroke-width="1.5"/>
+<polyline points="194.5,1465 195,1465 195,1514 610,1514 610,1340 795,1340" fill="none" stroke="#CE8A1D" stroke-width="1.8" stroke-linejoin="round" stroke-dasharray="4,7"/>
+<polygon points="795,1340 784.2,1344.99 784.2,1335.01" fill="#CE8A1D" stroke="none" stroke-width="1"/>
+<polygon points="216.5,1465.0 209.5,1470.0 202.5,1465.0 209.5,1460.0" fill="white" stroke="#CE8A1D" stroke-width="1.5"/>
+<polyline points="457.5,1465 457,1465 457,1494 595,1494 595,1328 795,1328" fill="none" stroke="#CE8A1D" stroke-width="1.8" stroke-linejoin="round" stroke-dasharray="4,7"/>
+<polygon points="795,1328 784.2,1332.99 784.2,1323.01" fill="#CE8A1D" stroke="none" stroke-width="1"/>
+<polygon points="435.5,1465.0 442.5,1460.0 449.5,1465.0 442.5,1470.0" fill="white" stroke="#CE8A1D" stroke-width="1.5"/>
+<polyline points="1980,1209.0 2005,1209.0" fill="none" stroke="#078F91" stroke-width="2.7" stroke-linejoin="round"/>
+<polygon points="2005,1209.0 1993.3,1214.485 1993.3,1203.515" fill="#078F91" stroke="none" stroke-width="1"/>
+<polyline points="2195,1209.0 2220,1209.0" fill="none" stroke="#078F91" stroke-width="2.7" stroke-linejoin="round"/>
+<polygon points="2220,1209.0 2208.3,1214.485 2208.3,1203.515" fill="#078F91" stroke="none" stroke-width="1"/>
+<polyline points="2430,1209.0 2455,1209.0" fill="none" stroke="#078F91" stroke-width="2.7" stroke-linejoin="round"/>
+<polygon points="2455,1209.0 2443.3,1214.485 2443.3,1203.515" fill="#078F91" stroke="none" stroke-width="1"/>
+<polyline points="2650,1209.0 2668,1209 2668,1094 2942,1094 2942.5,1094 2942.5,1070" fill="none" stroke="#078F91" stroke-width="2.7" stroke-linejoin="round"/>
+<polygon points="2942.5,1070 2947.985,1081.7 2937.015,1081.7" fill="#078F91" stroke="none" stroke-width="1"/>
+<polyline points="1695,1347.0 1725,1347 1725,1292 2030,1292 2030,1347 2080,1347.0" fill="none" stroke="#172B46" stroke-width="2.7" stroke-linejoin="round"/>
+<polygon points="2080,1347.0 2068.3,1352.485 2068.3,1341.515" fill="#172B46" stroke="none" stroke-width="1"/>
+<polyline points="1695,1440.0 1725,1440 1725,1483 2025,1483 2025,1440 2080,1440.0" fill="none" stroke="#CE8A1D" stroke-width="2.7" stroke-linejoin="round"/>
+<polygon points="2080,1440.0 2068.3,1445.485 2068.3,1434.515" fill="#CE8A1D" stroke="none" stroke-width="1"/>
+<polyline points="1695,1533.0 2080,1533.0" fill="none" stroke="#CE8A1D" stroke-width="2.7" stroke-linejoin="round"/>
+<polygon points="2080,1533.0 2068.3,1538.485 2068.3,1527.515" fill="#CE8A1D" stroke="none" stroke-width="1"/>
+<polyline points="1990,1432.0 2045,1432 2045,1360 2080,1360 2080,1347.0" fill="none" stroke="#172B46" stroke-width="2.7" stroke-linejoin="round"/>
+<polygon points="2080,1347.0 2085.485,1358.7 2074.515,1358.7" fill="#172B46" stroke="none" stroke-width="1"/>
+<polyline points="1990,1432.0 2080,1432.0 2080,1440.0" fill="none" stroke="#172B46" stroke-width="2.7" stroke-linejoin="round"/>
+<polygon points="2080,1440.0 2074.515,1428.3 2085.485,1428.3" fill="#172B46" stroke="none" stroke-width="1"/>
+<polyline points="2942.5,1070 2942,1070 2942,1103 1458,1103 1458,1280 1880,1280 1880.0,1397" fill="none" stroke="#172B46" stroke-width="1.4" stroke-linejoin="round"/>
+<polygon points="1880.0,1397 1875.23,1386.6 1884.77,1386.6" fill="#172B46" stroke="none" stroke-width="1"/>
+<polyline points="3320.0,751 3320,772 3484,772 3484,1104 1467,1104 1467,1347 1490,1347" fill="none" stroke="#172B46" stroke-width="2.3" stroke-linejoin="round" stroke-dasharray="4,7"/>
+<polygon points="1490,1347 1478.7,1352.265 1478.7,1341.735" fill="#172B46" stroke="none" stroke-width="1"/>
+<polygon points="3320.0,773.0 3315.0,766.0 3320.0,759.0 3325.0,766.0" fill="white" stroke="#172B46" stroke-width="1.5"/>
+<polyline points="2365,1347.0 2535,1347 2535.0,1410" fill="none" stroke="#CE8A1D" stroke-width="2.7" stroke-linejoin="round"/>
+<polygon points="2535.0,1410 2529.515,1398.3 2540.485,1398.3" fill="#CE8A1D" stroke="none" stroke-width="1"/>
+<polyline points="2365,1440.0 2440,1440.0" fill="none" stroke="#CE8A1D" stroke-width="2.7" stroke-linejoin="round"/>
+<polygon points="2440,1440.0 2428.3,1445.485 2428.3,1434.515" fill="#CE8A1D" stroke="none" stroke-width="1"/>
+<polyline points="2365,1533.0 2535,1533 2535.0,1470" fill="none" stroke="#CE8A1D" stroke-width="2.7" stroke-linejoin="round"/>
+<polygon points="2535.0,1470 2540.485,1481.7 2529.515,1481.7" fill="#CE8A1D" stroke="none" stroke-width="1"/>
+<polyline points="2630,1440.0 2690,1440.0" fill="none" stroke="#CE8A1D" stroke-width="2.7" stroke-linejoin="round"/>
+<polygon points="2690,1440.0 2678.3,1445.485 2678.3,1434.515" fill="#CE8A1D" stroke="none" stroke-width="1"/>
+<polyline points="2910,1440.0 2960,1440.0" fill="none" stroke="#CE8A1D" stroke-width="2.7" stroke-linejoin="round"/>
+<polygon points="2960,1440.0 2948.3,1445.485 2948.3,1434.515" fill="#CE8A1D" stroke="none" stroke-width="1"/>
+<polyline points="3195,1440.0 3245,1440.0" fill="none" stroke="#CE8A1D" stroke-width="2.7" stroke-linejoin="round"/>
+<polygon points="3245,1440.0 3233.3,1445.485 3233.3,1434.515" fill="#CE8A1D" stroke="none" stroke-width="1"/>
+<polyline points="3355.0,1470 3355,1596 3130,1596.0" fill="none" stroke="#CE8A1D" stroke-width="2.7" stroke-linejoin="round"/>
+<polygon points="3130,1596.0 3141.7,1590.515 3141.7,1601.485" fill="#CE8A1D" stroke="none" stroke-width="1"/>
+<polyline points="2900,1596.0 2800,1596.0" fill="none" stroke="#CE8A1D" stroke-width="2.7" stroke-linejoin="round"/>
+<polygon points="2800,1596.0 2811.7,1590.515 2811.7,1601.485" fill="#CE8A1D" stroke="none" stroke-width="1"/>
+<polyline points="2795,1371 2795,1363" fill="none" stroke="#172B46" stroke-width="1.2" stroke-linejoin="round"/>
+<polyline points="3065,1371 3065,1363" fill="none" stroke="#172B46" stroke-width="1.2" stroke-linejoin="round"/>
+<polyline points="2910,1335.5 2926,1335.5 2926,1335 2926,1535 2960,1535 2960,1565" fill="none" stroke="#CE8A1D" stroke-width="1.7" stroke-linejoin="round"/>
+<polygon points="2960,1565 2955.065,1554.3 2964.935,1554.3" fill="#CE8A1D" stroke="none" stroke-width="1"/>
+<polyline points="3180,1335.5 3218,1335.5 3218,1335 3218,1520 3070,1520 3070,1565" fill="none" stroke="#CE8A1D" stroke-width="1.7" stroke-linejoin="round"/>
+<polygon points="3070,1565 3065.065,1554.3 3074.935,1554.3" fill="#CE8A1D" stroke="none" stroke-width="1"/>
+<polyline points="2810,1643 2810,1637 2685,1637 2685,1627" fill="none" stroke="#172B46" stroke-width="1.5" stroke-linejoin="round"/>
+<polygon points="2685,1627 2689.825,1637.5 2680.175,1637.5" fill="#172B46" stroke="none" stroke-width="1"/>
+<polyline points="2685,1627 2685,1633 3033,1633 3033,1643" fill="none" stroke="#172B46" stroke-width="1.3" stroke-linejoin="round"/>
+<polygon points="3033,1643 3028.285,1632.7 3037.715,1632.7" fill="#172B46" stroke="none" stroke-width="1"/>
+<polyline points="1805,946.0 1780,946 1780,884 1195,884 1195,952 935,952" fill="none" stroke="#078F91" stroke-width="2.1" stroke-linejoin="round" stroke-dasharray="4,7"/>
+<polygon points="935,952 946.1,946.845 946.1,957.155" fill="#078F91" stroke="none" stroke-width="1"/>
+<polygon points="1783.0,946.0 1790.0,941.0 1797.0,946.0 1790.0,951.0" fill="white" stroke="#078F91" stroke-width="1.5"/>
+<polyline points="825.0,986 825,1097 1430,1097 1430,1624 1485,1624" fill="none" stroke="#078F91" stroke-width="2.1" stroke-linejoin="round" stroke-dasharray="4,7"/>
+<polygon points="1485,1624 1473.9,1629.155 1473.9,1618.845" fill="#078F91" stroke="none" stroke-width="1"/>
+<polygon points="825.0,1008.0 820.0,1001.0 825.0,994.0 830.0,1001.0" fill="white" stroke="#078F91" stroke-width="1.5"/>
+<polyline points="1745,1624.0 2120,1624 2120,1580 2380,1580 2380,1550 2670,1550 2670,1492 2800,1492 2800,1470" fill="none" stroke="#CE8A1D" stroke-width="2.3" stroke-linejoin="round" stroke-dasharray="4,7"/>
+<polygon points="2800,1470 2805.265,1481.3 2794.735,1481.3" fill="#CE8A1D" stroke="none" stroke-width="1"/>
+<polygon points="1767.0,1624.0 1760.0,1629.0 1753.0,1624.0 1760.0,1619.0" fill="white" stroke="#CE8A1D" stroke-width="1.5"/>
+<polyline points="2570,1596.0 2500,1596 2500,1694 1390,1694 1390,1243 1375,1243" fill="none" stroke="#CE8A1D" stroke-width="3.5" stroke-linejoin="round"/>
+<polygon points="1375,1243 1387.5,1237.075 1387.5,1248.925" fill="#CE8A1D" stroke="none" stroke-width="1"/>
+<polyline points="1390,1462 1375,1462" fill="none" stroke="#CE8A1D" stroke-width="3.5" stroke-linejoin="round"/>
+<polygon points="1375,1462 1387.5,1456.075 1387.5,1467.925" fill="#CE8A1D" stroke="none" stroke-width="1"/>
+<polyline points="280,1850.5 310,1850.5" fill="none" stroke="#078F91" stroke-width="2.7" stroke-linejoin="round"/>
+<polygon points="310,1850.5 298.3,1855.985 298.3,1845.015" fill="#078F91" stroke="none" stroke-width="1"/>
+<polyline points="485,1850.5 515,1850.5" fill="none" stroke="#078F91" stroke-width="2.7" stroke-linejoin="round"/>
+<polygon points="515,1850.5 503.3,1855.985 503.3,1845.015" fill="#078F91" stroke="none" stroke-width="1"/>
+<polyline points="280,1930.5 310,1930.5" fill="none" stroke="#078F91" stroke-width="2.7" stroke-linejoin="round"/>
+<polygon points="310,1930.5 298.3,1935.985 298.3,1925.015" fill="#078F91" stroke="none" stroke-width="1"/>
+<polyline points="495,1930.5 530,1930.5" fill="none" stroke="#078F91" stroke-width="2.7" stroke-linejoin="round"/>
+<polygon points="530,1930.5 518.3,1935.985 518.3,1925.015" fill="#078F91" stroke="none" stroke-width="1"/>
+<polyline points="735,1930.5 770,1930.5" fill="none" stroke="#078F91" stroke-width="2.7" stroke-linejoin="round"/>
+<polygon points="770,1930.5 758.3,1935.985 758.3,1925.015" fill="#078F91" stroke="none" stroke-width="1"/>
+<polyline points="495,2001.0 632,2001 632.5,2001 632.5,1961" fill="none" stroke="#078F91" stroke-width="2.7" stroke-linejoin="round"/>
+<polygon points="632.5,1961 637.985,1972.7 627.015,1972.7" fill="#078F91" stroke="none" stroke-width="1"/>
+<polyline points="1240,1850.5 1275,1850.5" fill="none" stroke="#078F91" stroke-width="2.7" stroke-linejoin="round"/>
+<polygon points="1275,1850.5 1263.3,1855.985 1263.3,1845.015" fill="#078F91" stroke="none" stroke-width="1"/>
+<polyline points="1495,1850.5 1530,1850.5" fill="none" stroke="#078F91" stroke-width="2.7" stroke-linejoin="round"/>
+<polygon points="1530,1850.5 1518.3,1855.985 1518.3,1845.015" fill="#078F91" stroke="none" stroke-width="1"/>
+<polyline points="730,1850 753,1850 753,1738" fill="none" stroke="#078F91" stroke-width="2" stroke-linejoin="round" stroke-dasharray="10,6"/>
+<polygon points="753,1738 758.1,1749.0 747.9,1749.0" fill="#078F91" stroke="none" stroke-width="1"/>
+<polyline points="664,1738 1975,1738" fill="none" stroke="#078F91" stroke-width="2" stroke-linejoin="round" stroke-dasharray="10,6"/>
+<polyline points="872,1900 872,1738" fill="none" stroke="#078F91" stroke-width="2" stroke-linejoin="round" stroke-dasharray="10,6"/>
+<polyline points="1632,1823 1632,1738" fill="none" stroke="#078F91" stroke-width="2" stroke-linejoin="round" stroke-dasharray="10,6"/>
+<polyline points="664,1738 664,1089 1092,1089 1092,1050" fill="none" stroke="#078F91" stroke-width="2" stroke-linejoin="round" stroke-dasharray="10,6"/>
+<polygon points="1092,1050 1097.1,1061.0 1086.9,1061.0" fill="#078F91" stroke="none" stroke-width="1"/>
+<polyline points="182.5,1975 182.5,1961" fill="none" stroke="#078F91" stroke-width="2.7" stroke-linejoin="round" stroke-dasharray="4,7"/>
+<polygon points="182.5,1961 187.985,1972.7 177.015,1972.7" fill="#078F91" stroke="none" stroke-width="1"/>
+<polygon points="182.5,1953.0 187.5,1960.0 182.5,1967.0 177.5,1960.0" fill="white" stroke="#078F91" stroke-width="1.5"/>
+<polyline points="1137.5,1955 1137.5,1936" fill="none" stroke="#172B46" stroke-width="1.8" stroke-linejoin="round"/>
+<polyline points="1365.0,1955 1365.0,1936" fill="none" stroke="#172B46" stroke-width="1.8" stroke-linejoin="round"/>
+<polyline points="1582.5,1955 1582.5,1936" fill="none" stroke="#172B46" stroke-width="1.8" stroke-linejoin="round"/>
+<polyline points="1802.5,1955 1802.5,1936" fill="none" stroke="#172B46" stroke-width="1.8" stroke-linejoin="round"/>
+<polyline points="1137,1936 1910,1936 1910,1709 2685,1709 2685,1627" fill="none" stroke="#172B46" stroke-width="2.4" stroke-linejoin="round"/>
+<polygon points="2685,1627 2690.32,1638.4 2679.68,1638.4" fill="#172B46" stroke="none" stroke-width="1"/>
+<polyline points="2215,1861.0 2245,1861.0" fill="none" stroke="#078F91" stroke-width="2.7" stroke-linejoin="round"/>
+<polygon points="2245,1861.0 2233.3,1866.485 2233.3,1855.515" fill="#078F91" stroke="none" stroke-width="1"/>
+<polyline points="2435,1861.0 2465,1861.0" fill="none" stroke="#078F91" stroke-width="2.7" stroke-linejoin="round"/>
+<polygon points="2465,1861.0 2453.3,1866.485 2453.3,1855.515" fill="#078F91" stroke="none" stroke-width="1"/>
+<polyline points="2705,1861.0 2735,1861.0" fill="none" stroke="#078F91" stroke-width="2.7" stroke-linejoin="round"/>
+<polygon points="2735,1861.0 2723.3,1866.485 2723.3,1855.515" fill="#078F91" stroke="none" stroke-width="1"/>
+<polyline points="2955,1861.0 2985,1861.0" fill="none" stroke="#078F91" stroke-width="2.7" stroke-linejoin="round"/>
+<polygon points="2985,1861.0 2973.3,1866.485 2973.3,1855.515" fill="#078F91" stroke="none" stroke-width="1"/>
+<polyline points="3235,1861.0 3205,1861.0" fill="none" stroke="#172B46" stroke-width="2.7" stroke-linejoin="round"/>
+<polygon points="3205,1861.0 3216.7,1855.515 3216.7,1866.485" fill="#172B46" stroke="none" stroke-width="1"/>
+<polyline points="3095.0,1830 3095,1748 3532,1748 3532,1100 3192,1100 3192,1070" fill="none" stroke="#172B46" stroke-width="1.7" stroke-linejoin="round" stroke-dasharray="4,7"/>
+<polygon points="3192,1070 3196.935,1080.7 3187.065,1080.7" fill="#172B46" stroke="none" stroke-width="1"/>
+<polygon points="3095.0,1808.0 3100.0,1815.0 3095.0,1822.0 3090.0,1815.0" fill="white" stroke="#172B46" stroke-width="1.5"/>
+<polyline points="330.0,229 330.0,265" fill="none" stroke="#89959B" stroke-width="1.6" stroke-linejoin="round"/>
+<polygon points="330.0,265 325.12,254.4 334.88,254.4" fill="#89959B" stroke="none" stroke-width="1"/>
+<polyline points="600,290.0 625,290 625,354 3518,354 3518,1690" fill="none" stroke="#89959B" stroke-width="1.4" stroke-linejoin="round"/>
+<polyline points="3518,540 3506,540" fill="none" stroke="#89959B" stroke-width="1.4" stroke-linejoin="round"/>
+<polygon points="3506,540 3516.4,535.23 3516.4,544.77" fill="#89959B" stroke="none" stroke-width="1"/>
+<polyline points="3518,1050 3506,1050" fill="none" stroke="#89959B" stroke-width="1.4" stroke-linejoin="round"/>
+<polygon points="3506,1050 3516.4,1045.23 3516.4,1054.77" fill="#89959B" stroke="none" stroke-width="1"/>
+<polyline points="3518,1460 3506,1460" fill="none" stroke="#89959B" stroke-width="1.4" stroke-linejoin="round"/>
+<polygon points="3506,1460 3516.4,1455.23 3516.4,1464.77" fill="#89959B" stroke="none" stroke-width="1"/>
+<polyline points="2310.0,537 2310,648 2200,648 2200.0,678" fill="none" stroke="#172B46" stroke-width="1.8" stroke-linejoin="round"/>
+<polygon points="2200.0,678 2195.01,667.2 2204.99,667.2" fill="#172B46" stroke="none" stroke-width="1"/>
+<polyline points="2795,1220 2795,1252" fill="none" stroke="#172B46" stroke-width="1.2" stroke-linejoin="round"/>
+<polyline points="2957,1220 2957,1252" fill="none" stroke="#172B46" stroke-width="1.2" stroke-linejoin="round"/>
+<polyline points="3160,1220 3160,1252" fill="none" stroke="#172B46" stroke-width="1.2" stroke-linejoin="round"/>
+<polyline points="3372,1220 3372,1252" fill="none" stroke="#172B46" stroke-width="1.2" stroke-linejoin="round"/>
+<polyline points="2795,1252 3372,1252" fill="none" stroke="#172B46" stroke-width="1.2" stroke-linejoin="round"/>
+<polyline points="2795,1252 2675,1252 2675,1290 2386,1290 2386,1301 2300,1301 2300,1317" fill="none" stroke="#172B46" stroke-width="1.2" stroke-linejoin="round"/>
+<polygon points="2300,1317 2295.34,1306.8 2304.66,1306.8" fill="#172B46" stroke="none" stroke-width="1"/>
+<polyline points="2386,1301 2386,1393 2300,1393 2300,1410" fill="none" stroke="#172B46" stroke-width="1.2" stroke-linejoin="round"/>
+<polygon points="2300,1410 2295.34,1399.8 2304.66,1399.8" fill="#172B46" stroke="none" stroke-width="1"/>
+<polyline points="600,204 630,204 630,333 1350,333 1350,320" fill="none" stroke="#89959B" stroke-width="1.4" stroke-linejoin="round"/>
+<polygon points="1350,320 1354.77,330.4 1345.23,330.4" fill="#89959B" stroke="none" stroke-width="1"/>
+<polyline points="875,333 875,287" fill="none" stroke="#89959B" stroke-width="1.4" stroke-linejoin="round"/>
+<polygon points="875,287 879.77,297.4 870.23,297.4" fill="#89959B" stroke="none" stroke-width="1"/>
+<polyline points="2545,861 2545,841" fill="none" stroke="#172B46" stroke-width="1.1" stroke-linejoin="round"/>
+<polyline points="2820,861 2820,841" fill="none" stroke="#172B46" stroke-width="1.1" stroke-linejoin="round"/>
+<polyline points="3095,861 3095,841" fill="none" stroke="#172B46" stroke-width="1.1" stroke-linejoin="round"/>
+<polyline points="2545,841 3095,841" fill="none" stroke="#172B46" stroke-width="1.1" stroke-linejoin="round"/>
+<polyline points="2545,841 2665,841 2665,960 2650,960" fill="none" stroke="#172B46" stroke-width="1.1" stroke-linejoin="round"/>
+<polygon points="2650,960 2660.1,955.395 2660.1,964.605" fill="#172B46" stroke="none" stroke-width="1"/>
+</g>
+<g id="layer-2">
+<rect x="660" y="223" width="230" height="64" rx="10" fill="white" stroke="#172B46" stroke-width="1.7"/>
+<rect x="965" y="226" width="170" height="60" rx="10" fill="white" stroke="#172B46" stroke-width="1.7"/>
+<rect x="1155" y="226" width="160" height="60" rx="10" fill="white" stroke="#172B46" stroke-width="1.7"/>
+<rect x="1335" y="226" width="195" height="60" rx="10" fill="white" stroke="#172B46" stroke-width="1.7"/>
+<rect x="1550" y="226" width="215" height="60" rx="10" fill="white" stroke="#172B46" stroke-width="1.7"/>
+<rect x="2065" y="228" width="150" height="65" rx="10" fill="white" stroke="#172B46" stroke-width="1.7"/>
+<rect x="2235" y="228" width="220" height="65" rx="10" fill="white" stroke="#172B46" stroke-width="1.7"/>
+<rect x="2510" y="228" width="165" height="65" rx="10" fill="white" stroke="#172B46" stroke-width="1.7"/>
+<rect x="2695" y="228" width="180" height="65" rx="10" fill="white" stroke="#172B46" stroke-width="1.7"/>
+<rect x="2895" y="228" width="165" height="65" rx="10" fill="white" stroke="#172B46" stroke-width="1.7"/>
+<rect x="3080" y="228" width="145" height="65" rx="10" fill="white" stroke="#172B46" stroke-width="1.7"/>
+<rect x="80" y="510" width="119" height="82" rx="10" fill="white" stroke="#172B46" stroke-width="1.7"/>
+<rect x="207" y="510" width="119" height="82" rx="10" fill="white" stroke="#172B46" stroke-width="1.7"/>
+<rect x="334" y="510" width="119" height="82" rx="10" fill="white" stroke="#172B46" stroke-width="1.7"/>
+<rect x="461" y="510" width="119" height="82" rx="10" fill="white" stroke="#172B46" stroke-width="1.7"/>
+<rect x="80" y="785" width="119" height="82" rx="10" fill="white" stroke="#172B46" stroke-width="1.7"/>
+<rect x="207" y="785" width="119" height="82" rx="10" fill="white" stroke="#172B46" stroke-width="1.7"/>
+<rect x="334" y="785" width="119" height="82" rx="10" fill="white" stroke="#172B46" stroke-width="1.7"/>
+<rect x="461" y="785" width="119" height="82" rx="10" fill="white" stroke="#172B46" stroke-width="1.7"/>
+<rect x="715" y="515" width="160" height="72" rx="10" fill="white" stroke="#172B46" stroke-width="1.7"/>
+<rect x="900" y="515" width="160" height="72" rx="10" fill="white" stroke="#172B46" stroke-width="1.7"/>
+<rect x="1085" y="515" width="160" height="72" rx="10" fill="white" stroke="#172B46" stroke-width="1.7"/>
+<rect x="1270" y="515" width="160" height="72" rx="10" fill="white" stroke="#172B46" stroke-width="1.7"/>
+<rect x="1455" y="515" width="160" height="72" rx="10" fill="white" stroke="#172B46" stroke-width="1.7"/>
+<rect x="1640" y="515" width="160" height="72" rx="10" fill="white" stroke="#172B46" stroke-width="1.7"/>
+<rect x="1825" y="515" width="145" height="72" rx="10" fill="white" stroke="#172B46" stroke-width="1.7"/>
+<rect x="715" y="790" width="160" height="72" rx="10" fill="white" stroke="#172B46" stroke-width="1.7"/>
+<rect x="900" y="790" width="160" height="72" rx="10" fill="white" stroke="#172B46" stroke-width="1.7"/>
+<rect x="1085" y="790" width="160" height="72" rx="10" fill="white" stroke="#172B46" stroke-width="1.7"/>
+<rect x="1270" y="790" width="160" height="72" rx="10" fill="white" stroke="#172B46" stroke-width="1.7"/>
+<rect x="1455" y="790" width="160" height="72" rx="10" fill="white" stroke="#172B46" stroke-width="1.7"/>
+<rect x="1640" y="790" width="160" height="72" rx="10" fill="white" stroke="#172B46" stroke-width="1.7"/>
+<rect x="1825" y="790" width="145" height="72" rx="10" fill="white" stroke="#172B46" stroke-width="1.7"/>
+<rect x="1585" y="912" width="180" height="68" rx="10" fill="white" stroke="#172B46" stroke-width="1.7"/>
+<rect x="1805" y="912" width="170" height="68" rx="10" fill="white" stroke="#172B46" stroke-width="1.7"/>
+<rect x="1270" y="989" width="185" height="60" rx="10" fill="white" stroke="#172B46" stroke-width="1.7"/>
+<rect x="2080" y="477" width="460" height="60" rx="10" fill="#172B46" stroke="#172B46" stroke-width="1.7"/>
+<rect x="2895" y="477" width="260" height="60" rx="10" fill="white" stroke="#172B46" stroke-width="1.7"/>
+<rect x="3230" y="477" width="240" height="60" rx="10" fill="#172B46" stroke="#172B46" stroke-width="1.7"/>
+<rect x="2080" y="572" width="205" height="55" rx="10" fill="white" stroke="#172B46" stroke-width="1.7"/>
+<rect x="2325" y="572" width="230" height="55" rx="10" fill="white" stroke="#172B46" stroke-width="1.7"/>
+<rect x="2630" y="572" width="270" height="55" rx="10" fill="white" stroke="#172B46" stroke-width="1.7"/>
+<rect x="2954" y="596" width="12" height="12" rx="3" fill="white" stroke="#172B46" stroke-width="1.5"/>
+<rect x="3019" y="571" width="12" height="12" rx="3" fill="white" stroke="#172B46" stroke-width="1.5"/>
+<rect x="3019" y="621" width="12" height="12" rx="3" fill="white" stroke="#172B46" stroke-width="1.5"/>
+<rect x="2080" y="678" width="240" height="73" rx="10" fill="white" stroke="#172B46" stroke-width="1.7"/>
+<rect x="2360" y="678" width="240" height="73" rx="10" fill="white" stroke="#172B46" stroke-width="1.7"/>
+<rect x="2640" y="678" width="240" height="73" rx="10" fill="white" stroke="#172B46" stroke-width="1.7"/>
+<rect x="2920" y="678" width="240" height="73" rx="10" fill="white" stroke="#172B46" stroke-width="1.7"/>
+<rect x="3200" y="678" width="240" height="73" rx="10" fill="white" stroke="#172B46" stroke-width="1.7"/>
+<rect x="2080" y="850" width="300" height="64" rx="10" fill="white" stroke="#172B46" stroke-width="1.7"/>
+<polyline points="2080,1010 2080,1062" fill="none" stroke="#172B46" stroke-width="1.5" stroke-linejoin="round"/>
+<polyline points="2305,1010 2305,1062" fill="none" stroke="#172B46" stroke-width="1.5" stroke-linejoin="round"/>
+<path d="M2080,1010 C2080,999 2305,999 2305,1010 V1062 C2305,1073 2080,1073 2080,1062 Z" fill="white" stroke="#172B46" stroke-width="1.5"/><ellipse cx="2192.5" cy="1010" rx="112.5" ry="8" fill="white" stroke="#172B46" stroke-width="1.5"/>
+<polyline points="2330,1010 2330,1062" fill="none" stroke="#172B46" stroke-width="1.5" stroke-linejoin="round"/>
+<polyline points="2555,1010 2555,1062" fill="none" stroke="#172B46" stroke-width="1.5" stroke-linejoin="round"/>
+<path d="M2330,1010 C2330,999 2555,999 2555,1010 V1062 C2555,1073 2330,1073 2330,1062 Z" fill="white" stroke="#172B46" stroke-width="1.5"/><ellipse cx="2442.5" cy="1010" rx="112.5" ry="8" fill="white" stroke="#172B46" stroke-width="1.5"/>
+<polyline points="2580,1010 2580,1062" fill="none" stroke="#172B46" stroke-width="1.5" stroke-linejoin="round"/>
+<polyline points="2805,1010 2805,1062" fill="none" stroke="#172B46" stroke-width="1.5" stroke-linejoin="round"/>
+<path d="M2580,1010 C2580,999 2805,999 2805,1010 V1062 C2805,1073 2580,1073 2580,1062 Z" fill="white" stroke="#172B46" stroke-width="1.5"/><ellipse cx="2692.5" cy="1010" rx="112.5" ry="8" fill="white" stroke="#172B46" stroke-width="1.5"/>
+<polyline points="2830,1010 2830,1062" fill="none" stroke="#172B46" stroke-width="1.5" stroke-linejoin="round"/>
+<polyline points="3055,1010 3055,1062" fill="none" stroke="#172B46" stroke-width="1.5" stroke-linejoin="round"/>
+<path d="M2830,1010 C2830,999 3055,999 3055,1010 V1062 C3055,1073 2830,1073 2830,1062 Z" fill="white" stroke="#172B46" stroke-width="1.5"/><ellipse cx="2942.5" cy="1010" rx="112.5" ry="8" fill="white" stroke="#172B46" stroke-width="1.5"/>
+<polyline points="3080,1010 3080,1062" fill="none" stroke="#172B46" stroke-width="1.5" stroke-linejoin="round"/>
+<polyline points="3305,1010 3305,1062" fill="none" stroke="#172B46" stroke-width="1.5" stroke-linejoin="round"/>
+<path d="M3080,1010 C3080,999 3305,999 3305,1010 V1062 C3305,1073 3080,1073 3080,1062 Z" fill="white" stroke="#172B46" stroke-width="1.5"/><ellipse cx="3192.5" cy="1010" rx="112.5" ry="8" fill="white" stroke="#172B46" stroke-width="1.5"/>
+<rect x="2420" y="928" width="230" height="46" rx="10" fill="white" stroke="#172B46" stroke-width="1.7"/>
+<rect x="82" y="1250" width="225" height="80" rx="10" fill="white" stroke="#172B46" stroke-width="1.7"/>
+<rect x="345" y="1250" width="225" height="80" rx="10" fill="white" stroke="#172B46" stroke-width="1.7"/>
+<rect x="82" y="1385" width="225" height="80" rx="10" fill="white" stroke="#172B46" stroke-width="1.7"/>
+<rect x="345" y="1385" width="225" height="80" rx="10" fill="white" stroke="#172B46" stroke-width="1.7"/>
+<rect x="85" y="1594" width="480" height="65" rx="10" fill="white" stroke="#89959B" stroke-width="1.7"/>
+<rect x="1180" y="1210" width="195" height="67" rx="10" fill="white" stroke="#172B46" stroke-width="1.7"/>
+<rect x="950" y="1210" width="195" height="67" rx="10" fill="white" stroke="#172B46" stroke-width="1.7"/>
+<rect x="720" y="1210" width="195" height="67" rx="10" fill="white" stroke="#172B46" stroke-width="1.7"/>
+<rect x="795" y="1310" width="450" height="58" rx="10" fill="white" stroke="#172B46" stroke-width="1.7"/>
+<rect x="1180" y="1425" width="195" height="75" rx="10" fill="white" stroke="#172B46" stroke-width="1.7"/>
+<rect x="950" y="1425" width="195" height="75" rx="10" fill="white" stroke="#172B46" stroke-width="1.7"/>
+<rect x="720" y="1425" width="195" height="75" rx="10" fill="white" stroke="#172B46" stroke-width="1.7"/>
+<rect x="720" y="1540" width="425" height="58" rx="10" fill="white" stroke="#172B46" stroke-width="1.7"/>
+<rect x="1755" y="1175" width="225" height="68" rx="10" fill="white" stroke="#172B46" stroke-width="1.7"/>
+<rect x="2005" y="1175" width="190" height="68" rx="10" fill="white" stroke="#172B46" stroke-width="1.7"/>
+<rect x="2220" y="1175" width="210" height="68" rx="10" fill="white" stroke="#172B46" stroke-width="1.7"/>
+<rect x="2455" y="1175" width="195" height="68" rx="10" fill="white" stroke="#172B46" stroke-width="1.7"/>
+<rect x="1490" y="1317" width="205" height="60" rx="10" fill="white" stroke="#172B46" stroke-width="1.7"/>
+<rect x="1490" y="1410" width="205" height="60" rx="10" fill="white" stroke="#172B46" stroke-width="1.7"/>
+<rect x="1490" y="1503" width="205" height="60" rx="10" fill="white" stroke="#172B46" stroke-width="1.7"/>
+<rect x="1770" y="1397" width="220" height="70" rx="10" fill="white" stroke="#172B46" stroke-width="1.7"/>
+<rect x="2080" y="1317" width="285" height="60" rx="10" fill="white" stroke="#172B46" stroke-width="1.7"/>
+<rect x="2080" y="1410" width="285" height="60" rx="10" fill="white" stroke="#172B46" stroke-width="1.7"/>
+<rect x="2080" y="1503" width="285" height="60" rx="10" fill="white" stroke="#172B46" stroke-width="1.7"/>
+<rect x="2440" y="1410" width="190" height="60" rx="10" fill="white" stroke="#172B46" stroke-width="1.7"/>
+<rect x="2690" y="1410" width="220" height="60" rx="10" fill="white" stroke="#172B46" stroke-width="1.7"/>
+<rect x="2960" y="1410" width="235" height="60" rx="10" fill="white" stroke="#172B46" stroke-width="1.7"/>
+<rect x="3245" y="1410" width="220" height="60" rx="10" fill="white" stroke="#172B46" stroke-width="1.7"/>
+<rect x="2900" y="1565" width="230" height="62" rx="10" fill="white" stroke="#172B46" stroke-width="1.7"/>
+<rect x="2570" y="1565" width="230" height="62" rx="10" fill="white" stroke="#172B46" stroke-width="1.7"/>
+<rect x="2680" y="1308" width="230" height="55" rx="10" fill="white" stroke="#172B46" stroke-width="1.7"/>
+<rect x="2950" y="1308" width="230" height="55" rx="10" fill="white" stroke="#172B46" stroke-width="1.7"/>
+<rect x="1485" y="1597" width="260" height="54" rx="10" fill="white" stroke="#172B46" stroke-width="1.7"/>
+<rect x="715" y="918" width="220" height="68" rx="10" fill="white" stroke="#172B46" stroke-width="1.7"/>
+<circle cx="1390" cy="1462" r="4" fill="#CE8A1D" stroke="none"/>
+<rect x="85" y="1823" width="195" height="55" rx="10" fill="white" stroke="#172B46" stroke-width="1.7"/>
+<rect x="310" y="1823" width="175" height="55" rx="10" fill="white" stroke="#172B46" stroke-width="1.7"/>
+<rect x="515" y="1823" width="215" height="55" rx="10" fill="white" stroke="#172B46" stroke-width="1.7"/>
+<rect x="85" y="1900" width="195" height="61" rx="10" fill="white" stroke="#172B46" stroke-width="1.7"/>
+<rect x="310" y="1900" width="185" height="61" rx="10" fill="white" stroke="#172B46" stroke-width="1.7"/>
+<rect x="310" y="1975" width="185" height="52" rx="10" fill="white" stroke="#172B46" stroke-width="1.7"/>
+<rect x="530" y="1900" width="205" height="61" rx="10" fill="white" stroke="#172B46" stroke-width="1.7"/>
+<rect x="770" y="1900" width="205" height="61" rx="10" fill="white" stroke="#172B46" stroke-width="1.7"/>
+<rect x="1025" y="1823" width="215" height="55" rx="10" fill="white" stroke="#172B46" stroke-width="1.7"/>
+<rect x="1275" y="1823" width="220" height="55" rx="10" fill="white" stroke="#172B46" stroke-width="1.7"/>
+<rect x="1530" y="1823" width="205" height="55" rx="10" fill="white" stroke="#172B46" stroke-width="1.7"/>
+<rect x="980" y="985" width="225" height="65" rx="10" fill="white" stroke="#172B46" stroke-width="1.7"/>
+<rect x="85" y="1975" width="195" height="52" rx="10" fill="white" stroke="#172B46" stroke-width="1.7"/>
+<rect x="1025" y="1955" width="225" height="60" rx="10" fill="#172B46" stroke="#172B46" stroke-width="1.7"/>
+<rect x="1275" y="1955" width="180" height="60" rx="10" fill="#172B46" stroke="#172B46" stroke-width="1.7"/>
+<rect x="1480" y="1955" width="205" height="60" rx="10" fill="#172B46" stroke="#172B46" stroke-width="1.7"/>
+<rect x="1710" y="1955" width="185" height="60" rx="10" fill="#172B46" stroke="#172B46" stroke-width="1.7"/>
+<rect x="2005" y="1830" width="210" height="62" rx="10" fill="white" stroke="#172B46" stroke-width="1.7"/>
+<rect x="2245" y="1830" width="190" height="62" rx="10" fill="white" stroke="#172B46" stroke-width="1.7"/>
+<rect x="2465" y="1830" width="240" height="62" rx="10" fill="white" stroke="#172B46" stroke-width="1.7"/>
+<rect x="2735" y="1830" width="220" height="62" rx="10" fill="white" stroke="#172B46" stroke-width="1.7"/>
+<rect x="2985" y="1830" width="220" height="62" rx="10" fill="white" stroke="#172B46" stroke-width="1.7"/>
+<rect x="3235" y="1830" width="240" height="62" rx="10" fill="white" stroke="#172B46" stroke-width="1.7"/>
+<rect x="2005" y="1960" width="320" height="57" rx="10" fill="white" stroke="#D6E2E6" stroke-width="1.3"/>
+<rect x="2360" y="1960" width="320" height="57" rx="10" fill="white" stroke="#D6E2E6" stroke-width="1.3"/>
+<rect x="2715" y="1960" width="320" height="57" rx="10" fill="white" stroke="#D6E2E6" stroke-width="1.3"/>
+<rect x="3070" y="1960" width="405" height="57" rx="10" fill="white" stroke="#D6E2E6" stroke-width="1.3"/>
+<rect x="60" y="179" width="540" height="50" rx="10" fill="white" stroke="#89959B" stroke-width="1.7"/>
+<rect x="60" y="265" width="540" height="50" rx="10" fill="white" stroke="#89959B" stroke-width="1.7"/>
+</g>
+<g id="layer-3">
+<rect x="2935" y="64" width="600" height="29" rx="14" fill="white" stroke="#172B46" stroke-width="1"/>
+<rect x="80" y="348" width="500" height="50" rx="11" fill="#172B46" stroke="#172B46" stroke-width="1"/>
+<rect x="678" y="345" width="470" height="52" rx="11" fill="#172B46" stroke="#172B46" stroke-width="1"/>
+<rect x="660" y="164" width="230" height="29" rx="14" fill="white" stroke="#172B46" stroke-width="1"/>
+<rect x="82" y="721" width="170" height="29" rx="14" fill="white" stroke="#172B46" stroke-width="1"/>
+<rect x="1455" y="720" width="220" height="29" rx="14" fill="white" stroke="#172B46" stroke-width="1"/>
+<rect x="1695" y="720" width="170" height="29" rx="14" fill="white" stroke="#172B46" stroke-width="1"/>
+<rect x="2080" y="787" width="220" height="29" rx="14" fill="white" stroke="#172B46" stroke-width="1"/>
+<rect x="2320" y="787" width="150" height="29" rx="14" fill="white" stroke="#172B46" stroke-width="1"/>
+<rect x="2490" y="787" width="150" height="29" rx="14" fill="white" stroke="#172B46" stroke-width="1"/>
+<rect x="3200" y="787" width="240" height="29" rx="14" fill="white" stroke="#172B46" stroke-width="1"/>
+<rect x="2420" y="861" width="250" height="29" rx="14" fill="white" stroke="#172B46" stroke-width="1"/>
+<rect x="2710" y="861" width="220" height="29" rx="14" fill="white" stroke="#172B46" stroke-width="1"/>
+<rect x="2970" y="861" width="250" height="29" rx="14" fill="white" stroke="#172B46" stroke-width="1"/>
+<rect x="1480" y="1178" width="250" height="29" rx="14" fill="white" stroke="#172B46" stroke-width="1"/>
+<rect x="2720" y="1191" width="150" height="29" rx="14" fill="white" stroke="#172B46" stroke-width="1"/>
+<rect x="2885" y="1191" width="145" height="29" rx="14" fill="white" stroke="#172B46" stroke-width="1"/>
+<rect x="3045" y="1191" width="230" height="29" rx="14" fill="white" stroke="#172B46" stroke-width="1"/>
+<rect x="3290" y="1191" width="165" height="29" rx="14" fill="white" stroke="#172B46" stroke-width="1"/>
+<rect x="2735" y="1371" width="120" height="29" rx="14" fill="white" stroke="#CE8A1D" stroke-width="1"/>
+<rect x="3005" y="1371" width="120" height="29" rx="14" fill="white" stroke="#CE8A1D" stroke-width="1"/>
+<rect x="2735" y="1643" width="150" height="29" rx="14" fill="white" stroke="#172B46" stroke-width="1"/>
+<rect x="2910" y="1643" width="245" height="29" rx="14" fill="white" stroke="#172B46" stroke-width="1"/>
+<rect x="1118" y="1721" width="260" height="34" rx="3" fill="white" stroke="none" stroke-width="0"/>
+<polyline points="480,2108 575,2108" fill="none" stroke="#078F91" stroke-width="2.5" stroke-linejoin="round"/>
+<polygon points="575,2108 563.5,2113.375 563.5,2102.625" fill="#078F91" stroke="none" stroke-width="1"/>
+<polyline points="850,2108 945,2108" fill="none" stroke="#CE8A1D" stroke-width="2.5" stroke-linejoin="round"/>
+<polygon points="945,2108 933.5,2113.375 933.5,2102.625" fill="#CE8A1D" stroke="none" stroke-width="1"/>
+<polyline points="1220,2108 1315,2108" fill="none" stroke="#172B46" stroke-width="1.6" stroke-linejoin="round"/>
+<polygon points="1315,2108 1304.4,2112.88 1304.4,2103.12" fill="#172B46" stroke="none" stroke-width="1"/>
+<polyline points="1590,2108 1685,2108" fill="none" stroke="#89959B" stroke-width="1.6" stroke-linejoin="round"/>
+<polygon points="1685,2108 1674.4,2112.88 1674.4,2103.12" fill="#89959B" stroke="none" stroke-width="1"/>
+<polyline points="1960,2108 2055,2108" fill="none" stroke="#078F91" stroke-width="2.5" stroke-linejoin="round" stroke-dasharray="4,7"/>
+<polygon points="2055,2108 2043.5,2113.375 2043.5,2102.625" fill="#078F91" stroke="none" stroke-width="1"/>
+<polygon points="1982.0,2108.0 1975.0,2113.0 1968.0,2108.0 1975.0,2103.0" fill="white" stroke="#078F91" stroke-width="1.5"/>
+<polyline points="2390,2108 2485,2108" fill="none" stroke="#078F91" stroke-width="2.5" stroke-linejoin="round" stroke-dasharray="10,6"/>
+<polygon points="2485,2108 2473.5,2113.375 2473.5,2102.625" fill="#078F91" stroke="none" stroke-width="1"/>
+<polyline points="487,449 501,449 505,449 505,435 511,435 511,462 517,462 517,430 525,430 525,464 532,464 532,441 538,441 538,449 554,449" fill="none" stroke="#078F91" stroke-width="1.5" stroke-linejoin="round"/>
+<rect x="506" y="689" width="7" height="7" rx="1" fill="white" stroke="#172B46" stroke-width="1"/>
+<rect x="506" y="705" width="7" height="7" rx="1" fill="white" stroke="#172B46" stroke-width="1"/>
+<rect x="506" y="721" width="7" height="7" rx="1" fill="white" stroke="#172B46" stroke-width="1"/>
+<rect x="522" y="689" width="7" height="7" rx="1" fill="white" stroke="#172B46" stroke-width="1"/>
+<rect x="522" y="705" width="7" height="7" rx="1" fill="white" stroke="#172B46" stroke-width="1"/>
+<rect x="522" y="721" width="7" height="7" rx="1" fill="white" stroke="#172B46" stroke-width="1"/>
+<rect x="538" y="689" width="7" height="7" rx="1" fill="white" stroke="#172B46" stroke-width="1"/>
+<rect x="538" y="705" width="7" height="7" rx="1" fill="white" stroke="#172B46" stroke-width="1"/>
+<rect x="538" y="721" width="7" height="7" rx="1" fill="white" stroke="#172B46" stroke-width="1"/>
+<circle cx="3440" cy="450" r="12" fill="white" stroke="#172B46"/>
+<polyline points="3440,441 3440,450 3446,450 3446,453" fill="none" stroke="#172B46" stroke-width="1.3" stroke-linejoin="round"/>
+<polyline points="3420,1137 3420,1161" fill="none" stroke="#172B46" stroke-width="1.2" stroke-linejoin="round"/>
+<rect x="3416" y="1145" width="8" height="5" rx="1" fill="white" stroke="#172B46" stroke-width="1"/>
+<polyline points="3437,1137 3437,1161" fill="none" stroke="#172B46" stroke-width="1.2" stroke-linejoin="round"/>
+<rect x="3433" y="1153" width="8" height="5" rx="1" fill="white" stroke="#172B46" stroke-width="1"/>
+<polyline points="3454,1137 3454,1161" fill="none" stroke="#172B46" stroke-width="1.2" stroke-linejoin="round"/>
+<rect x="3450" y="1140" width="8" height="5" rx="1" fill="white" stroke="#172B46" stroke-width="1"/>
+</g>
+<g id="layer-4">
+<text x="62" y="82" font-family="DejaVu Sans, Arial, sans-serif" font-size="49" font-weight="700" fill="#172B46" text-anchor="start">VOICE &amp; AUDITORY INTERFACE ARCHITECTURE</text>
+<text x="65" y="130" font-family="DejaVu Sans, Arial, sans-serif" font-size="29" font-weight="400" fill="#172B46" text-anchor="start">Hypothetical research integration</text>
+<text x="3235.0" y="84" font-family="DejaVu Sans, Arial, sans-serif" font-size="22" font-weight="700" fill="#172B46" text-anchor="middle">Consent-based research &amp; simulation</text>
+<text x="3535" y="129" font-family="DejaVu Sans, Arial, sans-serif" font-size="20" font-weight="400" fill="#89959B" text-anchor="end">Concept architecture  /  Proposed links</text>
+<text x="330" y="382" font-family="DejaVu Sans, Arial, sans-serif" font-size="22" font-weight="700" fill="white" text-anchor="middle">PROPOSED IMPLANT INTERFACES</text>
+<text x="913" y="381" font-family="DejaVu Sans, Arial, sans-serif" font-size="26" font-weight="700" fill="white" text-anchor="middle">EXTERNAL CONTROLLER</text>
+<text x="775.0" y="184" font-family="DejaVu Sans, Arial, sans-serif" font-size="18" font-weight="700" fill="#172B46" text-anchor="middle">Separate modality</text>
+<text x="775.0" y="261.8" font-family="DejaVu Sans, Arial, sans-serif" font-size="20" font-weight="700" fill="#172B46" text-anchor="middle">Research EXG</text>
+<text x="962" y="199" font-family="DejaVu Sans, Arial, sans-serif" font-size="22" font-weight="700" fill="#172B46" text-anchor="start">NeuroSkill</text>
+<text x="1050.0" y="262.8" font-family="DejaVu Sans, Arial, sans-serif" font-size="20" font-weight="700" fill="#172B46" text-anchor="middle">Acquisition</text>
+<text x="1235.0" y="262.8" font-family="DejaVu Sans, Arial, sans-serif" font-size="20" font-weight="700" fill="#172B46" text-anchor="middle">Features</text>
+<text x="1432.5" y="262.8" font-family="DejaVu Sans, Arial, sans-serif" font-size="20" font-weight="700" fill="#172B46" text-anchor="middle">Embeddings</text>
+<text x="1657.5" y="262.8" font-family="DejaVu Sans, Arial, sans-serif" font-size="20" font-weight="700" fill="#172B46" text-anchor="middle">Annotations</text>
+<text x="1660" y="310" font-family="DejaVu Sans, Arial, sans-serif" font-size="17" font-weight="400" fill="#078F91" text-anchor="middle">Model estimates</text>
+<text x="2062" y="199" font-family="DejaVu Sans, Arial, sans-serif" font-size="22" font-weight="700" fill="#172B46" text-anchor="start">OPTIONAL CLOUD</text>
+<text x="2140.0" y="255.655" font-family="DejaVu Sans, Arial, sans-serif" font-size="19" font-weight="700" fill="#172B46" text-anchor="middle">API</text>
+<text x="2140.0" y="278.265" font-family="DejaVu Sans, Arial, sans-serif" font-size="19" font-weight="700" fill="#172B46" text-anchor="middle">gateway</text>
+<text x="2345.0" y="255.655" font-family="DejaVu Sans, Arial, sans-serif" font-size="19" font-weight="700" fill="#172B46" text-anchor="middle">Authenticated</text>
+<text x="2345.0" y="278.265" font-family="DejaVu Sans, Arial, sans-serif" font-size="19" font-weight="700" fill="#172B46" text-anchor="middle">transport</text>
+<text x="2592.5" y="255.655" font-family="DejaVu Sans, Arial, sans-serif" font-size="19" font-weight="700" fill="#172B46" text-anchor="middle">LLM</text>
+<text x="2592.5" y="278.265" font-family="DejaVu Sans, Arial, sans-serif" font-size="19" font-weight="700" fill="#172B46" text-anchor="middle">endpoint</text>
+<text x="2785.0" y="255.655" font-family="DejaVu Sans, Arial, sans-serif" font-size="19" font-weight="700" fill="#172B46" text-anchor="middle">Optional</text>
+<text x="2785.0" y="278.265" font-family="DejaVu Sans, Arial, sans-serif" font-size="19" font-weight="700" fill="#172B46" text-anchor="middle">TTS API</text>
+<text x="2977.5" y="255.655" font-family="DejaVu Sans, Arial, sans-serif" font-size="19" font-weight="700" fill="#172B46" text-anchor="middle">Model</text>
+<text x="2977.5" y="278.265" font-family="DejaVu Sans, Arial, sans-serif" font-size="19" font-weight="700" fill="#172B46" text-anchor="middle">storage</text>
+<text x="3152.5" y="255.655" font-family="DejaVu Sans, Arial, sans-serif" font-size="19" font-weight="700" fill="#172B46" text-anchor="middle">Job</text>
+<text x="3152.5" y="278.265" font-family="DejaVu Sans, Arial, sans-serif" font-size="19" font-weight="700" fill="#172B46" text-anchor="middle">queue</text>
+<text x="3372" y="232" font-family="DejaVu Sans, Arial, sans-serif" font-size="18" font-weight="700" fill="#172B46" text-anchor="middle">Ethernet / Wi-Fi</text>
+<text x="3372" y="269" font-family="DejaVu Sans, Arial, sans-serif" font-size="18" font-weight="400" fill="#172B46" text-anchor="middle">Cellular backhaul</text>
+<text x="3372" y="293" font-family="DejaVu Sans, Arial, sans-serif" font-size="16" font-weight="400" fill="#89959B" text-anchor="middle">Optional</text>
+<text x="702" y="454" font-family="DejaVu Sans, Arial, sans-serif" font-size="22" font-weight="700" fill="#172B46" text-anchor="start">ACQUISITION &amp; INTERPRETATION</text>
+<text x="82" y="449" font-family="DejaVu Sans, Arial, sans-serif" font-size="24" font-weight="700" fill="#172B46" text-anchor="start">Acoustic sensing</text>
+<text x="82" y="476" font-family="DejaVu Sans, Arial, sans-serif" font-size="20" font-weight="400" fill="#078F91" text-anchor="start">Middle-ear motion</text>
+<text x="139.5" y="556.882" font-family="DejaVu Sans, Arial, sans-serif" font-size="17.3" font-weight="700" fill="#172B46" text-anchor="middle">UmboMic</text>
+<text x="266.5" y="546.5885" font-family="DejaVu Sans, Arial, sans-serif" font-size="17.3" font-weight="700" fill="#172B46" text-anchor="middle">Charge</text>
+<text x="266.5" y="567.1754999999999" font-family="DejaVu Sans, Arial, sans-serif" font-size="17.3" font-weight="700" fill="#172B46" text-anchor="middle">amplifier</text>
+<text x="393.5" y="546.5885" font-family="DejaVu Sans, Arial, sans-serif" font-size="17.3" font-weight="700" fill="#172B46" text-anchor="middle">Acoustic</text>
+<text x="393.5" y="567.1754999999999" font-family="DejaVu Sans, Arial, sans-serif" font-size="17.3" font-weight="700" fill="#172B46" text-anchor="middle">digitizer</text>
+<text x="520.5" y="546.5885" font-family="DejaVu Sans, Arial, sans-serif" font-size="17.3" font-weight="700" fill="#172B46" text-anchor="middle">Device</text>
+<text x="520.5" y="567.1754999999999" font-family="DejaVu Sans, Arial, sans-serif" font-size="17.3" font-weight="700" fill="#172B46" text-anchor="middle">telemetry</text>
+<text x="82" y="701" font-family="DejaVu Sans, Arial, sans-serif" font-size="24" font-weight="700" fill="#172B46" text-anchor="start">Neural sensing</text>
+<text x="167.0" y="741" font-family="DejaVu Sans, Arial, sans-serif" font-size="18" font-weight="700" fill="#172B46" text-anchor="middle">Experimental</text>
+<text x="139.5" y="821.5885" font-family="DejaVu Sans, Arial, sans-serif" font-size="17.3" font-weight="700" fill="#172B46" text-anchor="middle">Recording</text>
+<text x="139.5" y="842.1754999999999" font-family="DejaVu Sans, Arial, sans-serif" font-size="17.3" font-weight="700" fill="#172B46" text-anchor="middle">array</text>
+<text x="266.5" y="821.5885" font-family="DejaVu Sans, Arial, sans-serif" font-size="17.3" font-weight="700" fill="#172B46" text-anchor="middle">Neural</text>
+<text x="266.5" y="842.1754999999999" font-family="DejaVu Sans, Arial, sans-serif" font-size="17.3" font-weight="700" fill="#172B46" text-anchor="middle">amplifier</text>
+<text x="393.5" y="821.5885" font-family="DejaVu Sans, Arial, sans-serif" font-size="17.3" font-weight="700" fill="#172B46" text-anchor="middle">Neural</text>
+<text x="393.5" y="842.1754999999999" font-family="DejaVu Sans, Arial, sans-serif" font-size="17.3" font-weight="700" fill="#172B46" text-anchor="middle">digitizer</text>
+<text x="520.5" y="821.5885" font-family="DejaVu Sans, Arial, sans-serif" font-size="17.3" font-weight="700" fill="#172B46" text-anchor="middle">Device</text>
+<text x="520.5" y="842.1754999999999" font-family="DejaVu Sans, Arial, sans-serif" font-size="17.3" font-weight="700" fill="#172B46" text-anchor="middle">telemetry</text>
+<text x="715" y="488" font-family="DejaVu Sans, Arial, sans-serif" font-size="20" font-weight="700" fill="#078F91" text-anchor="start">ACOUSTIC</text>
+<text x="795.0" y="546.1550000000001" font-family="DejaVu Sans, Arial, sans-serif" font-size="19" font-weight="700" fill="#172B46" text-anchor="middle">Device</text>
+<text x="795.0" y="568.7650000000001" font-family="DejaVu Sans, Arial, sans-serif" font-size="19" font-weight="700" fill="#172B46" text-anchor="middle">receiver</text>
+<text x="980.0" y="546.1550000000001" font-family="DejaVu Sans, Arial, sans-serif" font-size="19" font-weight="700" fill="#172B46" text-anchor="middle">Time</text>
+<text x="980.0" y="568.7650000000001" font-family="DejaVu Sans, Arial, sans-serif" font-size="19" font-weight="700" fill="#172B46" text-anchor="middle">alignment</text>
+<text x="1165.0" y="546.1550000000001" font-family="DejaVu Sans, Arial, sans-serif" font-size="19" font-weight="700" fill="#172B46" text-anchor="middle">Signal</text>
+<text x="1165.0" y="568.7650000000001" font-family="DejaVu Sans, Arial, sans-serif" font-size="19" font-weight="700" fill="#172B46" text-anchor="middle">quality</text>
+<text x="1350.0" y="546.1550000000001" font-family="DejaVu Sans, Arial, sans-serif" font-size="19" font-weight="700" fill="#172B46" text-anchor="middle">Audio</text>
+<text x="1350.0" y="568.7650000000001" font-family="DejaVu Sans, Arial, sans-serif" font-size="19" font-weight="700" fill="#172B46" text-anchor="middle">features</text>
+<text x="1535.0" y="546.1550000000001" font-family="DejaVu Sans, Arial, sans-serif" font-size="19" font-weight="700" fill="#172B46" text-anchor="middle">Speech</text>
+<text x="1535.0" y="568.7650000000001" font-family="DejaVu Sans, Arial, sans-serif" font-size="19" font-weight="700" fill="#172B46" text-anchor="middle">activity</text>
+<text x="1720.0" y="546.1550000000001" font-family="DejaVu Sans, Arial, sans-serif" font-size="19" font-weight="700" fill="#172B46" text-anchor="middle">Speech</text>
+<text x="1720.0" y="568.7650000000001" font-family="DejaVu Sans, Arial, sans-serif" font-size="19" font-weight="700" fill="#172B46" text-anchor="middle">recognition</text>
+<text x="1897.5" y="546.1550000000001" font-family="DejaVu Sans, Arial, sans-serif" font-size="19" font-weight="700" fill="#172B46" text-anchor="middle">Recognized</text>
+<text x="1897.5" y="568.7650000000001" font-family="DejaVu Sans, Arial, sans-serif" font-size="19" font-weight="700" fill="#172B46" text-anchor="middle">speech</text>
+<text x="715" y="751" font-family="DejaVu Sans, Arial, sans-serif" font-size="20" font-weight="700" fill="#078F91" text-anchor="start">NEURAL RESEARCH</text>
+<text x="1565.0" y="740" font-family="DejaVu Sans, Arial, sans-serif" font-size="17" font-weight="700" fill="#172B46" text-anchor="middle">Participant-specific</text>
+<text x="1780.0" y="740" font-family="DejaVu Sans, Arial, sans-serif" font-size="17" font-weight="700" fill="#172B46" text-anchor="middle">Experimental</text>
+<text x="795.0" y="821.1550000000001" font-family="DejaVu Sans, Arial, sans-serif" font-size="19" font-weight="700" fill="#172B46" text-anchor="middle">Device</text>
+<text x="795.0" y="843.7650000000001" font-family="DejaVu Sans, Arial, sans-serif" font-size="19" font-weight="700" fill="#172B46" text-anchor="middle">receiver</text>
+<text x="980.0" y="821.1550000000001" font-family="DejaVu Sans, Arial, sans-serif" font-size="19" font-weight="700" fill="#172B46" text-anchor="middle">Time</text>
+<text x="980.0" y="843.7650000000001" font-family="DejaVu Sans, Arial, sans-serif" font-size="19" font-weight="700" fill="#172B46" text-anchor="middle">alignment</text>
+<text x="1165.0" y="821.1550000000001" font-family="DejaVu Sans, Arial, sans-serif" font-size="19" font-weight="700" fill="#172B46" text-anchor="middle">Signal</text>
+<text x="1165.0" y="843.7650000000001" font-family="DejaVu Sans, Arial, sans-serif" font-size="19" font-weight="700" fill="#172B46" text-anchor="middle">quality</text>
+<text x="1350.0" y="821.1550000000001" font-family="DejaVu Sans, Arial, sans-serif" font-size="19" font-weight="700" fill="#172B46" text-anchor="middle">Artifact</text>
+<text x="1350.0" y="843.7650000000001" font-family="DejaVu Sans, Arial, sans-serif" font-size="19" font-weight="700" fill="#172B46" text-anchor="middle">rejection</text>
+<text x="1535.0" y="821.1550000000001" font-family="DejaVu Sans, Arial, sans-serif" font-size="19" font-weight="700" fill="#172B46" text-anchor="middle">Neural</text>
+<text x="1535.0" y="843.7650000000001" font-family="DejaVu Sans, Arial, sans-serif" font-size="19" font-weight="700" fill="#172B46" text-anchor="middle">features</text>
+<text x="1720.0" y="821.1550000000001" font-family="DejaVu Sans, Arial, sans-serif" font-size="19" font-weight="700" fill="#172B46" text-anchor="middle">Task-trained</text>
+<text x="1720.0" y="843.7650000000001" font-family="DejaVu Sans, Arial, sans-serif" font-size="19" font-weight="700" fill="#172B46" text-anchor="middle">decoder</text>
+<text x="1897.5" y="821.1550000000001" font-family="DejaVu Sans, Arial, sans-serif" font-size="19" font-weight="700" fill="#172B46" text-anchor="middle">Confidence</text>
+<text x="1897.5" y="843.7650000000001" font-family="DejaVu Sans, Arial, sans-serif" font-size="19" font-weight="700" fill="#172B46" text-anchor="middle">gate</text>
+<text x="1675.0" y="941.1550000000001" font-family="DejaVu Sans, Arial, sans-serif" font-size="19" font-weight="700" fill="#172B46" text-anchor="middle">Reject /</text>
+<text x="1675.0" y="963.7650000000001" font-family="DejaVu Sans, Arial, sans-serif" font-size="19" font-weight="700" fill="#172B46" text-anchor="middle">no output</text>
+<text x="1890.0" y="941.41" font-family="DejaVu Sans, Arial, sans-serif" font-size="18" font-weight="700" fill="#172B46" text-anchor="middle">Candidate</text>
+<text x="1890.0" y="962.8299999999999" font-family="DejaVu Sans, Arial, sans-serif" font-size="18" font-weight="700" fill="#172B46" text-anchor="middle">neural output</text>
+<text x="1362.5" y="1025.46" font-family="DejaVu Sans, Arial, sans-serif" font-size="19" font-weight="700" fill="#172B46" text-anchor="middle">EXG context</text>
+<text x="1450" y="650" font-family="DejaVu Sans, Arial, sans-serif" font-size="18" font-weight="400" fill="#078F91" text-anchor="middle">Proposed adapter</text>
+<text x="1490" y="1026" font-family="DejaVu Sans, Arial, sans-serif" font-size="19" font-weight="400" fill="#078F91" text-anchor="start">Model estimates</text>
+<text x="2062" y="454" font-family="DejaVu Sans, Arial, sans-serif" font-size="22" font-weight="700" fill="#172B46" text-anchor="start">APPLICATIONS &amp; ORCHESTRATION</text>
+<text x="2310.0" y="515.16" font-family="DejaVu Sans, Arial, sans-serif" font-size="24" font-weight="700" fill="white" text-anchor="middle">NeuroLoop / pi</text>
+<text x="3025.0" y="513.8" font-family="DejaVu Sans, Arial, sans-serif" font-size="20" font-weight="700" fill="#172B46" text-anchor="middle">Planner adapter</text>
+<text x="3350.0" y="514.82" font-family="DejaVu Sans, Arial, sans-serif" font-size="23" font-weight="700" fill="white" text-anchor="middle">Flowise</text>
+<text x="1885" y="327" font-family="DejaVu Sans, Arial, sans-serif" font-size="18" font-weight="700" fill="#172B46" text-anchor="start">WebSocket</text>
+<text x="3190" y="460" font-family="DejaVu Sans, Arial, sans-serif" font-size="17" font-weight="400" fill="#172B46" text-anchor="middle">Proposed adapter</text>
+<text x="2182.5" y="605.96" font-family="DejaVu Sans, Arial, sans-serif" font-size="19" font-weight="700" fill="#172B46" text-anchor="middle">Event rules</text>
+<text x="2440.0" y="605.96" font-family="DejaVu Sans, Arial, sans-serif" font-size="19" font-weight="700" fill="#172B46" text-anchor="middle">Scenario library</text>
+<text x="2765.0" y="605.96" font-family="DejaVu Sans, Arial, sans-serif" font-size="19" font-weight="700" fill="#172B46" text-anchor="middle">Local / cloud LLM</text>
+<text x="3070" y="607" font-family="DejaVu Sans, Arial, sans-serif" font-size="18" font-weight="400" fill="#172B46" text-anchor="start">State transitions</text>
+<text x="2200.0" y="708.89" font-family="DejaVu Sans, Arial, sans-serif" font-size="22" font-weight="700" fill="#172B46" text-anchor="middle">Task</text>
+<text x="2200.0" y="735.0699999999999" font-family="DejaVu Sans, Arial, sans-serif" font-size="22" font-weight="700" fill="#172B46" text-anchor="middle">definition</text>
+<text x="2480.0" y="708.89" font-family="DejaVu Sans, Arial, sans-serif" font-size="22" font-weight="700" fill="#172B46" text-anchor="middle">Session</text>
+<text x="2480.0" y="735.0699999999999" font-family="DejaVu Sans, Arial, sans-serif" font-size="22" font-weight="700" fill="#172B46" text-anchor="middle">state</text>
+<text x="2760.0" y="708.89" font-family="DejaVu Sans, Arial, sans-serif" font-size="22" font-weight="700" fill="#172B46" text-anchor="middle">Dialogue</text>
+<text x="2760.0" y="735.0699999999999" font-family="DejaVu Sans, Arial, sans-serif" font-size="22" font-weight="700" fill="#172B46" text-anchor="middle">planner</text>
+<text x="3040.0" y="708.89" font-family="DejaVu Sans, Arial, sans-serif" font-size="22" font-weight="700" fill="#172B46" text-anchor="middle">Turn</text>
+<text x="3040.0" y="735.0699999999999" font-family="DejaVu Sans, Arial, sans-serif" font-size="22" font-weight="700" fill="#172B46" text-anchor="middle">scheduler</text>
+<text x="3320.0" y="708.89" font-family="DejaVu Sans, Arial, sans-serif" font-size="22" font-weight="700" fill="#172B46" text-anchor="middle">Speech</text>
+<text x="3320.0" y="735.0699999999999" font-family="DejaVu Sans, Arial, sans-serif" font-size="22" font-weight="700" fill="#172B46" text-anchor="middle">queue</text>
+<text x="2330" y="390" font-family="DejaVu Sans, Arial, sans-serif" font-size="17" font-weight="400" fill="#89959B" text-anchor="start">Deployment alternatives</text>
+<text x="2190.0" y="807" font-family="DejaVu Sans, Arial, sans-serif" font-size="18" font-weight="700" fill="#172B46" text-anchor="middle">Speech practice</text>
+<text x="2395.0" y="807" font-family="DejaVu Sans, Arial, sans-serif" font-size="18" font-weight="700" fill="#172B46" text-anchor="middle">Dialogue</text>
+<text x="2565.0" y="807" font-family="DejaVu Sans, Arial, sans-serif" font-size="18" font-weight="700" fill="#172B46" text-anchor="middle">Playback</text>
+<text x="3320.0" y="807" font-family="DejaVu Sans, Arial, sans-serif" font-size="19" font-weight="700" fill="#172B46" text-anchor="middle">One active turn</text>
+<text x="2230.0" y="876.9" font-family="DejaVu Sans, Arial, sans-serif" font-size="20" font-weight="700" fill="#172B46" text-anchor="middle">Synthetic-character</text>
+<text x="2230.0" y="900.6999999999999" font-family="DejaVu Sans, Arial, sans-serif" font-size="20" font-weight="700" fill="#172B46" text-anchor="middle">profiles</text>
+<text x="2230" y="939" font-family="DejaVu Sans, Arial, sans-serif" font-size="18" font-weight="400" fill="#89959B" text-anchor="middle">Anonymous</text>
+<text x="2545.0" y="881" font-family="DejaVu Sans, Arial, sans-serif" font-size="19" font-weight="700" fill="#172B46" text-anchor="middle">Voice inventory</text>
+<text x="2820.0" y="881" font-family="DejaVu Sans, Arial, sans-serif" font-size="19" font-weight="700" fill="#172B46" text-anchor="middle">Scene size</text>
+<text x="3095.0" y="881" font-family="DejaVu Sans, Arial, sans-serif" font-size="19" font-weight="700" fill="#172B46" text-anchor="middle">History window</text>
+<text x="2800" y="925" font-family="DejaVu Sans, Arial, sans-serif" font-size="19" font-weight="400" fill="#89959B" text-anchor="middle">Configurable settings</text>
+<text x="2080" y="976" font-family="DejaVu Sans, Arial, sans-serif" font-size="19" font-weight="700" fill="#172B46" text-anchor="start">MEMORY &amp; RECORDS</text>
+<text x="2192.5" y="1031.155" font-family="DejaVu Sans, Arial, sans-serif" font-size="19" font-weight="700" fill="#172B46" text-anchor="middle">Session</text>
+<text x="2192.5" y="1053.7649999999999" font-family="DejaVu Sans, Arial, sans-serif" font-size="19" font-weight="700" fill="#172B46" text-anchor="middle">history</text>
+<text x="2442.5" y="1031.155" font-family="DejaVu Sans, Arial, sans-serif" font-size="19" font-weight="700" fill="#172B46" text-anchor="middle">Retrieval</text>
+<text x="2442.5" y="1053.7649999999999" font-family="DejaVu Sans, Arial, sans-serif" font-size="19" font-weight="700" fill="#172B46" text-anchor="middle">index</text>
+<text x="2692.5" y="1031.155" font-family="DejaVu Sans, Arial, sans-serif" font-size="19" font-weight="700" fill="#172B46" text-anchor="middle">Scenario</text>
+<text x="2692.5" y="1053.7649999999999" font-family="DejaVu Sans, Arial, sans-serif" font-size="19" font-weight="700" fill="#172B46" text-anchor="middle">state</text>
+<text x="2942.5" y="1031.155" font-family="DejaVu Sans, Arial, sans-serif" font-size="19" font-weight="700" fill="#172B46" text-anchor="middle">Voice</text>
+<text x="2942.5" y="1053.7649999999999" font-family="DejaVu Sans, Arial, sans-serif" font-size="19" font-weight="700" fill="#172B46" text-anchor="middle">registry</text>
+<text x="3192.5" y="1031.155" font-family="DejaVu Sans, Arial, sans-serif" font-size="19" font-weight="700" fill="#172B46" text-anchor="middle">Model</text>
+<text x="3192.5" y="1053.7649999999999" font-family="DejaVu Sans, Arial, sans-serif" font-size="19" font-weight="700" fill="#172B46" text-anchor="middle">versions</text>
+<text x="3332" y="1014" font-family="DejaVu Sans, Arial, sans-serif" font-size="17" font-weight="700" fill="#172B46" text-anchor="start">Provenance</text>
+<text x="3332" y="1042" font-family="DejaVu Sans, Arial, sans-serif" font-size="17" font-weight="700" fill="#172B46" text-anchor="start">Retention</text>
+<text x="3332" y="1070" font-family="DejaVu Sans, Arial, sans-serif" font-size="17" font-weight="700" fill="#172B46" text-anchor="start">Audit log</text>
+<text x="2535.0" y="957.12" font-family="DejaVu Sans, Arial, sans-serif" font-size="18" font-weight="700" fill="#172B46" text-anchor="middle">Runtime context</text>
+<text x="2938" y="978" font-family="DejaVu Sans, Arial, sans-serif" font-size="17" font-weight="400" fill="#89959B" text-anchor="end">Recorded events / Retrieval</text>
+<text x="85" y="1120" font-family="DejaVu Sans, Arial, sans-serif" font-size="23" font-weight="700" fill="#172B46" text-anchor="start">DEVICE-SPECIFIC OUTPUT</text>
+<text x="85" y="1155" font-family="DejaVu Sans, Arial, sans-serif" font-size="20" font-weight="400" fill="#CE8A1D" text-anchor="start">Perceptual validation</text>
+<text x="194.5" y="1284.8999999999999" font-family="DejaVu Sans, Arial, sans-serif" font-size="20" font-weight="700" fill="#172B46" text-anchor="middle">L receiver /</text>
+<text x="194.5" y="1308.6999999999998" font-family="DejaVu Sans, Arial, sans-serif" font-size="20" font-weight="700" fill="#172B46" text-anchor="middle">stimulator</text>
+<text x="457.5" y="1284.8999999999999" font-family="DejaVu Sans, Arial, sans-serif" font-size="20" font-weight="700" fill="#172B46" text-anchor="middle">R receiver /</text>
+<text x="457.5" y="1308.6999999999998" font-family="DejaVu Sans, Arial, sans-serif" font-size="20" font-weight="700" fill="#172B46" text-anchor="middle">stimulator</text>
+<text x="194.5" y="1419.8999999999999" font-family="DejaVu Sans, Arial, sans-serif" font-size="20" font-weight="700" fill="#172B46" text-anchor="middle">L cochlear</text>
+<text x="194.5" y="1443.6999999999998" font-family="DejaVu Sans, Arial, sans-serif" font-size="20" font-weight="700" fill="#172B46" text-anchor="middle">electrodes</text>
+<text x="457.5" y="1419.8999999999999" font-family="DejaVu Sans, Arial, sans-serif" font-size="20" font-weight="700" fill="#172B46" text-anchor="middle">R cochlear</text>
+<text x="457.5" y="1443.6999999999998" font-family="DejaVu Sans, Arial, sans-serif" font-size="20" font-weight="700" fill="#172B46" text-anchor="middle">electrodes</text>
+<text x="325.0" y="1633.64" font-family="DejaVu Sans, Arial, sans-serif" font-size="21" font-weight="700" fill="#172B46" text-anchor="middle">Device power / charging</text>
+<text x="325" y="1689" font-family="DejaVu Sans, Arial, sans-serif" font-size="20" font-weight="400" fill="#89959B" text-anchor="middle">To be specified</text>
+<text x="702" y="1159" font-family="DejaVu Sans, Arial, sans-serif" font-size="22" font-weight="700" fill="#172B46" text-anchor="start">OUTPUT &amp; PERCEPTION</text>
+<text x="1277.5" y="1238.3999999999999" font-family="DejaVu Sans, Arial, sans-serif" font-size="20" font-weight="700" fill="#172B46" text-anchor="middle">Acoustic</text>
+<text x="1277.5" y="1262.1999999999998" font-family="DejaVu Sans, Arial, sans-serif" font-size="20" font-weight="700" fill="#172B46" text-anchor="middle">playback</text>
+<text x="1047.5" y="1238.3999999999999" font-family="DejaVu Sans, Arial, sans-serif" font-size="20" font-weight="700" fill="#172B46" text-anchor="middle">Speaker /</text>
+<text x="1047.5" y="1262.1999999999998" font-family="DejaVu Sans, Arial, sans-serif" font-size="20" font-weight="700" fill="#172B46" text-anchor="middle">headphones</text>
+<text x="817.5" y="1250.3" font-family="DejaVu Sans, Arial, sans-serif" font-size="20" font-weight="700" fill="#172B46" text-anchor="middle">Ear canal</text>
+<text x="1020.0" y="1346.48" font-family="DejaVu Sans, Arial, sans-serif" font-size="22" font-weight="700" fill="#172B46" text-anchor="middle">Auditory perception</text>
+<text x="1045" y="1401" font-family="DejaVu Sans, Arial, sans-serif" font-size="20" font-weight="400" fill="#CE8A1D" text-anchor="middle">Interface validation</text>
+<text x="1277.5" y="1457.3999999999999" font-family="DejaVu Sans, Arial, sans-serif" font-size="20" font-weight="700" fill="#172B46" text-anchor="middle">CI audio</text>
+<text x="1277.5" y="1481.1999999999998" font-family="DejaVu Sans, Arial, sans-serif" font-size="20" font-weight="700" fill="#172B46" text-anchor="middle">interface</text>
+<text x="1047.5" y="1457.3999999999999" font-family="DejaVu Sans, Arial, sans-serif" font-size="20" font-weight="700" fill="#172B46" text-anchor="middle">Device speech</text>
+<text x="1047.5" y="1481.1999999999998" font-family="DejaVu Sans, Arial, sans-serif" font-size="20" font-weight="700" fill="#172B46" text-anchor="middle">processor</text>
+<text x="817.5" y="1457.3999999999999" font-family="DejaVu Sans, Arial, sans-serif" font-size="20" font-weight="700" fill="#172B46" text-anchor="middle">Stimulation</text>
+<text x="817.5" y="1481.1999999999998" font-family="DejaVu Sans, Arial, sans-serif" font-size="20" font-weight="700" fill="#172B46" text-anchor="middle">encoder</text>
+<text x="932.5" y="1576.14" font-family="DejaVu Sans, Arial, sans-serif" font-size="21" font-weight="700" fill="#172B46" text-anchor="middle">Compatible telemetry</text>
+<text x="690" y="1542" font-family="DejaVu Sans, Arial, sans-serif" font-size="18" font-weight="700" fill="#CE8A1D" text-anchor="start">L</text>
+<text x="690" y="1600" font-family="DejaVu Sans, Arial, sans-serif" font-size="18" font-weight="700" fill="#CE8A1D" text-anchor="start">R</text>
+<text x="1035" y="1635" font-family="DejaVu Sans, Arial, sans-serif" font-size="17" font-weight="400" fill="#89959B" text-anchor="middle">Physical routes / Perceptual assessment</text>
+<text x="1467" y="1159" font-family="DejaVu Sans, Arial, sans-serif" font-size="22" font-weight="700" fill="#172B46" text-anchor="start">VOICE CREATION &amp; RENDERING</text>
+<text x="1605.0" y="1198" font-family="DejaVu Sans, Arial, sans-serif" font-size="19" font-weight="700" fill="#172B46" text-anchor="middle">Offline preparation</text>
+<text x="1867.5" y="1203.8999999999999" font-family="DejaVu Sans, Arial, sans-serif" font-size="20" font-weight="700" fill="#172B46" text-anchor="middle">Authorized</text>
+<text x="1867.5" y="1227.6999999999998" font-family="DejaVu Sans, Arial, sans-serif" font-size="20" font-weight="700" fill="#172B46" text-anchor="middle">recordings</text>
+<text x="2100.0" y="1203.8999999999999" font-family="DejaVu Sans, Arial, sans-serif" font-size="20" font-weight="700" fill="#172B46" text-anchor="middle">Audio</text>
+<text x="2100.0" y="1227.6999999999998" font-family="DejaVu Sans, Arial, sans-serif" font-size="20" font-weight="700" fill="#172B46" text-anchor="middle">quality</text>
+<text x="2325.0" y="1203.8999999999999" font-family="DejaVu Sans, Arial, sans-serif" font-size="20" font-weight="700" fill="#172B46" text-anchor="middle">Voice</text>
+<text x="2325.0" y="1227.6999999999998" font-family="DejaVu Sans, Arial, sans-serif" font-size="20" font-weight="700" fill="#172B46" text-anchor="middle">enrollment</text>
+<text x="2552.5" y="1203.8999999999999" font-family="DejaVu Sans, Arial, sans-serif" font-size="20" font-weight="700" fill="#172B46" text-anchor="middle">Voice</text>
+<text x="2552.5" y="1227.6999999999998" font-family="DejaVu Sans, Arial, sans-serif" font-size="20" font-weight="700" fill="#172B46" text-anchor="middle">profile</text>
+<text x="2325" y="1272" font-family="DejaVu Sans, Arial, sans-serif" font-size="18" font-weight="700" fill="#078F91" text-anchor="middle">Voice-owner consent</text>
+<text x="2552" y="1272" font-family="DejaVu Sans, Arial, sans-serif" font-size="18" font-weight="400" fill="#89959B" text-anchor="middle">Model reference</text>
+<text x="3295" y="1161" font-family="DejaVu Sans, Arial, sans-serif" font-size="19" font-weight="700" fill="#172B46" text-anchor="middle">Runtime rendering</text>
+<text x="2795.0" y="1211" font-family="DejaVu Sans, Arial, sans-serif" font-size="19" font-weight="700" fill="#172B46" text-anchor="middle">Prosody</text>
+<text x="2957.5" y="1211" font-family="DejaVu Sans, Arial, sans-serif" font-size="19" font-weight="700" fill="#172B46" text-anchor="middle">Pacing</text>
+<text x="3160.0" y="1211" font-family="DejaVu Sans, Arial, sans-serif" font-size="19" font-weight="700" fill="#172B46" text-anchor="middle">Pronunciation</text>
+<text x="3372.5" y="1211" font-family="DejaVu Sans, Arial, sans-serif" font-size="19" font-weight="700" fill="#172B46" text-anchor="middle">Voice ID</text>
+<text x="1592.5" y="1354.14" font-family="DejaVu Sans, Arial, sans-serif" font-size="21" font-weight="700" fill="#172B46" text-anchor="middle">Script text</text>
+<text x="1592.5" y="1446.46" font-family="DejaVu Sans, Arial, sans-serif" font-size="19" font-weight="700" fill="#172B46" text-anchor="middle">Live microphone</text>
+<text x="1592.5" y="1539.8" font-family="DejaVu Sans, Arial, sans-serif" font-size="20" font-weight="700" fill="#172B46" text-anchor="middle">Approved clips</text>
+<text x="1880.0" y="1438.8" font-family="DejaVu Sans, Arial, sans-serif" font-size="20" font-weight="700" fill="#172B46" text-anchor="middle">Voice profile</text>
+<text x="2222.5" y="1341.8999999999999" font-family="DejaVu Sans, Arial, sans-serif" font-size="20" font-weight="700" fill="#172B46" text-anchor="middle">Speaker-conditioned</text>
+<text x="2222.5" y="1365.6999999999998" font-family="DejaVu Sans, Arial, sans-serif" font-size="20" font-weight="700" fill="#172B46" text-anchor="middle">TTS</text>
+<text x="2222.5" y="1446.8" font-family="DejaVu Sans, Arial, sans-serif" font-size="20" font-weight="700" fill="#172B46" text-anchor="middle">Voice conversion</text>
+<text x="2222.5" y="1539.8" font-family="DejaVu Sans, Arial, sans-serif" font-size="20" font-weight="700" fill="#172B46" text-anchor="middle">Clip playback</text>
+<text x="2222" y="1492" font-family="DejaVu Sans, Arial, sans-serif" font-size="16" font-weight="400" fill="#89959B" text-anchor="middle">Optional</text>
+<text x="1550" y="1302" font-family="DejaVu Sans, Arial, sans-serif" font-size="18" font-weight="400" fill="#172B46" text-anchor="start">Application text</text>
+<text x="2535.0" y="1434.8999999999999" font-family="DejaVu Sans, Arial, sans-serif" font-size="20" font-weight="700" fill="#172B46" text-anchor="middle">Source</text>
+<text x="2535.0" y="1458.6999999999998" font-family="DejaVu Sans, Arial, sans-serif" font-size="20" font-weight="700" fill="#172B46" text-anchor="middle">selector</text>
+<text x="2800.0" y="1447.14" font-family="DejaVu Sans, Arial, sans-serif" font-size="21" font-weight="700" fill="#172B46" text-anchor="middle">Audio chunks</text>
+<text x="3077.5" y="1446.8" font-family="DejaVu Sans, Arial, sans-serif" font-size="20" font-weight="700" fill="#172B46" text-anchor="middle">Playback buffer</text>
+<text x="3355.0" y="1447.14" font-family="DejaVu Sans, Arial, sans-serif" font-size="21" font-weight="700" fill="#172B46" text-anchor="middle">Turn arbiter</text>
+<text x="3015.0" y="1603.48" font-family="DejaVu Sans, Arial, sans-serif" font-size="22" font-weight="700" fill="#172B46" text-anchor="middle">Audio mix</text>
+<text x="2685.0" y="1603.48" font-family="DejaVu Sans, Arial, sans-serif" font-size="22" font-weight="700" fill="#172B46" text-anchor="middle">Level limiter</text>
+<text x="2795.0" y="1341.96" font-family="DejaVu Sans, Arial, sans-serif" font-size="19" font-weight="700" fill="#172B46" text-anchor="middle">Selected music</text>
+<text x="3065.0" y="1341.96" font-family="DejaVu Sans, Arial, sans-serif" font-size="19" font-weight="700" fill="#172B46" text-anchor="middle">Ambient audio</text>
+<text x="2795.0" y="1391" font-family="DejaVu Sans, Arial, sans-serif" font-size="17" font-weight="700" fill="#CE8A1D" text-anchor="middle">Level</text>
+<text x="3065.0" y="1391" font-family="DejaVu Sans, Arial, sans-serif" font-size="17" font-weight="700" fill="#CE8A1D" text-anchor="middle">Level</text>
+<text x="2940" y="1289" font-family="DejaVu Sans, Arial, sans-serif" font-size="17" font-weight="400" fill="#89959B" text-anchor="middle">Optional mix inputs</text>
+<text x="2810.0" y="1663" font-family="DejaVu Sans, Arial, sans-serif" font-size="18" font-weight="700" fill="#172B46" text-anchor="middle">Mute</text>
+<text x="3032.5" y="1663" font-family="DejaVu Sans, Arial, sans-serif" font-size="18" font-weight="700" fill="#172B46" text-anchor="middle">Output monitor</text>
+<text x="1615.0" y="1630.8" font-family="DejaVu Sans, Arial, sans-serif" font-size="20" font-weight="700" fill="#172B46" text-anchor="middle">Speech renderer</text>
+<text x="825.0" y="946.9" font-family="DejaVu Sans, Arial, sans-serif" font-size="20" font-weight="700" fill="#172B46" text-anchor="middle">Streaming</text>
+<text x="825.0" y="970.6999999999999" font-family="DejaVu Sans, Arial, sans-serif" font-size="20" font-weight="700" fill="#172B46" text-anchor="middle">validation</text>
+<text x="1888" y="1598" font-family="DejaVu Sans, Arial, sans-serif" font-size="18" font-weight="400" fill="#078F91" text-anchor="middle">Experimental streaming</text>
+<text x="82" y="1794" font-family="DejaVu Sans, Arial, sans-serif" font-size="22" font-weight="700" fill="#172B46" text-anchor="start">CALIBRATION &amp; VALIDATION</text>
+<text x="182.5" y="1856.96" font-family="DejaVu Sans, Arial, sans-serif" font-size="19" font-weight="700" fill="#172B46" text-anchor="middle">Device status</text>
+<text x="397.5" y="1856.96" font-family="DejaVu Sans, Arial, sans-serif" font-size="19" font-weight="700" fill="#172B46" text-anchor="middle">Link quality</text>
+<text x="622.5" y="1856.96" font-family="DejaVu Sans, Arial, sans-serif" font-size="19" font-weight="700" fill="#172B46" text-anchor="middle">Health monitor</text>
+<text x="182.5" y="1925.655" font-family="DejaVu Sans, Arial, sans-serif" font-size="19" font-weight="700" fill="#172B46" text-anchor="middle">Measurement</text>
+<text x="182.5" y="1948.2649999999999" font-family="DejaVu Sans, Arial, sans-serif" font-size="19" font-weight="700" fill="#172B46" text-anchor="middle">interface</text>
+<text x="402.5" y="1925.655" font-family="DejaVu Sans, Arial, sans-serif" font-size="19" font-weight="700" fill="#172B46" text-anchor="middle">Recorded</text>
+<text x="402.5" y="1948.2649999999999" font-family="DejaVu Sans, Arial, sans-serif" font-size="19" font-weight="700" fill="#172B46" text-anchor="middle">response</text>
+<text x="402.5" y="1996.4099999999999" font-family="DejaVu Sans, Arial, sans-serif" font-size="18" font-weight="700" fill="#172B46" text-anchor="middle">Timing</text>
+<text x="402.5" y="2017.83" font-family="DejaVu Sans, Arial, sans-serif" font-size="18" font-weight="700" fill="#172B46" text-anchor="middle">markers</text>
+<text x="632.5" y="1925.655" font-family="DejaVu Sans, Arial, sans-serif" font-size="19" font-weight="700" fill="#172B46" text-anchor="middle">Response</text>
+<text x="632.5" y="1948.2649999999999" font-family="DejaVu Sans, Arial, sans-serif" font-size="19" font-weight="700" fill="#172B46" text-anchor="middle">analysis</text>
+<text x="872.5" y="1925.655" font-family="DejaVu Sans, Arial, sans-serif" font-size="19" font-weight="700" fill="#172B46" text-anchor="middle">Calibration</text>
+<text x="872.5" y="1948.2649999999999" font-family="DejaVu Sans, Arial, sans-serif" font-size="19" font-weight="700" fill="#172B46" text-anchor="middle">review</text>
+<text x="182" y="1895" font-family="DejaVu Sans, Arial, sans-serif" font-size="16" font-weight="400" fill="#89959B" text-anchor="middle">Physical measurements</text>
+<text x="1132.5" y="1857.3" font-family="DejaVu Sans, Arial, sans-serif" font-size="20" font-weight="700" fill="#172B46" text-anchor="middle">User feedback</text>
+<text x="1385.0" y="1845.3999999999999" font-family="DejaVu Sans, Arial, sans-serif" font-size="20" font-weight="700" fill="#172B46" text-anchor="middle">Perceptual</text>
+<text x="1385.0" y="1869.1999999999998" font-family="DejaVu Sans, Arial, sans-serif" font-size="20" font-weight="700" fill="#172B46" text-anchor="middle">assessment</text>
+<text x="1632.5" y="1845.3999999999999" font-family="DejaVu Sans, Arial, sans-serif" font-size="20" font-weight="700" fill="#172B46" text-anchor="middle">Approved</text>
+<text x="1632.5" y="1869.1999999999998" font-family="DejaVu Sans, Arial, sans-serif" font-size="20" font-weight="700" fill="#172B46" text-anchor="middle">settings</text>
+<text x="1385" y="1914" font-family="DejaVu Sans, Arial, sans-serif" font-size="18" font-weight="400" fill="#89959B" text-anchor="middle">Reported percepts</text>
+<text x="1248" y="1745" font-family="DejaVu Sans, Arial, sans-serif" font-size="22" font-weight="700" fill="#078F91" text-anchor="middle">Slower feedback</text>
+<text x="1092.5" y="1012.4" font-family="DejaVu Sans, Arial, sans-serif" font-size="20" font-weight="700" fill="#172B46" text-anchor="middle">Reviewed</text>
+<text x="1092.5" y="1036.2" font-family="DejaVu Sans, Arial, sans-serif" font-size="20" font-weight="700" fill="#172B46" text-anchor="middle">settings</text>
+<text x="820" y="1726" font-family="DejaVu Sans, Arial, sans-serif" font-size="17" font-weight="400" fill="#078F91" text-anchor="start">Reviewed settings</text>
+<text x="182.5" y="1996.4099999999999" font-family="DejaVu Sans, Arial, sans-serif" font-size="18" font-weight="700" fill="#172B46" text-anchor="middle">Response</text>
+<text x="182.5" y="2017.83" font-family="DejaVu Sans, Arial, sans-serif" font-size="18" font-weight="700" fill="#172B46" text-anchor="middle">sensing</text>
+<text x="83" y="1788" font-family="DejaVu Sans, Arial, sans-serif" font-size="18" font-weight="400" fill="#172B46" text-anchor="start"></text>
+<text x="1137.5" y="1991.12" font-family="DejaVu Sans, Arial, sans-serif" font-size="18" font-weight="700" fill="white" text-anchor="middle">Participant control</text>
+<text x="1365.0" y="1991.12" font-family="DejaVu Sans, Arial, sans-serif" font-size="18" font-weight="700" fill="white" text-anchor="middle">Start / stop</text>
+<text x="1582.5" y="1991.12" font-family="DejaVu Sans, Arial, sans-serif" font-size="18" font-weight="700" fill="white" text-anchor="middle">Session limits</text>
+<text x="1802.5" y="1991.12" font-family="DejaVu Sans, Arial, sans-serif" font-size="18" font-weight="700" fill="white" text-anchor="middle">Fault mute</text>
+<text x="1770" y="1908" font-family="DejaVu Sans, Arial, sans-serif" font-size="18" font-weight="700" fill="#172B46" text-anchor="middle">Output interrupt</text>
+<text x="2005" y="1803" font-family="DejaVu Sans, Arial, sans-serif" font-size="22" font-weight="700" fill="#172B46" text-anchor="start">OFFLINE DEVELOPMENT</text>
+<text x="2110.0" y="1855.8999999999999" font-family="DejaVu Sans, Arial, sans-serif" font-size="20" font-weight="700" fill="#172B46" text-anchor="middle">Labeled</text>
+<text x="2110.0" y="1879.6999999999998" font-family="DejaVu Sans, Arial, sans-serif" font-size="20" font-weight="700" fill="#172B46" text-anchor="middle">trials</text>
+<text x="2340.0" y="1867.8" font-family="DejaVu Sans, Arial, sans-serif" font-size="20" font-weight="700" fill="#172B46" text-anchor="middle">Training</text>
+<text x="2585.0" y="1855.8999999999999" font-family="DejaVu Sans, Arial, sans-serif" font-size="20" font-weight="700" fill="#172B46" text-anchor="middle">Held-out</text>
+<text x="2585.0" y="1879.6999999999998" font-family="DejaVu Sans, Arial, sans-serif" font-size="20" font-weight="700" fill="#172B46" text-anchor="middle">evaluation</text>
+<text x="2845.0" y="1855.8999999999999" font-family="DejaVu Sans, Arial, sans-serif" font-size="20" font-weight="700" fill="#172B46" text-anchor="middle">Model</text>
+<text x="2845.0" y="1879.6999999999998" font-family="DejaVu Sans, Arial, sans-serif" font-size="20" font-weight="700" fill="#172B46" text-anchor="middle">registry</text>
+<text x="3095.0" y="1855.8999999999999" font-family="DejaVu Sans, Arial, sans-serif" font-size="20" font-weight="700" fill="#172B46" text-anchor="middle">Approved</text>
+<text x="3095.0" y="1879.6999999999998" font-family="DejaVu Sans, Arial, sans-serif" font-size="20" font-weight="700" fill="#172B46" text-anchor="middle">update</text>
+<text x="3355.0" y="1867.8" font-family="DejaVu Sans, Arial, sans-serif" font-size="20" font-weight="700" fill="#172B46" text-anchor="middle">Rollback</text>
+<text x="2110" y="1920" font-family="DejaVu Sans, Arial, sans-serif" font-size="18" font-weight="400" fill="#89959B" text-anchor="middle">Training datasets</text>
+<text x="2165.0" y="1996" font-family="DejaVu Sans, Arial, sans-serif" font-size="21" font-weight="700" fill="#172B46" text-anchor="middle">Latency</text>
+<text x="2520.0" y="1996" font-family="DejaVu Sans, Arial, sans-serif" font-size="21" font-weight="700" fill="#172B46" text-anchor="middle">Signal quality</text>
+<text x="2875.0" y="1996" font-family="DejaVu Sans, Arial, sans-serif" font-size="21" font-weight="700" fill="#172B46" text-anchor="middle">Decoder error</text>
+<text x="3272.5" y="1996" font-family="DejaVu Sans, Arial, sans-serif" font-size="21" font-weight="700" fill="#172B46" text-anchor="middle">Playback status</text>
+<text x="330.0" y="210.8" font-family="DejaVu Sans, Arial, sans-serif" font-size="20" font-weight="700" fill="#172B46" text-anchor="middle">External supply / battery</text>
+<text x="330.0" y="296.8" font-family="DejaVu Sans, Arial, sans-serif" font-size="20" font-weight="700" fill="#172B46" text-anchor="middle">Controller power</text>
+<text x="3445" y="399" font-family="DejaVu Sans, Arial, sans-serif" font-size="17" font-weight="400" fill="#89959B" text-anchor="end">Controller power bus</text>
+<text x="70" y="2115" font-family="DejaVu Sans, Arial, sans-serif" font-size="19" font-weight="700" fill="#172B46" text-anchor="start">FUNCTION / DESIGN STATUS</text>
+<text x="595" y="2115" font-family="DejaVu Sans, Arial, sans-serif" font-size="21" font-weight="700" fill="#172B46" text-anchor="start">Data</text>
+<text x="965" y="2115" font-family="DejaVu Sans, Arial, sans-serif" font-size="21" font-weight="700" fill="#172B46" text-anchor="start">Audio</text>
+<text x="1335" y="2115" font-family="DejaVu Sans, Arial, sans-serif" font-size="21" font-weight="700" fill="#172B46" text-anchor="start">Control</text>
+<text x="1705" y="2115" font-family="DejaVu Sans, Arial, sans-serif" font-size="21" font-weight="700" fill="#172B46" text-anchor="start">Power</text>
+<text x="2075" y="2115" font-family="DejaVu Sans, Arial, sans-serif" font-size="21" font-weight="700" fill="#172B46" text-anchor="start">Proposed</text>
+<text x="2505" y="2115" font-family="DejaVu Sans, Arial, sans-serif" font-size="21" font-weight="700" fill="#172B46" text-anchor="start">Slow feedback</text>
+<text x="3535" y="2115" font-family="DejaVu Sans, Arial, sans-serif" font-size="20" font-weight="400" fill="#89959B" text-anchor="end">Schematic • Not to scale</text>
+<text x="775" y="315" font-family="DejaVu Sans, Arial, sans-serif" font-size="16" font-weight="400" fill="#89959B" text-anchor="middle">Research host power</text>
+</g>
+</svg>

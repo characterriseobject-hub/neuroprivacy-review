@@ -1,0 +1,15 @@
+# Explicit initial review-set allowlist. All other workspace files remain local.
+/*
+!/.gitignore
+!/.github/
+/.github/*
+!/.github/README.md
+!/REVIEW_CONTENTS.md
+!/REVIEW_FILE_MANIFEST.json
+!/WORKSPACE_FILE_TYPES.csv
+!/2026-10-24_Personal_Observation_Table.txt
+!/2026-10-25_Reported_Observations_and_Research_Criteria.md
+!/System_6_Engineering_Overview.pptx
+!/voice_auditory_architecture_60x36.pdf
+!/voice_auditory_architecture.svg
+!/voice_auditory_architecture_18000x10800.png

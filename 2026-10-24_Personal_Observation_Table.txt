@@ -1,0 +1,179 @@
+Personal reported observations — sensory form and spoken content
+Caleb Weddington | Updated 24 October 2026 | Exact written excerpts with descriptive terminology; cause unestablished.
+
+A. SENSORY QUALITIES AND ASSOCIATED EFFECTS
+
+A01 | Onset and continuity | Recalled onset; report 15 Oct 2026
+VERBATIM: “all waking conscious moments to-date since 09DEC2024”
+DESCRIPTIVE TERM / CHARACTERIZATION: Intermittent precursors followed by a persistent, unwanted experience during waking awareness; onset recalled as early December 2024, approximately 9 December.
+SOURCES: TL-O001, AO01
+
+A02 | Separate layers and voice count | Reports 29 Jul and 22–23 Oct 2026
+VERBATIM: “one of often two streaming; most often one vocal panned central” / “never more than six distinguishable voices”
+DESCRIPTIVE TERM / CHARACTERIZATION: Concurrent perceptual streams: a vocal layer and a separate tone/noise layer. Usually one to three distinguishable voices; up to six reported.
+SOURCES: AO02, HP-O017
+
+A03 | Speech and music | Retrospective raw account; date unresolved
+VERBATIM: “continuous streams previously recorded solo track excerpts clearly blended in recognizably with commentary”
+DESCRIPTIVE TERM / CHARACTERIZATION: Intelligible speech with recognizable music or isolated-track-like fragments; source/playback identity unverified.
+SOURCES: AO20
+
+A04 | Timbre and pitch | Reports Jul–Oct 2026; some source dates unresolved
+VERBATIM: “A constant high frequency hum that curiously changes subtly in frequency” / “+/-0.2 KHz nonuniform approx. 7.4 KHz hum”
+DESCRIPTIVE TERM / CHARACTERIZATION: Pitch/timbre variability: ringing, chirping, crickets, jingle bells, dental-drill, kettle, train-screech and machinery analogies. Reported estimates include sub-1 kHz voice, separate >4 kHz and >5 kHz tone estimates and ~7.4±0.2 kHz hum; uncalibrated and described as unlike prior brief tinnitus.
+SOURCES: HP-O016, HP-O027, HP-O037, HP-O040, PD-O20, PD-O22, AO19, HP-O067
+
+A05 | Loudness and recent escalation | Report 23 Oct, referring to 22 Oct and preceding ~4 days
+VERBATIM: “~3>6 perhaps 3>8 +dB above ambient and between the ears” / “as of 22OCT2026 the past four or so days have been brutal. amplitude up.”
+DESCRIPTIVE TERM / CHARACTERIZATION: Subjective relative loudness, sometimes dominating ordinary sound or speech. Prolonged pump-room-like loud periods; recent worsening. Values are estimates, not measured sound-pressure levels.
+SOURCES: HP-O068, HP-O065, AO06
+
+A06 | Perceived location | Reports Aug–Oct; early placement recalled
+VERBATIM: “heard between the ears” / “approximately below left eye central/medial behind upper nose spine internally distinctly”
+DESCRIPTIVE TERM / CHARACTERIZATION: Intracranial/facial localization; also rear, above/ceiling, wall or vent-like external placement. Perceived position does not locate hardware or a stimulation site.
+SOURCES: CUR01, HP-O028, TL-O019, AO20
+
+A07 | Spatial extent and movement | Report 23 Oct; preceding weeks
+VERBATIM: “4x4 blocks between the ears and between forehead and occipital” / “as though the size a baseball”
+DESCRIPTIVE TERM / CHARACTERIZATION: Grid/volume analogies describe compact central extent at lower intensity and expansion toward inner-ear regions at higher intensity; rear positions shift, sometimes two at once.
+SOURCES: HP-O053, HP-O055, HP-O056
+
+A08 | Clock and depth analogies | Earlier raw account and report 23 Oct
+VERBATIM: “about 10:30 and about 1:30 me looking at 6:00” / “anywhere from 2:30 to 9:30 if I'm looking at 6 the clock lying flat atop head”
+DESCRIPTIVE TERM / CHARACTERIZATION: Separate clock descriptions retained. Forehead-depth and foot-deep slab metaphors are perceived extent/orientation analogies, not a unified anatomical coordinate map.
+SOURCES: AO11, AO13
+
+A09 | Component pauses | Report 15 Oct 2026
+VERBATIM: “~second upwards of maybe ~3 second pauses in intelligible transmission of lower ~100>1000 Hz register”
+DESCRIPTIVE TERM / CHARACTERIZATION: Brief lower-register/vocal pauses within the broader continuing experience; duration and register are estimates.
+SOURCES: TL-O043
+
+A10 | Vibration, balance and eye-region sensation | Reports 4 Aug, 11 Oct and 23 Oct
+VERBATIM: “detecting/feel 'vibrational' balance change 24/7” / “mechanical vibration whirring from center-skull outwardly”
+DESCRIPTIVE TERM / CHARACTERIZATION: Reported vibratory quality, balance changes, and an intrusive forehead/eye-region sensation likened to a gentle hand over about two flat thumbs.
+SOURCES: HP-O025, HP-O041, AO14
+
+A11 | Hearing changes | 1 Jul clinical history; Oct perceptual account
+VERBATIM: “perceived/tbd mute as in loud sound, muffled with the post-grenade whine until amplitude is reduced”
+DESCRIPTIVE TERM / CHARACTERIZATION: Muffling/reduced-hearing impression during louder periods. A 1 July clinical-history entry records intermittent hearing changes without acute onset and no ear pain, drainage or itching at that visit.
+SOURCES: AO07, LP-O01, LP-O02
+
+A12 | Early tactile co-occurrence | Early course, retrospectively described; report date unknown
+VERBATIM: “setting card down a few seconds, the song continues, then card sets down again” / “And some point the flame of lighter across my foot.”
+DESCRIPTIVE TERM / CHARACTERIZATION: Repeated card-like hand contact and flame-like foot sensation during an early auditory episode; that example recalled as under 45 minutes.
+SOURCES: TL-O010, TL-O011, TL-O033
+
+A13 | Persistence across settings | Current 24 Oct account and early recollection
+VERBATIM: “**NOT** surpressable or avoidable” / “including headphones and even bone conduction headphones and noise cancellation varieties”
+DESCRIPTIVE TERM / CHARACTERIZATION: Reported lack of voluntary suppression and persistence across listening/equipment changes and reported shielding attempts. Early walking-away/returning account describes loudness and emotional-tone variation. This does not identify a transmission route.
+SOURCES: CUR02, CUR03, CUR23, TL-O013, HP-S007
+
+A14 | Sleep, attention and function | Reports Jul–Oct; 2.8-hour estimate 13 Aug
+VERBATIM: “affecting sleep, concentration, attendance, communication and otherwise ability to deliver as expected” / “estimate of 2.8 hr daily avg sleep every 24 hrs”
+DESCRIPTIVE TERM / CHARACTERIZATION: Reported sleep disruption, distress, attention/deep-thinking burden and occupational/daily and exercise interference, varying in severity. August sleep estimate retained; later account says sleep had changed recently.
+SOURCES: HP-O009, HP-O031, HP-O034, AO17, PD-O23, NS-007
+
+A15 | Subjective sound recreation | Original report date unresolved
+VERBATIM: “recreating the three varying gain as best I could this appears to constructively match the signal quite compellingly”
+DESCRIPTIVE TERM / CHARACTERIZATION: Three-component, gain-varied sound recreation described as a subjective match. This is a comparison method, not a measured spectrum, exposure mechanism or independent reproduction.
+SOURCES: PD-O21
+
+
+B. INTELLIGIBLE CONTENT AND PERCEIVED INTERACTION PATTERNS
+
+B01 | Episode structure and recurrence | Reports 15 and 23 Oct 2026
+VERBATIM: “modular 2-12 minute short stories”
+DESCRIPTIVE TERM / CHARACTERIZATION: Episodic segmentation within a continuous background: earlier ~2–12 minutes, later usually ~4–12 minutes or longer. Approximately 10,000+ episodes recalled; not an event-log count.
+SOURCES: TL-O041, HP-O057, HP-O063
+
+B02 | Early persistent identities; later switching | Report 29 Jul 2026; recalled early-to-later change
+VERBATIM: “Initial months specific 'characters'” / “would persist for days or even weeks”
+DESCRIPTIVE TERM / CHARACTERIZATION: Early perceived characters/themes persisted days or weeks; later identities reportedly switched more frequently. Describes content continuity, not agent persistence or software state.
+SOURCES: HP-O020, HP-O022
+
+B03 | Identity cues and persona consistency | Reports 29 Jul, 23 and 24 Oct
+VERBATIM: “inferred by nature of context” / “system role like descriptions of each identity”
+DESCRIPTIVE TERM / CHARACTERIZATION: Perceived speaker identity is inferred from voice quality, self-introduction or contextual exposition. Stable character traits feel role-like; identity and implementation are unverified.
+SOURCES: HP-O018, HP-O051, CUR10, CUR16
+
+B04 | Changing perceived identity repertoire | Retrospective raw account versus 24 Oct recollection
+VERBATIM: “Fictional neighbors until late 2025 I think October.” / “Since approximately this time last year 90% of identities are traceable to <n=50 colleagues from former employer”
+DESCRIPTIVE TERM / CHARACTERIZATION: Earlier unfamiliar/fictional/family/neighbor personas; later predominantly colleague-associated personas. Earlier over-50/about-20 recurring estimate and current fewer-than-50/~90% estimate retained separately. A separate cumulative estimate is about 100 personas across all groups, a different denominator. Transition recalled as late 2025/possibly October in one account, after roughly nine initial months in today’s account.
+SOURCES: TL-O025, TL-O030, TL-O031, CUR17, CUR19, NS-002
+
+B05 | Recurring scene openings | Checking description 7 Oct; opening examples 24 Oct, recurring in recent months
+VERBATIM: “...My favorite person just arrived...” / “my favorite person just walked in...”
+DESCRIPTIVE TERM / CHARACTERIZATION: Repeated arrival/opening motif, experienced as attention-catching; also checking-themed language, ambiguously a recalled phrase or the reporter’s characterization (NS-013). These are exact written examples of recalled speech, not recorded audio quotations.
+SOURCES: CUR05, CUR06, NS-013
+
+B06 | Discovery/consequence scenes | Current 24 Oct account; common lately
+VERBATIM: “person catching them in act... comments on illicit activity... back and forth with the obfuscated-ID impersonated”
+DESCRIPTIVE TERM / CHARACTERIZATION: Recurring discovery, apparent guilt and consequence narratives with back-and-forth dialogue; household/family references can feel specific yet broadly applicable. These are reported scene contents.
+SOURCES: CUR12, CUR13, CUR14, CUR24
+
+B07 | Apparent endings and restarts | Report 23 Oct; approximately preceding 2.5 months
+VERBATIM: “the majority of which for approx. 2.5 months have been pseudo-endings”
+DESCRIPTIVE TERM / CHARACTERIZATION: Repeated apparent-resolution scenes followed by continuation; recent episodes described as more elaborate or longer.
+SOURCES: HP-O052, HP-O057
+
+B08 | Screen and typing associations | Current 24 Oct account; onset-to-present recollection
+VERBATIM: “what I am typing out back to me... whatever I am doing on my screen”
+DESCRIPTIVE TERM / CHARACTERIZATION: Perceived activity-contingent commentary/read-back during typing and computer use, reportedly present from the beginning. The association does not establish screen capture or remote access.
+SOURCES: CUR20, TL-O014
+
+B09 | Thought and intended-speech associations | Reports 11 and 24 Oct
+VERBATIM: “human audible striking surreal commentary on private pre-verbalization deliberated-speech”
+DESCRIPTIVE TERM / CHARACTERIZATION: Perceived semantic relation to inner speech, attempted or planned speech; recent six-month emphasis. Responses feel rapid; ~8–25 ms is a subjective estimate, not measured decoding latency.
+SOURCES: CUR07, HP-O038, HP-O039
+
+B10 | Movement, breathing and bodily references | Report 29 Jul and early retrospective account
+VERBATIM: “commentating in real-time even the most nuanced acts of physical motored movement” / “the commentary many times daily referring to heart rate, intestinal distension”
+DESCRIPTIVE TERM / CHARACTERIZATION: Perceived environmental/bodily contingency and recurrent physiological subject matter. Spoken references to a vital sign are not measurements of that vital sign.
+SOURCES: HP-O013, HP-O014, TL-O006
+
+B11 | Attention and response invitations | Current 24 Oct account; earlier spoken versus current internal response distinction
+VERBATIM: “*hooks** or *fishing attempts* or *lures* that are not always antagonistic, necessarily” / “meditative-like 'clearing' of mental thoughts”
+DESCRIPTIVE TERM / CHARACTERIZATION: Attention-capturing or seemingly response-inviting content with variable emotional valence; mental quiet associated with a sense of privacy/safety. Purpose and controller remain interpretations.
+SOURCES: CUR08, CUR11, CUR15, CUR25, HP-O023
+
+B12 | Financial and identity-theft themes | Early course and later transition; report 29 Jul plus raw recall
+VERBATIM: “for phone code for fidelity 401k then for identity thievery once I called BS”
+DESCRIPTIVE TERM / CHARACTERIZATION: Recalled monetary/credential demands and identity-theft narratives; theme change reported after challenging the rationale. Records content and sequence, not actual theft or accepted commands.
+SOURCES: TL-O020, TL-O024, HP-O021
+
+B13 | Competence, work and moralizing themes | Reports Jun–Oct; early work episode recalled
+VERBATIM: “the general theme commentary was 'you're not a coder'” / “to 'just return to work'”
+DESCRIPTIVE TERM / CHARACTERIZATION: Criticism of coding/AI use and competence; resignation/return-to-work themes; moralizing or suggestive commentary alternating with apparently favorable workplace material.
+SOURCES: CUR21, HP-O003, HP-O044, TL-O042
+
+B14 | Derogatory and sexualized repetition | Report 6 Aug 2026
+VERBATIM: “on average every 15 minutes for about 12 or 15 months”
+DESCRIPTIVE TERM / CHARACTERIZATION: Recurrent derogatory and sexualized phrases, reportedly associated with environmental cues. Exact explicit wording retained in the detailed ledger; recurrence/duration are estimates.
+SOURCES: HP-O026
+
+B15 | Early rhythmic/authority and relative motifs | Early course retrospectively described; report date unknown
+VERBATIM: “a paced 'prison' chant” / “I recall also being like this is not actually my dad”
+DESCRIPTIVE TERM / CHARACTERIZATION: Rhythmic prison/relocation content and law-enforcement/deceased-relative/brother-like personas. The reporter sometimes rejected the apparent identity; reports mother did not confirm a wall-origin voice when asked.
+SOURCES: TL-O002, TL-O008, TL-O016, TL-O017, TL-O018, TL-O026
+
+B16 | Research, access and waiver storylines | Recent October scenes; other dates unresolved
+VERBATIM: “one clinical researcher, a another assigned clinical researcher in charge of software” / “I've heard I'm actually on remote. Something setup root wise from recovery.”
+DESCRIPTIVE TERM / CHARACTERIZATION: Reported researcher/software-role personas, a relative/credential narrative, and IRB/waiver, remote-access, knowledge-extraction or method-ownership storylines. Claims spoken within a scene remain scene content, not external records or admissions.
+SOURCES: HP-O051, HP-O058, TL-O023, TL-O032, NS-019, NS-022
+
+B17 | Pattern changes and transcription | Reports 14, 23 and 24 Oct; recent 1–2 month change
+VERBATIM: “semantic patterns intra- inter-statement incld. diction, phrasing” / “discrete noticeable step-change shifts in nature of percept intelligible subject matter”
+DESCRIPTIVE TERM / CHARACTERIZATION: Recurring lexical patterns, seconds-scale variability, abrupt content shifts, and perceived faster voice changes during transcription. No algorithm, system update or human intervention is established.
+SOURCES: HP-O046, HP-O061, HP-O064, CUR18
+
+B18 | Recall fidelity | Report 23 Oct 2026
+VERBATIM: “in-perept contents in other words what is intelligble is almost always paraphrased but accurate to memory”
+DESCRIPTIVE TERM / CHARACTERIZATION: The speaker reports that intelligible content is usually remembered paraphrase. Verbatim here means exact written source text; it does not turn recalled speech into a contemporaneous transcript.
+SOURCES: HP-O060
+
+Companion files in GAPS_CONCEALED_BCI/CODEX_EFFECTS_PROMPT_REVIEW_2026-10-24_001/deliverables/:
+FULL_OBSERVATION_LEDGER.html — all extracted entries, exact locators and qualifications.
+TERMINOLOGY_AND_PHYSIOLOGY.txt — cited hearing physiology and distinctions between observation, inference and automation.
+REVIEW_COVERAGE.txt — available corpus, review depths, exclusions, dates and access limits.
+CHRONOLOGY.txt — recalled event sequence with source-specific uncertainty.
+Original 23 October table remains preserved at its original path.
