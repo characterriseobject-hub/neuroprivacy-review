@@ -41,6 +41,9 @@ For corrections, identify the file/version, page or section, proposed correction
 
 ---
 
+<img width="18000" height="10800" alt="image" src="https://github.com/user-attachments/assets/8fcbdd20-110e-4964-b38a-c65f2c506109" />
+
+
 ## ALLEGATION-ONLY / NON-CORROBORATED / NO LAW-ENFORCEMENT FINDING / NO FILED CHARGE / NO ARREST / NO PROBABLE-CAUSE DETERMINATION / PRESUMPTION OF INNOCENCE.
 This document is an allegation-review and charging-review summary prepared from the complainant’s statement only. It is not an arrest report, not a charging document, not a probable-cause affidavit, not a warrant application, and not a law-enforcement finding of fact. The complainant’s allegations have not been independently corroborated by forensic examination, medical or surgical records, device analysis, subscriber records, witness interviews, or prosecutor review. No charge has been filed; no warrant has been issued; no arrest has been made; and no agency or prosecutor has adopted any probable-cause determination. References to “charges,” “counts,” statutory citations, classifications, or statutory maximums are charging-review categories for legal analysis only and may not apply depending on facts, evidence, charging decisions, and law. No person is identified or accused herein; any reference to an actor, controller, employer, colleague, or LE impersonator is the complainant’s allegation only. Any accused person is presumed innocent unless proven guilty in a court of law. The complainant’s characterizations — including “continuous,” “24/7,” “torture,” “BCI,” “speech decoding,” “inner monologue,” “AI-enabled,” and “UmboMic-class” — are allegations, not LE conclusions. All TBD items remain unresolved. References to MCPD, FBI, or CIA are alleged impersonations by the complainant, not statements by those agencies.
 
