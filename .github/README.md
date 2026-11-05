@@ -175,3 +175,5 @@ Keep reported experiences, institutional records, published research, conceptual
 File hashes and Git history record handling. They do not establish factual authentication, device presence, attribution, causation or wrongdoing. Qualified independent review remains separate.
 
 For corrections, identify the file/version, page or section, proposed correction and supporting source. Preserve originals and label revised derivatives. Materials retain their source-specific authorship and rights; broader access or redistribution requires separate review.
+
+<img width="1536" height="1024" alt="ChatGPT Image Nov 5, 2026, 10_31_49 AM" src="https://github.com/user-attachments/assets/954a2b72-9347-473b-bc30-2394b89cb903" />
