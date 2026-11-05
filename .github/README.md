@@ -87,33 +87,6 @@ Narrative Basis: Complainant alleges non-consensual ENT implantation prior to 09
 ## 1. Non-Consensual Surgical Implantation — Assault/Battery and Medical Fraud
 The complainant, a biopharmaceutical scientist, audio engineer, and musician, alleges a cochlear implant with cantilever mic-sensor/BCI capability was surgically placed behind the tympanic membrane without informed consent and without post-operative disclosure. The complainant alleges falsified informed-consent materials were provided to surgical staff. This is alleged to have involved sans-consent anesthesia and implantation. Under Maryland common-law battery and assault principles, non-consensual surgical intrusion is a core offensive-contact allegation. Investigators should subpoena operative records, anesthesia logs, consent forms, device serial numbers, and manufacturer records from “Feldman ENT” and any associated surgical facility. The complainant’s professional audio-engineering background supports the alleged motive: access to a trained auditory system and career corpus.
 
-## [COMPLAINANT STATEMENT ONLY — NOT INDEPENDENTLY CORROBORATED]
-
-
-## Complainant’s statement only — MCPD has not verified the implant, continuous audio, decoding, AI loop, or any actor’s identity; no charge filed; no arrest; presumption of innocence applies.
-
-# PROBABLE CAUSE FRAMEWORK
-## 2. Stalking — Continuous Malicious Course of Conduct (§ 3-802)
-The primary charge is continuous stalking. The complainant alleges continuous 24/7 audio harassment and continuous tonal-frequency exposure from at least 09DEC2024 to 03NOV2026 — approximately 1,000,000+ minutes with no silence-reprieve. The statute’s “course of conduct” element is satisfied by the alleged continuous nature, duration, and method. The complainant alleges the continuous audio included impersonated law enforcement and colleague voices, was AI-generated/obfuscated, and was designed to provoke speech and inflict serious emotional distress. Documented employment impacts — probation 1Q-2026, medical leave June 2026 — are corroborating harm indicators. Charging recommendation: § 3-802 as primary; verify whether any interim protective order or prior conviction supports felony elevation.
-
-## [COMPLAINANT STATEMENT ONLY — NOT INDEPENDENTLY CORROBORATED]
-
-
-## Complainant’s statement only — MCPD has not verified the implant, continuous audio, decoding, AI loop, or any actor’s identity; no charge filed; no arrest; presumption of innocence applies.
-
-# PROBABLE CAUSE FRAMEWORK
-## 3. Misuse of Electronic Communication (§ 3-805) — Lesser-Included
-The complainant reports the continuous harassment persisted after informal and formal requests to stop, including a line-manager report at approximately 13 months. § 3-805 is properly included as a lesser-included charge to preserve the full statutory spectrum. The continuous nature is central: the alleged conduct was not a single message but an unbroken electronic/BCI course of conduct.3. Misuse of Electronic Communication (§ 3-805) — Lesser-Included
-The complainant reports the continuous harassment persisted after informal and formal requests to stop, including a line-manager report at approximately 13 months. § 3-805 is properly included as a lesser-included charge to preserve the full statutory spectrum. The continuous nature is central: the alleged conduct was not a single message but an unbroken electronic/BCI course of conduct.
-
-## [COMPLAINANT STATEMENT ONLY — NOT INDEPENDENTLY CORROBORATED]
-
-## Complainant’s statement only — MCPD has not verified the implant, continuous audio, decoding, AI loop, or any actor’s identity; no charge filed; no arrest; presumption of innocence applies.
-
-# PROBABLE CAUSE FRAMEWORK
-## 1. Non-Consensual Surgical Implantation — Assault/Battery and Medical Fraud
-The complainant, a biopharmaceutical scientist, audio engineer, and musician, alleges a cochlear implant with cantilever mic-sensor/BCI capability was surgically placed behind the tympanic membrane without informed consent and without post-operative disclosure. The complainant alleges falsified informed-consent materials were provided to surgical staff. This is alleged to have involved sans-consent anesthesia and implantation. Under Maryland common-law battery and assault principles, non-consensual surgical intrusion is a core offensive-contact allegation. Investigators should subpoena operative records, anesthesia logs, consent forms, device serial numbers, and manufacturer records from “Feldman ENT” and any associated surgical facility. The complainant’s professional audio-engineering background supports the alleged motive: access to a trained auditory system and career corpus.
-
 ## 2. Stalking — Continuous Malicious Course of Conduct (§ 3-802)
 The primary charge is continuous stalking. The complainant alleges continuous 24/7 audio harassment and continuous tonal-frequency exposure from at least 09DEC2024 to 03NOV2026 — approximately 1,000,000+ minutes with no silence-reprieve. The statute’s “course of conduct” element is satisfied by the alleged continuous nature, duration, and method. The complainant alleges the continuous audio included impersonated law enforcement and colleague voices, was AI-generated/obfuscated, and was designed to provoke speech and inflict serious emotional distress. Documented employment impacts — probation 1Q-2026, medical leave June 2026 — are corroborating harm indicators. Charging recommendation: § 3-802 as primary; verify whether any interim protective order or prior conviction supports felony elevation.
 
