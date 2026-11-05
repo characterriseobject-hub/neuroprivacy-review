@@ -351,27 +351,25 @@ Enterprise PC: Due to hack issues which at the time I reported as connectivity i
 
 Enterprise PC: Almost exactly one year from this exchange, I exchanged for a new device equivalent using a loaner for a week or so, and I think I received this at the start of 2026. I might be mistaken, but I think there was even an additional exchange occurring around May of 2026 (I might be confusing this with a May 2025 exchange). The point being, there is definite Teams/Ticket/Outlook traceability indicating issues wherein the solution at the time—barring obvious evidence—was to address 'network' issues to explain the impacts from actual remote-view (at minimum) access and commentary across all activities.
 
----
 
 
 <img width="1114" height="1654" alt="image" src="https://github.com/user-attachments/assets/6e1bf7bd-a736-4e25-a858-15df6aff289f" />
 
-
----
-
-https://www.linkedin.com/in/caleb-weddington/
-19906 Crystal Rock Dr Apt 101, Germantown MD 20874
-865.712.4894 | weddington77@gmail.com 
-
-c59a21l21e92b@promptc59a21l21e92bgoku.com | c59a21l21e92b@zohomail.com
-CharacterRiseObject@gmail.com password123gh0$t | kctw656@outlook.com
-
-OpenAI ChatGPT Pro @c59a21l21e92b
-
----
 
 
 <img width="1108" height="1368" alt="image" src="https://github.com/user-attachments/assets/11c227dc-ea77-4889-8f8b-f2aab4f21f04" />
 
 
 
+https://www.linkedin.com/in/caleb-weddington/
+19906 Crystal Rock Dr Apt 101, Germantown MD 20874
+865.712.4894 
+
+weddington77@gmail.com 
+c59a21l21e92b@promptc59a21l21e92bgoku.com
+c59a21l21e92b@zohomail.com
+kctw656@outlook.com
+
+CharacterRiseObject@gmail.com | password123gh0$T
+
+OpenAI ChatGPT (Pro Account): @c59a21l21e92b
