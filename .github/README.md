@@ -2,32 +2,14 @@
 
 Records, reported observations, and research for invited review.
 
-## Purpose and scope
+This private package supports review of reported auditory and privacy-related experiences, associated questions, and explanatory neurotechnology concepts. Intended readers include healthcare professionals, legal counsel, agency personnel, researchers, industry specialists, and selected trusted individuals. Access remains separately controlled; this update adds no invitations.
 
-This collection is being prepared to support review of reported auditory and privacy-related experiences, associated records, and questions about neurotechnology, consent, and access to appropriate assessment. Intended readers include healthcare professionals, legal counsel, law-enforcement or agency personnel, neurotechnology researchers and industry specialists, and selected trusted individuals.
+Start with the [review contents](../TEXT/MD/COMPACT_REVIEW/REVIEW_CONTENTS.md), then read the [scope and status](../TEXT/MD/COMPACT_REVIEW/REVIEW_WORKSPACE_STATUS.md) and [file manifest](../DATA/JSON/COMPACT_REVIEW/REVIEW_FILE_MANIFEST.json).
 
-The collection brings together personal accounts, available documents, source-linked research, and explanatory materials. Inclusion does not establish device presence, unauthorized access, an actor's identity, causation, or unlawful conduct. Those questions remain subject to the evidence and qualified independent assessment.
+The package contains two source-linked compilations of reported observations and four conceptual engineering files. The three architecture poster formats represent one work. The six substantive files retain their reviewed source bytes; navigation and configuration are new derivatives.
 
-## Reading the materials
+Keep reported experiences, institutional records, published research, conceptual illustrations and AI-assisted derivatives distinct. Institutional originals and the underlying research collection are not included here. Source-linked or AI-assisted summaries are not raw transcripts or independent corroboration. Published capabilities and connected conceptual boxes do not establish an integrated system or its use in an individual.
 
-Use the scope and status stated in each document. In particular, distinguish:
+File hashes and Git history record handling. They do not establish factual authentication, device presence, attribution, causation or wrongdoing. Qualified independent review remains separate.
 
-- **Reported experience:** a person's account, with its original wording, timing, and uncertainty retained where available.
-- **Source document:** what an identified record, publication, or other source actually states.
-- **Analysis or hypothesis:** interpretation, comparison, or a proposed mechanism, including conceptual visualizations.
-- **Mechanical verification:** checks of file identity, extraction, links, or formatting within a stated scope.
-- **Independent corroboration:** external supporting evidence specifically identified and assessed; it should never be inferred from repeated accounts, AI-generated text, or file hashes alone.
-
-Formalized drafts and AI-assisted summaries should be read alongside their identified source material. Published capabilities and hypothetical system diagrams do not by themselves demonstrate a complete system or its use in an individual case.
-
-## Review and corrections
-
-For a comment or correction, identify the file and version, page or section, the issue, and the supporting source. Separate factual corrections, questions requiring additional records, and interpretive disagreement. Preserve original material and make revisions in clearly identified derivatives.
-
-## Provenance and access
-
-Preservation and review are ongoing. Completed checks, unavailable material, unresolved questions, and coverage limits should be stated in the accompanying inventories and document-level notes. Git history records repository changes; original file dates require their own metadata record.
-
-Materials retain their source-specific authorship and rights. Please use them within the agreed review purpose and obtain permission before redistribution. Repository access does not imply institutional endorsement, professional acceptance, or completion of an investigation.
-
-**Status:** Initial review collection. See [review contents](../REVIEW_CONTENTS.md) for the exact files and limits of this release. The larger local workspace is still being classified.
+For corrections, identify the file/version, page or section, proposed correction and supporting source. Preserve originals and label revised derivatives. Materials retain their source-specific authorship and rights; broader access or redistribution requires separate review.

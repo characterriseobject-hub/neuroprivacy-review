@@ -1,0 +1,121 @@
+{
+  "purpose": "Records, reported observations, and research for invited review.",
+  "scope": "PRIVATE_EXACT_12_FILE_PACKAGE",
+  "prepared_utc": "2026-11-05T01:24:12.626094+00:00",
+  "source_commit": "2da0c0f0545a8017febb6f4ec0da165cb24782da",
+  "expected_file_count": 12,
+  "expected_paths": [
+    ".gitattributes",
+    ".github/README.md",
+    ".gitignore",
+    "DATA/JSON/COMPACT_REVIEW/REVIEW_FILE_MANIFEST.json",
+    "IMAGES/SVG/voice_auditory_architecture.svg",
+    "OFFICE/PPTX/System_6_Engineering_Overview.pptx",
+    "PDF/voice_auditory_architecture_60x36.pdf",
+    "PNG/voice_auditory_architecture_18000x10800.png",
+    "TEXT/MD/2026-10-25_Reported_Observations_and_Research_Criteria.md",
+    "TEXT/MD/COMPACT_REVIEW/REVIEW_CONTENTS.md",
+    "TEXT/MD/COMPACT_REVIEW/REVIEW_WORKSPACE_STATUS.md",
+    "TEXT/TXT/2026-10-24_Personal_Observation_Table.txt"
+  ],
+  "substantive_sources": [
+    {
+      "original_tracked_path": "2026-10-25_Reported_Observations_and_Research_Criteria.md",
+      "post_merge_path": "MD/2026-10-25_Reported_Observations_and_Research_Criteria.md",
+      "compact_path": "TEXT/MD/2026-10-25_Reported_Observations_and_Research_Criteria.md",
+      "sha256": "c1735702092f274545d90acfc7cff922c2b6f35979818c2fc02e90eabc2d0551",
+      "size_bytes": 35050,
+      "content_role": "PRIVATE_PERSONAL_REPORTED_ACCOUNT",
+      "source_bytes_unchanged": true,
+      "version_date_basis": "Prepared 2026-10-25 with a 2026-10-26 addendum; filename alone is not the full revision date."
+    },
+    {
+      "original_tracked_path": "voice_auditory_architecture_60x36.pdf",
+      "post_merge_path": "PDF/voice_auditory_architecture_60x36.pdf",
+      "compact_path": "PDF/voice_auditory_architecture_60x36.pdf",
+      "sha256": "09bac78edd5877ffe88c535b6b783dd7758da3c3cd965fb91250e8cb01eee14f",
+      "size_bytes": 94672,
+      "content_role": "CONCEPTUAL_TECHNICAL_ARTIFACT_RIGHTS_REVIEW_OPEN",
+      "source_bytes_unchanged": true,
+      "version_date_basis": "Undated conceptual poster; prior reviewed version fixed by source commit and SHA-256. Three formats represent one work."
+    },
+    {
+      "original_tracked_path": "voice_auditory_architecture_18000x10800.png",
+      "post_merge_path": "PNG/voice_auditory_architecture_18000x10800.png",
+      "compact_path": "PNG/voice_auditory_architecture_18000x10800.png",
+      "sha256": "6f246044bcfc5814ebc3f28b051520da6a3860b35c77020fe4b3aacdc78bb597",
+      "size_bytes": 4892873,
+      "content_role": "CONCEPTUAL_TECHNICAL_ARTIFACT_RIGHTS_REVIEW_OPEN",
+      "source_bytes_unchanged": true,
+      "version_date_basis": "Undated conceptual poster; prior reviewed version fixed by source commit and SHA-256. Three formats represent one work."
+    },
+    {
+      "original_tracked_path": "System_6_Engineering_Overview.pptx",
+      "post_merge_path": "PPTX/System_6_Engineering_Overview.pptx",
+      "compact_path": "OFFICE/PPTX/System_6_Engineering_Overview.pptx",
+      "sha256": "5b46e62dc6e0f225c46bcce68b780dd882bf67e7a3e829a910cfbd02e4ef50e4",
+      "size_bytes": 15495919,
+      "content_role": "CONCEPTUAL_TECHNICAL_ARTIFACT_RIGHTS_REVIEW_OPEN",
+      "source_bytes_unchanged": true,
+      "version_date_basis": "Speaker notes dated 2026-11-02; Office package created 2026-11-03 UTC. These dates are distinct."
+    },
+    {
+      "original_tracked_path": "voice_auditory_architecture.svg",
+      "post_merge_path": "SVG/voice_auditory_architecture.svg",
+      "compact_path": "IMAGES/SVG/voice_auditory_architecture.svg",
+      "sha256": "125ee90c50d181e93ddae39949385697512ab618536429f0b567211b8d246587",
+      "size_bytes": 101915,
+      "content_role": "CONCEPTUAL_TECHNICAL_ARTIFACT_RIGHTS_REVIEW_OPEN",
+      "source_bytes_unchanged": true,
+      "version_date_basis": "Undated conceptual poster; prior reviewed version fixed by source commit and SHA-256. Three formats represent one work."
+    },
+    {
+      "original_tracked_path": "2026-10-24_Personal_Observation_Table.txt",
+      "post_merge_path": "TXT/2026-10-24_Personal_Observation_Table.txt",
+      "compact_path": "TEXT/TXT/2026-10-24_Personal_Observation_Table.txt",
+      "sha256": "b83c5ec79e2a03abafd2c9612ff6bbe0accefcd346f89452d2c30e6bd810af2e",
+      "size_bytes": 16497,
+      "content_role": "PRIVATE_PERSONAL_REPORTED_ACCOUNT",
+      "source_bytes_unchanged": true,
+      "version_date_basis": "Document states updated 2026-10-24; not a copy/acquisition date."
+    }
+  ],
+  "support_files_excluding_this_manifest": [
+    {
+      "path": ".gitattributes",
+      "size_bytes": 105,
+      "sha256": "5648a0349591f14c140e65a75acec16094447d1f9af2d2d6528a290c3c662aca",
+      "role": "NEW_METADATA_DERIVATIVE"
+    },
+    {
+      "path": ".github/README.md",
+      "size_bytes": 1903,
+      "sha256": "a8b0ce015eb8ba81a2cfe6b9cd8b5f22135fc5b48a12c096ca32b1be175809cb",
+      "role": "NEW_METADATA_DERIVATIVE"
+    },
+    {
+      "path": ".gitignore",
+      "size_bytes": 749,
+      "sha256": "205cd0e7e352d7e63b55dddda0fc6e9876948d4f416c1ae505d46c17fd427139",
+      "role": "NEW_METADATA_DERIVATIVE"
+    },
+    {
+      "path": "TEXT/MD/COMPACT_REVIEW/REVIEW_CONTENTS.md",
+      "size_bytes": 2587,
+      "sha256": "230faa4bd3656764c1ce0840308d7228befba8b1ab6add13d578ed2e9997bb7d",
+      "role": "NEW_METADATA_DERIVATIVE"
+    },
+    {
+      "path": "TEXT/MD/COMPACT_REVIEW/REVIEW_WORKSPACE_STATUS.md",
+      "size_bytes": 2337,
+      "sha256": "fd36e1165262e0fd6eb699bdfb12afdde3da07fa42d83cda576df7b5270768fd",
+      "role": "NEW_METADATA_DERIVATIVE"
+    }
+  ],
+  "this_manifest": {
+    "path": "DATA/JSON/COMPACT_REVIEW/REVIEW_FILE_MANIFEST.json",
+    "hash_basis": "Self-hash omitted; exact blob identity is recorded in the containing Git tree and local derivative allowlist."
+  },
+  "excluded": "Full collection, clinical originals, held/unreviewed files, session history, credentials, archives, large media and broader inventories. Two prior aggregate CSVs remain only locally and in Git history.",
+  "limits": "File integrity does not authenticate facts or establish device presence, attribution, causation or wrongdoing. Three poster formats represent one conceptual work."
+}
