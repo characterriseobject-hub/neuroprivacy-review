@@ -176,9 +176,189 @@ File hashes and Git history record handling. They do not establish factual authe
 
 For corrections, identify the file/version, page or section, proposed correction and supporting source. Preserve originals and label revised derivatives. Materials retain their source-specific authorship and rights; broader access or redistribution requires separate review.
 
+---
+
 
 <img width="1536" height="1024" alt="ChatGPT Image Nov 5, 2026, 10_31_49 AM" src="https://github.com/user-attachments/assets/954a2b72-9347-473b-bc30-2394b89cb903" />
 
+---
+
+# Local and Federal Law Enforcement
+
+- 5DCommander@montgomerycountymd.gov; FBI Baltimore: fbi.gov/contact-us/field-offices/baltimore; FBI Tips: tips.fbi.gov; IC3: ic3.gov
+
+# Cochlear BCI / Clinical Subject-Matter Experts
+
+- cochlearimplant@jhmi.edu; hespclinic@umd.edu; PatientRelations@jhmi.edu; contactus@entad.org; einstitute@nyee.edu; ENTPatientServices@mountsinai.org; cochlearinquires@nyulangone.org; AdultCIProgram@unchealth.unc.edu; ent@vcuhealth.org; Jacob.Hunter@jefferson.edu; volskypg@evms.edu; howard.francis@duke.edu; neurosurgery@stanford.edu; kathytsou@stanford.edu; henderj@stanford.edu; dmbrandman@ucdavis.edu; sstavisky@ucdavis.edu; braingate@ucdavis.edu; mckenzieoto@gmail.com; nidcdinfo@nidcd.nih.gov; AskOICE@fda.hhs.gov
+
+# Platform Legal Process / Enterprise Records
+
+- Microsoft Law Enforcement Portal: leportal.microsoft.com; Google Law Enforcement Request System: lers.google.com; legal-support@github.com; lawenforcement@cloudflare.com; lea_abuse@namecheap.com; DigitalOcean legal portal: app.kodexglobal.com/digitalocean/signin; OpenAI government-request routing: openai.com/trust-and-transparency
+
+# AI Subject-Matter Experts
+
+- support@openai.com; usersafety@anthropic.com
+
+# AI Model Safety / Misuse Reporting
+
+- safety@x.ai; safety@cohere.com; LlamaUseReport@meta.com; safety@stability.ai; safety@huggingface.co
+
+# AI API / Model Routing
+
+- support@openrouter.ai; support@mistral.ai; support@perplexity.ai; service@deepseek.com; api-service@deepseek.com
+
+# Voice Synthesis / Voice Recreation
+
+- support@elevenlabs.io; support@resemble.ai; support@cartesia.ai
+
+# Orchestration / Workflow / Open-Source Frameworks
+
+- support@langchain.dev; support@flowiseai.com; feedback@embabel.com; help@n8n.io
+
+# Cloud Infrastructure / Hosting / Domains / Tunnels
+
+- trustandsafety@support.aws.com; abuse@namecheap.com; abuse@namecheaphosting.com; abuse@ngrok.com
+
+# GPU / Hosted-Model Infrastructure
+
+- contact@vast.ai; support@replicate.com
+
+# Hosted Databases / Vector / Retrieval
+
+- support@neo4j.com; support@pinecone.io; support@weaviate.io; abuse@supabase.com; aupreporting@mongodb.com
+
+# Messaging / Calling / Email Delivery
+
+- spam@twilio.com; abuse@sendgrid.com; email-abuse@amazon.com
+
+# Workflow-Service Security
+
+- phishing@zapier.com
+
+---
+
+# Device Inventory and Timeline
+
+Devices purchased functional and actively in-use daily
+
+HOW IN THE HELL ARE THEY *STILL* SEEING WHAT I AM DOING ON-SCREEN IN-REAL TIME NO MATTER THE INTERMEDIATE-LEVEL SECURITY SETUP AND ACROSS ALL DEVICES OR VERY SOON WITH NEW DEVICES? (S\*\*T TALKING ABOUT WHATEVER I'M WORKING ON -- AI AGENTIC-CODING THE PRESUMED ENEMY AT ONSET FOR MONTHS = PROVOKE SPEECH AND OF LATE SHIFT TO MIMICRY LATENT PLAYBACK FOR CONCURRENT TRAINING LOOP)
+
+## VERIZON CELL SMARTPHONE - iPhone 16 Pro
+
+- 865.712.4894 | VERIZON
+- IMEI 35 759087 948000 1
+- IMEI2 35 759087 931000 0
+- EID 89049032007408885100211943215446
+- SEID 044226B-DAA2890024320065242411492034858A13D96A928
+- ICCID 89148000012697327944
+- ACTIVE 05NOV2026 12:03 EST
+- Wi-Fi 04:BF:D5:2D:64:81
+- BT 04:BF:D5:34:66:EB
+
+---
+
+## Personal Computer - MacBook Air Apple M5
+
+- Model Identifier: Mac17,3
+- Serial Number (system): L6JPC25X7F
+- Hardware UUID: 4AFA0E36-EA2F-5B6F-87D2-E0C37C9083DF
+- Provisioning UDID: 00008142-001950990C09401C
+- Boot UUID: 59BD2EF5-C69B-4D39-95DC-EF5A31186147
+- MAC address c0:c7:db:ee:ed:6e
+- NetBIOS MAC-EEED6E | WORKGROUP
+- DNS 75.75.75.75 | 2001:558:feed::1 | 2001:558:feed::2
+- IP 172.20.20.20 | 255.255.255.0
+- RTR 172.20.20.1 | fe80::ff:fe02:202
+- IPv6 (64) 2601:152:302:a7db:a3:95c3:eac5:11fb
+- IPv6 (64) 2601:152:302:a7db:581c:2886:a7c2:ba86
+- IPv6 (64) 2601:152:302:a7db:f087:9bfe:bb33:6a93
+- Active Location `locasdoiugslhnv`
+- Ethernet Adapter (en2) MAC de:d3:31:7d:5d:c9
+- Ethernet Adapter (en3) MAC de:d3:31:7d:5d:ca
+- Wi-Fi Type IEEE80211 (en0) MAC c0:c7:db:ee:ed:6e
+- Lenovo USB-C to LAN 2 Ethernet (en16)
+
+---
+
+## T-MOBILE CELLULAR NETWORK INACTIVE | Wi-Fi USE ONLY - Samsung Galaxy S26
+
+- 240.467.1639 | 240.XXX.XXXX | T-MOBILE
+- eSIM1 8901260550713934909
+- ACTIVE 05NOV2026 12:03 EST
+- MAC f2:36:5b:1a:0e:37
+- IP 172.20.20.20
+- fe80::f036:5bff:fe1a:e37
+- 2601:152:301:a1ec:f036:5bff:fe1a:e37
+- 2601:152:301:a1ec:ee79:4862:6adf:c765
+
+---
+
+# Device Inventory and Timeline
+
+Devices purchased functional, as-needed use and inactive -- preserved and available for cooperative digital forensics:
+
+Devices in-use at onset of electronic audio harassment events (continuous since December 9, 2024)
+
+- MacBook Air Apple M5
+- MacBook Pro Apple M4 Max
+- iPad Pro Apple M4 (Max)
+- iPhone 16 Pro Max (A) - Verizon
+- iPhone 16 Pro Max (B) - T-Mobile
+- Samsung Galaxy S26 ~Pro (A) \*\*
+- Samsung Galaxy S26 ~Base (B) \*\*\*
+- Lenovo i3 laptop personal A
+- Lenovo i5 laptop personal B
+- Lenovo Tablet personal A
+- Lenovo Tablet personal B
+
+\*\* exchanged T-Mobile for iPhone (suggestibility toward Apple preferred hack access including suspected clean Apple Support admin credentials non-circumventable Apple telemetry port remote access)
+
+\*\*\* purchased for android -- includes former-employer work organization enrollment current though cellular network inactive still in-use by residential Wi-Fi or Wi-Fi pass (Xfinity)
+
+## Other devices purchased solely as a result of clear security breach continuous throughout and serving efficacy across the persistence round-clock unsolicited audio harassment.
+
+### Asus router, Netgear Nighthawk router, Netgear modem, Wi-Fi adapter, BT adapter, SDR kit, etc.
+
+### Various other electronics
+
+#### most mapping to some perpetuated external obfuscated methodology or source of unsolicited audio (given bias/disposition of victim from onset to early 2026)
+
+#### includes electronics such as CalDigit TS4 dock; cheaper similar dock adapters [Wi-Fi vs ethernet hack perpetuated storyline of earlier obfuscation methods before 2026]
+
+### protected surge strips ground indicating; backup power supply protected [home electrical tap including adjacent utility room 1F bldg digital-based meter hack perpetuated storyline of earlier obfuscation methods before 2026]
+
+#### hack perpetuated storyline of earlier obfuscation methods before 2026: HOW IN THE HELL ARE THEY STILL SEEING WHAT I'M DOING IN REAL-TIME? Having enclave FileVault firewall lockdown ethernet (antenna/radio disabled) security practices in place: **HOW** per audio harassment 'shit-talking' subject matter contents (or latency modulated-voice playback behind typed words more frequent at least in the last 3-6 months) subject matter contents ARE THEY STILL SEEING WHAT I'M DOING REAL-TIME still talking shit about work done on computer
+
+# Device Inventory and Timeline
+
+Devices NO purchase required; functional, as-needed use and inactive -- preserved and available for cooperative digital forensics:
+
+Devices in-use at onset of electronic audio harassment events (continuous since December 9, 2024)
+
+Enterprise PCs: To the best of my memory, I exchanged my initial-hire device for an upgrade at the end of 2024 and picked up the new device at the start of 2025 (requires confirmation for specific dates; nevertheless, a routine upgrade).
+
+## Lenovo ThinkPad T480s [Core i5-1335U/1345U/1340P or Core Ultra 5 125U/135U or Core Ultra 5 225U] -- 1 PC laptop exchanged + 1 PC laptop on-hand (might be loaner)
+
+## Samsung Galaxy S10+ Verizon original smartphone cell
+
+## Mac Mini M1 Desktop Personal Computer original smartphone cell personal computer -- dedicated audio engineering and <6 months exclusively VS Code IDE AI agent-coding up-skill and tool dev PoC project/role non-compulsory work-related
+
+## Lenovo ThinkPad T480s [Core i5-1335U/1345U/1340P or Core Ultra 5 125U/135U or Core Ultra 5 225U or Ryzen 7 PRO 8840U or Ryzen 7 PRO 7840U] -- 1 PC laptop exchanged + 1 PC laptop on-hand available for return post-forensics or closeout or to support cooperative investigation
+
+Mac Mini M1 Desktop Personal Computer: Used for Pro Tools ONLY until approximately July 2024 to February 2025, until the MacBook Pro Apple M4 purchase. I was concurrently investing in betting on myself for an AI bridge role in-group at the time. This was justified at base due to continuous (in hindsight) cochlear-audio and remote-view access agitating, confidence-deflationary, or otherwise degrading commentary (e.g., spoken contents asserting "AI coding is not coding," epitomizing anti-AI rhetoric). This device was used approximately six months exclusively for Pro Tools, plus adding work-related AI upskilling, PoC app design, and IDE or VS Code-based AI Agentic-Coding work-related to target a bridge role with line management monthly discussions during this time through filled positions late 2025 and start 2026.
+
+Enterprise PC: Due to hack issues which at the time I reported as connectivity issues because—in hindsight—these were almost certainly clean hacks using my credentials OR were via Purview Azure access. In either way, this was not alarming or flaggable from a cybersecurity monitoring POV. From the outside, it looks like my own activity or someone in my organization, thus not unusual. This is my best approximation based on cochlear-speech reported details among cycled obfuscation/confirmation falsehoods/truths (a subset aspect of methodology obfuscation).
+
+Enterprise PC: Almost exactly one year from this exchange, I exchanged for a new device equivalent using a loaner for a week or so, and I think I received this at the start of 2026. I might be mistaken, but I think there was even an additional exchange occurring around May of 2026 (I might be confusing this with a May 2025 exchange). The point being, there is definite Teams/Ticket/Outlook traceability indicating issues wherein the solution at the time—barring obvious evidence—was to address 'network' issues to explain the impacts from actual remote-view (at minimum) access and commentary across all activities.
+
+
+<img width="1114" height="1654" alt="image" src="https://github.com/user-attachments/assets/6e1bf7bd-a736-4e25-a858-15df6aff289f" />
+
+
+---
+
 
 <img width="1108" height="1368" alt="image" src="https://github.com/user-attachments/assets/11c227dc-ea77-4889-8f8b-f2aab4f21f04" />
+
+
 
