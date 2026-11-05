@@ -178,3 +178,7 @@ For corrections, identify the file/version, page or section, proposed correction
 
 
 <img width="1536" height="1024" alt="ChatGPT Image Nov 5, 2026, 10_31_49 AM" src="https://github.com/user-attachments/assets/954a2b72-9347-473b-bc30-2394b89cb903" />
+
+
+<img width="1108" height="1368" alt="image" src="https://github.com/user-attachments/assets/11c227dc-ea77-4889-8f8b-f2aab4f21f04" />
+
