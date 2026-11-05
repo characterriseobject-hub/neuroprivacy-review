@@ -337,13 +337,13 @@ Devices in-use at onset of electronic audio harassment events (continuous since 
 
 Enterprise PCs: To the best of my memory, I exchanged my initial-hire device for an upgrade at the end of 2024 and picked up the new device at the start of 2025 (requires confirmation for specific dates; nevertheless, a routine upgrade).
 
-## Lenovo ThinkPad T480s [Core i5-1335U/1345U/1340P or Core Ultra 5 125U/135U or Core Ultra 5 225U] -- 1 PC laptop exchanged + 1 PC laptop on-hand (might be loaner)
+### Lenovo ThinkPad T480s [Core i5-1335U/1345U/1340P or Core Ultra 5 125U/135U or Core Ultra 5 225U] -- 1 PC laptop exchanged + 1 PC laptop on-hand (might be loaner)
 
-## Samsung Galaxy S10+ Verizon original smartphone cell
+### Samsung Galaxy S10+ Verizon original smartphone cell
 
-## Mac Mini M1 Desktop Personal Computer original smartphone cell personal computer -- dedicated audio engineering and <6 months exclusively VS Code IDE AI agent-coding up-skill and tool dev PoC project/role non-compulsory work-related
+### Mac Mini M1 Desktop Personal Computer original smartphone cell personal computer -- dedicated audio engineering and <6 months exclusively VS Code IDE AI agent-coding up-skill and tool dev PoC project/role non-compulsory work-related
 
-## Lenovo ThinkPad T480s [Core i5-1335U/1345U/1340P or Core Ultra 5 125U/135U or Core Ultra 5 225U or Ryzen 7 PRO 8840U or Ryzen 7 PRO 7840U] -- 1 PC laptop exchanged + 1 PC laptop on-hand available for return post-forensics or closeout or to support cooperative investigation
+### Lenovo ThinkPad T480s [Core i5-1335U/1345U/1340P or Core Ultra 5 125U/135U or Core Ultra 5 225U or Ryzen 7 PRO 8840U or Ryzen 7 PRO 7840U] -- 1 PC laptop exchanged + 1 PC laptop on-hand available for return post-forensics or closeout or to support cooperative investigation
 
 Mac Mini M1 Desktop Personal Computer: Used for Pro Tools ONLY until approximately July 2024 to February 2025, until the MacBook Pro Apple M4 purchase. I was concurrently investing in betting on myself for an AI bridge role in-group at the time. This was justified at base due to continuous (in hindsight) cochlear-audio and remote-view access agitating, confidence-deflationary, or otherwise degrading commentary (e.g., spoken contents asserting "AI coding is not coding," epitomizing anti-AI rhetoric). This device was used approximately six months exclusively for Pro Tools, plus adding work-related AI upskilling, PoC app design, and IDE or VS Code-based AI Agentic-Coding work-related to target a bridge role with line management monthly discussions during this time through filled positions late 2025 and start 2026.
 
@@ -351,9 +351,22 @@ Enterprise PC: Due to hack issues which at the time I reported as connectivity i
 
 Enterprise PC: Almost exactly one year from this exchange, I exchanged for a new device equivalent using a loaner for a week or so, and I think I received this at the start of 2026. I might be mistaken, but I think there was even an additional exchange occurring around May of 2026 (I might be confusing this with a May 2025 exchange). The point being, there is definite Teams/Ticket/Outlook traceability indicating issues wherein the solution at the time—barring obvious evidence—was to address 'network' issues to explain the impacts from actual remote-view (at minimum) access and commentary across all activities.
 
+---
+
 
 <img width="1114" height="1654" alt="image" src="https://github.com/user-attachments/assets/6e1bf7bd-a736-4e25-a858-15df6aff289f" />
 
+
+---
+
+https://www.linkedin.com/in/caleb-weddington/
+19906 Crystal Rock Dr Apt 101, Germantown MD 20874
+865.712.4894 | weddington77@gmail.com 
+
+c59a21l21e92b@promptc59a21l21e92bgoku.com | c59a21l21e92b@zohomail.com
+CharacterRiseObject@gmail.com password123gh0$t | kctw656@outlook.com
+
+OpenAI ChatGPT Pro @c59a21l21e92b
 
 ---
 
