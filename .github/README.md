@@ -236,6 +236,8 @@ For corrections, identify the file/version, page or section, proposed correction
 - phishing@zapier.com
 
 ---
+<img width="513" height="768" alt="image" src="https://github.com/user-attachments/assets/38f633e2-a97c-4307-96aa-30ef55d0b78c" />
+---
 
 # Device Inventory and Timeline
 
