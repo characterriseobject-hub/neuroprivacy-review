@@ -1,0 +1,160 @@
+{
+  "schema_version": 1,
+  "research_id": "R-11da98a3fc514a1588d77d7f1cd90307",
+  "question": "Scientific regulatory and commercial diligence for UmboMic TICI optional CoPilot and elective tonsillar extension; nonadditive M001 and M004 boundaries",
+  "scope": {
+    "included": [
+      "Three-layer scientific/regulatory/commercial diligence",
+      "M001/M004 nonadditive scenarios",
+      "2020-01-01 to 2026-11-06 plus named historical and operative-rule exceptions"
+    ],
+    "excluded": [
+      "Clinical implantation instructions",
+      "Claim of independent empirical validation",
+      "External deep-research kickoff",
+      "GPU training or background indefinite execution"
+    ]
+  },
+  "status": "partial",
+  "updated_at": "2026-11-06T11:21:50.925334+00:00",
+  "evidence_cutoff": "2026-11-06",
+  "actual_environment": "Active Codex conversation on macOS; ordinary web tools, local Python/Node and three reviewer agents",
+  "capabilities": [
+    "Primary-source web retrieval with documented access limits",
+    "Local financial computation, spreadsheet export and HTML rendering",
+    "Exactly three task-level reviewers; no external Deep Research connector"
+  ],
+  "pass_counter": 7,
+  "assumptions": [
+    "M004 sponsor-funded combined approval by2030 is counterfactual",
+    "All financial point inputs are scenarios; original annual workbook absent",
+    "Named center ramps, support costs and willingness to pay unverified"
+  ],
+  "user_decisions": [
+    "Execute directly in current session",
+    "Three-layer product separation and exactly three peer perspectives",
+    "Deliver two nonadditive financial boundaries and provenance"
+  ],
+  "output_index": [
+    {
+      "path": "deliverables/POSTER_AND_POWERPOINT_PROMPT.md",
+      "title": "POSTER_AND_POWERPOINT_PROMPT",
+      "status": "final"
+    },
+    {
+      "path": "deliverables/THREE_PEER_AUDIT.md",
+      "title": "THREE_PEER_AUDIT",
+      "status": "final"
+    },
+    {
+      "path": "deliverables/EXCEL_DATA_BLOCKS.md",
+      "title": "EXCEL_DATA_BLOCKS",
+      "status": "final"
+    },
+    {
+      "path": "deliverables/REFERENCE_LEDGER.md",
+      "title": "REFERENCE_LEDGER",
+      "status": "final"
+    },
+    {
+      "path": "deliverables/FINANCIAL_TABLES.md",
+      "title": "FINANCIAL_TABLES",
+      "status": "final"
+    },
+    {
+      "path": "deliverables/CONTINUATION.md",
+      "title": "CONTINUATION",
+      "status": "final"
+    },
+    {
+      "path": "deliverables/DECISION_RECORD.md",
+      "title": "DECISION_RECORD",
+      "status": "partial"
+    },
+    {
+      "path": "deliverables/DILIGENCE_FINANCIAL_MODEL.xlsx",
+      "title": "Financial workbook",
+      "status": "final"
+    }
+  ],
+  "next_actions": [
+    "Obtain original M001/M004 annual schedules and reconcile target variance",
+    "Resolve chronic target-site signal specificity and tissue-safety evidence",
+    "Obtain combined-platform approval dossier,sponsor allocation and executed licenses",
+    "Complete limited-access full text/supplement checks and current MDR amendment reconciliation",
+    "Validate center funnel,paid demand and all-in support/voice quotes"
+  ],
+  "limitations": [
+    "No source-review saturation established",
+    "No source financial model supplied",
+    "Source records include different read scopes and unresolved product identities",
+    "No scientific/regulatory acceptance inferred from artifact QA"
+  ],
+  "gaps": [
+    {
+      "id": "G001",
+      "description": "Safe chronic tonsillar information and incremental utility unproved",
+      "severity": "critical",
+      "status": "open",
+      "resolution": ""
+    },
+    {
+      "id": "G002",
+      "description": "Counterfactual combined sponsor approval and executed rights unavailable",
+      "severity": "critical",
+      "status": "open",
+      "resolution": ""
+    },
+    {
+      "id": "G003",
+      "description": "Original cash-flow schedules/full-text and standards currency gaps",
+      "severity": "major",
+      "status": "open",
+      "resolution": ""
+    }
+  ],
+  "contradictions": [
+    {
+      "id": "X001",
+      "description": "Cadaveric sheep characterized as chronic ovine evidence",
+      "severity": "major",
+      "status": "resolved",
+      "resolution": "Corrected all retained conclusions to cadaveric sheep; no chronic credit."
+    },
+    {
+      "id": "X002",
+      "description": "Metzger grouped as intracortical",
+      "severity": "major",
+      "status": "resolved",
+      "resolution": "Separated subdural ECoG from penetrating arrays."
+    }
+  ],
+  "critical_review": {
+    "scope_coverage": {
+      "attested": false,
+      "note": "Three-peer audits and explicit unresolved gaps retained; not claiming exhaustive passage verification."
+    },
+    "source_sufficiency": {
+      "attested": false,
+      "note": "Three-peer audits and explicit unresolved gaps retained; not claiming exhaustive passage verification."
+    },
+    "claim_support": {
+      "attested": false,
+      "note": "Three-peer audits and explicit unresolved gaps retained; not claiming exhaustive passage verification."
+    },
+    "contradictory_evidence": {
+      "attested": true,
+      "note": "Three-peer audits and explicit unresolved gaps retained; not claiming exhaustive passage verification."
+    },
+    "cross_domain_transfer": {
+      "attested": true,
+      "note": "Three-peer audits and explicit unresolved gaps retained; not claiming exhaustive passage verification.",
+      "applicability": "applicable"
+    },
+    "limitations": {
+      "attested": true,
+      "note": "Three-peer audits and explicit unresolved gaps retained; not claiming exhaustive passage verification."
+    }
+  },
+  "completion_rationale": "Executed public diligence and requested artifact package; full evidence sufficiency remains partial."
+}

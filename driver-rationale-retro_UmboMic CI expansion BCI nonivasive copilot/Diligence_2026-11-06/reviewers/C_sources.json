@@ -1,0 +1,482 @@
+[
+  {
+    "id": "SRM001",
+    "title": "21 CFR 812.20 \u2014 Application",
+    "authors": [
+      "U.S. Food and Drug Administration / eCFR"
+    ],
+    "url": "https://www.ecfr.gov/current/title-21/chapter-I/subchapter-H/part-812/subpart-B/section-812.20",
+    "doi": null,
+    "date": "Current through 2026-11-04",
+    "access_date": "2026-11-06",
+    "access_scope": "Full section",
+    "locator": "812.20(a)(1)-(2), (b)",
+    "finding": "Significant-risk investigations require IDE submission and FDA approval before initiation.",
+    "limitations": "IDE is research authorization, not marketing approval.",
+    "status": "reviewed"
+  },
+  {
+    "id": "SRM002",
+    "title": "21 CFR 814.39 \u2014 PMA supplements",
+    "authors": [
+      "U.S. Food and Drug Administration / eCFR"
+    ],
+    "url": "https://www.ecfr.gov/current/title-21/chapter-I/subchapter-H/part-814/subpart-B/section-814.39",
+    "doi": null,
+    "date": "Current through 2026-11-04",
+    "access_date": "2026-11-06",
+    "access_scope": "Section plus FDA explanatory page",
+    "locator": "814.39(a); FDA PMA Supplements and Amendments, panel-track and new-PMA sections",
+    "finding": "Changes affecting safety/effectiveness require applicable supplements; significant changes/new indications can need substantial clinical data or new PMA.",
+    "limitations": "Exact route depends on sponsor's approved device and intended change; sponsor data rights are essential.",
+    "status": "reviewed"
+  },
+  {
+    "id": "SRM003",
+    "title": "Quality Management System Regulation (QMSR)",
+    "authors": [
+      "U.S. Food and Drug Administration"
+    ],
+    "url": "https://www.fda.gov/medical-devices/postmarket-requirements-devices/quality-management-system-regulation-qmsr",
+    "doi": null,
+    "date": "2026-02-02 update",
+    "access_date": "2026-11-06",
+    "access_scope": "Page substantive sections",
+    "locator": "Introduction; Applicability; Inspections",
+    "finding": "QMSR effective February 2, 2026 incorporates ISO 13485:2016 into 21 CFR part 820.",
+    "limitations": "ISO certification alone does not establish FDA compliance or approval.",
+    "status": "reviewed"
+  },
+  {
+    "id": "SRM004",
+    "title": "Marketing Submission Recommendations for a Predetermined Change Control Plan for Artificial Intelligence-Enabled Device Software Functions",
+    "authors": [
+      "U.S. Food and Drug Administration"
+    ],
+    "url": "https://www.fda.gov/media/166704/download",
+    "doi": null,
+    "date": "2025-08-18",
+    "access_date": "2026-11-06",
+    "access_scope": "PDF title/date and guidance landing-page scope",
+    "locator": "PDF cover; guidance description of modifications/methodology/impact assessment",
+    "finding": "Final guidance originally issued December 4, 2024; current version August 18, 2025. PCCP reviewed in marketing submission covers specified changes.",
+    "limitations": "Guidance nonbinding; not unrestricted online learning or permission to change intended use.",
+    "status": "reviewed"
+  },
+  {
+    "id": "SRM005",
+    "title": "Clinical Decision Support Software",
+    "authors": [
+      "U.S. Food and Drug Administration"
+    ],
+    "url": "https://www.fda.gov/media/109618/download",
+    "doi": null,
+    "date": "2026-01-29",
+    "access_date": "2026-11-06",
+    "access_scope": "PDF relevant sections",
+    "locator": "PDF cover; Section IV criterion 1 pp7-9; supersedes January 6 2026",
+    "finding": "Medical-purpose analysis of signals from signal-acquisition systems does not qualify as non-device CDS under criterion 1.",
+    "limitations": "HCP oversight alone cannot satisfy all statutory criteria; nonmedical functions can remain non-devices.",
+    "status": "reviewed"
+  },
+  {
+    "id": "SRM006",
+    "title": "P960009/S478 Summary of Safety and Effectiveness Data",
+    "authors": [
+      "U.S. Food and Drug Administration; applicant Medtronic Inc."
+    ],
+    "url": "https://www.accessdata.fda.gov/cdrh_docs/pdf/P960009S478B.pdf",
+    "doi": null,
+    "date": "2025-02-20",
+    "access_date": "2026-11-06",
+    "access_scope": "PDF relevant device-description sections",
+    "locator": "pp1, 5-6; patient programmer and aDBS feature",
+    "finding": "Approval introduces optional aDBS for Parkinson disease; patient pause returns therapy to clinician-programmed conventional DBS; adjustments remain within clinician limits.",
+    "limitations": "Valid analogy for bounded control, not evidence of semantic privacy firewall or tonsillar safety.",
+    "status": "reviewed"
+  },
+  {
+    "id": "SRM007",
+    "title": "MDCG 2021-24 Rev.1 \u2014 Guidance on classification of medical devices",
+    "authors": [
+      "Medical Device Coordination Group"
+    ],
+    "url": "https://health.ec.europa.eu/system/files/2021-10/mdcg_2021-24_en_0.pdf",
+    "doi": null,
+    "date": "2026-04",
+    "access_date": "2026-11-06",
+    "access_scope": "PDF title, Rules 8, 9, 11, 22 sections",
+    "locator": "pp1, 40-43; Rule 8 examples",
+    "finding": "Active implantable devices/accessories are class III; guidance lists cochlear implants; devices controlling/monitoring/directly influencing active implants also class III.",
+    "limitations": "Guidance is nonbinding; separate unrelated communication software requires its own classification.",
+    "status": "reviewed"
+  },
+  {
+    "id": "SRM008",
+    "title": "Regulation (EU) 2024/1689, consolidated 27 July 2026",
+    "authors": [
+      "European Parliament and Council of the European Union"
+    ],
+    "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:02024R1689-20260727",
+    "doi": null,
+    "date": "2026-07-27 consolidated",
+    "access_date": "2026-11-06",
+    "access_scope": "Relevant consolidated Articles plus Commission timeline",
+    "locator": "Article 113; Article 6; Commission AI Act timeline",
+    "finding": "General application August 2, 2026; high-risk Annex III rules December 2, 2027; high-risk regulated-product Annex I rules August 2, 2028 after 2026 amendment.",
+    "limitations": "Consolidation is documentation; official amending acts control. Device/product classification and exemptions need function-level analysis.",
+    "status": "reviewed"
+  },
+  {
+    "id": "SRM009",
+    "title": "National Coverage Determination 50.3 \u2014 Cochlear Implantation",
+    "authors": [
+      "Centers for Medicare & Medicaid Services"
+    ],
+    "url": "https://www.cms.gov/medicare-coverage-database/view/ncd.aspx?ncdid=245",
+    "doi": null,
+    "date": "Effective 2022-09-26; implementation 2023-03-24",
+    "access_date": "2026-11-06",
+    "access_scope": "Full substantive NCD",
+    "locator": "Sections B-D",
+    "finding": "Limited benefit threshold is <=60% best-aided open-set sentence recognition with bilateral moderate-to-profound sensorineural hearing loss and all listed criteria, including FDA-label use.",
+    "limitations": "Not universal eligibility, payment amount, coverage of elective tonsillar hardware, or SaaS reimbursement.",
+    "status": "reviewed"
+  },
+  {
+    "id": "SRM010",
+    "title": "NG155 \u2014 Tinnitus: assessment and management",
+    "authors": [
+      "National Institute for Health and Care Excellence"
+    ],
+    "url": "https://www.nice.org.uk/guidance/ng155/chapter/Recommendations",
+    "doi": null,
+    "date": "2020-03-11",
+    "access_date": "2026-11-06",
+    "access_scope": "Selected recommendations",
+    "locator": "1.3.6-1.3.8; 1.5.4; neuromodulation research statement",
+    "finding": "Stepped tinnitus-distress CBT follows support; assessment is by qualified professionals; neuromodulation lacks recommendation for routine practice in this guideline.",
+    "limitations": "Does not validate autonomous CBT agents or tonsillar neuromodulation.",
+    "status": "reviewed"
+  },
+  {
+    "id": "SRM011",
+    "title": "45 CFR 164.526 \u2014 Amendment of protected health information",
+    "authors": [
+      "U.S. Department of Health and Human Services / eCFR"
+    ],
+    "url": "https://www.ecfr.gov/current/title-45/subtitle-A/subchapter-C/part-164/subpart-E/section-164.526",
+    "doi": null,
+    "date": "Current through 2026-11-04",
+    "access_date": "2026-11-06",
+    "access_scope": "Full section",
+    "locator": "164.526(a)-(d)",
+    "finding": "Patients may request amendments; covered entities may deny on enumerated grounds; disagreement and amendment records are appended/linked.",
+    "limitations": "No general right to delete accurate records or veto required clinical documentation.",
+    "status": "reviewed"
+  },
+  {
+    "id": "SRM012",
+    "title": "Cybersecurity in Medical Devices: Quality Management System Considerations and Content of Premarket Submissions",
+    "authors": [
+      "U.S. Food and Drug Administration"
+    ],
+    "url": "https://www.fda.gov/media/119933/download",
+    "doi": null,
+    "date": "2026-02-03",
+    "access_date": "2026-11-06",
+    "access_scope": "PDF cover/revision history; FDA cybersecurity FAQ substance",
+    "locator": "Cover and Section VII; FDA section 524B FAQ",
+    "finding": "February 2026 version supersedes June 2025. Cyber-device submissions need vulnerability plans, processes for patches, and SBOM under section 524B.",
+    "limitations": "Guidance recommendations and statutory duties distinguished; isolation does not remove lifecycle cybersecurity obligations.",
+    "status": "reviewed"
+  },
+  {
+    "id": "SRM013",
+    "title": "Regulating medical devices in the UK",
+    "authors": [
+      "Medicines and Healthcare products Regulatory Agency"
+    ],
+    "url": "https://www.gov.uk/guidance/regulating-medical-devices-in-the-uk",
+    "doi": null,
+    "date": "Current page accessed 2026-11-06",
+    "access_date": "2026-11-06",
+    "access_scope": "CE recognition and GB requirements sections",
+    "locator": "CE marking; transition timelines",
+    "finding": "Current guidance recognizes qualifying EU MDR CE devices in Great Britain until June 30, 2030; registration and local requirements remain.",
+    "limitations": "Base launch 2033 cannot assume current transition extends automatically; Northern Ireland differs.",
+    "status": "reviewed"
+  },
+  {
+    "id": "SRM014",
+    "title": "Government response: indefinite recognition of CE marked medical devices",
+    "authors": [
+      "Medicines and Healthcare products Regulatory Agency"
+    ],
+    "url": "https://www.gov.uk/government/consultations/medical-devices-regulations-targeted-consultation-on-the-indefinite-recognition-of-ce-marked-devices",
+    "doi": null,
+    "date": "2026-10-21 update",
+    "access_date": "2026-11-06",
+    "access_scope": "Outcome webpage",
+    "locator": "Detail of outcome",
+    "finding": "Government intends legislative changes for indefinite recognition of EU MDR/IVDR devices; UK responsible person, registration and PMS remain.",
+    "limitations": "Policy intention is not proof implementing legislation is already effective.",
+    "status": "reviewed"
+  },
+  {
+    "id": "SRM015",
+    "title": "Reclassifying active implantable medical devices (AIMD)",
+    "authors": [
+      "Therapeutic Goods Administration"
+    ],
+    "url": "https://www.tga.gov.au/resources/guidance/reclassifying-active-implantable-medical-devices-aimd",
+    "doi": null,
+    "date": "2023-05-05 update",
+    "access_date": "2026-11-06",
+    "access_scope": "Classification and new-application sections",
+    "locator": "Rule 5.7; applications on/after 2021-11-25",
+    "finding": "New AIMD ARTG applications are class III; examples include cochlear implants and brain stimulation systems.",
+    "limitations": "ARTG inclusion is distinct from payer benefit listing.",
+    "status": "reviewed"
+  },
+  {
+    "id": "SRM016",
+    "title": "About medical devices",
+    "authors": [
+      "Health Canada"
+    ],
+    "url": "https://www.canada.ca/en/health-canada/services/drugs-health-products/medical-devices/about-medical-devices.html",
+    "doi": null,
+    "date": "Current page accessed 2026-11-06",
+    "access_date": "2026-11-06",
+    "access_scope": "Licensing sections",
+    "locator": "Medical device licence for classes II-IV",
+    "finding": "Class II-IV devices require MDL before sale/import; importer/distributor establishment obligations also apply.",
+    "limitations": "Specific combined-platform classification and provincial payment require separate review.",
+    "status": "reviewed"
+  },
+  {
+    "id": "SRM017",
+    "title": "Frequently Asked Questions",
+    "authors": [
+      "Pharmaceuticals and Medical Devices Agency"
+    ],
+    "url": "https://www.pmda.go.jp/english/about-pmda/0004.html",
+    "doi": null,
+    "date": "Current page accessed 2026-11-06",
+    "access_date": "2026-11-06",
+    "access_scope": "Relevant FAQ answers",
+    "locator": "Foreign medical-device clinical data; price/reimbursement",
+    "finding": "PMDA accepts and reviews foreign device clinical data for marketing applications.",
+    "limitations": "Acceptance is not assurance no Japanese bridging work; local-language decoder validation remains scientific requirement.",
+    "status": "reviewed"
+  },
+  {
+    "id": "SRM018",
+    "title": "Medical Devices \u2014 Approval Process",
+    "authors": [
+      "Ministry of Food and Drug Safety, Republic of Korea"
+    ],
+    "url": "https://www.mfds.go.kr/eng/wpge/m_39/de011026l001.do",
+    "doi": null,
+    "date": "Current page accessed 2026-11-06",
+    "access_date": "2026-11-06",
+    "access_scope": "Approval process webpage",
+    "locator": "Premarket approval and technical-document sections",
+    "finding": "Classes III/IV require MFDS approval; local manufacturing/import business licensing and technical evidence apply.",
+    "limitations": "No model-specific classification or Korean pricing verified.",
+    "status": "reviewed"
+  },
+  {
+    "id": "SRM019",
+    "title": "Regulation (EU) 2017/745 \u2014 Medical Device Regulation",
+    "authors": [
+      "European Parliament and Council of the European Union"
+    ],
+    "url": "https://eur-lex.europa.eu/eli/reg/2017/745/2026-01-01/eng/pdf",
+    "doi": null,
+    "date": "2026-01-01 consolidated reference",
+    "access_date": "2026-11-06",
+    "access_scope": "Relevant Annex VIII extract; original regulation sections",
+    "locator": "Annex VIII Rules 8/9; Article 10; Annex I section19",
+    "finding": "Active implantables and applicable accessories are class III; implant documentation retention extends at least 15 years after last device placed on market.",
+    "limitations": "Full latest amendment reconciliation remains a counsel task; April2026 classification guidance cross-check performed.",
+    "status": "reviewed"
+  },
+  {
+    "id": "SRM020",
+    "title": "Premarket Approval (PMA)",
+    "authors": [
+      "U.S. Food and Drug Administration"
+    ],
+    "url": "https://www.fda.gov/medical-devices/premarket-submissions-selecting-and-preparing-correct-submission/premarket-approval-pma",
+    "doi": null,
+    "date": "Current page accessed 2026-11-06",
+    "access_date": "2026-11-06",
+    "access_scope": "When PMA required section",
+    "locator": "When a PMA is Required",
+    "finding": "PMA is principal high-risk device route; some historical classification exceptions exist.",
+    "limitations": "Do not assert every implant or software function universally needs PMA.",
+    "status": "reviewed"
+  },
+  {
+    "id": "SRM021",
+    "title": "De Novo Classification Request",
+    "authors": [
+      "U.S. Food and Drug Administration"
+    ],
+    "url": "https://www.fda.gov/medical-devices/premarket-submissions-selecting-and-preparing-correct-submission/de-novo-classification-request",
+    "doi": null,
+    "date": "Current page accessed 2026-11-06",
+    "access_date": "2026-11-06",
+    "access_scope": "Definition and grant/decline criteria",
+    "locator": "What is a De Novo Classification Request; Grant",
+    "finding": "Novel devices can use De Novo where general/special controls assure safety/effectiveness and no predicate exists.",
+    "limitations": "Cannot assume novel high-risk tonsillar implant qualifies merely because novel.",
+    "status": "reviewed"
+  },
+  {
+    "id": "SRM022",
+    "title": "Investigational Device Exemptions for Early Feasibility Medical Device Clinical Studies, Including Certain First in Human Studies",
+    "authors": [
+      "U.S. Food and Drug Administration"
+    ],
+    "url": "https://www.fda.gov/media/81784/download",
+    "doi": null,
+    "date": "2013-10",
+    "access_date": "2026-11-06",
+    "access_scope": "Guidance description and scope excerpt",
+    "locator": "Overview, p7",
+    "finding": "EFS can establish proof of principle/initial safety when justified by benefit-risk and human-subject safeguards.",
+    "limitations": "Historical currently relevant guidance exception to 2020 window; not automatic entitlement to human implantation.",
+    "status": "reviewed"
+  },
+  {
+    "id": "SRM023",
+    "title": "21 CFR 50.20 \u2014 General requirements for informed consent",
+    "authors": [
+      "U.S. Food and Drug Administration / eCFR"
+    ],
+    "url": "https://www.ecfr.gov/current/title-21/chapter-I/subchapter-A/part-50/subpart-B/section-50.20",
+    "doi": null,
+    "date": "Current through 2026-11-04",
+    "access_date": "2026-11-06",
+    "access_scope": "Full substantive section",
+    "locator": "50.20",
+    "finding": "Consent cannot include exculpatory language waiving apparent legal rights or releasing investigator/sponsor from negligence liability.",
+    "limitations": "General research rule; not case-specific contract advice.",
+    "status": "reviewed"
+  },
+  {
+    "id": "SRM024",
+    "title": "Requests for Feedback and Meetings for Medical Device Submissions: The Q-Submission Program",
+    "authors": [
+      "U.S. Food and Drug Administration"
+    ],
+    "url": "https://www.fda.gov/regulatory-information/search-fda-guidance-documents/requests-feedback-and-meetings-medical-device-submissions-q-submission-program",
+    "doi": null,
+    "date": "2025-05-29",
+    "access_date": "2026-11-06",
+    "access_scope": "Guidance landing-page scope",
+    "locator": "Purpose and submission list",
+    "finding": "Q-Submission offers FDA interaction concerning IDE, PMA, De Novo, 510(k) and other pathways.",
+    "limitations": "Feedback is not approval; requested timelines must not be modeled as guaranteed clearance.",
+    "status": "reviewed"
+  },
+  {
+    "id": "SRM025",
+    "title": "Regulation (EU) 2016/679 \u2014 General Data Protection Regulation",
+    "authors": [
+      "European Parliament and Council of the European Union"
+    ],
+    "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32016R0679",
+    "doi": null,
+    "date": "2016-04-27",
+    "access_date": "2026-11-06",
+    "access_scope": "Relevant Articles 9 and 16 excerpts",
+    "locator": "Article9 special categories; Article16 rectification",
+    "finding": "Health data processing needs applicable legal basis and Article9 condition; inaccurate personal data has rectification rights.",
+    "limitations": "Historical current-law exception; rights have limits and do not establish universal precommit veto over clinical records.",
+    "status": "reviewed"
+  },
+  {
+    "id": "SM001",
+    "title": "FY26 ASX Media release",
+    "authors": [
+      "Cochlear Limited"
+    ],
+    "url": "https://assets.cochlear.com/api/public/content/0b55c80777054c1aafbe150960c27a1b?v=0d3358e0",
+    "doi": null,
+    "date": "2026-08-18",
+    "access_date": "2026-11-06",
+    "access_scope": "Official PDF pp1-2",
+    "locator": "p2 FY26 operational review",
+    "finding": "56,692 CI units; A$1,435.2M CI revenue. Ratio A$25,315.741/ear. Emerging-market mix affects realization.",
+    "limitations": "US$16,455 requires modeled 0.65 USD/AUD; not verified actual FX or US net ASP.",
+    "status": "reviewed"
+  },
+  {
+    "id": "SM002",
+    "title": "Annual Report 2025/26 \u2014 Revenue and Financial Review",
+    "authors": [
+      "Sonova Holding AG"
+    ],
+    "url": "https://report.sonova.com/2026/en/revenue",
+    "doi": null,
+    "date": "2026-05-18",
+    "access_date": "2026-11-06",
+    "access_scope": "Revenue note and financial review",
+    "locator": "Note2.3; CI business discussion",
+    "finding": "CI systems CHF179.6M, upgrades/accessories CHF72.5M, CI segment CHF252.1M.",
+    "limitations": "No matching unit denominator retrieved; cannot infer implant ASP. Prior-year figures restated for discontinued operations.",
+    "status": "reviewed"
+  },
+  {
+    "id": "SM003",
+    "title": "Envoy Medical Inc. Form 10-K for year ended December 31, 2025",
+    "authors": [
+      "Envoy Medical Inc."
+    ],
+    "url": "https://www.sec.gov/Archives/edgar/data/1840877/000121390026032683/ea0280884-10k_envoy.htm",
+    "doi": null,
+    "date": "2026-03",
+    "access_date": "2026-11-06",
+    "access_scope": "Selected audited financial statements and MD&A",
+    "locator": "Operating statements; cash-flow table; MD&A pp68-69",
+    "finding": "Revenue $0.241M, R&D $12.486M, net loss $23.756M, operating cash use $18.201M; revenue primarily Esteem-related.",
+    "limitations": "Not Acclaim commercial ASP/volume; burn benchmark includes specific corporate circumstances.",
+    "status": "reviewed"
+  },
+  {
+    "id": "SM004",
+    "title": "Envoy Medical Submits Second Module of Modular Premarket Approval Application to FDA",
+    "authors": [
+      "Envoy Medical Inc."
+    ],
+    "url": "https://ir.envoymedical.com/news-events/press-releases/detail/102/envoy-medical-submits-second-module-of-modular-premarket-approval-application-to-fda-for-breakthrough-designated-acclaimr-cochlear-implant",
+    "doi": null,
+    "date": "2026-10-12",
+    "access_date": "2026-11-06",
+    "access_scope": "Issuer announcement",
+    "locator": "Second-module and remaining-milestones paragraphs",
+    "finding": "Second of four planned modules submitted; investigational Acclaim pivotal trial ongoing.",
+    "limitations": "Submission does not mean approval or favorable FDA review; timing is forward-looking.",
+    "status": "reviewed"
+  },
+  {
+    "id": "SM005",
+    "title": "Envoy Medical Reports Third Quarter 2026 Results and Highlights Continued Progress",
+    "authors": [
+      "Envoy Medical Inc."
+    ],
+    "url": "https://ir.envoymedical.com/news-events/press-releases/detail/107/envoy-medical-reports-third-quarter-2026-results-and-highlights-continued-progress",
+    "doi": null,
+    "date": "2026-11-05",
+    "access_date": "2026-11-06",
+    "access_scope": "Issuer business update",
+    "locator": "Highlights Subsequent to Q3 2026",
+    "finding": "Issuer reports all 56 participants past six-month visit milestone; Stage2 12-month completion early Q2 2027 and final module a few months after.",
+    "limitations": "Within cutoff; issuer-reported, not independent study verification or FDA approval.",
+    "status": "reviewed"
+  }
+]

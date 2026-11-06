@@ -1,0 +1,1313 @@
+[
+  {
+    "id": "M001",
+    "title": "Supplied whole-program financial targets",
+    "identity": "session/local:M001",
+    "status": "reviewed",
+    "content_level": "fulltext",
+    "access_date": "2026-11-06",
+    "independence_family": "M001",
+    "read_scope": "Prompt\u00a74Boundary1",
+    "access_note": "Annual source workbook unavailable.",
+    "authors": [
+      "User"
+    ],
+    "locator": "Prompt\u00a74Boundary1",
+    "finding": "Whole-program boundary and target outputs."
+  },
+  {
+    "id": "M002",
+    "title": "Independent financial reconstruction",
+    "identity": "../model/calculate.py",
+    "status": "reviewed",
+    "content_level": "fulltext",
+    "access_date": "2026-11-06",
+    "independence_family": "M002",
+    "read_scope": "Executed code/results; m001,m004,stats",
+    "access_note": "Unvalidated assumptions; does not reproduce original targets.",
+    "authors": [
+      "Coordinating analyst; reviewed by Reviewer C"
+    ],
+    "locator": "Executed code/results; m001,m004,stats",
+    "finding": "Explicit annual illustrative cash-flow model."
+  },
+  {
+    "id": "M003",
+    "title": "Price-volume, delay and runoff stresses",
+    "identity": "../model/calculate.py",
+    "status": "reviewed",
+    "content_level": "fulltext",
+    "access_date": "2026-11-06",
+    "independence_family": "M003",
+    "read_scope": "Executed scenario recomputation; sens,stats",
+    "access_note": "Not probabilities or full actuarial liability.",
+    "authors": [
+      "Coordinating analyst; reviewed by Reviewer C"
+    ],
+    "locator": "Executed scenario recomputation; sens,stats",
+    "finding": "Conditional sensitivities."
+  },
+  {
+    "id": "M004",
+    "title": "Counterfactual sponsor-approved software option",
+    "identity": "session/local:M004",
+    "status": "reviewed",
+    "content_level": "fulltext",
+    "access_date": "2026-11-06",
+    "independence_family": "M004",
+    "read_scope": "Prompt\u00a74Boundary2",
+    "access_note": "Combined approval,funding,rights and original cash flows unavailable.",
+    "authors": [
+      "User"
+    ],
+    "locator": "Prompt\u00a74Boundary2",
+    "finding": "Nonadditive software option."
+  },
+  {
+    "id": "SA001",
+    "title": "Artificial Intelligence Risk Management Framework: Generative Artificial Intelligence Profile",
+    "identity": "https://nvlpubs.nist.gov/nistpubs/ai/NIST.AI.600-1.pdf",
+    "status": "reviewed",
+    "content_level": "fulltext",
+    "access_date": "2026-11-06",
+    "independence_family": "SA001",
+    "read_scope": "Full PDF text accessed; targeted sections 2.2, 2.7, MS-2.2-003, MS-2.5, MS-2.6",
+    "access_note": "Voluntary general AI risk guidance; does not establish incidence of psychiatric misattribution in this proposed device.",
+    "authors": [
+      "National Institute of Standards and Technology"
+    ],
+    "locator": "Printed pp.6 and 9; sections 2.2 and 2.7; action tables",
+    "finding": "Confabulated clinical summaries can lead to erroneous diagnoses/treatments; automation bias and data privacy are identified risks. Context-specific evaluations, consent withdrawal and monitoring are recommended."
+  },
+  {
+    "id": "SCL001",
+    "title": "A high-performance speech neuroprosthesis",
+    "identity": "https://www.nature.com/articles/s41586-023-06377-x",
+    "status": "reviewed",
+    "content_level": "abstract",
+    "access_date": "2026-11-06",
+    "independence_family": "SCL001",
+    "read_scope": "Publisher indexed abstract and PDF methods excerpt; direct HTML redirected to unavailable identity provider.",
+    "access_note": "No tonsillar recordings; n=1; speech attempt task. Not an independently proven implanted wireless platform.",
+    "authors": [
+      "Francis R. Willett",
+      "Erin M. Kunz",
+      "Chaofei Fan",
+      "Donald T. Avansino",
+      "Guy H. Wilson",
+      "Eun Young Choi",
+      "Foram Kamdar",
+      "Matthew F. Glasser",
+      "Leigh R. Hochberg",
+      "Shaul Druckmann",
+      "Krishna V. Shenoy",
+      "Jaimie M. Henderson"
+    ],
+    "locator": "Abstract; opening Results and Fig. 1",
+    "finding": "One participant with ALS; intracortical spiking recordings; 62 words/minute, 23.8% WER with 125000-word vocabulary and 9.1% WER with 50 words. Arrays targeted area 6v and area 44."
+  },
+  {
+    "id": "SCL002",
+    "title": "A high-performance neuroprosthesis for speech decoding and avatar control",
+    "identity": "https://escholarship.org/uc/item/5829g475",
+    "status": "reviewed",
+    "content_level": "abstract",
+    "access_date": "2026-11-06",
+    "independence_family": "SCL002",
+    "read_scope": "Author repository article text; publisher indexed abstract; PMC indexed methods passages. Direct PMC hit captcha.",
+    "access_note": "Correction dated 2024-07-04 inspected through publisher indexed text; use updated anatomical mapping. No tonsillar transfer established.",
+    "authors": [
+      "Sean L. Metzger",
+      "Kaylo T. Littlejohn",
+      "Alexander B. Silva",
+      "David A. Moses",
+      "Margaret P. Seaton",
+      "Ran Wang",
+      "Maximilian E. Dougherty",
+      "Jessie R. Liu",
+      "Peter Wu",
+      "Michael A. Berger",
+      "Inga Zhuravleva",
+      "Adelyn Tu-Chan",
+      "Karunesh Ganguly",
+      "Gopala K. Anumanchipalli",
+      "Edward F. Chang"
+    ],
+    "locator": "Overview of multimodal speech-decoding system; Neural implant; abstract",
+    "finding": "One participant with brainstem stroke; 253-channel subdural ECoG surface array, not penetrating single-unit arrays. Attempted silent articulation distinct from imagined speech. Median 78 WPM and 25% WER."
+  },
+  {
+    "id": "SCL003",
+    "title": "An Accurate and Rapidly Calibrating Speech Neuroprosthesis",
+    "identity": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11328962/",
+    "status": "reviewed",
+    "content_level": "fulltext",
+    "access_date": "2026-11-06",
+    "independence_family": "T15",
+    "read_scope": "Full article HTML, targeted Methods, Results and Discussion",
+    "access_note": "Results do not estimate population-level reliability or seven-year durability. Cart, mains power, and percutaneous pedestals; researcher assistance required for connection/start.",
+    "authors": [
+      "Nicholas S. Card",
+      "Maitreyee Wairagkar",
+      "Carrina Iacobacci",
+      "Xianda Hou",
+      "Tyler Singer-Clark",
+      "Francis R. Willett",
+      "Erin M. Kunz",
+      "Chaofei Fan",
+      "Maryam Vahdati Nia",
+      "Darrel R. Deo",
+      "Aparna Srinivasan",
+      "Eun Young Choi",
+      "Matthew F. Glasser",
+      "Leigh R. Hochberg",
+      "Jaimie M. Henderson",
+      "Kiarash Shahlaie",
+      "Sergey D. Stavisky",
+      "David M. Brandman"
+    ],
+    "locator": "Surgical implantation; Results final five Copy Task sessions; Conversation Mode Fig.4; Discussion",
+    "finding": "One participant, T15, ALS; four 64-electrode arrays (256 sites) in left precentral gyrus. Final five Copy Task sessions WER 2.5% (95% CI 2.0\u20133.1); selected conversation sessions 3.7% (3.3\u20134.3), 925 known-label sentences. Total reported use 248.3 hours over 8.4 months."
+  },
+  {
+    "id": "SCL004",
+    "title": "An instantaneous voice-synthesis neuroprosthesis",
+    "identity": "https://www.nature.com/articles/s41586-025-09127-3",
+    "status": "reviewed",
+    "content_level": "abstract",
+    "access_date": "2026-11-06",
+    "independence_family": "T15",
+    "read_scope": "Publisher indexed abstract, supplementary video 15; PMC indexed participant/result passages; UC Davis author metadata",
+    "access_note": "Continuation of participant evidence, not independent new-patient replication. Residual-biosignal negative control is not a test of proposed pharyngeal implants.",
+    "authors": [
+      "Maitreyee Wairagkar",
+      "Nicholas S. Card",
+      "Tyler Singer-Clark",
+      "Xianda Hou",
+      "Carrina Iacobacci",
+      "Lee M. Miller",
+      "Leigh R. Hochberg",
+      "David M. Brandman",
+      "Sergey D. Stavisky"
+    ],
+    "locator": "Abstract; Supplementary Video 15; PMC T15 descriptions",
+    "finding": "256 cortical microelectrodes; voice synthesis and prosodic modulation in T15, same participant as Card. Supplementary test reports unintelligible speech reconstructed from residual microphone/stethoscope/IMU signals, unlike cortical signals."
+  },
+  {
+    "id": "SCL005",
+    "title": "Inner speech in motor cortex and implications for speech neuroprostheses",
+    "identity": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12360486/",
+    "status": "reviewed",
+    "content_level": "fulltext",
+    "access_date": "2026-11-06",
+    "independence_family": "SCL005",
+    "read_scope": "Publisher/PMC indexed summary, Fig.7 and methods passages; PubMed and Stanford full author metadata; direct PMC captcha",
+    "access_note": "Neural keyword accuracy is not deterministic consent or zero false activation. Selected task results do not establish unrestricted private-thought reading or tonsillar signal content.",
+    "authors": [
+      "Erin M. Kunz",
+      "Benyamin Abramovich Krasa",
+      "Foram Kamdar",
+      "Donald T. Avansino",
+      "Nick Hahn",
+      "Seonghyun Yoon",
+      "Akansha Singh",
+      "Samuel R. Nason-Tomaszewski",
+      "Nicholas S. Card",
+      "Justin J. Jude",
+      "Brandon G. Jacques",
+      "Payton H. Bechefsky",
+      "Carrina Iacobacci",
+      "Leigh R. Hochberg",
+      "Daniel B. Rubin",
+      "Ziv M. Williams",
+      "David M. Brandman",
+      "Sergey D. Stavisky",
+      "Nicholas AuYong",
+      "Chethan Pandarinath",
+      "Shaul Druckmann",
+      "Jaimie M. Henderson",
+      "Francis R. Willett"
+    ],
+    "locator": "Summary; Figure 7; real-time sessions methods",
+    "finding": "Four participants with cortical arrays; proof of concept inner speech decoding. T15 among tested participants. Keyword lock in T12: 98.75% detection accuracy; small-vocabulary WER 43.45% reported for that test."
+  },
+  {
+    "id": "SCL006",
+    "title": "Electrode Setup for Electromyography-Based Silent Speech Interfaces: A Pilot Study",
+    "identity": "https://www.mdpi.com/1424-8220/25/3/781/html",
+    "status": "reviewed",
+    "content_level": "abstract",
+    "access_date": "2026-11-06",
+    "independence_family": "SCL006",
+    "read_scope": "Publisher/PMC indexed abstract and methods/results passages",
+    "access_note": "Not chronic implanted tonsillar ENG, not inner speech; small electrode-selection pilot does not establish clinical benefit.",
+    "authors": [
+      "Inge Salomons",
+      "Eder del Blanco",
+      "Eva Navas",
+      "Inma Hern\u00e1ez"
+    ],
+    "locator": "Sections 2.1\u20132.3, 3.1\u20133.2",
+    "finding": "Pilot electrode location/type experiments on face/neck EMG; 14 muscles examined in one participant, selecting five face and three neck channels. Frame-based phone classification guides placement."
+  },
+  {
+    "id": "SCL007",
+    "title": "A streaming brain-to-voice neuroprosthesis to restore naturalistic communication",
+    "identity": "https://www.nature.com/articles/s41593-025-01905-6",
+    "status": "reviewed",
+    "content_level": "abstract",
+    "access_date": "2026-11-06",
+    "independence_family": "SCL007",
+    "read_scope": "Publisher indexed abstract and PubMed metadata; full publisher HTML unavailable",
+    "access_note": "Methods not fully inspected; framework transfer is not validation of chronic pharyngeal anatomy or performance.",
+    "authors": [
+      "Kaylo T. Littlejohn",
+      "Cheol Jun Cho",
+      "Jessie R. Liu",
+      "Alexander B. Silva",
+      "Bohan Yu",
+      "Vanessa R. Anderson",
+      "Cady M. Kurtz-Miott",
+      "Samantha Brosler",
+      "Anshul P. Kashyap",
+      "Irina P. Hallinan",
+      "Adit Shah",
+      "Adelyn Tu-Chan",
+      "Karunesh Ganguly",
+      "David A. Moses",
+      "Edward F. Chang",
+      "Gopala K. Anumanchipalli"
+    ],
+    "locator": "Abstract",
+    "finding": "Streaming speech synthesis using cortical-surface recordings in one participant; abstract reports extension of framework to EMG and single-unit data."
+  },
+  {
+    "id": "SCL010",
+    "title": "The UmboMic: A PVDF Cantilever Microphone",
+    "identity": "https://pubmed.ncbi.nlm.nih.gov/39493505/",
+    "status": "reviewed",
+    "content_level": "abstract",
+    "access_date": "2026-11-06",
+    "independence_family": "UmboMic-family",
+    "read_scope": "PubMed abstract and author list; arXiv v1 full-text sensor-design sections inspected",
+    "access_note": "Preprint and publication are same evidence family; no chronic human outcome; 200-word summary cap",
+    "authors": [
+      "Aaron J. Yeiser",
+      "Emma F. Wawrzynek",
+      "John Z. Zhang",
+      "Lukas Graf",
+      "Christopher I. McHugh",
+      "Ioannis Kymissis",
+      "Elizabeth S. Olson",
+      "Jeffrey H. Lang",
+      "Hideko Heidi Nakajima"
+    ],
+    "locator": "Abstract results; arXiv section II",
+    "finding": "3x3 mm triangular PVDF; cadaveric prototype; EIN32.3 dBSPL100Hz\u20137kHz"
+  },
+  {
+    "id": "SCL011",
+    "title": "The UmboMic: Characterization and Testing of a Middle Ear Microphone",
+    "identity": "https://pmc.ncbi.nlm.nih.gov/articles/PMC13020673/",
+    "status": "reviewed",
+    "content_level": "abstract",
+    "access_date": "2026-11-06",
+    "independence_family": "UmboMic-family",
+    "read_scope": "PubMed abstract/metadata; PMC indexed full-text passages sections3.3,4.2 and Fig11; publisher abstract",
+    "access_note": "Not living intact-ear sensitivity or independent patients per sensor; PMC direct open browser challenge, relevant full passages returned by search",
+    "authors": [
+      "Emma F. Wawrzynek",
+      "John Z. Zhang",
+      "Ioannis Kymissis",
+      "Elizabeth S. Olson",
+      "Jeffrey H. Lang",
+      "Hideko Heidi Nakajima"
+    ],
+    "locator": "Methods; Fig11; sections3.3,4.2",
+    "finding": "7sensors5cadaver ears; EIN32.4; 58fC/Pa1kHz and230fC/Pa2kHz include modeled outer-ear transfer"
+  },
+  {
+    "id": "SCL012",
+    "title": "Development of the Surgical Implantation and Fixation of an Implanted Middle Ear Microphone, the UmboMic, in Cadaveric Sheep",
+    "identity": "https://link.springer.com/article/10.1007/s10162-026-01056-w",
+    "status": "reviewed",
+    "content_level": "abstract",
+    "access_date": "2026-11-06",
+    "independence_family": "UmboMic-family",
+    "read_scope": "Publisher full-text abstract, methods, results and change history inspected",
+    "access_note": "Not chronic living sheep or human trial; corrected September22 author name",
+    "authors": [
+      "Isadora C. Comens",
+      "Chaoqun Zhou",
+      "Dan L. Nguyen",
+      "Emma F. Wawrzynek",
+      "John Z. Zhang",
+      "Ioannis Kymissis",
+      "D. Bradley Welling",
+      "Jeffrey H. Lang",
+      "Hideko Heidi Nakajima",
+      "Elizabeth S. Olson"
+    ],
+    "locator": "Abstract methods; Results Use of Specimens; Change history",
+    "finding": "Temporal bones from7female sheep; cadaveric fixation study preparing for live study"
+  },
+  {
+    "id": "SCL013",
+    "title": "Intra-operative recording of motor tract potentials at the cervico-medullary junction following scalp electrical and magnetic stimulation of the motor cortex",
+    "identity": "https://pubmed.ncbi.nlm.nih.gov/1654395/",
+    "status": "reviewed",
+    "content_level": "abstract",
+    "access_date": "2026-11-06",
+    "independence_family": "SCL013",
+    "read_scope": "PubMed complete author list and abstract",
+    "access_note": "Historical exception; not intact tonsillar recording or chronic speech; author initials as indexed (publisher TOC gives NMF Murray)",
+    "authors": [
+      "P. D. Thompson",
+      "B. L. Day",
+      "H. A. Crockard",
+      "I. Calder",
+      "N. M. Murray",
+      "J. C. Rothwell",
+      "C. D. Marsden"
+    ],
+    "locator": "Abstract",
+    "finding": "6patients; exposed cervicomedullary junction; responses to scalp stimulation"
+  },
+  {
+    "id": "SCL014",
+    "title": "Endoscopic transoral-transclival approach to the brainstem and surrounding cisternal space: anatomic study",
+    "identity": "https://pubmed.ncbi.nlm.nih.gov/14683549/",
+    "status": "reviewed",
+    "content_level": "abstract",
+    "access_date": "2026-11-06",
+    "independence_family": "SCL014",
+    "read_scope": "Complete PubMed indexed abstract and metadata via search; direct open challenged",
+    "access_note": "Historical anatomical exception; no chronic decoding evidence",
+    "authors": [
+      "Oreste de Divitiis",
+      "Alfredo Conti",
+      "Filippo Flavio Angileri",
+      "Salvatore Cardali",
+      "Domenico La Torre",
+      "Manfred Tschabitscher"
+    ],
+    "locator": "Abstract methods/results",
+    "finding": "15cadaver heads;20skull bases; surgical clival/dural route"
+  },
+  {
+    "id": "SM001",
+    "title": "FY26 ASX Media release",
+    "identity": "https://assets.cochlear.com/api/public/content/0b55c80777054c1aafbe150960c27a1b?v=0d3358e0",
+    "status": "reviewed",
+    "content_level": "fulltext",
+    "access_date": "2026-11-06",
+    "independence_family": "SM001",
+    "read_scope": "Official PDF pp1-2",
+    "access_note": "US$16,455 requires modeled 0.65 USD/AUD; not verified actual FX or US net ASP.",
+    "authors": [
+      "Cochlear Limited"
+    ],
+    "locator": "p2 FY26 operational review",
+    "finding": "56,692 CI units; A$1,435.2M CI revenue. Ratio A$25,315.741/ear. Emerging-market mix affects realization."
+  },
+  {
+    "id": "SM002",
+    "title": "Annual Report 2025/26 \u2014 Revenue and Financial Review",
+    "identity": "https://report.sonova.com/2026/en/revenue",
+    "status": "reviewed",
+    "content_level": "fulltext",
+    "access_date": "2026-11-06",
+    "independence_family": "SM002",
+    "read_scope": "Revenue note and financial review",
+    "access_note": "No matching unit denominator retrieved; cannot infer implant ASP. Prior-year figures restated for discontinued operations.",
+    "authors": [
+      "Sonova Holding AG"
+    ],
+    "locator": "Note2.3; CI business discussion",
+    "finding": "CI systems CHF179.6M, upgrades/accessories CHF72.5M, CI segment CHF252.1M."
+  },
+  {
+    "id": "SM003",
+    "title": "Envoy Medical Inc. Form 10-K for year ended December 31, 2025",
+    "identity": "https://www.sec.gov/Archives/edgar/data/1840877/000121390026032683/ea0280884-10k_envoy.htm",
+    "status": "reviewed",
+    "content_level": "fulltext",
+    "access_date": "2026-11-06",
+    "independence_family": "SM003",
+    "read_scope": "Selected audited financial statements and MD&A",
+    "access_note": "Not Acclaim commercial ASP/volume; burn benchmark includes specific corporate circumstances.",
+    "authors": [
+      "Envoy Medical Inc."
+    ],
+    "locator": "Operating statements; cash-flow table; MD&A pp68-69",
+    "finding": "Revenue $0.241M, R&D $12.486M, net loss $23.756M, operating cash use $18.201M; revenue primarily Esteem-related."
+  },
+  {
+    "id": "SM004",
+    "title": "Envoy Medical Submits Second Module of Modular Premarket Approval Application to FDA",
+    "identity": "https://ir.envoymedical.com/news-events/press-releases/detail/102/envoy-medical-submits-second-module-of-modular-premarket-approval-application-to-fda-for-breakthrough-designated-acclaimr-cochlear-implant",
+    "status": "reviewed",
+    "content_level": "fulltext",
+    "access_date": "2026-11-06",
+    "independence_family": "SM004",
+    "read_scope": "Issuer announcement",
+    "access_note": "Submission does not mean approval or favorable FDA review; timing is forward-looking.",
+    "authors": [
+      "Envoy Medical Inc."
+    ],
+    "locator": "Second-module and remaining-milestones paragraphs",
+    "finding": "Second of four planned modules submitted; investigational Acclaim pivotal trial ongoing."
+  },
+  {
+    "id": "SM005",
+    "title": "Envoy Medical Reports Third Quarter 2026 Results and Highlights Continued Progress",
+    "identity": "https://ir.envoymedical.com/news-events/press-releases/detail/107/envoy-medical-reports-third-quarter-2026-results-and-highlights-continued-progress",
+    "status": "reviewed",
+    "content_level": "fulltext",
+    "access_date": "2026-11-06",
+    "independence_family": "SM005",
+    "read_scope": "Issuer business update",
+    "access_note": "Within cutoff; issuer-reported, not independent study verification or FDA approval.",
+    "authors": [
+      "Envoy Medical Inc."
+    ],
+    "locator": "Highlights Subsequent to Q3 2026",
+    "finding": "Issuer reports all 56 participants past six-month visit milestone; Stage2 12-month completion early Q2 2027 and final module a few months after."
+  },
+  {
+    "id": "SP001",
+    "title": "MED-EL Launches TICI UNICO, the World's First and Only Totally Invisible Cochlear Implant",
+    "identity": "https://www.medel.com/press-room/press-details/2026/09/29/medel-launches-tici-unico-the-worlds-first-and-only-totally-invisible-cochlear-implant",
+    "status": "reviewed",
+    "content_level": "fulltext",
+    "access_date": "2026-11-06",
+    "independence_family": "SP001",
+    "read_scope": "Issuer announcement full page",
+    "access_note": "Vendor source; underlying certificate/IFU not separately audited;not UmboMic evidence",
+    "authors": [
+      "MED-EL"
+    ],
+    "locator": "Lead;Technology;final CE statement",
+    "finding": "Issuer reports CE mark and European market introduction;subcutaneous microphone"
+  },
+  {
+    "id": "SP002",
+    "title": "Envoy Medical Submits Second Module of Modular Premarket Approval Application to FDA for Breakthrough Designated Acclaim Cochlear Implant",
+    "identity": "https://www.envoymedical.com/news/envoy-medical-submits-second-module-of-modular-premarket-approval-application-to-fda-for-breakthrough-designated-acclaimr-cochlear-implant",
+    "status": "reviewed",
+    "content_level": "fulltext",
+    "access_date": "2026-11-06",
+    "independence_family": "SP002",
+    "read_scope": "Issuer press release; syndicated full issuer text",
+    "access_note": "Submission not approval; forward-looking target",
+    "authors": [
+      "Envoy Medical, Inc."
+    ],
+    "locator": "Second module and remaining milestones",
+    "finding": "Engineering second module of4; final clinical module targetQ22027; investigational trial"
+  },
+  {
+    "id": "SP003",
+    "title": "Correction: Development of the Surgical Implantation and Fixation of an Implanted Middle Ear Microphone, the UmboMic, in Cadaveric Sheep",
+    "identity": "https://link.springer.com/article/10.1007/s10162-026-01072-w",
+    "status": "reviewed",
+    "content_level": "fulltext",
+    "access_date": "2026-11-06",
+    "independence_family": "UmboMic-family",
+    "read_scope": "Full correction inspected;HTML saved",
+    "access_note": "Does not add chronic data",
+    "authors": [
+      "Isadora C. Comens",
+      "Chaoqun Zhou",
+      "Dan L. Nguyen",
+      "Emma F. Wawrzynek",
+      "John Z. Zhang",
+      "Ioannis Kymissis",
+      "D. Bradley Welling",
+      "Jeffrey H. Lang",
+      "Hideko Heidi Nakajima",
+      "Elizabeth S. Olson"
+    ],
+    "locator": "Correction paragraph",
+    "finding": "Corrected presentation of Hideko Heidi Nakajima name"
+  },
+  {
+    "id": "SP004",
+    "title": "NeuroLoop README and GPLv3 LICENSE",
+    "identity": "https://github.com/NeuroSkill-com/neuroloop",
+    "status": "reviewed",
+    "content_level": "fulltext",
+    "access_date": "2026-11-06",
+    "independence_family": "SP004",
+    "read_scope": "Repository README features,metrics,license inspected;rawLICENSE saved",
+    "access_note": "No medical validation; commit not pinned;implementation audit incomplete;GPL obligations require distribution analysis",
+    "authors": [
+      "Nataliya Kosmyna",
+      "Eugene Hauptmann"
+    ],
+    "locator": "Features;EXG Metrics;License",
+    "finding": "Research-only consumerEXG;silent labeling,persistent memory;GPLv3"
+  },
+  {
+    "id": "SP005",
+    "title": "BrainFlow LICENSE",
+    "identity": "https://github.com/brainflow-dev/brainflow/blob/master/LICENSE",
+    "status": "reviewed",
+    "content_level": "fulltext",
+    "access_date": "2026-11-06",
+    "independence_family": "SP005",
+    "read_scope": "Full license text inspected and saved",
+    "access_note": "Exact binary/version and third-party agreement still need audit;not uniformly permissive",
+    "authors": [
+      "Andrey Parfenov",
+      "BrainFlow contributors"
+    ],
+    "locator": "MIT heading;IMPORTANT NOTICE SimpleBLE",
+    "finding": "MIT main license plus specified restrictions for SimpleBLE"
+  },
+  {
+    "id": "SP006",
+    "title": "MNE-Python LICENSE",
+    "identity": "https://github.com/mne-tools/mne-python/blob/main/LICENSE.txt",
+    "status": "reviewed",
+    "content_level": "fulltext",
+    "access_date": "2026-11-06",
+    "independence_family": "SP006",
+    "read_scope": "Full raw license inspected and saved",
+    "access_note": "Dependency/model/data licenses separate;commit not pinned",
+    "authors": [
+      "MNE-Python authors"
+    ],
+    "locator": "Three conditions and disclaimer",
+    "finding": "BSD3clause terms"
+  },
+  {
+    "id": "SP007",
+    "title": "brain.io identity and license unresolved",
+    "identity": "https://www.brain.io/",
+    "status": "identified",
+    "content_level": "metadata",
+    "access_date": "2026-11-06",
+    "independence_family": "SP007",
+    "read_scope": "Landing page only: brain.io heading and hosting link",
+    "access_note": "UNVERIFIED\u2014REQUIRES SOURCE CHECK;not evidence of partnership or license",
+    "authors": [
+      "Unverified"
+    ],
+    "locator": "Entire exposed page",
+    "finding": "Insufficient content to identify intended product/code/license"
+  },
+  {
+    "id": "SP008",
+    "title": "NeuroFocus \u2014 Live focus score from your headphones",
+    "identity": "https://www.neurofocus.dev/",
+    "status": "identified",
+    "content_level": "metadata",
+    "access_date": "2026-11-06",
+    "independence_family": "SP008",
+    "read_scope": "Product page inspected, including preorder and simulation labels",
+    "access_note": "User intended entity unresolved; no executable license established;unrelated same-name repositories must not be conflated",
+    "authors": [
+      "NeuroFocus; legal entity not verified"
+    ],
+    "locator": "Lead;preorder;focus-score simulated",
+    "finding": "One possible NeuroFocus entity markets dryEEG ear pad preorder"
+  },
+  {
+    "id": "SP009",
+    "title": "Classification of pharyngeal muscles based on innervations from glossopharyngeal and vagus nerves in human",
+    "identity": "https://pubmed.ncbi.nlm.nih.gov/19479181/",
+    "status": "reviewed",
+    "content_level": "abstract",
+    "access_date": "2026-11-06",
+    "independence_family": "SP009",
+    "read_scope": "PubMed author and full abstract",
+    "access_note": "Historical anatomy exception;not signal selectivity or implanted function",
+    "authors": [
+      "Yujiro Sakamoto"
+    ],
+    "locator": "Methods/results",
+    "finding": "44sides22cadavers;complex IX,plexus and laryngeal innervation"
+  },
+  {
+    "id": "SP010",
+    "title": "Utah Array product page",
+    "identity": "https://blackrockneurotech.com/products/utah-array/",
+    "status": "reviewed",
+    "content_level": "fulltext",
+    "access_date": "2026-11-06",
+    "independence_family": "SP010",
+    "read_scope": "Manufacturer product specs and FAQ inspected",
+    "access_note": "Vendor page contains problematic approval/designation language not adopted;not tonsillar use approval",
+    "authors": [
+      "Blackrock Neurotech"
+    ],
+    "locator": "Specs;FAQ",
+    "finding": "Penetrating silicon array; common96channel configuration"
+  },
+  {
+    "id": "SP012",
+    "title": "Cochlear CoPilot Mobile Hearing App",
+    "identity": "https://www.cochlear.com/us/en/home/ongoing-care-and-support/rehabilitation-resources/copilot",
+    "status": "reviewed",
+    "content_level": "fulltext",
+    "access_date": "2026-11-06",
+    "independence_family": "SP012",
+    "read_scope": "Manufacturer product page",
+    "access_note": "Not same product as proposed AIplatform;not comparative efficacy trial",
+    "authors": [
+      "Cochlear Limited"
+    ],
+    "locator": "Communication tactics;free download",
+    "finding": "Free listening/communication-practice app"
+  },
+  {
+    "id": "SP013",
+    "title": "Ray-Ban Meta (Gen2) Now With Up to2X the Battery Life and Better Video Capture",
+    "identity": "https://about.fb.com/news/2025/09/ray-ban-meta-gen-2-better-battery-life-video-capture/amp/",
+    "status": "reviewed",
+    "content_level": "fulltext",
+    "access_date": "2026-11-06",
+    "independence_family": "SP013",
+    "read_scope": "Issuer launch announcement",
+    "access_note": "Historical launch price not current quote;feature/country constraints;not a cochlear implant",
+    "authors": [
+      "Meta"
+    ],
+    "locator": "Features;price statement",
+    "finding": "AIassistant,translation,audio;launch entry$379;up to8hours typicaluse claimed"
+  },
+  {
+    "id": "SRM001",
+    "title": "21 CFR 812.20 \u2014 Application",
+    "identity": "https://www.ecfr.gov/current/title-21/chapter-I/subchapter-H/part-812/subpart-B/section-812.20",
+    "status": "reviewed",
+    "content_level": "fulltext",
+    "access_date": "2026-11-06",
+    "independence_family": "SRM001",
+    "read_scope": "Full section",
+    "access_note": "IDE is research authorization, not marketing approval.",
+    "authors": [
+      "U.S. Food and Drug Administration / eCFR"
+    ],
+    "locator": "812.20(a)(1)-(2), (b)",
+    "finding": "Significant-risk investigations require IDE submission and FDA approval before initiation."
+  },
+  {
+    "id": "SRM002",
+    "title": "21 CFR 814.39 \u2014 PMA supplements",
+    "identity": "https://www.ecfr.gov/current/title-21/chapter-I/subchapter-H/part-814/subpart-B/section-814.39",
+    "status": "reviewed",
+    "content_level": "fulltext",
+    "access_date": "2026-11-06",
+    "independence_family": "SRM002",
+    "read_scope": "Section plus FDA explanatory page",
+    "access_note": "Exact route depends on sponsor's approved device and intended change; sponsor data rights are essential.",
+    "authors": [
+      "U.S. Food and Drug Administration / eCFR"
+    ],
+    "locator": "814.39(a); FDA PMA Supplements and Amendments, panel-track and new-PMA sections",
+    "finding": "Changes affecting safety/effectiveness require applicable supplements; significant changes/new indications can need substantial clinical data or new PMA."
+  },
+  {
+    "id": "SRM003",
+    "title": "Quality Management System Regulation (QMSR)",
+    "identity": "https://www.fda.gov/medical-devices/postmarket-requirements-devices/quality-management-system-regulation-qmsr",
+    "status": "reviewed",
+    "content_level": "fulltext",
+    "access_date": "2026-11-06",
+    "independence_family": "SRM003",
+    "read_scope": "Page substantive sections",
+    "access_note": "ISO certification alone does not establish FDA compliance or approval.",
+    "authors": [
+      "U.S. Food and Drug Administration"
+    ],
+    "locator": "Introduction; Applicability; Inspections",
+    "finding": "QMSR effective February 2, 2026 incorporates ISO 13485:2016 into 21 CFR part 820."
+  },
+  {
+    "id": "SRM004",
+    "title": "Marketing Submission Recommendations for a Predetermined Change Control Plan for Artificial Intelligence-Enabled Device Software Functions",
+    "identity": "https://www.fda.gov/media/166704/download",
+    "status": "reviewed",
+    "content_level": "fulltext",
+    "access_date": "2026-11-06",
+    "independence_family": "SRM004",
+    "read_scope": "PDF title/date and guidance landing-page scope",
+    "access_note": "Guidance nonbinding; not unrestricted online learning or permission to change intended use.",
+    "authors": [
+      "U.S. Food and Drug Administration"
+    ],
+    "locator": "PDF cover; guidance description of modifications/methodology/impact assessment",
+    "finding": "Final guidance originally issued December 4, 2024; current version August 18, 2025. PCCP reviewed in marketing submission covers specified changes."
+  },
+  {
+    "id": "SRM005",
+    "title": "Clinical Decision Support Software",
+    "identity": "https://www.fda.gov/media/109618/download",
+    "status": "reviewed",
+    "content_level": "fulltext",
+    "access_date": "2026-11-06",
+    "independence_family": "SRM005",
+    "read_scope": "PDF relevant sections",
+    "access_note": "HCP oversight alone cannot satisfy all statutory criteria; nonmedical functions can remain non-devices.",
+    "authors": [
+      "U.S. Food and Drug Administration"
+    ],
+    "locator": "PDF cover; Section IV criterion 1 pp7-9; supersedes January 6 2026",
+    "finding": "Medical-purpose analysis of signals from signal-acquisition systems does not qualify as non-device CDS under criterion 1."
+  },
+  {
+    "id": "SRM006",
+    "title": "P960009/S478 Summary of Safety and Effectiveness Data",
+    "identity": "https://www.accessdata.fda.gov/cdrh_docs/pdf/P960009S478B.pdf",
+    "status": "reviewed",
+    "content_level": "fulltext",
+    "access_date": "2026-11-06",
+    "independence_family": "SRM006",
+    "read_scope": "PDF relevant device-description sections",
+    "access_note": "Valid analogy for bounded control, not evidence of semantic privacy firewall or tonsillar safety.",
+    "authors": [
+      "U.S. Food and Drug Administration; applicant Medtronic Inc."
+    ],
+    "locator": "pp1, 5-6; patient programmer and aDBS feature",
+    "finding": "Approval introduces optional aDBS for Parkinson disease; patient pause returns therapy to clinician-programmed conventional DBS; adjustments remain within clinician limits."
+  },
+  {
+    "id": "SRM007",
+    "title": "MDCG 2021-24 Rev.1 \u2014 Guidance on classification of medical devices",
+    "identity": "https://health.ec.europa.eu/system/files/2021-10/mdcg_2021-24_en_0.pdf",
+    "status": "reviewed",
+    "content_level": "fulltext",
+    "access_date": "2026-11-06",
+    "independence_family": "SRM007",
+    "read_scope": "PDF title, Rules 8, 9, 11, 22 sections",
+    "access_note": "Guidance is nonbinding; separate unrelated communication software requires its own classification.",
+    "authors": [
+      "Medical Device Coordination Group"
+    ],
+    "locator": "pp1, 40-43; Rule 8 examples",
+    "finding": "Active implantable devices/accessories are class III; guidance lists cochlear implants; devices controlling/monitoring/directly influencing active implants also class III."
+  },
+  {
+    "id": "SRM008",
+    "title": "Regulation (EU) 2024/1689, consolidated 27 July 2026",
+    "identity": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:02024R1689-20260727",
+    "status": "reviewed",
+    "content_level": "fulltext",
+    "access_date": "2026-11-06",
+    "independence_family": "SRM008",
+    "read_scope": "Relevant consolidated Articles plus Commission timeline",
+    "access_note": "Consolidation is documentation; official amending acts control. Device/product classification and exemptions need function-level analysis.",
+    "authors": [
+      "European Parliament and Council of the European Union"
+    ],
+    "locator": "Article 113; Article 6; Commission AI Act timeline",
+    "finding": "General application August 2, 2026; high-risk Annex III rules December 2, 2027; high-risk regulated-product Annex I rules August 2, 2028 after 2026 amendment."
+  },
+  {
+    "id": "SRM009",
+    "title": "National Coverage Determination 50.3 \u2014 Cochlear Implantation",
+    "identity": "https://www.cms.gov/medicare-coverage-database/view/ncd.aspx?ncdid=245",
+    "status": "reviewed",
+    "content_level": "fulltext",
+    "access_date": "2026-11-06",
+    "independence_family": "SRM009",
+    "read_scope": "Full substantive NCD",
+    "access_note": "Not universal eligibility, payment amount, coverage of elective tonsillar hardware, or SaaS reimbursement.",
+    "authors": [
+      "Centers for Medicare & Medicaid Services"
+    ],
+    "locator": "Sections B-D",
+    "finding": "Limited benefit threshold is <=60% best-aided open-set sentence recognition with bilateral moderate-to-profound sensorineural hearing loss and all listed criteria, including FDA-label use."
+  },
+  {
+    "id": "SRM010",
+    "title": "NG155 \u2014 Tinnitus: assessment and management",
+    "identity": "https://www.nice.org.uk/guidance/ng155/chapter/Recommendations",
+    "status": "reviewed",
+    "content_level": "fulltext",
+    "access_date": "2026-11-06",
+    "independence_family": "SRM010",
+    "read_scope": "Selected recommendations",
+    "access_note": "Does not validate autonomous CBT agents or tonsillar neuromodulation.",
+    "authors": [
+      "National Institute for Health and Care Excellence"
+    ],
+    "locator": "1.3.6-1.3.8; 1.5.4; neuromodulation research statement",
+    "finding": "Stepped tinnitus-distress CBT follows support; assessment is by qualified professionals; neuromodulation lacks recommendation for routine practice in this guideline."
+  },
+  {
+    "id": "SRM011",
+    "title": "45 CFR 164.526 \u2014 Amendment of protected health information",
+    "identity": "https://www.ecfr.gov/current/title-45/subtitle-A/subchapter-C/part-164/subpart-E/section-164.526",
+    "status": "reviewed",
+    "content_level": "fulltext",
+    "access_date": "2026-11-06",
+    "independence_family": "SRM011",
+    "read_scope": "Full section",
+    "access_note": "No general right to delete accurate records or veto required clinical documentation.",
+    "authors": [
+      "U.S. Department of Health and Human Services / eCFR"
+    ],
+    "locator": "164.526(a)-(d)",
+    "finding": "Patients may request amendments; covered entities may deny on enumerated grounds; disagreement and amendment records are appended/linked."
+  },
+  {
+    "id": "SRM012",
+    "title": "Cybersecurity in Medical Devices: Quality Management System Considerations and Content of Premarket Submissions",
+    "identity": "https://www.fda.gov/media/119933/download",
+    "status": "reviewed",
+    "content_level": "fulltext",
+    "access_date": "2026-11-06",
+    "independence_family": "SRM012",
+    "read_scope": "PDF cover/revision history; FDA cybersecurity FAQ substance",
+    "access_note": "Guidance recommendations and statutory duties distinguished; isolation does not remove lifecycle cybersecurity obligations.",
+    "authors": [
+      "U.S. Food and Drug Administration"
+    ],
+    "locator": "Cover and Section VII; FDA section 524B FAQ",
+    "finding": "February 2026 version supersedes June 2025. Cyber-device submissions need vulnerability plans, processes for patches, and SBOM under section 524B."
+  },
+  {
+    "id": "SRM013",
+    "title": "Regulating medical devices in the UK",
+    "identity": "https://www.gov.uk/guidance/regulating-medical-devices-in-the-uk",
+    "status": "reviewed",
+    "content_level": "fulltext",
+    "access_date": "2026-11-06",
+    "independence_family": "SRM013",
+    "read_scope": "CE recognition and GB requirements sections",
+    "access_note": "Base launch 2033 cannot assume current transition extends automatically; Northern Ireland differs.",
+    "authors": [
+      "Medicines and Healthcare products Regulatory Agency"
+    ],
+    "locator": "CE marking; transition timelines",
+    "finding": "Current guidance recognizes qualifying EU MDR CE devices in Great Britain until June 30, 2030; registration and local requirements remain."
+  },
+  {
+    "id": "SRM014",
+    "title": "Government response: indefinite recognition of CE marked medical devices",
+    "identity": "https://www.gov.uk/government/consultations/medical-devices-regulations-targeted-consultation-on-the-indefinite-recognition-of-ce-marked-devices",
+    "status": "reviewed",
+    "content_level": "fulltext",
+    "access_date": "2026-11-06",
+    "independence_family": "SRM014",
+    "read_scope": "Outcome webpage",
+    "access_note": "Policy intention is not proof implementing legislation is already effective.",
+    "authors": [
+      "Medicines and Healthcare products Regulatory Agency"
+    ],
+    "locator": "Detail of outcome",
+    "finding": "Government intends legislative changes for indefinite recognition of EU MDR/IVDR devices; UK responsible person, registration and PMS remain."
+  },
+  {
+    "id": "SRM015",
+    "title": "Reclassifying active implantable medical devices (AIMD)",
+    "identity": "https://www.tga.gov.au/resources/guidance/reclassifying-active-implantable-medical-devices-aimd",
+    "status": "reviewed",
+    "content_level": "fulltext",
+    "access_date": "2026-11-06",
+    "independence_family": "SRM015",
+    "read_scope": "Classification and new-application sections",
+    "access_note": "ARTG inclusion is distinct from payer benefit listing.",
+    "authors": [
+      "Therapeutic Goods Administration"
+    ],
+    "locator": "Rule 5.7; applications on/after 2021-11-25",
+    "finding": "New AIMD ARTG applications are class III; examples include cochlear implants and brain stimulation systems."
+  },
+  {
+    "id": "SRM016",
+    "title": "About medical devices",
+    "identity": "https://www.canada.ca/en/health-canada/services/drugs-health-products/medical-devices/about-medical-devices.html",
+    "status": "reviewed",
+    "content_level": "fulltext",
+    "access_date": "2026-11-06",
+    "independence_family": "SRM016",
+    "read_scope": "Licensing sections",
+    "access_note": "Specific combined-platform classification and provincial payment require separate review.",
+    "authors": [
+      "Health Canada"
+    ],
+    "locator": "Medical device licence for classes II-IV",
+    "finding": "Class II-IV devices require MDL before sale/import; importer/distributor establishment obligations also apply."
+  },
+  {
+    "id": "SRM017",
+    "title": "Frequently Asked Questions",
+    "identity": "https://www.pmda.go.jp/english/about-pmda/0004.html",
+    "status": "reviewed",
+    "content_level": "fulltext",
+    "access_date": "2026-11-06",
+    "independence_family": "SRM017",
+    "read_scope": "Relevant FAQ answers",
+    "access_note": "Acceptance is not assurance no Japanese bridging work; local-language decoder validation remains scientific requirement.",
+    "authors": [
+      "Pharmaceuticals and Medical Devices Agency"
+    ],
+    "locator": "Foreign medical-device clinical data; price/reimbursement",
+    "finding": "PMDA accepts and reviews foreign device clinical data for marketing applications."
+  },
+  {
+    "id": "SRM018",
+    "title": "Medical Devices \u2014 Approval Process",
+    "identity": "https://www.mfds.go.kr/eng/wpge/m_39/de011026l001.do",
+    "status": "reviewed",
+    "content_level": "fulltext",
+    "access_date": "2026-11-06",
+    "independence_family": "SRM018",
+    "read_scope": "Approval process webpage",
+    "access_note": "No model-specific classification or Korean pricing verified.",
+    "authors": [
+      "Ministry of Food and Drug Safety, Republic of Korea"
+    ],
+    "locator": "Premarket approval and technical-document sections",
+    "finding": "Classes III/IV require MFDS approval; local manufacturing/import business licensing and technical evidence apply."
+  },
+  {
+    "id": "SRM019",
+    "title": "Regulation (EU) 2017/745 \u2014 Medical Device Regulation",
+    "identity": "https://eur-lex.europa.eu/eli/reg/2017/745/2026-01-01/eng/pdf",
+    "status": "reviewed",
+    "content_level": "fulltext",
+    "access_date": "2026-11-06",
+    "independence_family": "SRM019",
+    "read_scope": "Relevant Annex VIII extract; original regulation sections",
+    "access_note": "Full latest amendment reconciliation remains a counsel task; April2026 classification guidance cross-check performed.",
+    "authors": [
+      "European Parliament and Council of the European Union"
+    ],
+    "locator": "Annex VIII Rules 8/9; Article 10; Annex I section19",
+    "finding": "Active implantables and applicable accessories are class III; implant documentation retention extends at least 15 years after last device placed on market."
+  },
+  {
+    "id": "SRM020",
+    "title": "Premarket Approval (PMA)",
+    "identity": "https://www.fda.gov/medical-devices/premarket-submissions-selecting-and-preparing-correct-submission/premarket-approval-pma",
+    "status": "reviewed",
+    "content_level": "fulltext",
+    "access_date": "2026-11-06",
+    "independence_family": "SRM020",
+    "read_scope": "When PMA required section",
+    "access_note": "Do not assert every implant or software function universally needs PMA.",
+    "authors": [
+      "U.S. Food and Drug Administration"
+    ],
+    "locator": "When a PMA is Required",
+    "finding": "PMA is principal high-risk device route; some historical classification exceptions exist."
+  },
+  {
+    "id": "SRM021",
+    "title": "De Novo Classification Request",
+    "identity": "https://www.fda.gov/medical-devices/premarket-submissions-selecting-and-preparing-correct-submission/de-novo-classification-request",
+    "status": "reviewed",
+    "content_level": "fulltext",
+    "access_date": "2026-11-06",
+    "independence_family": "SRM021",
+    "read_scope": "Definition and grant/decline criteria",
+    "access_note": "Cannot assume novel high-risk tonsillar implant qualifies merely because novel.",
+    "authors": [
+      "U.S. Food and Drug Administration"
+    ],
+    "locator": "What is a De Novo Classification Request; Grant",
+    "finding": "Novel devices can use De Novo where general/special controls assure safety/effectiveness and no predicate exists."
+  },
+  {
+    "id": "SRM022",
+    "title": "Investigational Device Exemptions for Early Feasibility Medical Device Clinical Studies, Including Certain First in Human Studies",
+    "identity": "https://www.fda.gov/media/81784/download",
+    "status": "reviewed",
+    "content_level": "fulltext",
+    "access_date": "2026-11-06",
+    "independence_family": "SRM022",
+    "read_scope": "Guidance description and scope excerpt",
+    "access_note": "Historical currently relevant guidance exception to 2020 window; not automatic entitlement to human implantation.",
+    "authors": [
+      "U.S. Food and Drug Administration"
+    ],
+    "locator": "Overview, p7",
+    "finding": "EFS can establish proof of principle/initial safety when justified by benefit-risk and human-subject safeguards."
+  },
+  {
+    "id": "SRM023",
+    "title": "21 CFR 50.20 \u2014 General requirements for informed consent",
+    "identity": "https://www.ecfr.gov/current/title-21/chapter-I/subchapter-A/part-50/subpart-B/section-50.20",
+    "status": "reviewed",
+    "content_level": "fulltext",
+    "access_date": "2026-11-06",
+    "independence_family": "SRM023",
+    "read_scope": "Full substantive section",
+    "access_note": "General research rule; not case-specific contract advice.",
+    "authors": [
+      "U.S. Food and Drug Administration / eCFR"
+    ],
+    "locator": "50.20",
+    "finding": "Consent cannot include exculpatory language waiving apparent legal rights or releasing investigator/sponsor from negligence liability."
+  },
+  {
+    "id": "SRM024",
+    "title": "Requests for Feedback and Meetings for Medical Device Submissions: The Q-Submission Program",
+    "identity": "https://www.fda.gov/regulatory-information/search-fda-guidance-documents/requests-feedback-and-meetings-medical-device-submissions-q-submission-program",
+    "status": "reviewed",
+    "content_level": "fulltext",
+    "access_date": "2026-11-06",
+    "independence_family": "SRM024",
+    "read_scope": "Guidance landing-page scope",
+    "access_note": "Feedback is not approval; requested timelines must not be modeled as guaranteed clearance.",
+    "authors": [
+      "U.S. Food and Drug Administration"
+    ],
+    "locator": "Purpose and submission list",
+    "finding": "Q-Submission offers FDA interaction concerning IDE, PMA, De Novo, 510(k) and other pathways."
+  },
+  {
+    "id": "SRM025",
+    "title": "Regulation (EU) 2016/679 \u2014 General Data Protection Regulation",
+    "identity": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32016R0679",
+    "status": "reviewed",
+    "content_level": "fulltext",
+    "access_date": "2026-11-06",
+    "independence_family": "SRM025",
+    "read_scope": "Relevant Articles 9 and 16 excerpts",
+    "access_note": "Historical current-law exception; rights have limits and do not establish universal precommit veto over clinical records.",
+    "authors": [
+      "European Parliament and Council of the European Union"
+    ],
+    "locator": "Article9 special categories; Article16 rectification",
+    "finding": "Health data processing needs applicable legal basis and Article9 condition; inaccurate personal data has rectification rights."
+  },
+  {
+    "id": "ST001",
+    "title": "47 CFR95.2567 MedRadio radiated power limits",
+    "identity": "https://www.govinfo.gov/content/pkg/CFR-2025-title47-vol5/pdf/CFR-2025-title47-vol5-sec95-2567.pdf",
+    "status": "reviewed",
+    "content_level": "fulltext",
+    "access_date": "2026-11-06",
+    "independence_family": "ST001",
+    "read_scope": "Official CFR PDF text relevant clauses inspected",
+    "access_note": "Other exceptions use different limits;2025official edition retrieved; certify current rule at filing",
+    "authors": [
+      "Federal Communications Commission"
+    ],
+    "locator": "95.2567(a)(1);95.2569",
+    "finding": "25uW M-EIRP per300kHz402\u2013405MHz for monitored systems"
+  },
+  {
+    "id": "ST002",
+    "title": "47 CFR95.2571 and95.2573 MedRadio emission types and authorized bandwidths",
+    "identity": "https://www.govinfo.gov/content/pkg/CFR-2025-title47-vol5/pdf/CFR-2025-title47-vol5-sec95-2573.pdf",
+    "status": "reviewed",
+    "content_level": "fulltext",
+    "access_date": "2026-11-06",
+    "independence_family": "ST002",
+    "read_scope": "Official CFR PDF text clauses inspected;2017Federal Register cross-check",
+    "access_note": "Bandwidth is not bitrate; waveform eligibility needs specialist review",
+    "authors": [
+      "Federal Communications Commission"
+    ],
+    "locator": "95.2571;95.2573(a)",
+    "finding": "Voice communications prohibited;300kHz total session limit"
+  },
+  {
+    "id": "ST003",
+    "title": "ETSI EN301839 V2.1.1 Ultra Low Power Active Medical Implants402\u2013405MHz",
+    "identity": "https://www.etsi.org/deliver/etsi_en/301800_301899/301839/02.01.01_60/en_301839v020101p.pdf",
+    "status": "reviewed",
+    "content_level": "fulltext",
+    "access_date": "2026-11-06",
+    "independence_family": "ST003",
+    "read_scope": "Official52page PDF; clauses4.2.1.2\u20133 inspected",
+    "access_note": "Historical standard; current OJ harmonization and national implementation not established;ERP notEIRP",
+    "authors": [
+      "European Telecommunications Standards Institute"
+    ],
+    "locator": "Page13 clauses4.2.1.2.2 and4.2.1.3.2",
+    "finding": "300kHz maximum;25uW ERP for LBT/AFA; alternate100nW low-duty mode"
+  },
+  {
+    "id": "ST004",
+    "title": "Communicating supported Bluetooth functionality",
+    "identity": "https://www.bluetooth.com/communicating-supported-bluetooth-functionality/",
+    "status": "reviewed",
+    "content_level": "fulltext",
+    "access_date": "2026-11-06",
+    "independence_family": "ST004",
+    "read_scope": "Official feature-page LE2M passage",
+    "access_note": "Not application goodput or implanted radio certification",
+    "authors": [
+      "Bluetooth SIG"
+    ],
+    "locator": "LE2M description",
+    "finding": "2Mbps physical-layer rate"
+  },
+  {
+    "id": "ST005",
+    "title": "LE Audio",
+    "identity": "https://www.bluetooth.com/learn-about-bluetooth/feature-enhancements/le-audio/",
+    "status": "reviewed",
+    "content_level": "fulltext",
+    "access_date": "2026-11-06",
+    "independence_family": "ST005",
+    "read_scope": "Official overview page",
+    "access_note": "Not raw neural uplink or evidence of phone-specific compatibility",
+    "authors": [
+      "Bluetooth SIG"
+    ],
+    "locator": "Auracast broadcast audio",
+    "finding": "LEAudio supports broadcast audio"
+  },
+  {
+    "id": "ST006",
+    "title": "Transoral anatomy of the tonsillar fossa and lateral pharyngeal wall: anatomic dissection with radiographic and clinical correlation",
+    "identity": "https://pubmed.ncbi.nlm.nih.gov/24105605/",
+    "status": "reviewed",
+    "content_level": "abstract",
+    "access_date": "2026-11-06",
+    "independence_family": "ST006",
+    "read_scope": "PubMed author list and abstract inspected",
+    "access_note": "Historical anatomy exception; ECA not ICA; not implant performance",
+    "authors": [
+      "Chwee Ming Lim",
+      "Vikas Mehta",
+      "Raymond Chai",
+      "Carlos-Neto D. Pinheiro",
+      "Tanya Rath",
+      "Carl Snyderman",
+      "Umamaheswar Duvvuri"
+    ],
+    "locator": "Abstract methods/results",
+    "finding": "CNIX deep to superior constrictor;6cadavers;2TORS patients;25CT patients;reported17.6/18.4mm C2\u2013C3 to ECA"
+  },
+  {
+    "id": "ST007",
+    "title": "MRI evaluation of distance between tonsillary fossa and internal carotid artery in children",
+    "identity": "https://pubmed.ncbi.nlm.nih.gov/32896339/",
+    "status": "reviewed",
+    "content_level": "abstract",
+    "access_date": "2026-11-06",
+    "independence_family": "ST007",
+    "read_scope": "Complete indexed PubMed abstract and metadata; direct page incomplete",
+    "access_note": "Pediatric retrospective MRI cohort; not direct adult or post-tonsillectomy clearance estimate",
+    "authors": [
+      "Mehmet Hamdi \u015eahan",
+      "Nuray Bayar Muluk"
+    ],
+    "locator": "Abstract methods/results",
+    "finding": "200children; middle/inferior mean distances below8or9mm; minima around2mm"
+  },
+  {
+    "id": "ST008",
+    "title": "Introducing GPT-6.1 Sol in Microsoft Foundry: Advanced intelligence, optimized for production agents",
+    "identity": "https://techcommunity.microsoft.com/blog/azure-ai-foundry-blog/introducing-gpt-6-1-sol-in-microsoft-foundry-advanced-intelligence-optimized-for/4560811",
+    "status": "reviewed",
+    "content_level": "fulltext",
+    "access_date": "2026-11-06",
+    "independence_family": "ST008",
+    "read_scope": "Full web article; pricing table and deployment section",
+    "access_note": "Dated launch benchmark, not contract or workload bill; model is text output, voice requires additional service components.",
+    "authors": [
+      "Naomi Moneypenny",
+      "Microsoft"
+    ],
+    "locator": "GPT-6.1 Sol Pricing, US Data Zone Standard short context",
+    "finding": "US Data Zone rates per million tokens: input $2.20, cached input $0.11, cached writes $2.75, output $11.00. Long-context rates differ."
+  },
+  {
+    "id": "ST009",
+    "title": "Voice Live API for real-time voice agents",
+    "identity": "https://learn.microsoft.com/en-us/azure/ai-services/speech-service/voice-live",
+    "status": "reviewed",
+    "content_level": "fulltext",
+    "access_date": "2026-11-06",
+    "independence_family": "ST009",
+    "read_scope": "Full documentation text; model/tier, pricing and token estimation sections",
+    "access_note": "Live documentation version not frozen; exact regional pricing quote not extracted. $10/year is an allowance, not supported per-minute tariff.",
+    "authors": [
+      "Microsoft"
+    ],
+    "locator": "Supported models and regions; Pricing; Token usage and cost estimation",
+    "finding": "GPT-6.1-sol listed Pro; typical Azure OpenAI audio estimates 10 input tokens/sec and 20 output tokens/sec. Text/context tokens separately billed; custom voice training/hosting extra and access limited."
+  },
+  {
+    "id": "ST010",
+    "title": "FAQ about migration from Azure API for FHIR",
+    "identity": "https://learn.microsoft.com/en-us/azure/healthcare-apis/fhir/migration-faq",
+    "status": "reviewed",
+    "content_level": "fulltext",
+    "access_date": "2026-11-06",
+    "independence_family": "ST010",
+    "read_scope": "Full documentation, deprecation and migration sections",
+    "access_note": "Documentation uses deprecated and mentions extension requests; do not assert every customer endpoint unconditionally shut down.",
+    "authors": [
+      "Microsoft"
+    ],
+    "locator": "When was Azure API for FHIR deprecated?; new deployments; migration benefits",
+    "finding": "Microsoft states deprecation September 30, 2026 and cessation of new deployments after April 1, 2025; migrate to Azure Health Data Services FHIR."
+  },
+  {
+    "id": "ST011",
+    "title": "Azure AI Voice Live API: what\u2019s new and the pricing announcement",
+    "identity": "https://techcommunity.microsoft.com/blog/azure-ai-foundry-blog/azure-ai-voice-live-api-what%E2%80%99s-new-and-the-pricing-announcement/4428687",
+    "status": "reviewed",
+    "content_level": "fulltext",
+    "access_date": "2026-11-06",
+    "independence_family": "ST011",
+    "read_scope": "Full dated announcement; pricing and custom hosting examples",
+    "access_note": "Historical July 2025 prices, not a confirmed November 2026 quote. Cannot combine model-specific current pricing into an asserted bill without deployment quotation.",
+    "authors": [
+      "Qinying Liao",
+      "Microsoft"
+    ],
+    "locator": "Pro table, Audio Standard; Scenario 1",
+    "finding": "Historical Pro standard audio input $17/M, output $38/M; separate custom voice training/hosting. These historical rates illustrate workload sensitivity."
+  },
+  {
+    "id": "SX001",
+    "title": "autoresearch repository and program instructions",
+    "identity": "https://github.com/characterriseobject-hub/autoresearch/tree/228791fb499afffb54b46200aca536f79142f117",
+    "status": "reviewed",
+    "content_level": "fulltext",
+    "access_date": "2026-11-06",
+    "independence_family": "SX001",
+    "read_scope": "README and program.md; GitHub commit metadata",
+    "access_note": "Not a clinical research engine; no GPU training executed.",
+    "authors": [
+      "Andrej Karpathy and repository contributors"
+    ],
+    "locator": "README and program.md; GitHub commit metadata",
+    "finding": "GPU candidate/evaluate/retain loop adapted to evidence diligence."
+  },
+  {
+    "id": "SX002",
+    "title": "User FINAL_PROMPT",
+    "identity": "session/local:SX002",
+    "status": "reviewed",
+    "content_level": "fulltext",
+    "access_date": "2026-11-06",
+    "independence_family": "SX002",
+    "read_scope": "Complete supplied prompt sections0\u20135",
+    "access_note": "Not independent evidence.",
+    "authors": [
+      "User"
+    ],
+    "locator": "Complete supplied prompt sections0\u20135",
+    "finding": "Defines scenarios and output requirements."
+  },
+  {
+    "id": "SX003",
+    "title": "Scientific-deep-research local execution method",
+    "identity": "session/local:SX003",
+    "status": "reviewed",
+    "content_level": "fulltext",
+    "access_date": "2026-11-06",
+    "independence_family": "SX003",
+    "read_scope": "SKILL/master prompt/checkpoint guide",
+    "access_note": "Structural validation does not establish truth.",
+    "authors": [
+      "Local skill package; author unspecified"
+    ],
+    "locator": "SKILL/master prompt/checkpoint guide",
+    "finding": "Evidence and continuity method."
+  }
+]

@@ -1,0 +1,826 @@
+[
+  {
+    "id": "A-Q001",
+    "query": "Willett 2023 high performance speech neuroprosthesis Nature 2023 62 words minute",
+    "system": "web search",
+    "run_at": "2026-11-06T11:21:50.925334+00:00",
+    "outcome": "See A_sources.json for retained primary sources; tonsillar queries did not retrieve a primary chronic tonsillar speech-decoding validation in this bounded pass. Search non-retrieval is not proof of absence.",
+    "source_ids": []
+  },
+  {
+    "id": "A-Q002",
+    "query": "Metzger 2023 high performance neuroprosthesis speech decoding avatar control Nature",
+    "system": "web search",
+    "run_at": "2026-11-06T11:21:50.925334+00:00",
+    "outcome": "See A_sources.json for retained primary sources; tonsillar queries did not retrieve a primary chronic tonsillar speech-decoding validation in this bounded pass. Search non-retrieval is not proof of absence.",
+    "source_ids": []
+  },
+  {
+    "id": "A-Q003",
+    "query": "Card 2024 accurate rapidly calibrating speech neuroprosthesis Wairagkar 2025 instantaneous voice synthesis Kunz inner speech 2025",
+    "system": "web search",
+    "run_at": "2026-11-06T11:21:50.925334+00:00",
+    "outcome": "See A_sources.json for retained primary sources; tonsillar queries did not retrieve a primary chronic tonsillar speech-decoding validation in this bounded pass. Search non-retrieval is not proof of absence.",
+    "source_ids": []
+  },
+  {
+    "id": "A-Q004",
+    "query": "Kunz 2025 inner speech motor cortex Cell 2025 mental privacy unlock keyword",
+    "system": "web search",
+    "run_at": "2026-11-06T11:21:50.925334+00:00",
+    "outcome": "See A_sources.json for retained primary sources; tonsillar queries did not retrieve a primary chronic tonsillar speech-decoding validation in this bounded pass. Search non-retrieval is not proof of absence.",
+    "source_ids": []
+  },
+  {
+    "id": "A-Q005",
+    "query": "site.azure.microsoft.com GPT-6.1 Sol pricing 2.20 11.00",
+    "system": "web search",
+    "run_at": "2026-11-06T11:21:50.925334+00:00",
+    "outcome": "See A_sources.json for retained primary sources; tonsillar queries did not retrieve a primary chronic tonsillar speech-decoding validation in this bounded pass. Search non-retrieval is not proof of absence.",
+    "source_ids": []
+  },
+  {
+    "id": "A-Q006",
+    "query": "site.learn.microsoft.com Voice Live pricing per minute pricing 2026",
+    "system": "web search",
+    "run_at": "2026-11-06T11:21:50.925334+00:00",
+    "outcome": "See A_sources.json for retained primary sources; tonsillar queries did not retrieve a primary chronic tonsillar speech-decoding validation in this bounded pass. Search non-retrieval is not proof of absence.",
+    "source_ids": []
+  },
+  {
+    "id": "A-Q007",
+    "query": "site.learn.microsoft.com Azure API for FHIR retired September 30 2026",
+    "system": "web search",
+    "run_at": "2026-11-06T11:21:50.925334+00:00",
+    "outcome": "See A_sources.json for retained primary sources; tonsillar queries did not retrieve a primary chronic tonsillar speech-decoding validation in this bounded pass. Search non-retrieval is not proof of absence.",
+    "source_ids": []
+  },
+  {
+    "id": "A-Q008",
+    "query": "site.azure.microsoft.com/en-us/pricing/details/cognitive-services/openai-service/ \"gpt-6.1-sol\" \"Data Zone\"",
+    "system": "web search",
+    "run_at": "2026-11-06T11:21:50.925334+00:00",
+    "outcome": "See A_sources.json for retained primary sources; tonsillar queries did not retrieve a primary chronic tonsillar speech-decoding validation in this bounded pass. Search non-retrieval is not proof of absence.",
+    "source_ids": []
+  },
+  {
+    "id": "A-Q009",
+    "query": "site.azure.microsoft.com/en-us/pricing/details \"Voice Live\" \"$0.02\"",
+    "system": "web search",
+    "run_at": "2026-11-06T11:21:50.925334+00:00",
+    "outcome": "See A_sources.json for retained primary sources; tonsillar queries did not retrieve a primary chronic tonsillar speech-decoding validation in this bounded pass. Search non-retrieval is not proof of absence.",
+    "source_ids": []
+  },
+  {
+    "id": "A-Q010",
+    "query": "site.learn.microsoft.com/en-us/azure/healthcare-apis \"September 30, 2026\"",
+    "system": "web search",
+    "run_at": "2026-11-06T11:21:50.925334+00:00",
+    "outcome": "See A_sources.json for retained primary sources; tonsillar queries did not retrieve a primary chronic tonsillar speech-decoding validation in this bounded pass. Search non-retrieval is not proof of absence.",
+    "source_ids": []
+  },
+  {
+    "id": "A-Q011",
+    "query": "site.learn.microsoft.com \"Voice Live\" \"pricing\" \"audio tokens\"",
+    "system": "web search",
+    "run_at": "2026-11-06T11:21:50.925334+00:00",
+    "outcome": "See A_sources.json for retained primary sources; tonsillar queries did not retrieve a primary chronic tonsillar speech-decoding validation in this bounded pass. Search non-retrieval is not proof of absence.",
+    "source_ids": []
+  },
+  {
+    "id": "A-Q012",
+    "query": "site.azure.microsoft.com \"Voice Live\" \"Pricing\"",
+    "system": "web search",
+    "run_at": "2026-11-06T11:21:50.925334+00:00",
+    "outcome": "See A_sources.json for retained primary sources; tonsillar queries did not retrieve a primary chronic tonsillar speech-decoding validation in this bounded pass. Search non-retrieval is not proof of absence.",
+    "source_ids": []
+  },
+  {
+    "id": "A-Q013",
+    "query": "\"An instantaneous voice-synthesis neuroprosthesis\" \"Miller\" \"Authors\"",
+    "system": "web search",
+    "run_at": "2026-11-06T11:21:50.925334+00:00",
+    "outcome": "See A_sources.json for retained primary sources; tonsillar queries did not retrieve a primary chronic tonsillar speech-decoding validation in this bounded pass. Search non-retrieval is not proof of absence.",
+    "source_ids": []
+  },
+  {
+    "id": "A-Q014",
+    "query": "\"A high-performance neuroprosthesis for speech decoding and avatar control\" \"Sean\" \"Authors\"",
+    "system": "web search",
+    "run_at": "2026-11-06T11:21:50.925334+00:00",
+    "outcome": "See A_sources.json for retained primary sources; tonsillar queries did not retrieve a primary chronic tonsillar speech-decoding validation in this bounded pass. Search non-retrieval is not proof of absence.",
+    "source_ids": []
+  },
+  {
+    "id": "A-Q015",
+    "query": "\"40506548\" \"Miller\" \"Wairagkar\"",
+    "system": "web search",
+    "run_at": "2026-11-06T11:21:50.925334+00:00",
+    "outcome": "See A_sources.json for retained primary sources; tonsillar queries did not retrieve a primary chronic tonsillar speech-decoding validation in this bounded pass. Search non-retrieval is not proof of absence.",
+    "source_ids": []
+  },
+  {
+    "id": "A-Q016",
+    "query": "\"An instantaneous voice-synthesis neuroprosthesis\" \"Maitreyee\" \"Singer-Clark\" \"Hochberg\"",
+    "system": "web search",
+    "run_at": "2026-11-06T11:21:50.925334+00:00",
+    "outcome": "See A_sources.json for retained primary sources; tonsillar queries did not retrieve a primary chronic tonsillar speech-decoding validation in this bounded pass. Search non-retrieval is not proof of absence.",
+    "source_ids": []
+  },
+  {
+    "id": "A-Q017",
+    "query": "\"Voice Live\" \"pricing\" site.learn.microsoft.com/en-us/azure/ai-services/speech-service/voice-live",
+    "system": "web search",
+    "run_at": "2026-11-06T11:21:50.925334+00:00",
+    "outcome": "See A_sources.json for retained primary sources; tonsillar queries did not retrieve a primary chronic tonsillar speech-decoding validation in this bounded pass. Search non-retrieval is not proof of absence.",
+    "source_ids": []
+  },
+  {
+    "id": "A-Q018",
+    "query": "\"tonsillar\" \"speech decoding\" neural chronic implant",
+    "system": "web search",
+    "run_at": "2026-11-06T11:21:50.925334+00:00",
+    "outcome": "See A_sources.json for retained primary sources; tonsillar queries did not retrieve a primary chronic tonsillar speech-decoding validation in this bounded pass. Search non-retrieval is not proof of absence.",
+    "source_ids": []
+  },
+  {
+    "id": "A-Q019",
+    "query": "\"silent speech\" \"electromyography\" \"Nature\" 2024 2025 pharyngeal",
+    "system": "web search",
+    "run_at": "2026-11-06T11:21:50.925334+00:00",
+    "outcome": "See A_sources.json for retained primary sources; tonsillar queries did not retrieve a primary chronic tonsillar speech-decoding validation in this bounded pass. Search non-retrieval is not proof of absence.",
+    "source_ids": []
+  },
+  {
+    "id": "A-Q020",
+    "query": "site.nist.gov AI 600-1 confabulation generative artificial intelligence profile",
+    "system": "web search",
+    "run_at": "2026-11-06T11:21:50.925334+00:00",
+    "outcome": "See A_sources.json for retained primary sources; tonsillar queries did not retrieve a primary chronic tonsillar speech-decoding validation in this bounded pass. Search non-retrieval is not proof of absence.",
+    "source_ids": []
+  },
+  {
+    "id": "A-Q021",
+    "query": "site.nist.gov \"NIST AI 600-1\" \"confabulation\"",
+    "system": "web search",
+    "run_at": "2026-11-06T11:21:50.925334+00:00",
+    "outcome": "See A_sources.json for retained primary sources; tonsillar queries did not retrieve a primary chronic tonsillar speech-decoding validation in this bounded pass. Search non-retrieval is not proof of absence.",
+    "source_ids": []
+  },
+  {
+    "id": "A-Q022",
+    "query": "\"A streaming brain-to-voice neuroprosthesis\" \"Littlejohn\" \"Cho\" authors",
+    "system": "web search",
+    "run_at": "2026-11-06T11:21:50.925334+00:00",
+    "outcome": "See A_sources.json for retained primary sources; tonsillar queries did not retrieve a primary chronic tonsillar speech-decoding validation in this bounded pass. Search non-retrieval is not proof of absence.",
+    "source_ids": []
+  },
+  {
+    "id": "A-Q023",
+    "query": "\"Electrode Setup for Electromyography-Based Silent Speech Interfaces\" authors DOI",
+    "system": "web search",
+    "run_at": "2026-11-06T11:21:50.925334+00:00",
+    "outcome": "See A_sources.json for retained primary sources; tonsillar queries did not retrieve a primary chronic tonsillar speech-decoding validation in this bounded pass. Search non-retrieval is not proof of absence.",
+    "source_ids": []
+  },
+  {
+    "id": "A-Q024",
+    "query": "\"tonsillar\" \"speech decoding\" implant",
+    "system": "web search",
+    "run_at": "2026-11-06T11:21:50.925334+00:00",
+    "outcome": "See A_sources.json for retained primary sources; tonsillar queries did not retrieve a primary chronic tonsillar speech-decoding validation in this bounded pass. Search non-retrieval is not proof of absence.",
+    "source_ids": []
+  },
+  {
+    "id": "A-Q025",
+    "query": "Author Correction s41586-023-06443-4 2024",
+    "system": "web search",
+    "run_at": "2026-11-06T11:21:50.925334+00:00",
+    "outcome": "Located primary correction DOI 10.1038/s41586-024-07735-z; channel order affected maps, not real-time performance.",
+    "source_ids": []
+  },
+  {
+    "id": "A-Q026",
+    "query": "Comens 2026 UmboMic fixation cadaveric sheep",
+    "system": "web search",
+    "run_at": "2026-11-06T11:21:50.925334+00:00",
+    "outcome": "Independently confirmed cadaveric scope; publisher/PubMed metadata and methods.",
+    "source_ids": []
+  },
+  {
+    "id": "A-Q027",
+    "query": "site.ecfr.gov 95.2571 MedRadio voice communications prohibited",
+    "system": "web search",
+    "run_at": "2026-11-06T11:21:50.925334+00:00",
+    "outcome": "Retrieved official govinfo 2025 CFR PDF; voice prohibited; used to audit B.",
+    "source_ids": []
+  },
+  {
+    "id": "QC001",
+    "query": "site.fda.gov quality management system regulation February 2 2026",
+    "system": "web.run",
+    "run_at": "2026-11-06T11:21:50.925334+00:00",
+    "outcome": "Screened returned candidates; retained primary sources and inspected locators in C_sources.json. No result alone treated as full-document review.",
+    "source_ids": []
+  },
+  {
+    "id": "QC002",
+    "query": "site.fda.gov predetermined change control plan August 2025 final guidance",
+    "system": "web.run",
+    "run_at": "2026-11-06T11:21:50.925334+00:00",
+    "outcome": "Screened returned candidates; retained primary sources and inspected locators in C_sources.json. No result alone treated as full-document review.",
+    "source_ids": []
+  },
+  {
+    "id": "QC003",
+    "query": "site.fda.gov clinical decision support software guidance January 2026",
+    "system": "web.run",
+    "run_at": "2026-11-06T11:21:50.925334+00:00",
+    "outcome": "Screened returned candidates; retained primary sources and inspected locators in C_sources.json. No result alone treated as full-document review.",
+    "source_ids": []
+  },
+  {
+    "id": "QC004",
+    "query": "site.accessdata.fda.gov P960009 S478 February 20 2025",
+    "system": "web.run",
+    "run_at": "2026-11-06T11:21:50.925334+00:00",
+    "outcome": "Screened returned candidates; retained primary sources and inspected locators in C_sources.json. No result alone treated as full-document review.",
+    "source_ids": []
+  },
+  {
+    "id": "QC005",
+    "query": "site.health.ec.europa.eu MDCG 2021-24 Rev.1 April 2026 classification medical devices",
+    "system": "web.run",
+    "run_at": "2026-11-06T11:21:50.925334+00:00",
+    "outcome": "Screened returned candidates; retained primary sources and inspected locators in C_sources.json. No result alone treated as full-document review.",
+    "source_ids": []
+  },
+  {
+    "id": "QC006",
+    "query": "site.digital-strategy.ec.europa.eu AI Act timeline August 2027 medical devices 2026",
+    "system": "web.run",
+    "run_at": "2026-11-06T11:21:50.925334+00:00",
+    "outcome": "Screened returned candidates; retained primary sources and inspected locators in C_sources.json. No result alone treated as full-document review.",
+    "source_ids": []
+  },
+  {
+    "id": "QC007",
+    "query": "site.cms.gov NCD 50.3 cochlear implantation 60 percent",
+    "system": "web.run",
+    "run_at": "2026-11-06T11:21:50.925334+00:00",
+    "outcome": "Screened returned candidates; retained primary sources and inspected locators in C_sources.json. No result alone treated as full-document review.",
+    "source_ids": []
+  },
+  {
+    "id": "QC008",
+    "query": "site.nice.org.uk NG155 tinnitus cognitive behavioural therapy recommendations",
+    "system": "web.run",
+    "run_at": "2026-11-06T11:21:50.925334+00:00",
+    "outcome": "Screened returned candidates; retained primary sources and inspected locators in C_sources.json. No result alone treated as full-document review.",
+    "source_ids": []
+  },
+  {
+    "id": "QC009",
+    "query": "site.cochlear.com FY2026 56,692 1435.2 revenue",
+    "system": "web.run",
+    "run_at": "2026-11-06T11:21:50.925334+00:00",
+    "outcome": "Screened returned candidates; retained primary sources and inspected locators in C_sources.json. No result alone treated as full-document review.",
+    "source_ids": []
+  },
+  {
+    "id": "QC010",
+    "query": "site.sonova.com 2025 2026 annual results cochlear implants revenue",
+    "system": "web.run",
+    "run_at": "2026-11-06T11:21:50.925334+00:00",
+    "outcome": "Screened returned candidates; retained primary sources and inspected locators in C_sources.json. No result alone treated as full-document review.",
+    "source_ids": []
+  },
+  {
+    "id": "QC011",
+    "query": "site.ir.envoymedical.com 2025 annual report 2026 Acclaim second module October 2026",
+    "system": "web.run",
+    "run_at": "2026-11-06T11:21:50.925334+00:00",
+    "outcome": "Screened returned candidates; retained primary sources and inspected locators in C_sources.json. No result alone treated as full-document review.",
+    "source_ids": []
+  },
+  {
+    "id": "QC012",
+    "query": "site.ecfr.gov 21 CFR 812.20 814.39 45 CFR 164.526 amendment",
+    "system": "web.run",
+    "run_at": "2026-11-06T11:21:50.925334+00:00",
+    "outcome": "Screened returned candidates; retained primary sources and inspected locators in C_sources.json. No result alone treated as full-document review.",
+    "source_ids": []
+  },
+  {
+    "id": "QC013",
+    "query": "\"Cochlear\" \"2026\" \"1,435.2\"",
+    "system": "web.run",
+    "run_at": "2026-11-06T11:21:50.925334+00:00",
+    "outcome": "Screened returned candidates; retained primary sources and inspected locators in C_sources.json. No result alone treated as full-document review.",
+    "source_ids": []
+  },
+  {
+    "id": "QC014",
+    "query": "\"Envoy Medical\" \"2025\" \"revenue\" \"2026\" \"net loss\"",
+    "system": "web.run",
+    "run_at": "2026-11-06T11:21:50.925334+00:00",
+    "outcome": "Screened returned candidates; retained primary sources and inspected locators in C_sources.json. No result alone treated as full-document review.",
+    "source_ids": []
+  },
+  {
+    "id": "QC015",
+    "query": "site.ecfr.gov/current/title-21/chapter-I/subchapter-H/part-812/subpart-B/section-812.20",
+    "system": "web.run",
+    "run_at": "2026-11-06T11:21:50.925334+00:00",
+    "outcome": "Screened returned candidates; retained primary sources and inspected locators in C_sources.json. No result alone treated as full-document review.",
+    "source_ids": []
+  },
+  {
+    "id": "QC016",
+    "query": "site.hhs.gov hipaa right amend medical records accurate complete",
+    "system": "web.run",
+    "run_at": "2026-11-06T11:21:50.925334+00:00",
+    "outcome": "Screened returned candidates; retained primary sources and inspected locators in C_sources.json. No result alone treated as full-document review.",
+    "source_ids": []
+  },
+  {
+    "id": "QC017",
+    "query": "site.fda.gov \"Marketing Submission Recommendations\" \"August 2025\" \"Description\"",
+    "system": "web.run",
+    "run_at": "2026-11-06T11:21:50.925334+00:00",
+    "outcome": "Screened returned candidates; retained primary sources and inspected locators in C_sources.json. No result alone treated as full-document review.",
+    "source_ids": []
+  },
+  {
+    "id": "QC018",
+    "query": "site.cochlear.com \"annual-report-2026\"",
+    "system": "web.run",
+    "run_at": "2026-11-06T11:21:50.925334+00:00",
+    "outcome": "Screened returned candidates; retained primary sources and inspected locators in C_sources.json. No result alone treated as full-document review.",
+    "source_ids": []
+  },
+  {
+    "id": "QC019",
+    "query": "site.assets.cochlear.com \"2026\" \"56,692\"",
+    "system": "web.run",
+    "run_at": "2026-11-06T11:21:50.925334+00:00",
+    "outcome": "Screened returned candidates; retained primary sources and inspected locators in C_sources.json. No result alone treated as full-document review.",
+    "source_ids": []
+  },
+  {
+    "id": "QC020",
+    "query": "site.cochlear.com \"FY26\" \"56,692\"",
+    "system": "web.run",
+    "run_at": "2026-11-06T11:21:50.925334+00:00",
+    "outcome": "Screened returned candidates; retained primary sources and inspected locators in C_sources.json. No result alone treated as full-document review.",
+    "source_ids": []
+  },
+  {
+    "id": "QC021",
+    "query": "site.gov.uk medical devices regulation Great Britain CE marked devices 2030 2026",
+    "system": "web.run",
+    "run_at": "2026-11-06T11:21:50.925334+00:00",
+    "outcome": "Screened returned candidates; retained primary sources and inspected locators in C_sources.json. No result alone treated as full-document review.",
+    "source_ids": []
+  },
+  {
+    "id": "QC022",
+    "query": "site.tga.gov.au active implantable medical devices class III ARTG",
+    "system": "web.run",
+    "run_at": "2026-11-06T11:21:50.925334+00:00",
+    "outcome": "Screened returned candidates; retained primary sources and inspected locators in C_sources.json. No result alone treated as full-document review.",
+    "source_ids": []
+  },
+  {
+    "id": "QC023",
+    "query": "site.canada.ca class IV medical devices licence implantable active",
+    "system": "web.run",
+    "run_at": "2026-11-06T11:21:50.925334+00:00",
+    "outcome": "Screened returned candidates; retained primary sources and inspected locators in C_sources.json. No result alone treated as full-document review.",
+    "source_ids": []
+  },
+  {
+    "id": "QC024",
+    "query": "site.pmda.go.jp medical devices approval reimbursement Japan foreign clinical data",
+    "system": "web.run",
+    "run_at": "2026-11-06T11:21:50.925334+00:00",
+    "outcome": "Screened returned candidates; retained primary sources and inspected locators in C_sources.json. No result alone treated as full-document review.",
+    "source_ids": []
+  },
+  {
+    "id": "QC025",
+    "query": "site.mfds.go.kr eng medical devices class III IV approval Korea",
+    "system": "web.run",
+    "run_at": "2026-11-06T11:21:50.925334+00:00",
+    "outcome": "Screened returned candidates; retained primary sources and inspected locators in C_sources.json. No result alone treated as full-document review.",
+    "source_ids": []
+  },
+  {
+    "id": "QC026",
+    "query": "site.health.ec.europa.eu medical devices reimbursement member states MDR",
+    "system": "web.run",
+    "run_at": "2026-11-06T11:21:50.925334+00:00",
+    "outcome": "Screened returned candidates; retained primary sources and inspected locators in C_sources.json. No result alone treated as full-document review.",
+    "source_ids": []
+  },
+  {
+    "id": "QC027",
+    "query": "site.fda.gov 2025 cybersecurity medical devices guidance June 27 524B",
+    "system": "web.run",
+    "run_at": "2026-11-06T11:21:50.925334+00:00",
+    "outcome": "Screened returned candidates; retained primary sources and inspected locators in C_sources.json. No result alone treated as full-document review.",
+    "source_ids": []
+  },
+  {
+    "id": "QC028",
+    "query": "site.eur-lex.europa.eu \"02024R1689-20260727\" \"2 August 2028\"",
+    "system": "web.run",
+    "run_at": "2026-11-06T11:21:50.925334+00:00",
+    "outcome": "Screened returned candidates; retained primary sources and inspected locators in C_sources.json. No result alone treated as full-document review.",
+    "source_ids": []
+  },
+  {
+    "id": "QC029",
+    "query": "site.fda.gov \"Cybersecurity\" \"February 2026\" \"Quality\"",
+    "system": "web.run",
+    "run_at": "2026-11-06T11:21:50.925334+00:00",
+    "outcome": "Screened returned candidates; retained primary sources and inspected locators in C_sources.json. No result alone treated as full-document review.",
+    "source_ids": []
+  },
+  {
+    "id": "QC030",
+    "query": "site.fda.gov cochlear implant Class III PMA approval",
+    "system": "web.run",
+    "run_at": "2026-11-06T11:21:50.925334+00:00",
+    "outcome": "Screened returned candidates; retained primary sources and inspected locators in C_sources.json. No result alone treated as full-document review.",
+    "source_ids": []
+  },
+  {
+    "id": "QC031",
+    "query": "site.ecfr.gov 21 CFR 882.4480 cochlear implant",
+    "system": "web.run",
+    "run_at": "2026-11-06T11:21:50.925334+00:00",
+    "outcome": "Screened returned candidates; retained primary sources and inspected locators in C_sources.json. No result alone treated as full-document review.",
+    "source_ids": []
+  },
+  {
+    "id": "QC032",
+    "query": "site.fda.gov early feasibility medical device studies significant risk first in human 2013",
+    "system": "web.run",
+    "run_at": "2026-11-06T11:21:50.925334+00:00",
+    "outcome": "Screened returned candidates; retained primary sources and inspected locators in C_sources.json. No result alone treated as full-document review.",
+    "source_ids": []
+  },
+  {
+    "id": "QC033",
+    "query": "site.eur-lex.europa.eu 2017/745 Annex VIII rule 8 active implantable",
+    "system": "web.run",
+    "run_at": "2026-11-06T11:21:50.925334+00:00",
+    "outcome": "Screened returned candidates; retained primary sources and inspected locators in C_sources.json. No result alone treated as full-document review.",
+    "source_ids": []
+  },
+  {
+    "id": "QC034",
+    "query": "site.fda.gov Requests Feedback Meetings Medical Device Submissions Q Submission Program May 2025",
+    "system": "web.run",
+    "run_at": "2026-11-06T11:21:50.925334+00:00",
+    "outcome": "Screened returned candidates; retained primary sources and inspected locators in C_sources.json. No result alone treated as full-document review.",
+    "source_ids": []
+  },
+  {
+    "id": "QC035",
+    "query": "site.health.ec.europa.eu health technology assessment high risk medical devices joint clinical assessments 2026",
+    "system": "web.run",
+    "run_at": "2026-11-06T11:21:50.925334+00:00",
+    "outcome": "Screened returned candidates; retained primary sources and inspected locators in C_sources.json. No result alone treated as full-document review.",
+    "source_ids": []
+  },
+  {
+    "id": "QC036",
+    "query": "site.eur-lex.europa.eu GDPR Article 9 health data Article 16 rectification 2016 679",
+    "system": "web.run",
+    "run_at": "2026-11-06T11:21:50.925334+00:00",
+    "outcome": "Screened returned candidates; retained primary sources and inspected locators in C_sources.json. No result alone treated as full-document review.",
+    "source_ids": []
+  },
+  {
+    "id": "QC037",
+    "query": "site.irs.gov net operating loss 80 percent taxable income corporations 2026",
+    "system": "web.run",
+    "run_at": "2026-11-06T11:21:50.925334+00:00",
+    "outcome": "IRS2025Form1120 instructions confirm post2017NOL80percent limit; model tax remains simplified; supporting URL https://www.irs.gov/instructions/i1120",
+    "source_ids": []
+  },
+  {
+    "id": "QB001",
+    "query": "UmboMic Yeiser 2024 32.3 58 230 microphone",
+    "system": "web.run",
+    "run_at": "2026-11-06T11:21:50.925334+00:00",
+    "outcome": "See reviewers/B_queries.md for grouped outcomes and B_sources.json read scopes.",
+    "source_ids": []
+  },
+  {
+    "id": "QB002",
+    "query": "Wawrzynek Comens 2026 UmboMic ovine fixation",
+    "system": "web.run",
+    "run_at": "2026-11-06T11:21:50.925334+00:00",
+    "outcome": "See reviewers/B_queries.md for grouped outcomes and B_sources.json read scopes.",
+    "source_ids": []
+  },
+  {
+    "id": "QB003",
+    "query": "site.medel.com UNICO September 2026 CE mark totally implantable",
+    "system": "web.run",
+    "run_at": "2026-11-06T11:21:50.925334+00:00",
+    "outcome": "See reviewers/B_queries.md for grouped outcomes and B_sources.json read scopes.",
+    "source_ids": []
+  },
+  {
+    "id": "QB004",
+    "query": "site.envoymedical.com October 2026 second module Acclaim PMA",
+    "system": "web.run",
+    "run_at": "2026-11-06T11:21:50.925334+00:00",
+    "outcome": "See reviewers/B_queries.md for grouped outcomes and B_sources.json read scopes.",
+    "source_ids": []
+  },
+  {
+    "id": "QB005",
+    "query": "site.ir.envoymedical.com \"October 12, 2026\"",
+    "system": "web.run",
+    "run_at": "2026-11-06T11:21:50.925334+00:00",
+    "outcome": "See reviewers/B_queries.md for grouped outcomes and B_sources.json read scopes.",
+    "source_ids": []
+  },
+  {
+    "id": "QB006",
+    "query": "Wawrzynek 2026 UmboMic microphone fixation human",
+    "system": "web.run",
+    "run_at": "2026-11-06T11:21:50.925334+00:00",
+    "outcome": "See reviewers/B_queries.md for grouped outcomes and B_sources.json read scopes.",
+    "source_ids": []
+  },
+  {
+    "id": "QB007",
+    "query": "\"UmboMic\" \"58\" \"230\"",
+    "system": "web.run",
+    "run_at": "2026-11-06T11:21:50.925334+00:00",
+    "outcome": "See reviewers/B_queries.md for grouped outcomes and B_sources.json read scopes.",
+    "source_ids": []
+  },
+  {
+    "id": "QB008",
+    "query": "\"UmboMic\" \"58 fC\"",
+    "system": "web.run",
+    "run_at": "2026-11-06T11:21:50.925334+00:00",
+    "outcome": "See reviewers/B_queries.md for grouped outcomes and B_sources.json read scopes.",
+    "source_ids": []
+  },
+  {
+    "id": "QB009",
+    "query": "\"UmboMic\" \"230\" \"2024\"",
+    "system": "web.run",
+    "run_at": "2026-11-06T11:21:50.925334+00:00",
+    "outcome": "See reviewers/B_queries.md for grouped outcomes and B_sources.json read scopes.",
+    "source_ids": []
+  },
+  {
+    "id": "QB010",
+    "query": "\"UmboMic\" \"58\" \"1 kHz\"",
+    "system": "web.run",
+    "run_at": "2026-11-06T11:21:50.925334+00:00",
+    "outcome": "See reviewers/B_queries.md for grouped outcomes and B_sources.json read scopes.",
+    "source_ids": []
+  },
+  {
+    "id": "QB011",
+    "query": "site.ecfr.gov 95.2567 25 microwatts 300 kHz MedRadio",
+    "system": "web.run",
+    "run_at": "2026-11-06T11:21:50.925334+00:00",
+    "outcome": "See reviewers/B_queries.md for grouped outcomes and B_sources.json read scopes.",
+    "source_ids": []
+  },
+  {
+    "id": "QB012",
+    "query": "site.etsi.org EN 301 839 402 405 25 microwatt",
+    "system": "web.run",
+    "run_at": "2026-11-06T11:21:50.925334+00:00",
+    "outcome": "See reviewers/B_queries.md for grouped outcomes and B_sources.json read scopes.",
+    "source_ids": []
+  },
+  {
+    "id": "QB013",
+    "query": "site.etsi.org deliver 301839 2025 pdf",
+    "system": "web.run",
+    "run_at": "2026-11-06T11:21:50.925334+00:00",
+    "outcome": "See reviewers/B_queries.md for grouped outcomes and B_sources.json read scopes.",
+    "source_ids": []
+  },
+  {
+    "id": "QB014",
+    "query": "site.etsi.org/deliver/etsi_en/301800_301899/301839/",
+    "system": "web.run",
+    "run_at": "2026-11-06T11:21:50.925334+00:00",
+    "outcome": "See reviewers/B_queries.md for grouped outcomes and B_sources.json read scopes.",
+    "source_ids": []
+  },
+  {
+    "id": "QB015",
+    "query": "\"Thompson\" \"1991\" \"transoral\" evoked",
+    "system": "web.run",
+    "run_at": "2026-11-06T11:21:50.925334+00:00",
+    "outcome": "See reviewers/B_queries.md for grouped outcomes and B_sources.json read scopes.",
+    "source_ids": []
+  },
+  {
+    "id": "QB016",
+    "query": "\"Thompson\" \"transoral\" \"potentials\"",
+    "system": "web.run",
+    "run_at": "2026-11-06T11:21:50.925334+00:00",
+    "outcome": "See reviewers/B_queries.md for grouped outcomes and B_sources.json read scopes.",
+    "source_ids": []
+  },
+  {
+    "id": "QB017",
+    "query": "\"Intra-operative recording of motor tract potentials\" Thompson 1991",
+    "system": "web.run",
+    "run_at": "2026-11-06T11:21:50.925334+00:00",
+    "outcome": "See reviewers/B_queries.md for grouped outcomes and B_sources.json read scopes.",
+    "source_ids": []
+  },
+  {
+    "id": "QB018",
+    "query": "\"Intra-operative recording\" \"Thompson\" site.pubmed.ncbi.nlm.nih.gov",
+    "system": "web.run",
+    "run_at": "2026-11-06T11:21:50.925334+00:00",
+    "outcome": "See reviewers/B_queries.md for grouped outcomes and B_sources.json read scopes.",
+    "source_ids": []
+  },
+  {
+    "id": "QB019",
+    "query": "\"de Divitiis\" \"2004\" \"transoral\"",
+    "system": "web.run",
+    "run_at": "2026-11-06T11:21:50.925334+00:00",
+    "outcome": "See reviewers/B_queries.md for grouped outcomes and B_sources.json read scopes.",
+    "source_ids": []
+  },
+  {
+    "id": "QB020",
+    "query": "\"Endoscopic Transoral-Transclival\" \"de Divitiis\" \"Abstract\"",
+    "system": "web.run",
+    "run_at": "2026-11-06T11:21:50.925334+00:00",
+    "outcome": "See reviewers/B_queries.md for grouped outcomes and B_sources.json read scopes.",
+    "source_ids": []
+  },
+  {
+    "id": "QB021",
+    "query": "palatine tonsil internal carotid distance 15 22 mm cadaver study",
+    "system": "web.run",
+    "run_at": "2026-11-06T11:21:50.925334+00:00",
+    "outcome": "See reviewers/B_queries.md for grouped outcomes and B_sources.json read scopes.",
+    "source_ids": []
+  },
+  {
+    "id": "QB022",
+    "query": "\"tonsillar\" \"glossopharyngeal\" \"superior constrictor\" anatomy cadaver",
+    "system": "web.run",
+    "run_at": "2026-11-06T11:21:50.925334+00:00",
+    "outcome": "See reviewers/B_queries.md for grouped outcomes and B_sources.json read scopes.",
+    "source_ids": []
+  },
+  {
+    "id": "QB023",
+    "query": "\"tonsillar fossa\" \"internal carotid\" \"2024\"",
+    "system": "web.run",
+    "run_at": "2026-11-06T11:21:50.925334+00:00",
+    "outcome": "See reviewers/B_queries.md for grouped outcomes and B_sources.json read scopes.",
+    "source_ids": []
+  },
+  {
+    "id": "QB024",
+    "query": "site.pubmed.ncbi.nlm.nih.gov \"Classification of pharyngeal muscles\"",
+    "system": "web.run",
+    "run_at": "2026-11-06T11:21:50.925334+00:00",
+    "outcome": "See reviewers/B_queries.md for grouped outcomes and B_sources.json read scopes.",
+    "source_ids": []
+  },
+  {
+    "id": "QB025",
+    "query": "site.pubmed.ncbi.nlm.nih.gov \"tonsil\" \"internal carotid\" \"2024\" distance",
+    "system": "web.run",
+    "run_at": "2026-11-06T11:21:50.925334+00:00",
+    "outcome": "See reviewers/B_queries.md for grouped outcomes and B_sources.json read scopes.",
+    "source_ids": []
+  },
+  {
+    "id": "QB026",
+    "query": "\"MRI evaluation of distance between tonsillary fossa\"",
+    "system": "web.run",
+    "run_at": "2026-11-06T11:21:50.925334+00:00",
+    "outcome": "See reviewers/B_queries.md for grouped outcomes and B_sources.json read scopes.",
+    "source_ids": []
+  },
+  {
+    "id": "QB027",
+    "query": "\"MRI evaluation of distance between tonsillary fossa\" \"Results\"",
+    "system": "web.run",
+    "run_at": "2026-11-06T11:21:50.925334+00:00",
+    "outcome": "See reviewers/B_queries.md for grouped outcomes and B_sources.json read scopes.",
+    "source_ids": []
+  },
+  {
+    "id": "QB028",
+    "query": "site.bluetooth.com LE 2M PHY 2 Mbps Auracast broadcast audio",
+    "system": "web.run",
+    "run_at": "2026-11-06T11:21:50.925334+00:00",
+    "outcome": "See reviewers/B_queries.md for grouped outcomes and B_sources.json read scopes.",
+    "source_ids": []
+  },
+  {
+    "id": "QB029",
+    "query": "site.github.com NeuroSkill-com/neuroloop LICENSE",
+    "system": "web.run",
+    "run_at": "2026-11-06T11:21:50.925334+00:00",
+    "outcome": "See reviewers/B_queries.md for grouped outcomes and B_sources.json read scopes.",
+    "source_ids": []
+  },
+  {
+    "id": "QB030",
+    "query": "site.github.com brainflow-dev/brainflow SimpleBLE license MIT",
+    "system": "web.run",
+    "run_at": "2026-11-06T11:21:50.925334+00:00",
+    "outcome": "See reviewers/B_queries.md for grouped outcomes and B_sources.json read scopes.",
+    "source_ids": []
+  },
+  {
+    "id": "QB031",
+    "query": "\"NeuroFocus\" \"github\" license",
+    "system": "web.run",
+    "run_at": "2026-11-06T11:21:50.925334+00:00",
+    "outcome": "See reviewers/B_queries.md for grouped outcomes and B_sources.json read scopes.",
+    "source_ids": []
+  },
+  {
+    "id": "QB032",
+    "query": "\"brain.io\" \"MIT\"",
+    "system": "web.run",
+    "run_at": "2026-11-06T11:21:50.925334+00:00",
+    "outcome": "See reviewers/B_queries.md for grouped outcomes and B_sources.json read scopes.",
+    "source_ids": []
+  },
+  {
+    "id": "QB033",
+    "query": "\"brain.io\" neurotech official",
+    "system": "web.run",
+    "run_at": "2026-11-06T11:21:50.925334+00:00",
+    "outcome": "See reviewers/B_queries.md for grouped outcomes and B_sources.json read scopes.",
+    "source_ids": []
+  },
+  {
+    "id": "QB034",
+    "query": "site.github.com OpenBCI brain.io",
+    "system": "web.run",
+    "run_at": "2026-11-06T11:21:50.925334+00:00",
+    "outcome": "See reviewers/B_queries.md for grouped outcomes and B_sources.json read scopes.",
+    "source_ids": []
+  },
+  {
+    "id": "QB035",
+    "query": "site.fda.gov implanted brain computer interface guidance 2021 chronic tissue response",
+    "system": "web.run",
+    "run_at": "2026-11-06T11:21:50.925334+00:00",
+    "outcome": "See reviewers/B_queries.md for grouped outcomes and B_sources.json read scopes.",
+    "source_ids": []
+  },
+  {
+    "id": "QB036",
+    "query": "site.blackrockneurotech.com Utah array silicon 96 electrodes",
+    "system": "web.run",
+    "run_at": "2026-11-06T11:21:50.925334+00:00",
+    "outcome": "See reviewers/B_queries.md for grouped outcomes and B_sources.json read scopes.",
+    "source_ids": []
+  },
+  {
+    "id": "QB037",
+    "query": "site.cochlear.com \"CoPilot\" \"free\" app",
+    "system": "web.run",
+    "run_at": "2026-11-06T11:21:50.925334+00:00",
+    "outcome": "See reviewers/B_queries.md for grouped outcomes and B_sources.json read scopes.",
+    "source_ids": []
+  },
+  {
+    "id": "QB038",
+    "query": "site.about.fb.com \"Ray-Ban Meta\" \"Gen 2\"",
+    "system": "web.run",
+    "run_at": "2026-11-06T11:21:50.925334+00:00",
+    "outcome": "See reviewers/B_queries.md for grouped outcomes and B_sources.json read scopes.",
+    "source_ids": []
+  },
+  {
+    "id": "QB039",
+    "query": "site.ecfr.gov/current/title-47/chapter-I/subchapter-D/part-95 \"Voice communications, however, are prohibited\"",
+    "system": "web.run",
+    "run_at": "2026-11-06T11:21:50.925334+00:00",
+    "outcome": "See reviewers/B_queries.md for grouped outcomes and B_sources.json read scopes.",
+    "source_ids": []
+  }
+]

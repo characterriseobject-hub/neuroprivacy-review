@@ -1,0 +1,19 @@
+# Stage 2 — Reviewer A audits Reviewer B
+Date/cutoff: 2026-11-06. Candidate audited: reviewers/B.md independent version. This is a reciprocal analytical audit, not independent clinical corroboration.
+
+| Vulnerability challenged | Audit finding | Disposition / required correction |
+|---|---|---|
+| Attractive hearing-core narrative: “ovine fixation” may be mistaken for living chronic implantation | A independently checked Comens 2026 PubMed/publisher passages: previously deceased sheep, temporal-bone preparation for future live-animal studies | **Accept B correction.** Preserve cadaveric sheep wording; no chronic safety credit |
+| Thin-film pivot presented as an easy safe replacement for Utah | B correctly retains polymer barrier, lead motion, feedthrough and infection uncertainty | **Accept with explicit gate.** Flexibility alone proves neither hermeticity, neural selectivity nor clinical acceptability |
+| Signal path might hide a cortical-to-peripheral transfer | B separates implanted EMG, ENG and surface-EMG comparator; 1–2 kS/s cannot preserve customary spike waveforms | **Accept.** State signal bandwidth and modality before channel count; do not borrow cortical WER |
+| 3.2 kbps feature compression sounds commercially sufficient | Arithmetic is correct for the proposed 16×16-bit×10-Hz feature example, but evidence of preserved linguistic information is absent | **Keep as modeled payload only.** Test rate–distortion/task accuracy, feature cadence and speech latency; 10-Hz feature output is a 100-ms cadence and cannot serve a ≤5-ms hearing loop |
+| MedRadio “300 kHz” mistaken for bitrate or audio permission | A checked official 2025 CFR section 95.2571: voice prohibited; B distinguishes bandwidth from goodput and ERP from EIRP | **Accept.** Dedicated external audio path remains required; lawful neural-data payload classification still needs RF/legal review |
+| Power/permission isolation may promise physically impossible continuity | B explicitly preserves auxiliary-fault hearing reserve but acknowledges essential battery exhaustion | **Accept.** Test shared charging, bus lockup and clock/update faults as common causes; software process isolation alone is insufficient |
+| NeuroLoop reuse could smuggle mental-state inference and persistent memory into the architecture | B records README behavior and research-only status | **Accept conditional rejection of those defaults.** Repository claims are not validated decoder performance; removal and tests required before reuse |
+| Worst-case route hazards could be stated as observed complications | B calls them prospective hazard-analysis judgments | **Accept.** No numerical infection/erosion rate has been established for this untested route |
+| “No useful tonsillar signal” might overstate absence of evidence | B's actual conclusion is no retrieved validation of useful signal plus chronic safety | **Accept HOLD, not a universal impossibility claim.** External-EMG limited vocabulary remains the strongest favorable alternative |
+
+**Adjudication recommendation to B:** accept the three-layer split and hearing development Conditional-Go; reject rigid tonsillar Utah for elective chronic human use in current evidence state; hold flexible route pending signal specificity and chronic safety. Treat the 3.2 kbps feature stream and ≤5-ms hearing loop as separate time domains.
+
+**Independent audit sources:** [Comens primary record](https://pubmed.ncbi.nlm.nih.gov/42247024/), [Comens publisher text](https://link.springer.com/article/10.1007/s10162-026-01056-w), and [official 2025 CFR §95.2571/2573](https://www.govinfo.gov/content/pkg/CFR-2025-title47-vol5/pdf/CFR-2025-title47-vol5-sec95-2571.pdf). Other B assertions were assessed against the candidate and A's existing source set; this audit does not claim a second complete source review of B's entire ledger.
+

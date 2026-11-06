@@ -1,0 +1,242 @@
+{
+  "cutoff": "2026-11-06",
+  "system": "web.run",
+  "queries": [
+    {
+      "id": "QC001",
+      "query": "site.fda.gov quality management system regulation February 2 2026",
+      "date": "2026-11-06",
+      "outcome": "Screened returned candidates; retained primary sources and inspected locators in C_sources.json. No result alone treated as full-document review."
+    },
+    {
+      "id": "QC002",
+      "query": "site.fda.gov predetermined change control plan August 2025 final guidance",
+      "date": "2026-11-06",
+      "outcome": "Screened returned candidates; retained primary sources and inspected locators in C_sources.json. No result alone treated as full-document review."
+    },
+    {
+      "id": "QC003",
+      "query": "site.fda.gov clinical decision support software guidance January 2026",
+      "date": "2026-11-06",
+      "outcome": "Screened returned candidates; retained primary sources and inspected locators in C_sources.json. No result alone treated as full-document review."
+    },
+    {
+      "id": "QC004",
+      "query": "site.accessdata.fda.gov P960009 S478 February 20 2025",
+      "date": "2026-11-06",
+      "outcome": "Screened returned candidates; retained primary sources and inspected locators in C_sources.json. No result alone treated as full-document review."
+    },
+    {
+      "id": "QC005",
+      "query": "site.health.ec.europa.eu MDCG 2021-24 Rev.1 April 2026 classification medical devices",
+      "date": "2026-11-06",
+      "outcome": "Screened returned candidates; retained primary sources and inspected locators in C_sources.json. No result alone treated as full-document review."
+    },
+    {
+      "id": "QC006",
+      "query": "site.digital-strategy.ec.europa.eu AI Act timeline August 2027 medical devices 2026",
+      "date": "2026-11-06",
+      "outcome": "Screened returned candidates; retained primary sources and inspected locators in C_sources.json. No result alone treated as full-document review."
+    },
+    {
+      "id": "QC007",
+      "query": "site.cms.gov NCD 50.3 cochlear implantation 60 percent",
+      "date": "2026-11-06",
+      "outcome": "Screened returned candidates; retained primary sources and inspected locators in C_sources.json. No result alone treated as full-document review."
+    },
+    {
+      "id": "QC008",
+      "query": "site.nice.org.uk NG155 tinnitus cognitive behavioural therapy recommendations",
+      "date": "2026-11-06",
+      "outcome": "Screened returned candidates; retained primary sources and inspected locators in C_sources.json. No result alone treated as full-document review."
+    },
+    {
+      "id": "QC009",
+      "query": "site.cochlear.com FY2026 56,692 1435.2 revenue",
+      "date": "2026-11-06",
+      "outcome": "Screened returned candidates; retained primary sources and inspected locators in C_sources.json. No result alone treated as full-document review."
+    },
+    {
+      "id": "QC010",
+      "query": "site.sonova.com 2025 2026 annual results cochlear implants revenue",
+      "date": "2026-11-06",
+      "outcome": "Screened returned candidates; retained primary sources and inspected locators in C_sources.json. No result alone treated as full-document review."
+    },
+    {
+      "id": "QC011",
+      "query": "site.ir.envoymedical.com 2025 annual report 2026 Acclaim second module October 2026",
+      "date": "2026-11-06",
+      "outcome": "Screened returned candidates; retained primary sources and inspected locators in C_sources.json. No result alone treated as full-document review."
+    },
+    {
+      "id": "QC012",
+      "query": "site.ecfr.gov 21 CFR 812.20 814.39 45 CFR 164.526 amendment",
+      "date": "2026-11-06",
+      "outcome": "Screened returned candidates; retained primary sources and inspected locators in C_sources.json. No result alone treated as full-document review."
+    },
+    {
+      "id": "QC013",
+      "query": "\"Cochlear\" \"2026\" \"1,435.2\"",
+      "date": "2026-11-06",
+      "outcome": "Screened returned candidates; retained primary sources and inspected locators in C_sources.json. No result alone treated as full-document review."
+    },
+    {
+      "id": "QC014",
+      "query": "\"Envoy Medical\" \"2025\" \"revenue\" \"2026\" \"net loss\"",
+      "date": "2026-11-06",
+      "outcome": "Screened returned candidates; retained primary sources and inspected locators in C_sources.json. No result alone treated as full-document review."
+    },
+    {
+      "id": "QC015",
+      "query": "site.ecfr.gov/current/title-21/chapter-I/subchapter-H/part-812/subpart-B/section-812.20",
+      "date": "2026-11-06",
+      "outcome": "Screened returned candidates; retained primary sources and inspected locators in C_sources.json. No result alone treated as full-document review."
+    },
+    {
+      "id": "QC016",
+      "query": "site.hhs.gov hipaa right amend medical records accurate complete",
+      "date": "2026-11-06",
+      "outcome": "Screened returned candidates; retained primary sources and inspected locators in C_sources.json. No result alone treated as full-document review."
+    },
+    {
+      "id": "QC017",
+      "query": "site.fda.gov \"Marketing Submission Recommendations\" \"August 2025\" \"Description\"",
+      "date": "2026-11-06",
+      "outcome": "Screened returned candidates; retained primary sources and inspected locators in C_sources.json. No result alone treated as full-document review."
+    },
+    {
+      "id": "QC018",
+      "query": "site.cochlear.com \"annual-report-2026\"",
+      "date": "2026-11-06",
+      "outcome": "Screened returned candidates; retained primary sources and inspected locators in C_sources.json. No result alone treated as full-document review."
+    },
+    {
+      "id": "QC019",
+      "query": "site.assets.cochlear.com \"2026\" \"56,692\"",
+      "date": "2026-11-06",
+      "outcome": "Screened returned candidates; retained primary sources and inspected locators in C_sources.json. No result alone treated as full-document review."
+    },
+    {
+      "id": "QC020",
+      "query": "site.cochlear.com \"FY26\" \"56,692\"",
+      "date": "2026-11-06",
+      "outcome": "Screened returned candidates; retained primary sources and inspected locators in C_sources.json. No result alone treated as full-document review."
+    },
+    {
+      "id": "QC021",
+      "query": "site.gov.uk medical devices regulation Great Britain CE marked devices 2030 2026",
+      "date": "2026-11-06",
+      "outcome": "Screened returned candidates; retained primary sources and inspected locators in C_sources.json. No result alone treated as full-document review."
+    },
+    {
+      "id": "QC022",
+      "query": "site.tga.gov.au active implantable medical devices class III ARTG",
+      "date": "2026-11-06",
+      "outcome": "Screened returned candidates; retained primary sources and inspected locators in C_sources.json. No result alone treated as full-document review."
+    },
+    {
+      "id": "QC023",
+      "query": "site.canada.ca class IV medical devices licence implantable active",
+      "date": "2026-11-06",
+      "outcome": "Screened returned candidates; retained primary sources and inspected locators in C_sources.json. No result alone treated as full-document review."
+    },
+    {
+      "id": "QC024",
+      "query": "site.pmda.go.jp medical devices approval reimbursement Japan foreign clinical data",
+      "date": "2026-11-06",
+      "outcome": "Screened returned candidates; retained primary sources and inspected locators in C_sources.json. No result alone treated as full-document review."
+    },
+    {
+      "id": "QC025",
+      "query": "site.mfds.go.kr eng medical devices class III IV approval Korea",
+      "date": "2026-11-06",
+      "outcome": "Screened returned candidates; retained primary sources and inspected locators in C_sources.json. No result alone treated as full-document review."
+    },
+    {
+      "id": "QC026",
+      "query": "site.health.ec.europa.eu medical devices reimbursement member states MDR",
+      "date": "2026-11-06",
+      "outcome": "Screened returned candidates; retained primary sources and inspected locators in C_sources.json. No result alone treated as full-document review."
+    },
+    {
+      "id": "QC027",
+      "query": "site.fda.gov 2025 cybersecurity medical devices guidance June 27 524B",
+      "date": "2026-11-06",
+      "outcome": "Screened returned candidates; retained primary sources and inspected locators in C_sources.json. No result alone treated as full-document review."
+    },
+    {
+      "id": "QC028",
+      "query": "site.eur-lex.europa.eu \"02024R1689-20260727\" \"2 August 2028\"",
+      "date": "2026-11-06",
+      "outcome": "Screened returned candidates; retained primary sources and inspected locators in C_sources.json. No result alone treated as full-document review."
+    },
+    {
+      "id": "QC029",
+      "query": "site.fda.gov \"Cybersecurity\" \"February 2026\" \"Quality\"",
+      "date": "2026-11-06",
+      "outcome": "Screened returned candidates; retained primary sources and inspected locators in C_sources.json. No result alone treated as full-document review."
+    },
+    {
+      "id": "QC030",
+      "query": "site.fda.gov cochlear implant Class III PMA approval",
+      "date": "2026-11-06",
+      "outcome": "Screened returned candidates; retained primary sources and inspected locators in C_sources.json. No result alone treated as full-document review."
+    },
+    {
+      "id": "QC031",
+      "query": "site.ecfr.gov 21 CFR 882.4480 cochlear implant",
+      "date": "2026-11-06",
+      "outcome": "Screened returned candidates; retained primary sources and inspected locators in C_sources.json. No result alone treated as full-document review."
+    },
+    {
+      "id": "QC032",
+      "query": "site.fda.gov early feasibility medical device studies significant risk first in human 2013",
+      "date": "2026-11-06",
+      "outcome": "Screened returned candidates; retained primary sources and inspected locators in C_sources.json. No result alone treated as full-document review."
+    },
+    {
+      "id": "QC033",
+      "query": "site.eur-lex.europa.eu 2017/745 Annex VIII rule 8 active implantable",
+      "date": "2026-11-06",
+      "outcome": "Screened returned candidates; retained primary sources and inspected locators in C_sources.json. No result alone treated as full-document review."
+    },
+    {
+      "id": "QC034",
+      "query": "site.fda.gov Requests Feedback Meetings Medical Device Submissions Q Submission Program May 2025",
+      "date": "2026-11-06",
+      "outcome": "Screened returned candidates; retained primary sources and inspected locators in C_sources.json. No result alone treated as full-document review."
+    },
+    {
+      "id": "QC035",
+      "query": "site.health.ec.europa.eu health technology assessment high risk medical devices joint clinical assessments 2026",
+      "date": "2026-11-06",
+      "outcome": "Screened returned candidates; retained primary sources and inspected locators in C_sources.json. No result alone treated as full-document review."
+    },
+    {
+      "id": "QC036",
+      "query": "site.eur-lex.europa.eu GDPR Article 9 health data Article 16 rectification 2016 679",
+      "date": "2026-11-06",
+      "outcome": "Screened returned candidates; retained primary sources and inspected locators in C_sources.json. No result alone treated as full-document review."
+    },
+    {
+      "id": "QC037",
+      "query": "site.irs.gov net operating loss 80 percent taxable income corporations 2026",
+      "date": "2026-11-06",
+      "outcome": "IRS2025Form1120 instructions confirm post2017NOL80percent limit; model tax remains simplified; supporting URL https://www.irs.gov/instructions/i1120"
+    }
+  ],
+  "access_failures": [
+    "Cochlear annual report official PDF exceeded web tool content size; official11-page FY26 ASX release used for metrics.",
+    "Initial wrong FDA PCCP slug timed out; corrected via official guidance-index link.",
+    "Initial EUR-Lex ELI endpoint robot check; consolidated CELEX URL returned full text and Article113 inspected.",
+    "Cochlear initial reports URL inaccessible; navigated investor page to financial results official release.",
+    "FDA /medical-devices/premarket-approval-pma URL404; correct official pathway page identified."
+  ],
+  "important_corrections": [
+    "FDA CDS final29January2026 supersedes6January2026.",
+    "FDA cyber guidance3February2026 supersedes27June2025.",
+    "EU AI Act Article113 consolidated27July2026 moves regulated-product high-risk applicability to2August2028.",
+    "UK21October2026 intention to indefinitely recognize MDR CE is policy outcome, not proof enacted law.",
+    "Envoy5November2026 update refines final-module forecast."
+  ]
+}

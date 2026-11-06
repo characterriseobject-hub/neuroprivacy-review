@@ -1,0 +1,127 @@
+[
+  {
+    "id": "CL001",
+    "text": "Metzger used cortical-surface ECoG, not intracortical spikes.",
+    "kind": "direct",
+    "support_status": "supported",
+    "qualification": "Specific study and correction; not peripheral validation.",
+    "evidence": [
+      {
+        "source_id": "SCL002",
+        "locator": "Overview of multimodal speech-decoding system; Neural implant; abstract",
+        "note": "Supports bounded claim as recorded in source ledger."
+      }
+    ]
+  },
+  {
+    "id": "CL002",
+    "text": "Card and Wairagkar include the same T15 cortical platform.",
+    "kind": "direct",
+    "support_status": "supported",
+    "qualification": "Overlapping evidence family, not independent participant replication.",
+    "evidence": [
+      {
+        "source_id": "SCL003",
+        "locator": "Surgical implantation; Results final five Copy Task sessions; Conversation Mode Fig.4; Discussion",
+        "note": "Supports bounded claim as recorded in source ledger."
+      },
+      {
+        "source_id": "SCL004",
+        "locator": "Abstract; Supplementary Video 15; PMC T15 descriptions",
+        "note": "Supports bounded claim as recorded in source ledger."
+      }
+    ]
+  },
+  {
+    "id": "CL003",
+    "text": "UmboMic fixation study used cadaveric sheep.",
+    "kind": "direct",
+    "support_status": "supported",
+    "qualification": "Does not establish chronic living-tissue safety.",
+    "evidence": [
+      {
+        "source_id": "SCL012",
+        "locator": "Abstract methods; Results Use of Specimens; Change history",
+        "note": "Supports bounded claim as recorded in source ledger."
+      }
+    ]
+  },
+  {
+    "id": "CL004",
+    "text": "US MedRadio voice communications are prohibited under reviewed section.",
+    "kind": "direct",
+    "support_status": "supported",
+    "qualification": "Specific reviewed rule; full payload/certification review remains open.",
+    "evidence": [
+      {
+        "source_id": "ST002",
+        "locator": "95.2571;95.2573(a)",
+        "note": "Supports bounded claim as recorded in source ledger."
+      }
+    ]
+  },
+  {
+    "id": "CL005",
+    "text": "A consumer waiver or HCP workflow does not automatically exempt regulated implant investigations.",
+    "kind": "inference",
+    "support_status": "supported",
+    "qualification": "Function-specific classification still required.",
+    "evidence": [
+      {
+        "source_id": "SRM001",
+        "locator": "812.20(a)(1)-(2), (b)",
+        "note": "Supports bounded claim as recorded in source ledger."
+      },
+      {
+        "source_id": "SRM005",
+        "locator": "PDF cover; Section IV criterion 1 pp7-9; supersedes January 6 2026",
+        "note": "Supports bounded claim as recorded in source ledger."
+      },
+      {
+        "source_id": "SRM023",
+        "locator": "50.20",
+        "note": "Supports bounded claim as recorded in source ledger."
+      }
+    ]
+  },
+  {
+    "id": "CL006",
+    "text": "Chronic useful tonsillar speech information and safety are not established by this reviewed corpus.",
+    "kind": "unresolved",
+    "support_status": "unresolved",
+    "qualification": "Bounded search non-retrieval is not proof of impossibility.",
+    "evidence": []
+  },
+  {
+    "id": "CL007",
+    "text": "Model NPVs differ from supplied targets.",
+    "kind": "direct",
+    "support_status": "supported",
+    "qualification": "Missing original annual schedules; independent reconstruction not forecast.",
+    "evidence": [
+      {
+        "source_id": "M001",
+        "locator": "Prompt\u00a74Boundary1",
+        "note": "Supports bounded claim as recorded in source ledger."
+      },
+      {
+        "source_id": "M002",
+        "locator": "Executed code/results; m001,m004,stats",
+        "note": "Supports bounded claim as recorded in source ledger."
+      },
+      {
+        "source_id": "M004",
+        "locator": "Prompt\u00a74Boundary2",
+        "note": "Supports bounded claim as recorded in source ledger."
+      }
+    ]
+  },
+  {
+    "id": "CL008",
+    "text": "Patient physical OFF and diagnostic-integrity gates are mandatory proposed requirements.",
+    "kind": "proposal",
+    "support_status": "supported",
+    "qualification": "Not a demonstrated implementation or universal statutory patient veto.",
+    "evidence": []
+  }
+]

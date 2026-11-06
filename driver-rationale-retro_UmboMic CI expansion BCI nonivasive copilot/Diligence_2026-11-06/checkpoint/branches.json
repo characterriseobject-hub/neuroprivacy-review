@@ -1,0 +1,78 @@
+[
+  {
+    "id": "BR001",
+    "question": "What scientific evidence transfers across layers?",
+    "mandatory": true,
+    "status": "covered",
+    "reason": "Cortical/cadaveric/peripheral distinctions assessed; chronic hypothesis explicitly unresolved.",
+    "source_ids": [
+      "SCL002",
+      "SCL003",
+      "SCL012"
+    ],
+    "claim_ids": [
+      "CL001",
+      "CL002",
+      "CL003",
+      "CL006"
+    ]
+  },
+  {
+    "id": "BR002",
+    "question": "Can architecture and telemetry meet requirements?",
+    "mandatory": true,
+    "status": "in_progress",
+    "reason": "Architecture/math evaluated; device-specific performance, chronic safety and RF testing absent.",
+    "source_ids": [
+      "ST001",
+      "ST002",
+      "ST003"
+    ],
+    "claim_ids": [
+      "CL004",
+      "CL008"
+    ]
+  },
+  {
+    "id": "BR003",
+    "question": "What legal and payer pathways apply?",
+    "mandatory": true,
+    "status": "covered",
+    "reason": "Public function-level analysis delivered; private regulatory strategy and latest MDR reconciliation remain qualified.",
+    "source_ids": [
+      "SRM001",
+      "SRM005",
+      "SRM009"
+    ],
+    "claim_ids": [
+      "CL005"
+    ]
+  },
+  {
+    "id": "BR004",
+    "question": "Are financial targets reproducible and commercially supported?",
+    "mandatory": true,
+    "status": "in_progress",
+    "reason": "Reconstruction and sensitivities delivered; original annual flows, center commitments and paid demand absent.",
+    "source_ids": [
+      "M001",
+      "M002",
+      "M004"
+    ],
+    "claim_ids": [
+      "CL007"
+    ]
+  },
+  {
+    "id": "BR005",
+    "question": "Were three peers and required artifact types delivered?",
+    "mandatory": true,
+    "status": "covered",
+    "reason": "Three candidates, cyclic audits, rotated judges; report,xlsx,CSV,poster spec and six-slide prompt saved.",
+    "source_ids": [
+      "SX001",
+      "SX002"
+    ],
+    "claim_ids": []
+  }
+]

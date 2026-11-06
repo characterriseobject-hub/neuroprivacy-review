@@ -1,4 +1,4 @@
-# Fail-closed boundary: exactly the reviewed twelve files.
+# Explicit selective publication allowlist; other local files remain excluded.
 *
 !/.github/
 !/DATA/
@@ -26,3 +26,38 @@
 !/TEXT/MD/COMPACT_REVIEW/REVIEW_CONTENTS.md
 !/TEXT/MD/COMPACT_REVIEW/REVIEW_WORKSPACE_STATUS.md
 !/TEXT/TXT/2026-10-24_Personal_Observation_Table.txt
+
+# Reviewed figures and current grouped review; older versions remain local.
+!/PNG/SYSTEM-1A_characterriseobject-hub_neuroprivacy-review.png
+!/PNG/SYSTEM1B_characterriseobject-hub_neuroprivacy-review.png
+!/IMAGES/voice_calibration.svg
+!/PDF/voice_calibration_60x36.pdf
+!/driver-rationale-retro_UmboMic CI expansion BCI nonivasive copilot/
+!/driver-rationale-retro_UmboMic CI expansion BCI nonivasive copilot/Neural_Audio_Investment_Review.pptx
+!/driver-rationale-retro_UmboMic CI expansion BCI nonivasive copilot/Neural_Audio_Master_Model.xlsx
+!/driver-rationale-retro_UmboMic CI expansion BCI nonivasive copilot/Neural_Audio_Investment_Decision.pdf
+!/driver-rationale-retro_UmboMic CI expansion BCI nonivasive copilot/Neural_Audio_Technical_Review.pdf
+!/driver-rationale-retro_UmboMic CI expansion BCI nonivasive copilot/Diligence_2026-11-06/
+!/driver-rationale-retro_UmboMic CI expansion BCI nonivasive copilot/Diligence_2026-11-06/checkpoint/
+!/driver-rationale-retro_UmboMic CI expansion BCI nonivasive copilot/Diligence_2026-11-06/checkpoint/sources.json
+!/driver-rationale-retro_UmboMic CI expansion BCI nonivasive copilot/Diligence_2026-11-06/checkpoint/state.json
+!/driver-rationale-retro_UmboMic CI expansion BCI nonivasive copilot/Diligence_2026-11-06/checkpoint/checkpoint.md
+!/driver-rationale-retro_UmboMic CI expansion BCI nonivasive copilot/Diligence_2026-11-06/checkpoint/branches.json
+!/driver-rationale-retro_UmboMic CI expansion BCI nonivasive copilot/Diligence_2026-11-06/checkpoint/query-log.json
+!/driver-rationale-retro_UmboMic CI expansion BCI nonivasive copilot/Diligence_2026-11-06/checkpoint/claims.json
+!/driver-rationale-retro_UmboMic CI expansion BCI nonivasive copilot/Diligence_2026-11-06/reviewers/
+!/driver-rationale-retro_UmboMic CI expansion BCI nonivasive copilot/Diligence_2026-11-06/reviewers/B.md
+!/driver-rationale-retro_UmboMic CI expansion BCI nonivasive copilot/Diligence_2026-11-06/reviewers/C_query_log.json
+!/driver-rationale-retro_UmboMic CI expansion BCI nonivasive copilot/Diligence_2026-11-06/reviewers/C_audit_A.md
+!/driver-rationale-retro_UmboMic CI expansion BCI nonivasive copilot/Diligence_2026-11-06/reviewers/C.md
+!/driver-rationale-retro_UmboMic CI expansion BCI nonivasive copilot/Diligence_2026-11-06/reviewers/C_judgment.md
+!/driver-rationale-retro_UmboMic CI expansion BCI nonivasive copilot/Diligence_2026-11-06/reviewers/C_sources.json
+!/driver-rationale-retro_UmboMic CI expansion BCI nonivasive copilot/Diligence_2026-11-06/reviewers/B_audit_C.md
+!/driver-rationale-retro_UmboMic CI expansion BCI nonivasive copilot/Diligence_2026-11-06/reviewers/B_sources.json
+!/driver-rationale-retro_UmboMic CI expansion BCI nonivasive copilot/Diligence_2026-11-06/reviewers/A_audit_B.md
+!/driver-rationale-retro_UmboMic CI expansion BCI nonivasive copilot/Diligence_2026-11-06/reviewers/A_judgment.md
+!/driver-rationale-retro_UmboMic CI expansion BCI nonivasive copilot/Diligence_2026-11-06/reviewers/B_queries.md
+!/driver-rationale-retro_UmboMic CI expansion BCI nonivasive copilot/Diligence_2026-11-06/reviewers/A_sources.json
+!/driver-rationale-retro_UmboMic CI expansion BCI nonivasive copilot/Diligence_2026-11-06/reviewers/A_queries.json
+!/driver-rationale-retro_UmboMic CI expansion BCI nonivasive copilot/Diligence_2026-11-06/reviewers/A.md
+!/driver-rationale-retro_UmboMic CI expansion BCI nonivasive copilot/Diligence_2026-11-06/reviewers/B_judgment.md

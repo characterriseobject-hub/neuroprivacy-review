@@ -1,0 +1,413 @@
+[
+  {
+    "id": "SCL010",
+    "title": "The UmboMic: A PVDF Cantilever Microphone",
+    "authors": [
+      "Aaron J. Yeiser",
+      "Emma F. Wawrzynek",
+      "John Z. Zhang",
+      "Lukas Graf",
+      "Christopher I. McHugh",
+      "Ioannis Kymissis",
+      "Elizabeth S. Olson",
+      "Jeffrey H. Lang",
+      "Hideko Heidi Nakajima"
+    ],
+    "url": "https://pubmed.ncbi.nlm.nih.gov/39493505/",
+    "doi": "10.1088/1361-6439/ad5c6d",
+    "date": "2024-07-18",
+    "access_date": "2026-11-06",
+    "access_scope": "PubMed abstract and author list; arXiv v1 full-text sensor-design sections inspected",
+    "locator": "Abstract results; arXiv section II",
+    "finding": "3x3 mm triangular PVDF; cadaveric prototype; EIN32.3 dBSPL100Hz–7kHz",
+    "limitations": "Preprint and publication are same evidence family; no chronic human outcome; 200-word summary cap"
+  },
+  {
+    "id": "SCL011",
+    "title": "The UmboMic: Characterization and Testing of a Middle Ear Microphone",
+    "authors": [
+      "Emma F. Wawrzynek",
+      "John Z. Zhang",
+      "Ioannis Kymissis",
+      "Elizabeth S. Olson",
+      "Jeffrey H. Lang",
+      "Hideko Heidi Nakajima"
+    ],
+    "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC13020673/",
+    "doi": "10.1007/s10162-026-01039-x",
+    "date": "2026-03-16",
+    "access_date": "2026-11-06",
+    "access_scope": "PubMed abstract/metadata; PMC indexed full-text passages sections3.3,4.2 and Fig11; publisher abstract",
+    "locator": "Methods; Fig11; sections3.3,4.2",
+    "finding": "7sensors5cadaver ears; EIN32.4; 58fC/Pa1kHz and230fC/Pa2kHz include modeled outer-ear transfer",
+    "limitations": "Not living intact-ear sensitivity or independent patients per sensor; PMC direct open browser challenge, relevant full passages returned by search"
+  },
+  {
+    "id": "SCL012",
+    "title": "Development of the Surgical Implantation and Fixation of an Implanted Middle Ear Microphone, the UmboMic, in Cadaveric Sheep",
+    "authors": [
+      "Isadora C. Comens",
+      "Chaoqun Zhou",
+      "Dan L. Nguyen",
+      "Emma F. Wawrzynek",
+      "John Z. Zhang",
+      "Ioannis Kymissis",
+      "D. Bradley Welling",
+      "Jeffrey H. Lang",
+      "Hideko Heidi Nakajima",
+      "Elizabeth S. Olson"
+    ],
+    "url": "https://link.springer.com/article/10.1007/s10162-026-01056-w",
+    "doi": "10.1007/s10162-026-01056-w",
+    "date": "2026-06-05",
+    "access_date": "2026-11-06",
+    "access_scope": "Publisher full-text abstract, methods, results and change history inspected",
+    "locator": "Abstract methods; Results Use of Specimens; Change history",
+    "finding": "Temporal bones from7female sheep; cadaveric fixation study preparing for live study",
+    "limitations": "Not chronic living sheep or human trial; corrected September22 author name"
+  },
+  {
+    "id": "SCL013",
+    "title": "Intra-operative recording of motor tract potentials at the cervico-medullary junction following scalp electrical and magnetic stimulation of the motor cortex",
+    "authors": [
+      "P. D. Thompson",
+      "B. L. Day",
+      "H. A. Crockard",
+      "I. Calder",
+      "N. M. Murray",
+      "J. C. Rothwell",
+      "C. D. Marsden"
+    ],
+    "url": "https://pubmed.ncbi.nlm.nih.gov/1654395/",
+    "doi": "10.1136/jnnp.54.7.618",
+    "date": "1991-07",
+    "access_date": "2026-11-06",
+    "access_scope": "PubMed complete author list and abstract",
+    "locator": "Abstract",
+    "finding": "6patients; exposed cervicomedullary junction; responses to scalp stimulation",
+    "limitations": "Historical exception; not intact tonsillar recording or chronic speech; author initials as indexed (publisher TOC gives NMF Murray)"
+  },
+  {
+    "id": "SCL014",
+    "title": "Endoscopic transoral-transclival approach to the brainstem and surrounding cisternal space: anatomic study",
+    "authors": [
+      "Oreste de Divitiis",
+      "Alfredo Conti",
+      "Filippo Flavio Angileri",
+      "Salvatore Cardali",
+      "Domenico La Torre",
+      "Manfred Tschabitscher"
+    ],
+    "url": "https://pubmed.ncbi.nlm.nih.gov/14683549/",
+    "doi": "10.1227/01.neu.0000097271.55741.60",
+    "date": "2004-01",
+    "access_date": "2026-11-06",
+    "access_scope": "Complete PubMed indexed abstract and metadata via search; direct open challenged",
+    "locator": "Abstract methods/results",
+    "finding": "15cadaver heads;20skull bases; surgical clival/dural route",
+    "limitations": "Historical anatomical exception; no chronic decoding evidence"
+  },
+  {
+    "id": "ST001",
+    "title": "47 CFR95.2567 MedRadio radiated power limits",
+    "authors": [
+      "Federal Communications Commission"
+    ],
+    "url": "https://www.govinfo.gov/content/pkg/CFR-2025-title47-vol5/pdf/CFR-2025-title47-vol5-sec95-2567.pdf",
+    "doi": null,
+    "date": "2025-10-01",
+    "access_date": "2026-11-06",
+    "access_scope": "Official CFR PDF text relevant clauses inspected",
+    "locator": "95.2567(a)(1);95.2569",
+    "finding": "25uW M-EIRP per300kHz402–405MHz for monitored systems",
+    "limitations": "Other exceptions use different limits;2025official edition retrieved; certify current rule at filing"
+  },
+  {
+    "id": "ST002",
+    "title": "47 CFR95.2571 and95.2573 MedRadio emission types and authorized bandwidths",
+    "authors": [
+      "Federal Communications Commission"
+    ],
+    "url": "https://www.govinfo.gov/content/pkg/CFR-2025-title47-vol5/pdf/CFR-2025-title47-vol5-sec95-2573.pdf",
+    "doi": null,
+    "date": "2025-10-01",
+    "access_date": "2026-11-06",
+    "access_scope": "Official CFR PDF text clauses inspected;2017Federal Register cross-check",
+    "locator": "95.2571;95.2573(a)",
+    "finding": "Voice communications prohibited;300kHz total session limit",
+    "limitations": "Bandwidth is not bitrate; waveform eligibility needs specialist review"
+  },
+  {
+    "id": "ST003",
+    "title": "ETSI EN301839 V2.1.1 Ultra Low Power Active Medical Implants402–405MHz",
+    "authors": [
+      "European Telecommunications Standards Institute"
+    ],
+    "url": "https://www.etsi.org/deliver/etsi_en/301800_301899/301839/02.01.01_60/en_301839v020101p.pdf",
+    "doi": null,
+    "date": "2016-04",
+    "access_date": "2026-11-06",
+    "access_scope": "Official52page PDF; clauses4.2.1.2–3 inspected",
+    "locator": "Page13 clauses4.2.1.2.2 and4.2.1.3.2",
+    "finding": "300kHz maximum;25uW ERP for LBT/AFA; alternate100nW low-duty mode",
+    "limitations": "Historical standard; current OJ harmonization and national implementation not established;ERP notEIRP"
+  },
+  {
+    "id": "ST004",
+    "title": "Communicating supported Bluetooth functionality",
+    "authors": [
+      "Bluetooth SIG"
+    ],
+    "url": "https://www.bluetooth.com/communicating-supported-bluetooth-functionality/",
+    "doi": null,
+    "date": null,
+    "access_date": "2026-11-06",
+    "access_scope": "Official feature-page LE2M passage",
+    "locator": "LE2M description",
+    "finding": "2Mbps physical-layer rate",
+    "limitations": "Not application goodput or implanted radio certification"
+  },
+  {
+    "id": "ST005",
+    "title": "LE Audio",
+    "authors": [
+      "Bluetooth SIG"
+    ],
+    "url": "https://www.bluetooth.com/learn-about-bluetooth/feature-enhancements/le-audio/",
+    "doi": null,
+    "date": null,
+    "access_date": "2026-11-06",
+    "access_scope": "Official overview page",
+    "locator": "Auracast broadcast audio",
+    "finding": "LEAudio supports broadcast audio",
+    "limitations": "Not raw neural uplink or evidence of phone-specific compatibility"
+  },
+  {
+    "id": "ST006",
+    "title": "Transoral anatomy of the tonsillar fossa and lateral pharyngeal wall: anatomic dissection with radiographic and clinical correlation",
+    "authors": [
+      "Chwee Ming Lim",
+      "Vikas Mehta",
+      "Raymond Chai",
+      "Carlos-Neto D. Pinheiro",
+      "Tanya Rath",
+      "Carl Snyderman",
+      "Umamaheswar Duvvuri"
+    ],
+    "url": "https://pubmed.ncbi.nlm.nih.gov/24105605/",
+    "doi": "10.1002/lary.23927",
+    "date": "2013-09-19",
+    "access_date": "2026-11-06",
+    "access_scope": "PubMed author list and abstract inspected",
+    "locator": "Abstract methods/results",
+    "finding": "CNIX deep to superior constrictor;6cadavers;2TORS patients;25CT patients;reported17.6/18.4mm C2–C3 to ECA",
+    "limitations": "Historical anatomy exception; ECA not ICA; not implant performance"
+  },
+  {
+    "id": "ST007",
+    "title": "MRI evaluation of distance between tonsillary fossa and internal carotid artery in children",
+    "authors": [
+      "Mehmet Hamdi Şahan",
+      "Nuray Bayar Muluk"
+    ],
+    "url": "https://pubmed.ncbi.nlm.nih.gov/32896339/",
+    "doi": "10.1016/j.ijporl.2020.110209",
+    "date": "2020-07-11",
+    "access_date": "2026-11-06",
+    "access_scope": "Complete indexed PubMed abstract and metadata; direct page incomplete",
+    "locator": "Abstract methods/results",
+    "finding": "200children; middle/inferior mean distances below8or9mm; minima around2mm",
+    "limitations": "Pediatric retrospective MRI cohort; not direct adult or post-tonsillectomy clearance estimate"
+  },
+  {
+    "id": "SP001",
+    "title": "MED-EL Launches TICI UNICO, the World's First and Only Totally Invisible Cochlear Implant",
+    "authors": [
+      "MED-EL"
+    ],
+    "url": "https://www.medel.com/press-room/press-details/2026/09/29/medel-launches-tici-unico-the-worlds-first-and-only-totally-invisible-cochlear-implant",
+    "doi": null,
+    "date": "2026-09-29",
+    "access_date": "2026-11-06",
+    "access_scope": "Issuer announcement full page",
+    "locator": "Lead;Technology;final CE statement",
+    "finding": "Issuer reports CE mark and European market introduction;subcutaneous microphone",
+    "limitations": "Vendor source; underlying certificate/IFU not separately audited;not UmboMic evidence"
+  },
+  {
+    "id": "SP002",
+    "title": "Envoy Medical Submits Second Module of Modular Premarket Approval Application to FDA for Breakthrough Designated Acclaim Cochlear Implant",
+    "authors": [
+      "Envoy Medical, Inc."
+    ],
+    "url": "https://www.envoymedical.com/news/envoy-medical-submits-second-module-of-modular-premarket-approval-application-to-fda-for-breakthrough-designated-acclaimr-cochlear-implant",
+    "doi": null,
+    "date": "2026-10-12",
+    "access_date": "2026-11-06",
+    "access_scope": "Issuer press release; syndicated full issuer text",
+    "locator": "Second module and remaining milestones",
+    "finding": "Engineering second module of4; final clinical module targetQ22027; investigational trial",
+    "limitations": "Submission not approval; forward-looking target"
+  },
+  {
+    "id": "SP003",
+    "title": "Correction: Development of the Surgical Implantation and Fixation of an Implanted Middle Ear Microphone, the UmboMic, in Cadaveric Sheep",
+    "authors": [
+      "Isadora C. Comens",
+      "Chaoqun Zhou",
+      "Dan L. Nguyen",
+      "Emma F. Wawrzynek",
+      "John Z. Zhang",
+      "Ioannis Kymissis",
+      "D. Bradley Welling",
+      "Jeffrey H. Lang",
+      "Hideko Heidi Nakajima",
+      "Elizabeth S. Olson"
+    ],
+    "url": "https://link.springer.com/article/10.1007/s10162-026-01072-w",
+    "doi": "10.1007/s10162-026-01072-w",
+    "date": "2026-09-22",
+    "access_date": "2026-11-06",
+    "access_scope": "Full correction inspected;HTML saved",
+    "locator": "Correction paragraph",
+    "finding": "Corrected presentation of Hideko Heidi Nakajima name",
+    "limitations": "Does not add chronic data"
+  },
+  {
+    "id": "SP004",
+    "title": "NeuroLoop README and GPLv3 LICENSE",
+    "authors": [
+      "Nataliya Kosmyna",
+      "Eugene Hauptmann"
+    ],
+    "url": "https://github.com/NeuroSkill-com/neuroloop",
+    "doi": null,
+    "date": "2026",
+    "access_date": "2026-11-06",
+    "access_scope": "Repository README features,metrics,license inspected;rawLICENSE saved",
+    "locator": "Features;EXG Metrics;License",
+    "finding": "Research-only consumerEXG;silent labeling,persistent memory;GPLv3",
+    "limitations": "No medical validation; commit not pinned;implementation audit incomplete;GPL obligations require distribution analysis"
+  },
+  {
+    "id": "SP005",
+    "title": "BrainFlow LICENSE",
+    "authors": [
+      "Andrey Parfenov",
+      "BrainFlow contributors"
+    ],
+    "url": "https://github.com/brainflow-dev/brainflow/blob/master/LICENSE",
+    "doi": null,
+    "date": null,
+    "access_date": "2026-11-06",
+    "access_scope": "Full license text inspected and saved",
+    "locator": "MIT heading;IMPORTANT NOTICE SimpleBLE",
+    "finding": "MIT main license plus specified restrictions for SimpleBLE",
+    "limitations": "Exact binary/version and third-party agreement still need audit;not uniformly permissive"
+  },
+  {
+    "id": "SP006",
+    "title": "MNE-Python LICENSE",
+    "authors": [
+      "MNE-Python authors"
+    ],
+    "url": "https://github.com/mne-tools/mne-python/blob/main/LICENSE.txt",
+    "doi": null,
+    "date": null,
+    "access_date": "2026-11-06",
+    "access_scope": "Full raw license inspected and saved",
+    "locator": "Three conditions and disclaimer",
+    "finding": "BSD3clause terms",
+    "limitations": "Dependency/model/data licenses separate;commit not pinned"
+  },
+  {
+    "id": "SP007",
+    "title": "brain.io identity and license unresolved",
+    "authors": [
+      "Unverified"
+    ],
+    "url": "https://www.brain.io/",
+    "doi": null,
+    "date": null,
+    "access_date": "2026-11-06",
+    "access_scope": "Landing page only: brain.io heading and hosting link",
+    "locator": "Entire exposed page",
+    "finding": "Insufficient content to identify intended product/code/license",
+    "limitations": "UNVERIFIED—REQUIRES SOURCE CHECK;not evidence of partnership or license"
+  },
+  {
+    "id": "SP008",
+    "title": "NeuroFocus — Live focus score from your headphones",
+    "authors": [
+      "NeuroFocus; legal entity not verified"
+    ],
+    "url": "https://www.neurofocus.dev/",
+    "doi": null,
+    "date": null,
+    "access_date": "2026-11-06",
+    "access_scope": "Product page inspected, including preorder and simulation labels",
+    "locator": "Lead;preorder;focus-score simulated",
+    "finding": "One possible NeuroFocus entity markets dryEEG ear pad preorder",
+    "limitations": "User intended entity unresolved; no executable license established;unrelated same-name repositories must not be conflated"
+  },
+  {
+    "id": "SP009",
+    "title": "Classification of pharyngeal muscles based on innervations from glossopharyngeal and vagus nerves in human",
+    "authors": [
+      "Yujiro Sakamoto"
+    ],
+    "url": "https://pubmed.ncbi.nlm.nih.gov/19479181/",
+    "doi": "10.1007/s00276-009-0516-9",
+    "date": "2009-05-29",
+    "access_date": "2026-11-06",
+    "access_scope": "PubMed author and full abstract",
+    "locator": "Methods/results",
+    "finding": "44sides22cadavers;complex IX,plexus and laryngeal innervation",
+    "limitations": "Historical anatomy exception;not signal selectivity or implanted function"
+  },
+  {
+    "id": "SP010",
+    "title": "Utah Array product page",
+    "authors": [
+      "Blackrock Neurotech"
+    ],
+    "url": "https://blackrockneurotech.com/products/utah-array/",
+    "doi": null,
+    "date": null,
+    "access_date": "2026-11-06",
+    "access_scope": "Manufacturer product specs and FAQ inspected",
+    "locator": "Specs;FAQ",
+    "finding": "Penetrating silicon array; common96channel configuration",
+    "limitations": "Vendor page contains problematic approval/designation language not adopted;not tonsillar use approval"
+  },
+  {
+    "id": "SP012",
+    "title": "Cochlear CoPilot Mobile Hearing App",
+    "authors": [
+      "Cochlear Limited"
+    ],
+    "url": "https://www.cochlear.com/us/en/home/ongoing-care-and-support/rehabilitation-resources/copilot",
+    "doi": null,
+    "date": null,
+    "access_date": "2026-11-06",
+    "access_scope": "Manufacturer product page",
+    "locator": "Communication tactics;free download",
+    "finding": "Free listening/communication-practice app",
+    "limitations": "Not same product as proposed AIplatform;not comparative efficacy trial"
+  },
+  {
+    "id": "SP013",
+    "title": "Ray-Ban Meta (Gen2) Now With Up to2X the Battery Life and Better Video Capture",
+    "authors": [
+      "Meta"
+    ],
+    "url": "https://about.fb.com/news/2025/09/ray-ban-meta-gen-2-better-battery-life-video-capture/amp/",
+    "doi": null,
+    "date": "2025-09",
+    "access_date": "2026-11-06",
+    "access_scope": "Issuer launch announcement",
+    "locator": "Features;price statement",
+    "finding": "AIassistant,translation,audio;launch entry$379;up to8hours typicaluse claimed",
+    "limitations": "Historical launch price not current quote;feature/country constraints;not a cochlear implant"
+  }
+]
