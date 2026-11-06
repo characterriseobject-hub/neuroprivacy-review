@@ -1,63 +1,55 @@
-# Explicit selective publication allowlist; other local files remain excluded.
+# Explicit public-file allowlist. Unreviewed local files remain excluded.
 *
-!/.github/
-!/DATA/
-!/IMAGES/
-!/OFFICE/
+!/Archive/
 !/PDF/
+!/TXT/
+!/MD/
+!/PPTX/
+!/CSV/
 !/PNG/
-!/TEXT/
-!/DATA/JSON/
-!/IMAGES/SVG/
-!/OFFICE/PPTX/
-!/TEXT/MD/
-!/TEXT/TXT/
-!/DATA/JSON/COMPACT_REVIEW/
-!/TEXT/MD/COMPACT_REVIEW/
+!/MP4/
+!/HTML/
 !/.gitattributes
-!/.github/README.md
 !/.gitignore
-!/DATA/JSON/COMPACT_REVIEW/REVIEW_FILE_MANIFEST.json
-!/IMAGES/SVG/voice_auditory_architecture.svg
-!/OFFICE/PPTX/System_6_Engineering_Overview.pptx
+!/Archive/Diligence_2026-11-06_checkpoint_branches.json
+!/Archive/Diligence_2026-11-06_checkpoint_claims.json
+!/Archive/Diligence_2026-11-06_checkpoint_query-log.json
+!/Archive/Diligence_2026-11-06_checkpoint_sources.json
+!/Archive/Diligence_2026-11-06_checkpoint_state.json
+!/Archive/Diligence_2026-11-06_reviewers_A_queries.json
+!/Archive/Diligence_2026-11-06_reviewers_A_sources.json
+!/Archive/Diligence_2026-11-06_reviewers_B_sources.json
+!/Archive/Diligence_2026-11-06_reviewers_C_query_log.json
+!/Archive/Diligence_2026-11-06_reviewers_C_sources.json
+!/Archive/REVIEW_FILE_MANIFEST.json
+!/CSV/Neural_Audio_Master_Model.xlsx
+!/HTML/.gitkeep
+!/MD/2026-10-25_Reported_Observations_and_Research_Criteria.md
+!/MD/Diligence_2026-11-06_checkpoint_checkpoint.md
+!/MD/Diligence_2026-11-06_reviewers_A.md
+!/MD/Diligence_2026-11-06_reviewers_A_audit_B.md
+!/MD/Diligence_2026-11-06_reviewers_A_judgment.md
+!/MD/Diligence_2026-11-06_reviewers_B.md
+!/MD/Diligence_2026-11-06_reviewers_B_audit_C.md
+!/MD/Diligence_2026-11-06_reviewers_B_judgment.md
+!/MD/Diligence_2026-11-06_reviewers_B_queries.md
+!/MD/Diligence_2026-11-06_reviewers_C.md
+!/MD/Diligence_2026-11-06_reviewers_C_audit_A.md
+!/MD/Diligence_2026-11-06_reviewers_C_judgment.md
+!/MD/FILE_LOCATIONS.md
+!/MD/REVIEW_CONTENTS.md
+!/MD/REVIEW_WORKSPACE_STATUS.md
+!/MP4/.gitkeep
+!/PDF/Neural_Audio_Investment_Decision.pdf
+!/PDF/Neural_Audio_Technical_Review.pdf
 !/PDF/voice_auditory_architecture_60x36.pdf
-!/PNG/voice_auditory_architecture_18000x10800.png
-!/TEXT/MD/2026-10-25_Reported_Observations_and_Research_Criteria.md
-!/TEXT/MD/COMPACT_REVIEW/REVIEW_CONTENTS.md
-!/TEXT/MD/COMPACT_REVIEW/REVIEW_WORKSPACE_STATUS.md
-!/TEXT/TXT/2026-10-24_Personal_Observation_Table.txt
-
-# Reviewed figures and current grouped review; older versions remain local.
+!/PDF/voice_calibration_60x36.pdf
 !/PNG/SYSTEM-1A_characterriseobject-hub_neuroprivacy-review.png
 !/PNG/SYSTEM1B_characterriseobject-hub_neuroprivacy-review.png
-!/IMAGES/voice_calibration.svg
-!/PDF/voice_calibration_60x36.pdf
-!/driver-rationale-retro_UmboMic CI expansion BCI nonivasive copilot/
-!/driver-rationale-retro_UmboMic CI expansion BCI nonivasive copilot/Neural_Audio_Investment_Review.pptx
-!/driver-rationale-retro_UmboMic CI expansion BCI nonivasive copilot/Neural_Audio_Master_Model.xlsx
-!/driver-rationale-retro_UmboMic CI expansion BCI nonivasive copilot/Neural_Audio_Investment_Decision.pdf
-!/driver-rationale-retro_UmboMic CI expansion BCI nonivasive copilot/Neural_Audio_Technical_Review.pdf
-!/driver-rationale-retro_UmboMic CI expansion BCI nonivasive copilot/Diligence_2026-11-06/
-!/driver-rationale-retro_UmboMic CI expansion BCI nonivasive copilot/Diligence_2026-11-06/checkpoint/
-!/driver-rationale-retro_UmboMic CI expansion BCI nonivasive copilot/Diligence_2026-11-06/checkpoint/sources.json
-!/driver-rationale-retro_UmboMic CI expansion BCI nonivasive copilot/Diligence_2026-11-06/checkpoint/state.json
-!/driver-rationale-retro_UmboMic CI expansion BCI nonivasive copilot/Diligence_2026-11-06/checkpoint/checkpoint.md
-!/driver-rationale-retro_UmboMic CI expansion BCI nonivasive copilot/Diligence_2026-11-06/checkpoint/branches.json
-!/driver-rationale-retro_UmboMic CI expansion BCI nonivasive copilot/Diligence_2026-11-06/checkpoint/query-log.json
-!/driver-rationale-retro_UmboMic CI expansion BCI nonivasive copilot/Diligence_2026-11-06/checkpoint/claims.json
-!/driver-rationale-retro_UmboMic CI expansion BCI nonivasive copilot/Diligence_2026-11-06/reviewers/
-!/driver-rationale-retro_UmboMic CI expansion BCI nonivasive copilot/Diligence_2026-11-06/reviewers/B.md
-!/driver-rationale-retro_UmboMic CI expansion BCI nonivasive copilot/Diligence_2026-11-06/reviewers/C_query_log.json
-!/driver-rationale-retro_UmboMic CI expansion BCI nonivasive copilot/Diligence_2026-11-06/reviewers/C_audit_A.md
-!/driver-rationale-retro_UmboMic CI expansion BCI nonivasive copilot/Diligence_2026-11-06/reviewers/C.md
-!/driver-rationale-retro_UmboMic CI expansion BCI nonivasive copilot/Diligence_2026-11-06/reviewers/C_judgment.md
-!/driver-rationale-retro_UmboMic CI expansion BCI nonivasive copilot/Diligence_2026-11-06/reviewers/C_sources.json
-!/driver-rationale-retro_UmboMic CI expansion BCI nonivasive copilot/Diligence_2026-11-06/reviewers/B_audit_C.md
-!/driver-rationale-retro_UmboMic CI expansion BCI nonivasive copilot/Diligence_2026-11-06/reviewers/B_sources.json
-!/driver-rationale-retro_UmboMic CI expansion BCI nonivasive copilot/Diligence_2026-11-06/reviewers/A_audit_B.md
-!/driver-rationale-retro_UmboMic CI expansion BCI nonivasive copilot/Diligence_2026-11-06/reviewers/A_judgment.md
-!/driver-rationale-retro_UmboMic CI expansion BCI nonivasive copilot/Diligence_2026-11-06/reviewers/B_queries.md
-!/driver-rationale-retro_UmboMic CI expansion BCI nonivasive copilot/Diligence_2026-11-06/reviewers/A_sources.json
-!/driver-rationale-retro_UmboMic CI expansion BCI nonivasive copilot/Diligence_2026-11-06/reviewers/A_queries.json
-!/driver-rationale-retro_UmboMic CI expansion BCI nonivasive copilot/Diligence_2026-11-06/reviewers/A.md
-!/driver-rationale-retro_UmboMic CI expansion BCI nonivasive copilot/Diligence_2026-11-06/reviewers/B_judgment.md
+!/PNG/voice_auditory_architecture.svg
+!/PNG/voice_auditory_architecture_18000x10800.png
+!/PNG/voice_calibration.svg
+!/PPTX/Neural_Audio_Investment_Review.pptx
+!/PPTX/System_6_Engineering_Overview.pptx
+!/README.md
+!/TXT/2026-10-24_Personal_Observation_Table.txt
