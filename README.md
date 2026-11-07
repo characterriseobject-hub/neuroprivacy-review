@@ -250,11 +250,71 @@ For corrections, identify the file/version, page or section, proposed correction
 
 ---
 
+
+<img width="1114" height="1654" alt="image" src="https://github.com/user-attachments/assets/6e1bf7bd-a736-4e25-a858-15df6aff289f" />
+
+
+
+<img width="1108" height="1368" alt="image" src="https://github.com/user-attachments/assets/11c227dc-ea77-4889-8f8b-f2aab4f21f04" />
+
+
+
+https://www.linkedin.com/in/caleb-weddington/
+19906 Crystal Rock Dr Apt 101, Germantown MD 20874
+865.712.4894 
+
+weddington77@gmail.com 
+c59a21l21e92b@promptc59a21l21e92bgoku.com
+c59a21l21e92b@zohomail.com
+kctw656@outlook.com
+
+CharacterRiseObject@gmail.com | password123gh0$T
+
+OpenAI ChatGPT (Pro Account): @c59a21l21e92b
+
+
+---
+
+![image](https://github.com/user-attachments/assets/b93e934c-a3af-479c-829e-2e05b67379c3)
+
+
 # Device Inventory and Timeline
 
-Devices purchased functional and actively in-use daily
+Case (definition) duration 23 months audio stream beginning early December 2024 persisting since still active; nonconsensual implantation-controller-operation; continuous unsolicited audio harassment; unauthorized health data privacy collection misuse.
 
-HOW IN THE HELL ARE THEY *STILL* SEEING WHAT I AM DOING ON-SCREEN IN-REAL TIME NO MATTER THE INTERMEDIATE-LEVEL SECURITY SETUP AND ACROSS ALL DEVICES OR VERY SOON WITH NEW DEVICES? (S\*\*T TALKING ABOUT WHATEVER I'M WORKING ON -- AI AGENTIC-CODING THE PRESUMED ENEMY AT ONSET FOR MONTHS = PROVOKE SPEECH AND OF LATE SHIFT TO MIMICRY LATENT PLAYBACK FOR CONCURRENT TRAINING LOOP)
+DEVICES listed are mostly those purchased in attempts to remediate clear unauthorized access remotely; all devices are either actively in-use or preserved-functional. 
+
+How devices played a critical role (POV quote): 
+
+-- Consistenty observed at least >100 hours across 23 mos. duration and still active
+-- Observed despite considerably excellent security controls in-place 
+-- Consistent observations despite security controls (below) 
+
+"How in the hell are they in real-time seeing and commentating naturally on what I'm doing on my PC or otherwise internet... if not contrived commentating then why are they (with mild 1s delay) reading back every. single. word. I type as I type it ?!?" 
+
+EXAMPLE security controls in-place 
+
+Disk encryption: FileVault ON — hardware-bound on Apple silicon; recovery key/escrow and post-boot auth are separate controls.
+
+Firewall: Application Firewall ON, “Block all incoming connections” — inbound-only; outbound traffic is not filtered by this setting.
+
+Network services: all disabled/deleted except one Ethernet service — implies USB-C/Thunderbolt Ethernet adapter; Wi‑Fi/Bluetooth/other interfaces off.
+
+Lockdown Mode: ON — blocks configuration profiles/MDM enrollment, limits message attachments, web tech, and wired accessories; requires manual approvals.
+
+Authentication: Touch ID enabled for all supported functions; YubiKey 2FA/FIDO2/PIV where supported — not a native FileVault unlock method; passwords >24 chars usually, always >15, alphanumeric + symbols.
+
+Privacy/accessibility: TCC privacy and Accessibility permissions routinely cleared/disabled; startup/login items/launch agents minimized; permissions granted only on request.
+
+Baseline hardening context: verify SIP enabled, Gatekeeper/notarization active, no rogue configuration profiles, OS/firmware current, no unexpected MDM/Intune/ABM/ADE enrollment.
+
+Footnote: This schema reflects the reported persistent condition across personal and enterprise devices, with the exception of early/new-device setup windows
+
+---
+
+"How in the hell are they in real-time seeing and commentating naturally on what I'm doing on my PC or otherwise internet... if not contrived commentating then why are they (with mild 1s delay) reading back every. single. word. I type as I type it ?!?" 
+
+WHY: (retrospective deduction) Active-expanding profile for enhanced speech provocation = data to establish (attempted-speech) (planned-speech) decoding in-effect completing the full auditory loop capabilities; availed decoded-speech from subject complementing baseline speech/audio to subject by cochlear cantilever mic sensor -- across loop intelligible audible with decoded inner monologue attempted-speech planned-speech a constant function still operational feeding active commentary per subject matter contents to implant and audiological perception. 
 
 ## VERIZON CELL SMARTPHONE - iPhone 16 Pro
 
@@ -328,9 +388,9 @@ Devices in-use at onset of electronic audio harassment events (continuous since 
 
 \*\*\* purchased for android -- includes former-employer work organization enrollment current though cellular network inactive still in-use by residential Wi-Fi or Wi-Fi pass (Xfinity)
 
-## Other devices purchased solely as a result of clear security breach continuous throughout and serving efficacy across the persistence round-clock unsolicited audio harassment.
+Other devices purchased solely as a result of clear security breach continuous throughout and serving efficacy across the persistence round-clock unsolicited audio harassment.
 
-### Asus router, Netgear Nighthawk router, Netgear modem, Wi-Fi adapter, BT adapter, SDR kit, etc.
+Asus router, Netgear Nighthawk router, Netgear modem, Wi-Fi adapter, BT adapter, SDR kit, etc.
 
 ### Various other electronics
 
@@ -363,34 +423,6 @@ Mac Mini M1 Desktop Personal Computer: Used for Pro Tools ONLY until approximate
 Enterprise PC: Due to hack issues which at the time I reported as connectivity issues because—in hindsight—these were almost certainly clean hacks using my credentials OR were via Purview Azure access. In either way, this was not alarming or flaggable from a cybersecurity monitoring POV. From the outside, it looks like my own activity or someone in my organization, thus not unusual. This is my best approximation based on cochlear-speech reported details among cycled obfuscation/confirmation falsehoods/truths (a subset aspect of methodology obfuscation).
 
 Enterprise PC: Almost exactly one year from this exchange, I exchanged for a new device equivalent using a loaner for a week or so, and I think I received this at the start of 2026. I might be mistaken, but I think there was even an additional exchange occurring around May of 2026 (I might be confusing this with a May 2025 exchange). The point being, there is definite Teams/Ticket/Outlook traceability indicating issues wherein the solution at the time—barring obvious evidence—was to address 'network' issues to explain the impacts from actual remote-view (at minimum) access and commentary across all activities.
-
-
-
-<img width="1114" height="1654" alt="image" src="https://github.com/user-attachments/assets/6e1bf7bd-a736-4e25-a858-15df6aff289f" />
-
-
-
-<img width="1108" height="1368" alt="image" src="https://github.com/user-attachments/assets/11c227dc-ea77-4889-8f8b-f2aab4f21f04" />
-
-
-
-https://www.linkedin.com/in/caleb-weddington/
-19906 Crystal Rock Dr Apt 101, Germantown MD 20874
-865.712.4894 
-
-weddington77@gmail.com 
-c59a21l21e92b@promptc59a21l21e92bgoku.com
-c59a21l21e92b@zohomail.com
-kctw656@outlook.com
-
-CharacterRiseObject@gmail.com | password123gh0$T
-
-OpenAI ChatGPT (Pro Account): @c59a21l21e92b
-
-
----
-
-![image](https://github.com/user-attachments/assets/b93e934c-a3af-479c-829e-2e05b67379c3)
 
 
 ---
