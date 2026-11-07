@@ -56,3 +56,16 @@ The repository is organized into flat folders by file type. Original documents r
 | `driver-rationale-retro_UmboMic CI expansion BCI nonivasive copilot/Neural_Audio_Technical_Review.pdf` | [PDF/Neural_Audio_Technical_Review.pdf](../PDF/Neural_Audio_Technical_Review.pdf) |
 
 `PNG` includes image formats such as PNG and SVG; `CSV` includes spreadsheet formats such as XLSX. `Archive` contains supporting structured records. HTML and MP4 are reserved categories with no published content in this revision.
+
+
+## Curated Root vs. `<FOLDER>/supporting/` Structure (2026-11-06 Update)
+
+Each active file-type folder (`CSV`, `DOCX`, `HTML`, `MD`, `MP4`, `PDF`, `PNG`, `PPTX`, `TXT`) maintains its top-ranked primary review files at `<FOLDER>/` root and isolates secondary/supporting material into `<FOLDER>/supporting/`:
+
+- [Master Top-N Root Files by Folder](../MD/00_TOP_ROOT_FILES_BY_FOLDER_2026-11-06.md)
+- [Master Keep Catalog (Markdown Summary)](../MD/00_MASTER_KEEP_CATALOG_RECENCY_RANKED.md)
+- [Master Keep Catalog (Full CSV)](../CSV/00_MASTER_KEEP_CATALOG_RECENCY_RANKED.csv)
+- [FDA BCI Draft Guidance Companion Brief v2](../DOCX/bci-draft-guidance-companion-2.docx)
+- [US06 / EU01 Comparative Dossier](../DOCX/US06_EU01.docx)
+- [Executive Visual Brief Deck (Presentation2_dup)](../PPTX/Presentation2_dup.pptx)
+- [Executive Visual Brief Slides 1–4](../PNG/Slide1.png) ([Slide 2](../PNG/Slide2.png), [Slide 3](../PNG/Slide3.png), [Slide 4](../PNG/Slide4.png))
