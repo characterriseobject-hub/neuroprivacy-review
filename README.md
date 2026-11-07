@@ -235,6 +235,15 @@ For corrections, identify the file/version, page or section, proposed correction
 
 - phishing@zapier.com
 
+# National Security / INSS / WMD Subject-Matter Experts
+- james.j.giordano.civ@ndu.edu; james.j.giordano@ndu.edu; james.giordano@georgetown.edu; jg353@georgetown.edu; INSS_Communications_@ndu.edu; WMD@ndu.edu; WMDWebmaster@ndu.edu; diane.dieuliis.civ@ndu.edu
+
+# Clinical Bioethics / Georgetown Support
+- clinicalbioethics@georgetown.edu; gu360help@georgetown.edu; memory@georgetown.edu
+
+# Consulting / Advisory / Cognitive Security Organizations
+- info@aglx.com; info@aglx.consulting; dougm@aglx.com; Liz@aglx.com; info@cognitivesecurityinstitute.org; press@cognitivesecurityinstitute.org
+
 ---
 
 ![image](https://github.com/user-attachments/assets/b3c564e4-2647-4a4c-aca7-3935e3f0e3d5)
