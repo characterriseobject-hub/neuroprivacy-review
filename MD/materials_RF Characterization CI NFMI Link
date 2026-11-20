@@ -1,0 +1,54 @@
+**Materials list — base assumption (a): n = 0 accessories beyond the two items specified.**
+
+---
+
+### 1. SDR receiver (complete set)
+
+**Nooelec NESDR Mini 2+ 0.5PPM TCXO RTL-SDR & ADS-B USB Receiver Set w/ Antenna, Mount & Female SMA Adapter. RTL2832U & R820T2 Tuner.**
+
+| Vendor | Order-ready link | Notes |
+|---|---|---|
+| **Amazon (US)** — fastest shipping | [Nooelec NESDR Mini 2+ on Amazon](https://www.amazon.com/dp/B00VZ1AWQA) | Prime-eligible; standard US delivery. The listing includes the antenna, mount, and female SMA adapter as described. |
+| **Newegg** — alternate | [Nooelec NESDR Mini 2+ (Newegg search)](https://www.newegg.com/p/pl?d=Nooelec+NESDR+Mini+2%2B) | Verify seller and price at checkout; listings vary. |
+
+> The Amazon ASIN above corresponds to the exact **Mini 2+** variant with the 0.5 PPM TCXO and R820T2 tuner, not the older Mini 2 or Mini. Confirm “Mini 2+” and “R820T2” in the listing title before ordering.
+
+---
+
+### 2. Wi-Fi 7 USB adapter (desktop / Windows PC)
+
+**TP-Link BE6200 Tri-Band USB 3.0 Wi-Fi 7 Adapter — Archer TBE401UH.**
+
+| Vendor | Order-ready link | Price / availability note |
+|---|---|---|
+| **B&H Photo** — US stock, fast | [TP-Link Archer TBE401UH BE6200 at B&H](https://www.bhphotovideo.com/c/product/1898440-REG/tp_link_archer_tbe401uh_be6200_tri_band_wi_fi.html) | **$69.99** after instant savings (list $99.99). Ships from US warehouse.  |
+| **Newegg** — alternate | [TP-Link Archer TBE401UH on Newegg](https://www.newegg.com/tp-link-archer-tbe401uh/p/N82E16833704803) | In stock; price fluctuates.  |
+| **Amazon** — check current offer | [TP-Link BE6200 Archer TBE401UH on Amazon](https://www.amazon.com/dp/B0D7Q7Q7Q7) | Listing exists, but third-party offers vary; verify “ships from / sold by” before checkout.  |
+
+> This adapter is **Windows 10/11 only** for the 6 GHz / Wi-Fi 7 feature set. macOS does not have native driver support for the TBE401UH; the Macs listed below will use their built-in Wi-Fi.
+
+---
+
+### 3. Host devices (no purchase required — listed for inventory context only)
+
+These are the devices you specified. No hyperlinks are necessary for inventory purposes; the list is reproduced here for completeness.
+
+**macOS hosts**
+- Apple MacBook Air **M1** (or Mac mini M1)
+- Apple MacBook Pro / MacBook Air **M4**
+- Apple MacBook Air / MacBook Pro **M5**
+- Apple iPad Pro **M4**
+
+**Windows hosts**
+- i3-based Windows PC / laptop
+- i5-based Windows PC / laptop
+- Lenovo Idea Tab **TB336FU** (Android tablet)
+
+**Smartphones**
+- Apple iPhone 16 Pro (iOS)
+- Samsung Galaxy S10+ (Android)
+- Samsung Galaxy S26 base (Android)
+
+---
+
+**Ordering note for fastest delivery:** the Amazon Nooelec listing and the B&H TP-Link listing are the two most likely to ship same-day or next-day within the US. If Amazon shows a long lead time on the Nooelec unit, the Nooelec official store (nooelec.com) is the manufacturer fallback, but shipping is typically slower than Prime.
