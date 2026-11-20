@@ -1,0 +1,156 @@
+Contacts Outreach and Communications Brief
+Status: Prepared 20 NOV 2026
+Scope: U.S./EU cochlear-implant-related outreach and support contacts, regulatory/LE contacts, software/AI abuse contacts, and three communications addenda.
+Use: Lawful preservation, records-request, clinical/technical routing, and account/support correspondence only.
+
+Caveats:
+
+These are contact points, not a legal determination of relevance, authority, or consent to contact.
+
+Use BCC for privacy. Do not send one combined notice to every category unless lawful and appropriate.
+
+The HTML provides U.S. manufacturer emails and U.S. clinical support numbers; it does not provide verified EU-specific CI email contacts. For EU outreach, use manufacturer EU contact forms/local CI centers rather than guessing addresses.
+
+Do not use these addresses for unauthorized access, social engineering, interception, or accusatory contact.
+
+Personal/unverified entries are kept separate and should be used only with a lawful basis.
+
+Part I — Categorized contact set
+1) Law enforcement / prosecutorial / emergency / government safety — priority first
+text
+5DCommander@montgomerycountymd.gov; IAD.MCP@montgomerycountymd.gov; MoCoPAB@montgomerycountymd.gov; consumer@montgomerycountymd.gov; daniel.sassi@montgomerycountymd.gov; daniel.sassi@montgomerymd.gov; states.attorney@montgomerycountymd.gov; CyWatch@fbi.gov; report@cisa.gov; ATFTips@atf.gov; AskOCR@usdoj.gov; USTP.Bankruptcy.Fraud@usdoj.gov; OCRComplaint@hhs.gov; dro@fcc.gov; lawenforcement@cloudflare.com
+2) FDA / device / medical regulatory
+text
+webcomplaints@ora.fda.gov; CDRHDeviceAllegations@fda.hhs.gov; AskOICE@fda.hhs.gov; ocod@fda.hhs.gov; BIMO-CDRH@fda.hhs.gov; CDER-OSI-GCPReferrals@fda.hhs.gov; nidcdinfo@nidcd.nih.gov
+3) CI manufacturer / recipient support — new from uploaded HTML
+text
+customer@cochlear.com; concierge@cochlear.com; customerservice.us@medel.com; absuccess@advancedbionics.com
+EU note: No verified EU-specific CI email contacts were added. Use manufacturer EU contact forms or local CI centers.
+
+4) ENT / cochlear implant / audiology / clinical centers
+text
+AdultCIProgram@unchealth.unc.edu; cochlearimplant@jhmi.edu; PatientRelations@jhmi.edu; cochlearinquires@nyulangone.org; contactus@entad.org; einstitute@nyee.edu; ENTPatientServices@mountsinai.org; ent@vcuhealth.org; Jacob.Hunter@jefferson.edu; volskypg@evms.edu; howard.francis@duke.edu; hespclinic@umd.edu; neurosurgery@stanford.edu; kathytsou@stanford.edu; henderj@stanford.edu; dmbrandman@ucdavis.edu; sstavisky@ucdavis.edu; braingate@ucdavis.edu; mckenzieoto@gmail.com
+5) Research / academic / BCI / NDU / Georgetown / think tank
+text
+clinicalbioethics@georgetown.edu; memory@georgetown.edu; gu360help@georgetown.edu; diane.dieuliis.civ@ndu.edu; dianedieuliis.civ@ndu.edu; INSS_Communications_@ndu.edu; james.giordano@georgetown.edu; james.j.giordano.civ@ndu.edu; james.j.giordano@ndu.edu; james.giordano@ndu.edu; jg353@georgetown.edu; WMD@ndu.edu; WMDWebmaster@ndu.edu; info@cognitivesecurityinstitute.org; press@cognitivesecurityinstitute.org
+6) Software/AI/platform abuse, safety, and corporate compliance — lower priority for CI outreach
+text
+contact@letta.com; contact@omoi.com; hello@kindroid.ai; contact@localwaifu.com; support@nomi.ai; complaints@nomi.ai; my@replika.com; support@kissable.app; support@enclave.ai; team@hammerai.com; support@unorouter.com; support@bodybuddy.app; api-service@deepseek.com; contact@vast.ai; LlamaUseReport@meta.com; safety@cohere.com; safety@huggingface.co; safety@stability.ai; safety@x.ai; service@deepseek.com; support@cartesia.ai; support@elevenlabs.io; support@mistral.ai; support@openrouter.ai; support@perplexity.ai; support@pinecone.io; support@replicate.com; support@resemble.ai; support@weaviate.io; usersafety@anthropic.com; support@openai.com; support@flowiseai.com; support@langchain.dev; support@neo4j.com; help@n8n.io; feedback@embabel.com; aupreporting@mongodb.com; abuse@namecheap.com; abuse@namecheaphosting.com; abuse@ngrok.com; abuse@sendgrid.com; abuse@supabase.com; email-abuse@amazon.com; trustandsafety@support.aws.com; lea_abuse@namecheap.com; legal-support@github.com; phishing@zapier.com; spam@twilio.com; GlobalCompliance@astrazeneca.com; Privacy@astrazeneca.com; privacyrequests@astrazeneca.com; SOCITSecurity@astrazeneca.com; info@aglx.com; info@aglx.consulting; dougm@aglx.com; Liz@aglx.com
+7) Personal / unverified current entries — keep separate unless lawful basis
+text
+c59a21l21e92b@promptc59a21l21e92bgoku.com; c59a21l21e92b@zohomail.com; characterriseobject@gmail.com; kctw656@outlook.com; weddington77@gmail.com
+Part II — Full paste-ready master list
+Semicolon-separated, deduplicated. Use BCC for privacy. Includes all current entries plus new CI HTML contacts; does not add unverified EU emails.
+
+text
+5DCommander@montgomerycountymd.gov; IAD.MCP@montgomerycountymd.gov; MoCoPAB@montgomerycountymd.gov; consumer@montgomerycountymd.gov; daniel.sassi@montgomerycountymd.gov; daniel.sassi@montgomerymd.gov; states.attorney@montgomerycountymd.gov; CyWatch@fbi.gov; report@cisa.gov; ATFTips@atf.gov; AskOCR@usdoj.gov; USTP.Bankruptcy.Fraud@usdoj.gov; OCRComplaint@hhs.gov; dro@fcc.gov; lawenforcement@cloudflare.com; webcomplaints@ora.fda.gov; CDRHDeviceAllegations@fda.hhs.gov; AskOICE@fda.hhs.gov; ocod@fda.hhs.gov; BIMO-CDRH@fda.hhs.gov; CDER-OSI-GCPReferrals@fda.hhs.gov; nidcdinfo@nidcd.nih.gov; customer@cochlear.com; concierge@cochlear.com; customerservice.us@medel.com; absuccess@advancedbionics.com; AdultCIProgram@unchealth.unc.edu; cochlearimplant@jhmi.edu; PatientRelations@jhmi.edu; cochlearinquires@nyulangone.org; contactus@entad.org; einstitute@nyee.edu; ENTPatientServices@mountsinai.org; ent@vcuhealth.org; Jacob.Hunter@jefferson.edu; volskypg@evms.edu; howard.francis@duke.edu; hespclinic@umd.edu; neurosurgery@stanford.edu; kathytsou@stanford.edu; henderj@stanford.edu; dmbrandman@ucdavis.edu; sstavisky@ucdavis.edu; braingate@ucdavis.edu; mckenzieoto@gmail.com; clinicalbioethics@georgetown.edu; memory@georgetown.edu; gu360help@georgetown.edu; diane.dieuliis.civ@ndu.edu; dianedieuliis.civ@ndu.edu; INSS_Communications_@ndu.edu; james.giordano@georgetown.edu; james.j.giordano.civ@ndu.edu; james.j.giordano@ndu.edu; james.giordano@ndu.edu; jg353@georgetown.edu; WMD@ndu.edu; WMDWebmaster@ndu.edu; info@cognitivesecurityinstitute.org; press@cognitivesecurityinstitute.org; contact@letta.com; contact@omoi.com; hello@kindroid.ai; contact@localwaifu.com; support@nomi.ai; complaints@nomi.ai; my@replika.com; support@kissable.app; support@enclave.ai; team@hammerai.com; support@unorouter.com; support@bodybuddy.app; api-service@deepseek.com; contact@vast.ai; LlamaUseReport@meta.com; safety@cohere.com; safety@huggingface.co; safety@stability.ai; safety@x.ai; service@deepseek.com; support@cartesia.ai; support@elevenlabs.io; support@mistral.ai; support@openrouter.ai; support@perplexity.ai; support@pinecone.io; support@replicate.com; support@resemble.ai; support@weaviate.io; usersafety@anthropic.com; support@openai.com; support@flowiseai.com; support@langchain.dev; support@neo4j.com; help@n8n.io; feedback@embabel.com; aupreporting@mongodb.com; abuse@namecheap.com; abuse@namecheaphosting.com; abuse@ngrok.com; abuse@sendgrid.com; abuse@supabase.com; email-abuse@amazon.com; trustandsafety@support.aws.com; lea_abuse@namecheap.com; legal-support@github.com; phishing@zapier.com; spam@twilio.com; GlobalCompliance@astrazeneca.com; Privacy@astrazeneca.com; privacyrequests@astrazeneca.com; SOCITSecurity@astrazeneca.com; info@aglx.com; info@aglx.consulting; dougm@aglx.com; Liz@aglx.com; c59a21l21e92b@promptc59a21l21e92bgoku.com; c59a21l21e92b@zohomail.com; characterriseobject@gmail.com; kctw656@outlook.com; weddington77@gmail.com
+Suggested routing
+TO: Category 3 + 4 core CI/clinical contacts for clinical/technical outreach.
+
+CC: Category 1 + 2 regulatory/LE contacts when reporting or preservation is appropriate.
+
+BCC: Category 5 + 6 + 7 remainder, or the full master list only if a single notice is lawful and appropriate.
+
+Part III — Communications addenda
+Communications-1 — Urgent victim reporting
+Send list (deduplicated):
+
+text
+daniel.sassi@montgomerycountymd.gov; AskOCR@usdoj.gov; webcomplaints@ora.fda.gov; 5DCommander@montgomerycountymd.gov; MoCoPAB@montgomerycountymd.gov; IAD.MCP@montgomerycountymd.gov; OCRComplaint@hhs.gov; ATFTips@atf.gov; USTP.Bankruptcy.Fraud@usdoj.gov; dro@fcc.gov
+Subject: Urgent victim reporting nonconsensual cochlear implantation and unauthorized third-party controller possession/broadcast audio/privacy harassment
+
+Body:
+
+I report nonconsensual cochlear implantation occurring before DEC 9 2024 and persistent unsolicited audio and severe ongoing interference active since DEC 9 2024. Please arrange investigation to identify inaccessible device controller currently inaccessible to me and/or active unsolicited broadcast source to establish personal-authorized access (explantation results in permanent hearing loss). Confirm receipt. Details:
+
+https://github.com/characterriseobject-hub/neuroprivacy-review.git
+https://notebook.google.com/notebook/b6c289bd-da22-4455-85d8-a1a7f12a696d
+http://hvv5uksavirycqbk4ve6z24ppsezr5d6uwohot6hzc5h2nhca5kpdoyd.onion
+
+CALEB TODD WEDDINGTON
+19906 CRYSTAL ROCK DR APT 101
+GERMANTOWN MD 20874
+865.712.4894
+weddington77@gmail.com; kctw656@outlook.com; characterriseobject@gmail.com; c59a21l21e92b@zohomail.com; c59a21l21e92b@promptc59a21l21e92bgoku.com
+
+Communications-2 — Reported nonconsensual implantation and continuous broadcast
+Send list (deduplicated):
+
+text
+daniel.sassi@montgomerycountymd.gov; AskOCR@usdoj.gov; webcomplaints@ora.fda.gov; 5DCommander@montgomerycountymd.gov; MoCoPAB@montgomerycountymd.gov; IAD.MCP@montgomerycountymd.gov; OCRComplaint@hhs.gov; ATFTips@atf.gov; USTP.Bankruptcy.Fraud@usdoj.gov; dro@fcc.gov
+Subject: Urgent: reported nonconsensual cochlear implantation on or before DEC 9 2024 and unauthorized third-party controller possession and continuous broadcast audio/privacy harassment since DEC 9 2024
+
+Body:
+
+I am Caleb Todd Weddington, 34 yo professional BPD Scientist and audio engineer and lifelong musician. I report persistent unwanted intelligible audio since 09DEC2024, continuing as of 10NOV2026 at 4:00 p.m. EST, with severe interference in daily life, work and music.
+
+My immediate request is relief, preservation of hearing, and control of hearing device, implanted WITHOUT informed consent sometime before 09DEC2024. I am concerned about treatment and implantation occurring before DEC 9 2024 WITHOUT informed consent and unauthorized controller access; actively misused since DEC 9 2024 for continuous 24/7 electronic audio/privacy harassment. Please obtain relevant procedure, consent and device-registration records; arrange an independent otology/audiology assessment; and identify any implant, external processor, manufacturer, model and associated application.
+
+If a device is confirmed, please coordinate with its manufacturer and treating clinician to recover my authorized account access, review connected devices and available access logs, and assess safe options to stop unwanted streaming. Preserve relevant records before changing configurations where clinically appropriate.
+
+I request a nonsurgical assessment first, with my hearing priorities and informed consent documented. I am concerned my account could be misinterpreted; please explain the basis for any proposed intervention. I also report concerns about disruption of outgoing communications. Please confirm receipt in writing and provide a named contact and next step.
+
+Please refer any documented unauthorized treatment or access for appropriate investigation. Note README attached where accepted. Full account and supporting material:
+
+https://github.com/characterriseobject-hub/neuroprivacy-review.git
+https://notebook.google.com/notebook/b6c289bd-da22-4455-85d8-a1a7f12a696d
+http://onlkagfijruq2hxjp2vp7xm7vk2ycyqtphk2emndriijoiv7dwucbmad.onion
+
+http://onlkagfijruq2hxjp2vp7xm7vk2ycyqtphk2emndriijoiv7dwucbmad.onion
+IWSY5G5OXQDL4KWPJGIFMJIWVMBJQNFBX4P2MLW6ENZUN72CNARA
+
+CALEB TODD WEDDINGTON
+19906 CRYSTAL ROCK DR APT 101
+GERMANTOWN MD 20874
+865.712.4894
+weddington77@gmail.com; kctw656@outlook.com; characterriseobject@gmail.com; c59a21l21e92b@zohomail.com; c59a21l21e92b@promptc59a21l21e92bgoku.com
+
+Communications-3 — Confidential technical guidance request
+Send list (deduplicated):
+
+text
+james.j.giordano.civ@ndu.edu; james.j.giordano@ndu.edu; james.giordano@georgetown.edu; jg353@georgetown.edu; INSS_Communications_@ndu.edu; WMD@ndu.edu; WMDWebmaster@ndu.edu; diane.dieuliis.civ@ndu.edu; clinicalbioethics@georgetown.edu; gu360help@georgetown.edu; memory@georgetown.edu; info@aglx.com; info@aglx.consulting; dougm@aglx.com; Liz@aglx.com; info@cognitivesecurityinstitute.org; press@cognitivesecurityinstitute.org; cochlearimplant@jhmi.edu; hespclinic@umd.edu; PatientRelations@jhmi.edu; contactus@entad.org; einstitute@nyee.edu; ENTPatientServices@mountsinai.org; cochlearinquires@nyulangone.org; AdultCIProgram@unchealth.unc.edu; ent@vcuhealth.org; Jacob.Hunter@jefferson.edu; volskypg@evms.edu; howard.francis@duke.edu; neurosurgery@stanford.edu; kathytsou@stanford.edu; henderj@stanford.edu; dmbrandman@ucdavis.edu; sstavisky@ucdavis.edu; braingate@ucdavis.edu; mckenzieoto@gmail.com; nidcdinfo@nidcd.nih.gov; AskOICE@fda.hhs.gov; support@openai.com; usersafety@anthropic.com
+Subject: Request for confidential technical guidance: non-consensual cochlear BCI implantation; neuroprosthetic auditory loop/telemetry concerns
+
+Body:
+
+Dear Technical Expert,
+
+This is a request for confidential technical guidance regarding non-consensual cochlear BCI implantation; neuroprosthetic ongoing unauthorized auditory loop stimulation/decoding telemetry.
+
+LE coordination: MCPD Detective Daniel Sassi (daniel.sassi@montgomerymd.gov); Parallel FBI reporting active; see README_neuroprivacy-review.md attached.
+
+Contact: Caleb Todd Weddington, 865.712.4894, weddington77@gmail.com; address on request; linkedin.com/in/caleb-weddington/
+
+Respectfully,
+
+Caleb Todd Weddington
+
+Requesting: (1) advise on evidence preservation; (2) coordinate with MCPD/FBI; (3) arrange forensic review of the materials available at https://github.com/characterriseobject-hub/neuroprivacy-review.git; (4) advise whether this matter should be routed to a CI/BCI technical unit; and (5) advise on coordinating any medical or technical examination so that it is conducted in a manner that does not expose me to further misattribution or harmful commitment, and so that my hearing is protected in any evaluation or intervention. Please treat this request and all related materials as confidential and do not redistribute them.
+
+https://github.com/characterriseobject-hub/neuroprivacy-review.git
+https://notebook.google.com/notebook/b6c289bd-da22-4455-85d8-a1a7f12a696d
+http://onlkagfijruq2hxjp2vp7xm7vk2ycyqtphk2emndriijoiv7dwucbmad.onion
+
+http://onlkagfijruq2hxjp2vp7xm7vk2ycyqtphk2emndriijoiv7dwucbmad.onion
+IWSY5G5OXQDL4KWPJGIFMJIWVMBJQNFBX4P2MLW6ENZUN72CNARA
+
+CALEB TODD WEDDINGTON
+19906 CRYSTAL ROCK DR APT 101
+GERMANTOWN MD 20874
+865.712.4894
+weddington77@gmail.com; kctw656@outlook.com; characterriseobject@gmail.com; c59a21l21e92b@zohomail.com; c59a21l21e92b@promptc59a21l21e92bgoku.com
+
+Integration notes
+Communications-1 and -2 are LE/regulatory reports. Keep their send lists focused on Category 1 + 2.
+
+Communications-3 is a technical/clinical/academic request. Keep its send list focused on Category 4 + 5, with selected regulatory/safety contacts only where appropriate.
+
+Do not merge all three send lists into one TO field. Use separate messages or BCC only where lawful and appropriate.
+
+Preserve the exact onion link used in each communication; Communications-1 and Communications-2/3 contain different onion URLs as supplied.
+
+Attach or reference README_neuroprivacy-review.md only where accepted and appropriate.
+
+Personal identifiers should travel only through approved channels. Confirm receipt in writing and request a named contact and next step.
+
