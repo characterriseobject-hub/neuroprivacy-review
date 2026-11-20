@@ -2,11 +2,35 @@
 
 Records, reported observations, and research for invited review.
 
+- I am Caleb Todd Weddington, biopharmaceutical scientist, audio engineer, musician. Request preservation and independent technical/medical review.
+- Direct observations: continuous auditory nerve stimulation to percept; cannot stop/access reported controller without surgery/controller access; operation reported 09DEC2024–20NOV2026 (~711 days; >1,000,000 minutes) active; stimulation persisted 25SEP–01OCT2026 commitment events; removal deferred because surgery risks hearing.
+- Reported allegations requiring verification, not findings: nonconsensual cochlear cantilever implantation before 09DEC2024; association with “Feldman ENT”/surgical facility; unknown controller/software and human-in-the-loop operator(s); remote-view across personal/enterprise devices; activity streaming to speech-decoding software; two-way telemetry (activity OUT, audio-chat IN); speech decoding >3 months; 25SEP2026 law-enforcement civil-commitment call reported from employer ~1 month after separation. No person identified/accused.
+- Preserve immediately: devices, network/MDM/cloud/access logs, communications, controller/packaging/manuals/serials, operative/anesthesia/consent/medical records, device/manufacturer/controller/pairing/stimulation/remote-programming logs; no wipe/tamper.
+- Identify controller via manufacturer, enterprise/MDM, subpoena, lawful process; independent neurotology/otolaryngology/audiology exam and device interrogation by manufacturer-trained representative/audiologist.
+- Lawful forensic review under counsel; no unauthorized interception/access. Preservation letters/subpoenas: employer, IT/MDM, Feldman ENT/facility, manufacturer, controller/software vendor; preserve 25SEP2026 call/dispatch/commitment records.
+- Pursue recovery only through manufacturer/clinical/legal channels with chain of custody. Request independent technical/medical review and preservation pending review.
+
+
+# REPORTED CW 1407 20NOV2026 | 21:08 UTC coordinated universal time
+
+I am Caleb Todd Weddington, a biopharmaceutical scientist, audio engineer, and musician. I request an accessibility/technical review and preservation. I report a hearing-aid-type implant/controller I cannot access or stop without surgery or controller access. Alleged nonconsensual cochlear cantilever implantation before 09DEC2024, associated with “Feldman ENT”/surgical facility; continuous reported operation 09DEC2024–20NOV2026 (~711 days; >1,000,000 minutes). I experience continuous auditory nerve stimulation; removal deferred because surgery risks hearing. Reported allegations requiring verification, not findings: unknown controller/software/operator; remote-view across personal/enterprise devices; activity streaming to speech-decoding software; two-way telemetry (activity OUT, audio-chat IN); speech decoding >3 months; 25SEP2026 law-enforcement civil-commitment call reported from employer ~1 month after separation. No person is accused. Request: preserve devices/logs/controller/serials/medical/operative/anesthesia/consent/device/manufacturer/pairing/stimulation/remote-programming records; identify controller/software via manufacturer/MDM/subpoena/lawful process; independent neurotology/otolaryngology/audiology and technical review; lawful recovery only via manufacturer/clinical/legal channels with chain of custody; no unauthorized access/interception. Drafting aid; not legal/medical advice.
+
+
+## Preservation & Independent Review — Caleb Todd Weddington
+**Status:** ACTIVE PRESERVATION REQUEST · **Reported period:** 09DEC2024–20NOV2026 · **Confidence:** Direct observations vs. reported allegations requiring verification. No person accused.
+
+**Requested activation:** Evidence hold; controller-system identification; independent neurotology/otolaryngology/audiology and forensic technical review; lawful recovery/access.
+
+- [ ] Acknowledge preservation demand; retain 25SEP2026 call/dispatch/commitment records.
+- [ ] Issue preservation letters/subpoenas: employer; IT/MDM/cloud; Feldman ENT/facility; device manufacturer; controller/software vendor.
+- [ ] Preserve devices/logs/controller/serials/medical records; chain of custody; no wipe/tamper.
+- [ ] Identify controller hardware/software, pairing, remote-programming, stimulation logs, update/support chain.
+- [ ] Coordinate independent clinical/device interrogation and lawful forensic review.
+- [ ] Route recovery/access through manufacturer/clinical/legal channels only.
 
 ## CRIMES REPORTED BRIEF 
 
 REPORTING NONCONSENSUAL COCHLEAR CANTILEVER IMPLANTATION before 09DEC2024— coordinated and/or performed without my (CALEB TODD WEDDINGTON) informed consent—and continuous unauthorized operation thereafter to date: inaccessible control and round-clock use of a controller connected to the hearing-aid implant that I cannot stop or access without surgery or controller access. Unauthorized access extends at minimum to remote-view across personal and enterprise devices, plus activity streaming to controller/software to decode “planned” speech to meaningful text output; telemetry channel runs both ways—activity OUT and audio-chat IN to implant stimulation controlled externally inaccessibly with no way to disable 24/7 stimulation.
-
 
 ## CRIMES REPORTED SUMMARY
 
