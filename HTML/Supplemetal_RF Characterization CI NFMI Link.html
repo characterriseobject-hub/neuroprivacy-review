@@ -1,0 +1,506 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Supplementary Information — Receive-Only RF Characterization of a Reported Cochlear-Implant NFMI Link</title>
+<style>
+  :root{
+    --bg:#f7f9fc; --paper:#ffffff; --ink:#1a2332; --muted:#5b6b7f;
+    --line:#d9e2ec; --accent:#0b5fff; --accent2:#0a7f6b; --warn:#b45309;
+    --danger:#b91c1c; --code:#f1f5f9; --codeborder:#cbd5e1;
+    --radius:10px; --shadow:0 4px 18px rgba(15,30,50,.08);
+  }
+  *{box-sizing:border-box}
+  html{scroll-behavior:smooth}
+  body{
+    margin:0; background:var(--bg); color:var(--ink);
+    font:16px/1.7 "Charter","Bitstream Charter","Sitka Text",Cambria,Georgia,serif;
+  }
+  a{color:var(--accent);text-decoration:none;border-bottom:1px solid rgba(11,95,255,.3)}
+  a:hover{border-bottom-style:solid}
+  code,kbd,pre{font-family:"SFMono-Regular",Consolas,"Liberation Mono",Menlo,monospace}
+  code{background:var(--code);padding:.1em .35em;border-radius:4px;font-size:.9em;border:1px solid var(--codeborder)}
+  pre{background:var(--code);border:1px solid var(--codeborder);border-radius:var(--radius);padding:14px 16px;overflow:auto;font-size:.86rem;line-height:1.55}
+  pre code{background:none;border:0;padding:0}
+  .page{max-width:1040px;margin:0 auto;background:var(--paper);padding:48px 56px 80px;box-shadow:var(--shadow);min-height:100vh}
+  header.title-block{border-bottom:2px solid var(--ink);padding-bottom:24px;margin-bottom:32px}
+  .journal{font:600 .72rem/1.2 "Helvetica Neue",Arial,sans-serif;letter-spacing:.12em;text-transform:uppercase;color:var(--accent2);margin-bottom:8px}
+  h1{font-size:clamp(1.5rem,3vw,2.1rem);line-height:1.25;margin:.2rem 0 .5rem;font-weight:700}
+  .subtitle{font-size:1.05rem;color:var(--muted);margin:0 0 12px}
+  .meta{font:400 .85rem/1.5 "Helvetica Neue",Arial,sans-serif;color:var(--muted)}
+  .meta strong{color:var(--ink)}
+  h2{font-size:1.2rem;margin:2.4rem 0 .6rem;padding-bottom:.3rem;border-bottom:1px solid var(--line);font-weight:700}
+  h3{font-size:1.02rem;margin:1.4rem 0 .3rem;font-weight:700;color:var(--accent)}
+  h4{font-size:.92rem;margin:.9rem 0 .2rem;font-weight:700;color:var(--accent2)}
+  p{margin:.5rem 0 .9rem;text-align:justify;hyphens:auto}
+  .small{font-size:.86rem;color:var(--muted)}
+  .tiny{font-size:.78rem;color:var(--muted)}
+  .callout{border-left:3px solid var(--accent);background:#f0f6ff;padding:12px 16px;border-radius:0 var(--radius) var(--radius) 0;margin:14px 0;font-size:.92rem}
+  .callout.warn{border-left-color:var(--warn);background:#fffbeb}
+  .callout.danger{border-left-color:var(--danger);background:#fef2f2}
+  .callout.ok{border-left-color:var(--accent2);background:#ecfdf5}
+  table{width:100%;border-collapse:collapse;font-size:.86rem;margin:14px 0;font-family:"Helvetica Neue",Arial,sans-serif}
+  th,td{border:1px solid var(--line);padding:7px 9px;text-align:left;vertical-align:top}
+  th{background:#eef3f9;font-weight:700;color:var(--ink)}
+  tr:nth-child(even) td{background:#f8fafc}
+  .supp-label{font:700 .72rem/1 "Helvetica Neue",Arial,sans-serif;letter-spacing:.08em;text-transform:uppercase;color:var(--accent2);margin-bottom:4px}
+  .copy-btn{float:right;background:var(--code);color:var(--muted);border:1px solid var(--codeborder);border-radius:6px;padding:2px 8px;font:600 .68rem/1.4 "Helvetica Neue",Arial,sans-serif;cursor:pointer}
+  .copy-btn:hover{color:var(--accent);border-color:var(--accent)}
+  .copy-btn.copied{color:var(--accent2);border-color:var(--accent2)}
+  .ref{font-size:.84rem;color:var(--muted);padding-left:1.4em;text-indent:-1.4em;margin:.35rem 0}
+  .ref a{word-break:break-word}
+  .toc{background:#f8fafc;border:1px solid var(--line);border-radius:var(--radius);padding:16px 20px;margin:0 0 28px;font-family:"Helvetica Neue",Arial,sans-serif;font-size:.88rem}
+  .toc ol{margin:.2rem 0 .2rem 1.2rem;padding:0}
+  .toc li{margin:.18rem 0}
+  .toc a{border-bottom:none}
+  .badge{display:inline-block;font:700 .68rem/1.4 "Helvetica Neue",Arial,sans-serif;padding:2px 7px;border-radius:999px;vertical-align:middle;margin-right:4px}
+  .badge.ok{background:#ecfdf5;color:var(--accent2);border:1px solid #a7f3d0}
+  .badge.warn{background:#fffbeb;color:var(--warn);border:1px solid #fde68a}
+  .badge.danger{background:#fef2f2;color:var(--danger);border:1px solid #fecaca}
+  .footer{margin-top:48px;border-top:1px solid var(--line);padding-top:16px;font-size:.8rem;color:var(--muted);font-family:"Helvetica Neue",Arial,sans-serif}
+  @media (max-width:720px){.page{padding:28px 20px 60px}}
+  @media print{
+    body{background:#fff}
+    .page{box-shadow:none;padding:0;max-width:none}
+    .copy-btn{display:none}
+    a{color:#000;border-bottom:none}
+    pre{white-space:pre-wrap}
+  }
+</style>
+</head>
+<body>
+<div class="page">
+
+<header class="title-block">
+  <div class="journal">Supplementary Information · Nature Portfolio · Submission-ready after editor review and revision</div>
+  <h1>Receive-only RF characterization of a reported cochlear-implant near-field magnetic-induction link: materials, methods, code, and boundary conditions</h1>
+  <p class="subtitle">A modernized, non-destructive reconstruction of the 2017 “Cyborg Self-Hacking” task with 2024–2026 toolchain, synthetic validation, and chain-of-custody metadata</p>
+  <div class="meta">
+    <strong>Companion to:</strong> Main article, “Non-destructive RF measurement of transcutaneous NFMI links in implanted auditory prostheses.”<br>
+    <strong>Document type:</strong> Supplementary Methods · Supplementary Code · Supplementary Tables · Supplementary Notes · Data and Code Availability.<br>
+    <strong>Boundary-condition advisor:</strong> Formalized Boundary-Condition Advisor (realism advisor balances scientific rigor with storytelling).<br>
+    <strong>Status:</strong> Post-editor-review revision · all hyperlinks verified at time of submission.
+  </div>
+</header>
+
+<div class="callout danger">
+  <strong>Boundary condition 0 — non-negotiable.</strong> This Supplementary Information describes <strong>receive-only</strong> measurement. It does not authorize transmission, replay, jamming, device modification, or any interaction with an implanted medical device. RF capture of a medical device may be regulated; independent legal, clinical, and institutional-review guidance must be obtained before proceeding. Nothing here confirms or diagnoses an implant, establishes causation, or validates any allegation. Reported experiences remain <em>reported</em> until independently corroborated by qualified clinical and forensic review.
+</div>
+
+<div class="toc">
+  <strong>Contents</strong>
+  <ol>
+    <li><a href="#s1">Supplementary Methods</a>
+      <ol>
+        <li><a href="#s1-1">S1.1 Boundary-condition framework</a></li>
+        <li><a href="#s1-2">S1.2 Hosts, receiver, and capture environment</a></li>
+        <li><a href="#s1-3">S1.3 NFMI physical-layer baseline and target characterization</a></li>
+        <li><a href="#s1-4">S1.4 Receive chain and antenna</a></li>
+        <li><a href="#s1-5">S1.5 Reference capture and metadata sidecar</a></li>
+        <li><a href="#s1-6">S1.6 Hash-based chain of custody</a></li>
+        <li><a href="#s1-7">S1.7 Spectrum and waterfall analysis</a></li>
+        <li><a href="#s1-8">S1.8 Manchester / frame decoding</a></li>
+        <li><a href="#s1-9">S1.9 Synthetic validation protocol</a></li>
+        <li><a href="#s1-10">S1.10 Live receiver check separation</a></li>
+      </ol>
+    </li>
+    <li><a href="#s2">Supplementary Code</a></li>
+    <li><a href="#s3">Supplementary Tables</a></li>
+    <li><a href="#s4">Supplementary Notes</a></li>
+    <li><a href="#s5">Data and Code Availability</a></li>
+    <li><a href="#s6">References</a></li>
+  </ol>
+</div>
+
+<!-- ============================ S1 ============================ -->
+<h2 id="s1">Supplementary Methods</h2>
+
+<h3 id="s1-1">S1.1 Boundary-condition framework</h3>
+<p>
+  The Formalized Boundary-Condition Advisor distinguishes three evidentiary tiers: <strong>established mechanics</strong> (Maxwell–Faraday induction, sampling theory, FFT, Manchester line coding, SHA-256 integrity), <strong>open-frontier corridors</strong> (the specific carrier, packet structure, telemetry behavior, and security posture of a given device), and <strong>reported-only claims</strong> (any assertion about implantation, consent, operator identity, or causation)[reference:0]. The workflow below is designed so that a null or negative result is publishable and is never overwritten by narrative inference. This mirrors the advisory posture of the 2017 ShmooCon work, which treated physical-layer findings as provisional and device-specific[reference:1].
+</p>
+
+<h3 id="s1-2">S1.2 Hosts, receiver, and capture environment</h3>
+<p>
+  Two hosts are identified before any receiver action: the <strong>Codex host</strong> (analysis environment) and the <strong>SDR host</strong> (receiver-connected machine). The active SDR application, receiver model, USB descriptor, and capture folder are recorded. If the receiver model or serial is not exposed by the application, the field is marked <code>UNKNOWN</code> in the metadata sidecar rather than inferred. An in-progress recording session is left intact; no application is restarted or reconfigured during capture.
+</p>
+<p class="small">
+  <strong>Materials:</strong> macOS hardware/OS query — <a href="https://support.apple.com/guide/terminal/welcome/mac" target="_blank" rel="noopener">Terminal</a>, <code>system_profiler SPUSBDataType</code>; Windows device enumeration — <a href="https://learn.microsoft.com/en-us/powershell/module/microsoft.powershell.management/get-pnpdevice" target="_blank" rel="noopener">Get-PnpDevice</a>; RTL-SDR test utility — <a href="https://osmocom.org/projects/rtl-sdr/wiki" target="_blank" rel="noopener">rtl_test</a>.
+</p>
+
+<h3 id="s1-3">S1.3 NFMI physical-layer baseline and target characterization</h3>
+<p>
+  Cochlear-implant transcutaneous links are overwhelmingly inductive near-field links. A 2026 physics-based design-space analysis in <em>Scientific Reports</em> characterizes a 12-coil library at the ISM bands 6.78, 13.56, and 27.12 MHz and notes that clinical devices typically operate at <strong>13.56 MHz</strong>, with the coils held in alignment by a retention magnet[reference:2][reference:3]. A 2025 <em>AUDITORY</em> list exchange records Advanced Bionics processors at <strong>49 MHz</strong> in some generations, with the transmitter band falling in an unlicensed fixed/mobile allocation adjacent to a ham band[reference:4]. A patent literature range places the magnetic-induction link between <strong>148.5 kHz and 30 MHz</strong>, typically 3–15 MHz[reference:5]. These values are the anchored baseline; the specific device under test is treated as <code>UNKNOWN</code> until measured.
+</p>
+<p>
+  The 2017 task reported Manchester encoding, 12-bit words, 300-word standard packets, a plaintext forward link, and no non-volatile RAM in the implanted receiver[reference:6]. These are historical findings from one Advanced Bionics HiRes 90K device and are <strong>not generalized</strong>. Current devices may differ in carrier, framing, encryption state, and telemetry asymmetry. The UmboMic PVDF cantilever microphone program is noted as a <em>future</em> totally-implantable sensor architecture, not evidence of a deployed bidirectional neural interface: its reported equivalent input noise is 32.3 dB SPL over 100 Hz–7 kHz, with a flat response within 10 dB to 6 kHz, and it is explicitly a proof-of-concept for a fully internal cochlear implant[reference:7][reference:8].
+</p>
+<div class="callout warn">
+  <strong>Boundary note.</strong> Published capabilities and connected conceptual boxes do not establish an integrated system or its use in an individual. The UmboMic is a sensor, not a stimulator or a telemetry transceiver; its specifications are cited only to bound what is physically plausible for a middle-ear microphone, not to imply that any particular person carries one.
+</div>
+
+<h3 id="s1-4">S1.4 Receive chain and antenna</h3>
+<p>
+  Two receiver classes are used. For discovery, a Nooelec NESDR SMArTee XTR (~65 MHz–2.3 GHz, 0.5 ppm TCXO) or RTL-SDR Blog V4 provides spectrum and waterfall visibility; because several CI carriers sit below 65 MHz, a Nooelec Ham It Up upconverter or an SDRplay RSPdx is used for the 10–60 MHz region. For waveform fidelity, a digital oscilloscope with CSV export (≥20 MS/s, ≥100 MHz analog bandwidth) and a shielded loop or ferrite-rod probe is used. The antenna is a small multi-turn air-core or shielded loop held adjacent to the external transmitter coil; a broadband whip is not appropriate for a localized near-field magnetic signal.
+</p>
+<p class="small">
+  <strong>Materials:</strong> <a href="https://www.nooelec.com/store/sdr/sdr-receivers/nesdr-smartee-xtr.html" target="_blank" rel="noopener">Nooelec NESDR SMArTee XTR</a>; <a href="https://www.nooelec.com/store/ham-it-up.html" target="_blank" rel="noopener">Nooelec Ham It Up</a>; <a href="https://www.rtl-sdr.com/" target="_blank" rel="noopener">RTL-SDR Blog</a>; <a href="https://www.sdrplay.com/rspdx/" target="_blank" rel="noopener">SDRplay RSPdx</a>.
+</p>
+
+<h3 id="s1-5">S1.5 Reference capture and metadata sidecar</h3>
+<p>
+  The reference capture is <strong>5–10 s of raw complex I/Q from a known local FM broadcast station</strong>, recorded at a published center frequency (e.g., 98.7 MHz) with a sample rate ≥2.4 MS/s and fixed gain (AGC off). The FM signal has a known absolute frequency and a recognizable spectral shape; it therefore catches frequency-axis, FFT-scaling, and waterfall-time-axis errors before they contaminate a weaker NFMI capture. The implant-link capture is a separate later step and is never conflated with the reference validation.
+</p>
+<p>
+  Metadata are stored in <strong>SigMF</strong> format: a <code>.sigmf-data</code> file holding interleaved samples and a <code>.sigmf-meta</code> JSON sidecar with <code>global</code>, <code>captures</code>, and <code>annotations</code> objects[reference:9]. Required fields are <code>core:datatype</code> (e.g., <code>cf32_le</code>, <code>ci16_le</code>, <code>cu8</code>), <code>core:sample_rate</code>, <code>core:frequency</code>, UTC time, receiver model, application, sample format and I/Q order, and gain/AGC state. Unknown fields are explicitly marked <code>UNKNOWN</code>. The SigMF schema is published at <a href="https://sigmf.org/" target="_blank" rel="noopener">sigmf.org</a>, with a Python implementation at <a href="https://github.com/sigmf/sigmf-python" target="_blank" rel="noopener">sigmf/sigmf-python</a>[reference:10].
+</p>
+
+<h3 id="s1-6">S1.6 Hash-based chain of custody</h3>
+<p>
+  The original capture is hashed on the SDR host before any copy or conversion. macOS uses <code>shasum -a 256 capture.sigmf-data</code>; Windows uses <code>Get-FileHash .\capture.sigmf-data -Algorithm SHA256</code>. The copied file is verified against the digest on the analysis host. A matching hash proves byte-level integrity of the copy; it does not prove that the original capture is authentic, uncorrupted at the receiver, or attributable to a particular device. SigMF additionally supports a SHA-512 hash of the data file in the global metadata object[reference:11]; both SHA-256 and SHA-512 hashes are recorded in our sidecar for redundancy.
+</p>
+
+<h3 id="s1-7">S1.7 Spectrum and waterfall analysis</h3>
+<p>
+  The analysis script (<a href="#s2-1">Supplementary Code S2.1</a>) produces a centered power spectrum via a Welch-like average (Hann window, 50% overlap, NFFT = 4096 unless otherwise specified) and a spectrogram waterfall with an absolute RF frequency axis and elapsed time. Level units are <strong>relative dB</strong> and are labeled uncalibrated. If the export contains demodulated audio rather than raw I/Q, an audio-frequency plot is produced and labeled accordingly; the two data types are never merged in a single figure without explicit axis labeling.
+</p>
+
+<h3 id="s1-8">S1.8 Manchester / frame decoding</h3>
+<p>
+  For the NFMI link, the decoding chain is envelope detection → threshold → Manchester decode → word/frame segmentation. Three tools are used in <strong>analysis-only</strong> mode: <a href="https://github.com/jopohl/urh" target="_blank" rel="noopener">Universal Radio Hacker (URH)</a> 2.10.x, which supports Manchester I/II line-code decoding and protocol analysis[reference:12]; the <a href="https://github.com/haxorthematrix/urh-ng-ai" target="_blank" rel="noopener">URH-NG AI fork</a>, which adds automated modulation and line-code classification but requires manual confirmation of every result[reference:13]; and <a href="https://github.com/miek/inspectrum" target="_blank" rel="noopener">inspectrum</a> for visual symbol-rate and transition analysis[reference:14]. A custom Python Manchester decoder is used for the final audit, because a short, auditable script is preferable to a GUI tool when the protocol is fixed. URH and similar tools are disconnected from any transmit-capable radio during decoding.
+</p>
+
+<h3 id="s1-9">S1.9 Synthetic validation protocol</h3>
+<p>
+  Before any live capture is trusted, the pipeline is validated against generated complex I/Q containing a tone <strong>50 kHz above center</strong> and a second tone <strong>75 kHz below center, 6 dB weaker</strong>. The sample rate is 2.4 MS/s, which contains both. Pass criteria are: correct frequency signs; peak locations within one FFT bin (bin width = fs/NFFT ≈ 586 Hz at 2.4 MS/s and NFFT = 4096); and relative peak level within 1 dB. The synthetic test is reported separately from the live receiver check. If the synthetic test fails, the pipeline is fixed before live data are analyzed.
+</p>
+
+<h3 id="s1-10">S1.10 Live receiver check separation</h3>
+<p>
+  The live receiver check is documented in its own section of the findings report, with its own capture identifier, hash, and metadata sidecar. It is never merged with the synthetic validation table. The findings report distinguishes <strong>established by measurement</strong>, <strong>inferred</strong>, and <strong>unknown / requires independent confirmation</strong>.
+</p>
+
+<!-- ============================ S2 ============================ -->
+<h2 id="s2">Supplementary Code</h2>
+
+<h3 id="s2-1">S2.1 <code>analyze_iq.py</code> — spectrum and waterfall</h3>
+<div style="position:relative">
+<button class="copy-btn" data-copy="copy-s2-1">Copy</button>
+</div>
+<pre id="copy-s2-1"><code>#!/usr/bin/env python3
+&quot;&quot;&quot;
+analyze_iq.py — receive-only spectrum + waterfall for raw complex I/Q.
+Usage:
+  python analyze_iq.py capture.sigmf-data --fs 2400000 --fc 98700000 --fmt cf32 --nfft 4096 --out plots/
+
+Dependencies: numpy, matplotlib
+License: MIT (supplementary code for peer review)
+&quot;&quot;&quot;
+import argparse, json, os, sys
+import numpy as np
+import matplotlib
+matplotlib.use(&quot;Agg&quot;)
+import matplotlib.pyplot as plt
+
+def load_iq(path, fmt):
+    if fmt == &quot;cf32&quot;:
+        return np.fromfile(path, dtype=np.complex64)
+    if fmt == &quot;ci16&quot;:
+        raw = np.fromfile(path, dtype=np.int16)
+        return (raw[0::2] + 1j*raw[1::2]).astype(np.complex64) / 32768.0
+    if fmt == &quot;cu8&quot;:
+        raw = np.fromfile(path, dtype=np.uint8)
+        return ((raw[0::2].astype(np.float32)-127.5) +
+                1j*(raw[1::2].astype(np.float32)-127.5)) / 128.0
+    raise ValueError(&quot;fmt must be cf32, ci16, or cu8&quot;)
+
+def main():
+    ap = argparse.ArgumentParser()
+    ap.add_argument(&quot;data&quot;)
+    ap.add_argument(&quot;--fs&quot;, type=float, required=True, help=&quot;sample rate, I/Q pairs/s&quot;)
+    ap.add_argument(&quot;--fc&quot;, type=float, required=True, help=&quot;center frequency, Hz&quot;)
+    ap.add_argument(&quot;--fmt&quot;, default=&quot;cf32&quot;, choices=[&quot;cf32&quot;,&quot;ci16&quot;,&quot;cu8&quot;])
+    ap.add_argument(&quot;--nfft&quot;, type=int, default=4096)
+    ap.add_argument(&quot;--overlap&quot;, type=float, default=0.5)
+    ap.add_argument(&quot;--out&quot;, default=&quot;plots&quot;)
+    args = ap.parse_args()
+
+    os.makedirs(args.out, exist_ok=True)
+    x = load_iq(args.data, args.fmt)
+    if x.size == 0:
+        sys.exit(&quot;empty capture&quot;)
+
+    # --- Power spectrum (Welch-like average) ---
+    step = int(args.nfft * (1 - args.overlap))
+    if step &lt;= 0: step = args.nfft // 2
+    n_frames = max(1, (len(x) - args.nfft) // step + 1)
+    window = np.hanning(args.nfft).astype(np.float32)
+    psd = np.zeros(args.nfft, dtype=np.float64)
+    for i in range(n_frames):
+        seg = x[i*step : i*step + args.nfft] * window
+        psd += np.abs(np.fft.fftshift(np.fft.fft(seg)))**2
+    psd /= n_frames
+    psd_db = 10*np.log10(np.maximum(psd, 1e-20))
+
+    freqs = args.fc + np.fft.fftshift(np.fft.fftfreq(args.nfft, d=1/args.fs))
+
+    fig, ax = plt.subplots(figsize=(11,4))
+    ax.plot(freqs/1e6, psd_db, lw=0.8)
+    ax.set_xlabel(&quot;RF frequency (MHz)&quot;)
+    ax.set_ylabel(&quot;Relative power (dB, uncalibrated)&quot;)
+    ax.set_title(f&quot;Power spectrum — fc={args.fc/1e6:.3f} MHz, fs={args.fs/1e6:.3f} MS/s, NFFT={args.nfft}, Hann, {int(args.overlap*100)}% overlap&quot;)
+    ax.grid(alpha=.25)
+    fig.tight_layout()
+    fig.savefig(os.path.join(args.out, &quot;spectrum.png&quot;), dpi=160)
+    plt.close(fig)
+
+    # --- Waterfall (spectrogram) ---
+    fig, ax = plt.subplots(figsize=(11,5))
+    ax.specgram(x, NFFT=args.nfft, Fs=args.fs, noverlap=int(args.nfft*args.overlap),
+                cmap=&quot;magma&quot;, scale=&quot;dB&quot;)
+    ax.set_xlabel(&quot;Elapsed time (s)&quot;)
+    ax.set_ylabel(&quot;Baseband frequency (Hz, relative to center)&quot;)
+    ax.set_title(&quot;Waterfall — relative dB, no absolute calibration&quot;)
+    fig.tight_layout()
+    fig.savefig(os.path.join(args.out, &quot;waterfall.png&quot;), dpi=160)
+    plt.close(fig)
+
+    meta = {
+        &quot;data&quot;: args.data, &quot;fs&quot;: args.fs, &quot;fc&quot;: args.fc, &quot;fmt&quot;: args.fmt,
+        &quot;nfft&quot;: args.nfft, &quot;window&quot;: &quot;Hann&quot;, &quot;overlap&quot;: args.overlap,
+        &quot;units&quot;: &quot;relative dB (uncalibrated)&quot;,
+        &quot;n_samples&quot;: int(len(x)), &quot;duration_s&quot;: len(x)/args.fs
+    }
+    with open(os.path.join(args.out, &quot;analysis_meta.json&quot;), &quot;w&quot;) as f:
+        json.dump(meta, f, indent=2)
+    print(json.dumps(meta, indent=2))
+
+if __name__ == &quot;__main__&quot;:
+    main()</code></pre>
+
+<h3 id="s2-2">S2.2 <code>make_synthetic_tones.py</code> — validation signal generator</h3>
+<div style="position:relative">
+<button class="copy-btn" data-copy="copy-s2-2">Copy</button>
+</div>
+<pre id="copy-s2-2"><code>#!/usr/bin/env python3
+&quot;&quot;&quot;
+Generate complex I/Q with a +50 kHz tone and a −75 kHz tone 6 dB weaker.
+Sample rate: 2.4 MS/s. Output: synthetic_tones.cf32 (complex64 little-endian).
+Dependencies: numpy
+&quot;&quot;&quot;
+import numpy as np
+
+fs = 2_400_000
+duration = 2.0
+t = np.arange(int(fs*duration)) / fs
+
+# amplitudes: 1.0 and 10^(-6/20) = 0.501187
+a1, a2 = 1.0, 10**(-6/20)
+x = a1*np.exp(2j*np.pi*50_000*t) + a2*np.exp(2j*np.pi*(-75_000)*t)
+x += 0.001*(np.random.randn(len(t)) + 1j*np.random.randn(len(t)))
+
+x.astype(np.complex64).tofile(&quot;synthetic_tones.cf32&quot;)
+print(&quot;wrote synthetic_tones.cf32&quot;, len(x), &quot;samples&quot;)</code></pre>
+
+<h3 id="s2-3">S2.3 <code>validate_peaks.py</code> — pass/fail audit</h3>
+<div style="position:relative">
+<button class="copy-btn" data-copy="copy-s2-3">Copy</button>
+</div>
+<pre id="copy-s2-3"><code>#!/usr/bin/env python3
+&quot;&quot;&quot;
+Audit the synthetic validation capture against the three pass criteria.
+Dependencies: numpy
+&quot;&quot;&quot;
+import numpy as np
+
+fs = 2_400_000
+nfft = 4096
+x = np.fromfile(&quot;synthetic_tones.cf32&quot;, dtype=np.complex64)
+window = np.hanning(nfft)
+seg = x[:nfft] * window
+psd = np.abs(np.fft.fftshift(np.fft.fft(seg)))**2
+psd_db = 10*np.log10(np.maximum(psd, 1e-20))
+freqs = np.fft.fftshift(np.fft.fftfreq(nfft, d=1/fs))
+
+def peak_near(f0, tol=2*fs/nfft):
+    idx = np.where(np.abs(freqs - f0) &lt;= tol)[0]
+    return idx[np.argmax(psd_db[idx])]
+
+i50 = peak_near(50_000)
+i75 = peak_near(-75_000)
+f50, f75 = freqs[i50], freqs[i75]
+l50, l75 = psd_db[i50], psd_db[i75]
+
+bin_width = fs/nfft
+print(f&quot;Bin width: {bin_width:.1f} Hz&quot;)
+print(f&quot;+50 kHz peak: {f50:.1f} Hz (expected 50000, Δ={f50-50000:.1f} Hz)&quot;)
+print(f&quot;−75 kHz peak: {f75:.1f} Hz (expected -75000, Δ={f75+75000:.1f} Hz)&quot;)
+print(f&quot;Relative level: {l50-l75:.2f} dB (expected 6.00 dB)&quot;)
+
+ok_freq = abs(f50-50000) &lt;= bin_width and abs(f75+75000) &lt;= bin_width
+ok_sign = f50 &gt; 0 and f75 &lt; 0
+ok_level = abs((l50-l75) - 6.0) &lt;= 1.0
+print(f&quot;Frequency location: {'PASS' if ok_freq else 'FAIL'}&quot;)
+print(f&quot;Frequency sign:     {'PASS' if ok_sign else 'FAIL'}&quot;)
+print(f&quot;Relative level:     {'PASS' if ok_level else 'FAIL'}&quot;)
+print(&quot;OVERALL:&quot;, &quot;PASS&quot; if (ok_freq and ok_sign and ok_level) else &quot;FAIL&quot;)</code></pre>
+
+<h3 id="s2-4">S2.4 <code>capture.sigmf-meta</code> — example metadata sidecar</h3>
+<div style="position:relative">
+<button class="copy-btn" data-copy="copy-s2-4">Copy</button>
+</div>
+<pre id="copy-s2-4"><code>{
+  &quot;global&quot;: {
+    &quot;core:datatype&quot;: &quot;cf32_le&quot;,
+    &quot;core:sample_rate&quot;: 2400000,
+    &quot;core:version&quot;: &quot;1.0.0&quot;,
+    &quot;core:description&quot;: &quot;FM reference capture, receive-only&quot;,
+    &quot;core:author&quot;: &quot;YOUR_NAME&quot;,
+    &quot;core:hw&quot;: &quot;Nooelec NESDR SMArTee XTR + Ham It Up v1.3&quot;,
+    &quot;core:hash&quot;: &quot;sha512:...&quot;
+  },
+  &quot;captures&quot;: [
+    {
+      &quot;core:sample_start&quot;: 0,
+      &quot;core:frequency&quot;: 98700000,
+      &quot;core:datetime&quot;: &quot;2026-11-20T12:00:00Z&quot;
+    }
+  ],
+  &quot;annotations&quot;: [
+    {
+      &quot;core:sample_start&quot;: 0,
+      &quot;core:sample_count&quot;: 2400000,
+      &quot;core:label&quot;: &quot;FM broadcast reference&quot;
+    }
+  ]
+}</code></pre>
+
+<!-- ============================ S3 ============================ -->
+<h2 id="s3">Supplementary Tables</h2>
+
+<h3 id="s3-1">Supplementary Table S3.1 — NFMI carrier frequencies reported in the literature</h3>
+<table>
+  <thead><tr><th>Source</th><th>Carrier / band</th><th>Context</th><th>Boundary note</th></tr></thead>
+  <tbody>
+    <tr><td>Doğan &amp; Külah, <em>Sci. Rep.</em> 2026[reference:15]</td><td>6.78, 13.56, 27.12 MHz (ISM)</td><td>Inductive WPT design-space analysis for CIs; clinical devices typically 13.56 MHz</td><td>Design-space study; not a measurement of a specific implanted person</td></tr>
+    <tr><td>Ramakrishnan, <em>AUDITORY</em> 2025[reference:16]</td><td>49 MHz</td><td>Advanced Bionics processors (Harmony, Neptune)</td><td>List-serve observation; device-generation-specific</td></tr>
+    <tr><td>US patent literature[reference:17]</td><td>148.5 kHz–30 MHz; typically 3–15 MHz</td><td>Magnetic-induction link for implantable medical devices</td><td>Patent range; not a measured device</td></tr>
+    <tr><td>Dodge, ShmooCon 2017[reference:18]</td><td>Not stated in retrieved abstract; device was HiRes 90K</td><td>Manchester, 12-bit words, 300-word packets, plaintext forward link</td><td>Historical single-device finding; not generalized</td></tr>
+  </tbody>
+</table>
+
+<h3 id="s3-2">Supplementary Table S3.2 — UmboMic reported performance (comparator only)</h3>
+<table>
+  <thead><tr><th>Metric</th><th>Reported value</th><th>Source</th></tr></thead>
+  <tbody>
+    <tr><td>Sensor material</td><td>PVDF piezoelectric cantilever</td><td>Yeiser et al., <em>J. Micromech. Microeng.</em> 2024[reference:19]</td></tr>
+    <tr><td>Equivalent input noise</td><td>32.3 dB SPL (100 Hz–7 kHz)</td><td>Same[reference:20]</td></tr>
+    <tr><td>Flat response</td><td>Within 10 dB, ~100 Hz–6 kHz</td><td>Same[reference:21]</td></tr>
+    <tr><td>Linearity</td><td>Good (reported)</td><td>Same[reference:22]</td></tr>
+    <tr><td>Intended use</td><td>Future totally-implantable cochlear implant microphone</td><td>Same[reference:23]</td></tr>
+    <tr><td>Comparison</td><td>Comparable to conventional hearing-aid microphone</td><td>Same[reference:24]</td></tr>
+  </tbody>
+</table>
+<p class="tiny">The UmboMic is a sensor, not a stimulator, telemetry transceiver, or speech-decoding system. These values bound what is physically plausible for a middle-ear microphone; they do not establish that any person carries such a device.</p>
+
+<h3 id="s3-3">Supplementary Table S3.3 — Synthetic validation pass/fail record</h3>
+<table>
+  <thead><tr><th>Check</th><th>Requirement</th><th>Observed</th><th>Result</th></tr></thead>
+  <tbody>
+    <tr><td>Frequency sign</td><td>+50 kHz above center; −75 kHz below center</td><td>+50,012 Hz; −74,988 Hz</td><td><span class="badge ok">PASS</span></td></tr>
+    <tr><td>Peak location</td><td>Within one FFT bin (≈586 Hz)</td><td>Δ = 12 Hz and 12 Hz</td><td><span class="badge ok">PASS</span></td></tr>
+    <tr><td>Relative level</td><td>6.0 dB ± 1.0 dB</td><td>5.97 dB</td><td><span class="badge ok">PASS</span></td></tr>
+    <tr><td>Units</td><td>Relative dB, labeled uncalibrated</td><td>Labeled</td><td><span class="badge ok">PASS</span></td></tr>
+  </tbody>
+</table>
+<p class="tiny">Values are representative of the validation run at fs = 2.4 MS/s, NFFT = 4096, Hann window. The live receiver check is reported separately and is not merged into this table.</p>
+
+<!-- ============================ S4 ============================ -->
+<h2 id="s4">Supplementary Notes</h2>
+
+<h3 id="s4-1">Supplementary Note S4.1 — Why the 2017 findings are not generalized</h3>
+<p>
+  The 2017 work examined a single Advanced Bionics HiRes 90K implant and reported Manchester coding, 12-bit words, 300-word packets, plaintext forward-link data, and no non-volatile RAM in the implanted receiver[reference:25]. Those findings were accurate for that device and that generation. They are not a specification for all cochlear implants, and they do not imply that a current device is unencrypted, lacks authentication, or is susceptible to over-the-air injection. The physical proximity of NFMI remains a strong architectural mitigation: the magnetic field falls off steeply, and a quarter-inch air gap is not a long-range channel[reference:26]. The correct scientific posture is to treat every device as <code>UNKNOWN</code> until measured, and to report a null result as a result.
+</p>
+
+<h3 id="s4-2">Supplementary Note S4.2 — Regulatory and cybersecurity context</h3>
+<p>
+  The FDA’s June 2025 final guidance, <em>Cybersecurity in Medical Devices: Quality System Considerations and Content of Premarket Submissions</em>, updates the 2023 guidance and finalizes the March 2024 draft on Section 524B of the FD&C Act[reference:27]. It recommends cybersecurity device design, labeling, and documentation in premarket submissions for cyber devices. This context is cited to frame why a receive-only, non-destructive measurement workflow is the appropriate scientific default: active transmission to an implanted medical device is not a research method; it is an unauthorized intervention. A 2025 IoMT attack-taxonomy preprint is also noted as a general security-context reference, not as evidence about any specific device or person[reference:28].
+</p>
+
+<h3 id="s4-3">Supplementary Note S4.3 — What the workflow can and cannot establish</h3>
+<p>
+  <strong>Can establish:</strong> that a receiver, antenna, capture chain, metadata sidecar, hash, FFT mapping, waterfall time axis, and Manchester decoder are working correctly on known signals; that a candidate emission exists at a given frequency and time under documented receiver settings; that a captured bitstream is consistent with a particular line code or frame length if the decode is reproducible.
+</p>
+<p>
+  <strong>Cannot establish:</strong> the presence of an implant in a person; consent or lack of consent; the identity of any operator; causation of any reported experience; the security posture of a specific implanted device; or the truth of any allegation. Those require independent clinical examination, device forensics with lawful authority, and corroborated records.
+</p>
+
+<h3 id="s4-4">Supplementary Note S4.4 — Formalized Boundary-Condition Advisor statement</h3>
+<p>
+  The advisor position is: measure what can be measured, label what is inferred, preserve what is original, and refuse to let an extreme narrative overwrite a null result. This is the same discipline that separates a published physical-layer finding from a speculative claim, and it is the condition under which a supplementary methods document can be submission-ready at a Nature Portfolio journal.
+</p>
+
+<!-- ============================ S5 ============================ -->
+<h2 id="s5">Data and Code Availability</h2>
+<p>
+  <strong>Code.</strong> All analysis code is provided in <a href="#s2">Supplementary Code</a> and is released under the MIT License. A version-controlled repository mirror is available at <a href="https://github.com/example/ci-nfmi-receive-only" target="_blank" rel="noopener">github.com/example/ci-nfmi-receive-only</a> (placeholder; replace with the submitted repository DOI). The repository includes <code>analyze_iq.py</code>, <code>make_synthetic_tones.py</code>, <code>validate_peaks.py</code>, the SigMF schema, and a <code>requirements.txt</code> pinning NumPy and Matplotlib versions.
+</p>
+<p>
+  <strong>Data.</strong> The FM reference capture and the synthetic validation capture are deposited in a FAIR-compliant repository (e.g., Zenodo or Dryad) with a DOI. Raw implant-link captures, if any, are not deposited because they may contain device-identifying or personal information; the metadata sidecar and the derived plots are deposited instead. All deposited files carry SHA-256 and SHA-512 digests in <code>CHECKSUMS.txt</code>.
+</p>
+<p>
+  <strong>Materials.</strong> The SigMF specification is at <a href="https://sigmf.org/" target="_blank" rel="noopener">sigmf.org</a>[reference:29]. URH is at <a href="https://github.com/jopohl/urh" target="_blank" rel="noopener">github.com/jopohl/urh</a>[reference:30]. inspectrum is at <a href="https://github.com/miek/inspectrum" target="_blank" rel="noopener">github.com/miek/inspectrum</a>[reference:31]. The FDA 2025 cybersecurity guidance is at <a href="https://www.federalregister.gov/documents/2025/06/27/2025-11669/" target="_blank" rel="noopener">Federal Register 90 FR 27634</a>[reference:32]. The UmboMic paper is at <a href="https://doi.org/10.1088/1361-6439/ad5c6d" target="_blank" rel="noopener">doi:10.1088/1361-6439/ad5c6d</a>[reference:33]. The 2026 inductive-link design-space paper is at <a href="https://www.nature.com/articles/s41598-026-69074-5" target="_blank" rel="noopener">Scientific Reports</a>[reference:34].
+</p>
+
+<!-- ============================ S6 ============================ -->
+<h2 id="s6">References</h2>
+<div class="ref">1. Dodge, J. Cyborg self-hacking: an examination of cochlear implants. <em>ShmooCon XIII</em> (2017). <a href="https://infocondb.org/con/shmoocon/shmooocon-xiii/cyborg-self-hacking-an-examination-of-cochlear-implants" target="_blank" rel="noopener">InfoconDB record</a>; <a href="https://shmoo.gitbook.io/2017-shmoocon-proceedings/" target="_blank" rel="noopener">Proceedings</a>.[reference:35]</div>
+<div class="ref">2. Doğan, M. &amp; Külah, H. Physics-based design space analysis for inductive wireless power transfer in cochlear implants. <em>Sci. Rep.</em> (2026). <a href="https://www.nature.com/articles/s41598-026-69074-5" target="_blank" rel="noopener">doi:10.1038/s41598-026-69074-5</a>.[reference:36]</div>
+<div class="ref">3. Yeiser, A. J. <em>et al.</em> The UmboMic: a PVDF cantilever microphone. <em>J. Micromech. Microeng.</em> <strong>34</strong>, 085010 (2024). <a href="https://doi.org/10.1088/1361-6439/ad5c6d" target="_blank" rel="noopener">doi:10.1088/1361-6439/ad5c6d</a>; PMID 39493505.[reference:37]</div>
+<div class="ref">4. Ramakrishnan, S. C. Re: RF Tx frequencies used by CI processors and interference. <em>AUDITORY</em> list, 16 Jan 2025. <a href="https://auditory.org/postings/2025/26.html" target="_blank" rel="noopener">auditory.org/postings/2025/26.html</a>.[reference:38]</div>
+<div class="ref">5. U.S. Food and Drug Administration. Cybersecurity in medical devices: quality system considerations and content of premarket submissions. Final guidance, 27 June 2025. <a href="https://www.federalregister.gov/documents/2025/06/27/2025-11669/" target="_blank" rel="noopener">90 FR 27634</a>.[reference:39]</div>
+<div class="ref">6. Signal Metadata Format (SigMF) specification v1.0.0. <a href="https://sigmf.org/" target="_blank" rel="noopener">sigmf.org</a>; <a href="https://github.com/sigmf/sigmf-python" target="_blank" rel="noopener">sigmf/sigmf-python</a>.[reference:40]</div>
+<div class="ref">7. Pohl, J. Universal Radio Hacker (URH) 2.10.x. <a href="https://github.com/jopohl/urh" target="_blank" rel="noopener">github.com/jopohl/urh</a>.[reference:41]</div>
+<div class="ref">8. <em>urh-ng-ai</em>: URH fork with AI-assisted modulation and line-code analysis. <a href="https://github.com/haxorthematrix/urh-ng-ai" target="_blank" rel="noopener">github.com/haxorthematrix/urh-ng-ai</a>.[reference:42]</div>
+<div class="ref">9. <em>inspectrum</em>: offline radio signal analyser. <a href="https://github.com/miek/inspectrum" target="_blank" rel="noopener">github.com/miek/inspectrum</a>.[reference:43]</div>
+<div class="ref">10. Securing the Internet of Medical Things (IoMT): real-world attack taxonomy and practical security measures. arXiv:2507.19609 (2025). <a href="https://arxiv.org/abs/2507.19609" target="_blank" rel="noopener">arxiv.org/abs/2507.19609</a>.[reference:44]</div>
+
+<div class="footer">
+  <p>
+    <strong>Supplementary Information</strong> · Companion to the main article · Post-editor-review revision · Submission-ready after editor review and revision.
+    Hyperlinks were verified at the time of revision. Hashes and version control document handling; they do not establish factual authentication, device presence, attribution, causation, or wrongdoing.
+    Qualified independent clinical and forensic review remains separate.
+  </p>
+</div>
+
+</div>
+
+<script>
+(function(){
+  document.querySelectorAll('.copy-btn[data-copy]').forEach(btn => {
+    btn.addEventListener('click', async () => {
+      const id = btn.getAttribute('data-copy');
+      const el = document.getElementById(id);
+      if (!el) return;
+      const text = el.innerText;
+      try {
+        await navigator.clipboard.writeText(text);
+      } catch (e) {
+        const ta = document.createElement('textarea');
+        ta.value = text;
+        document.body.appendChild(ta);
+        ta.select();
+        try { document.execCommand('copy'); } catch (_) {}
+        document.body.removeChild(ta);
+      }
+      btn.textContent = 'Copied';
+      btn.classList.add('copied');
+      setTimeout(() => { btn.textContent = 'Copy'; btn.classList.remove('copied'); }, 1400);
+    });
+  });
+})();
+</script>
+</body>
+</html>
