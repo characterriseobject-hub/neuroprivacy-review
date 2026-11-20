@@ -1,0 +1,547 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<meta http-equiv="Content-Security-Policy" content="default-src 'none'; img-src data:; style-src 'unsafe-inline'; script-src 'unsafe-inline'; object-src 'none'; base-uri 'none'; connect-src 'none'; form-action 'none'">
+<meta name="description" content="Procurement completeness and abundance-prioritisation review, with execution quality gates, for a strictly receive-only NFMI / public-FM SDR characterisation workflow.">
+<title>Procurement completeness &amp; execution quality review — receive-only NFMI / public-FM characterisation</title>
+<style>
+:root{
+  --ink:#172f34;--teal:#14685a;--rule:#b9c7bf;--paper:#fafaf6;--muted:#49635f;
+  --blue:#153a42;--serif:Georgia,Charter,serif;
+  --mono:ui-monospace,SFMono-Regular,Consolas,"Liberation Mono",monospace;
+  --amber:#8a5a12;--amberbg:#fbf3e2;--red:#8c2f22;--redbg:#fbebe7;
+  --green:#1f5c3a;--greenbg:#e9f3ec;
+}
+*{box-sizing:border-box}
+html{scroll-behavior:smooth;scroll-padding-top:18px}
+body{margin:0;color:var(--ink);background:var(--paper);font:16px/1.57 system-ui,-apple-system,"Segoe UI",sans-serif}
+a{color:var(--teal);text-underline-offset:.18em}
+a:focus-visible,summary:focus-visible,button:focus-visible,input:focus-visible{outline:3px solid #b75926;outline-offset:3px}
+.skip{position:absolute;left:10px;top:-120px;background:#fff;padding:8px;z-index:9}
+.skip:focus{top:4px}
+.wrap{max-width:1290px;margin:auto;padding-left:clamp(18px,5vw,70px);padding-right:clamp(18px,5vw,70px)}
+header{color:#f8faf4;background:var(--blue)}
+.folio{display:flex;justify-content:space-between;gap:15px;border-bottom:1px solid #6c8c88;padding:18px 0;text-transform:uppercase;letter-spacing:.12em;font:600 .73rem/1.6 var(--mono)}
+.hero{display:grid;grid-template-columns:minmax(0,1.6fr) minmax(210px,.75fr);align-items:end;gap:7%;padding:42px 0 46px}
+h1,h2{font-family:var(--serif);font-weight:400;letter-spacing:-.045em;line-height:1.05}
+h1{font-size:clamp(36px,4.6vw,66px);margin:0 0 20px}
+h2{font-size:clamp(28px,2.9vw,42px);margin:0 0 14px}
+h3{font-size:1.05rem;margin:22px 0 6px}
+h4{font-size:.95rem;margin:18px 0 4px;letter-spacing:.01em}
+.abstract{color:#d9e7df;font-size:clamp(15.5px,1.25vw,18.5px);max-width:70ch}
+.actions{display:flex;gap:.6rem;flex-wrap:wrap;margin-top:22px}
+.action{display:inline-block;border:1px solid #779b8d;border-radius:4px;padding:9px 13px;font:650 .87rem/1.4 system-ui;text-decoration:none;color:#edf8ef}
+.action.primary{background:#d8e9d4;color:#153932}
+.datum{border-left:2px solid #a7c7b4;padding:0 0 0 22px;color:#e1eee7}
+.datum span{font:500 .73rem/1.5 var(--mono);text-transform:uppercase;letter-spacing:.08em}
+.datum strong{display:block;font:400 clamp(34px,3.9vw,52px)/1.12 var(--serif);margin-top:8px}
+.datum small{font-size:55%}
+.datum p{font-size:.89rem;line-height:1.45;margin:8px 0 0}
+.shell{display:grid;grid-template-columns:minmax(150px,196px) minmax(0,1fr);gap:5%;padding-top:34px}
+nav{align-self:start;position:sticky;top:18px;font-size:.83rem;max-height:calc(100vh - 30px);overflow:auto}
+nav h2,.rubric{font:650 .73rem/1.4 var(--mono);text-transform:uppercase;letter-spacing:.09em;color:var(--teal)}
+nav ol{list-style:none;padding:0;margin:14px 0 19px}
+nav li{margin:6px 0}
+nav a{text-decoration:none}
+nav a:hover{text-decoration:underline}
+.manual-link{border-top:1px solid var(--rule);display:block;padding-top:12px}
+.rubric{margin:0 0 12px}
+main section{border-bottom:1px solid var(--rule);padding:0 0 34px;margin:0 0 34px}
+main section:last-child{border:0}
+p{margin:8px 0 11px}
+p,li{max-width:88ch}
+.eq{border-left:3px solid var(--teal);padding:.62em 1em;font:1.05rem/1.6 var(--serif);background:#eaf1e9;overflow-wrap:anywhere;margin:12px 0}
+.scroll{overflow-x:auto;margin:12px 0 16px}
+table{width:100%;border-collapse:collapse;text-align:left;font-size:.845rem;line-height:1.5}
+caption{text-align:left;font:600 .9rem/1.4 system-ui;margin:8px 0 8px}
+td,th{padding:8px 9px;border-bottom:1px solid #ced8d0;vertical-align:top}
+thead th{background:#e7eee5;font-weight:650;position:relative}
+tbody th{font-weight:650}
+.numeric{font-variant-numeric:tabular-nums}
+code,pre{font-family:var(--mono);font-size:.855em}
+code{overflow-wrap:anywhere;background:#eef2ea;padding:.08em .3em;border-radius:3px}
+pre{background:#102f36;color:#eaf3ee;padding:13px 15px;line-height:1.55;overflow:auto;border-radius:3px;margin:12px 0}
+pre code{background:none;padding:0;color:inherit}
+details{border:1px solid var(--rule);border-radius:4px;margin:12px 0;background:#fff}
+summary{cursor:pointer;padding:10px 13px;font-weight:600}
+details[open]>summary{border-bottom:1px solid #d6ded7}
+details>p,details>.scroll,details>pre,details>ul,details>ol,details>.note{margin:12px 14px}
+.note{background:#eaf0e7;border-left:3px solid var(--teal);padding:10px 14px;font-size:.92rem}
+.warn{background:var(--amberbg);border-left:3px solid var(--amber);padding:10px 14px;font-size:.92rem}
+.stop{background:var(--redbg);border-left:3px solid var(--red);padding:10px 14px;font-size:.92rem}
+.ok{background:var(--greenbg);border-left:3px solid var(--green);padding:10px 14px;font-size:.92rem}
+.pill{display:inline-block;border:1px solid #aac1ad;border-radius:4px;padding:2px 8px;font:650 .74rem/1.6 var(--mono);color:var(--teal);background:#eef4e9;white-space:nowrap}
+.pill.p0{background:#d9ecdf;border-color:#5d9a76;color:#14512f}
+.pill.p1{background:#e6eef4;border-color:#7aa2bd;color:#123a52}
+.pill.p2{background:#f6efdc;border-color:#c39f52;color:#6b4d10}
+.pill.p3{background:#f1eeee;border-color:#b3a8a8;color:#5a4b4b}
+.pill.gap{background:var(--redbg);border-color:#c98a7b;color:var(--red)}
+.pill.cond{background:var(--amberbg);border-color:#d3a85c;color:var(--amber)}
+.pill.okc{background:var(--greenbg);border-color:#7fb593;color:var(--green)}
+button{font:650 .82rem/1.4 system-ui;color:var(--teal);border:1px solid #aac1ad;background:#eef4e9;border-radius:4px;padding:6px 11px;cursor:pointer;margin:3px 5px 3px 0}
+button:hover{background:#e2ecdd}
+button:disabled{color:var(--muted);cursor:default}
+.filters{display:flex;flex-wrap:wrap;gap:4px;margin:10px 0 4px}
+.progresswrap{background:#e4ede5;border:1px solid var(--rule);border-radius:4px;height:12px;overflow:hidden;margin:8px 0 4px}
+.progressbar{height:100%;width:0;background:var(--teal);transition:width .18s ease}
+.checklist{list-style:none;padding:0;margin:10px 0}
+.checklist li{display:flex;gap:9px;align-items:flex-start;padding:6px 0;border-bottom:1px dotted #cfd9d1;font-size:.92rem}
+.checklist input{margin-top:.32em;flex:none}
+.sect-head{display:flex;justify-content:space-between;align-items:baseline;gap:12px;border-top:1px solid var(--rule);padding-top:10px;margin-top:22px}
+.sect-head .count{font:600 .78rem/1.4 var(--mono);color:var(--muted)}
+.kv{display:grid;grid-template-columns:max-content 1fr;gap:2px 14px;font-size:.9rem;margin:10px 0}
+.kv dt{font-weight:650}
+.kv dd{margin:0}
+footer{padding:22px 0;background:#e4ede5;color:var(--ink);font-size:.81rem}
+footer .wrap{display:flex;justify-content:space-between;gap:12px;flex-wrap:wrap}
+.tiny{font-size:.8rem;color:var(--muted)}
+@media(max-width:900px){
+  .hero{grid-template-columns:1fr}
+  .datum{margin-top:24px;max-width:70ch}
+  .shell{display:block}
+  nav{position:static;border-bottom:1px solid var(--rule);padding-bottom:14px;margin-bottom:24px;max-height:none}
+  nav ol{display:flex;flex-wrap:wrap;gap:4px 16px}
+  nav li{margin:0}
+  .manual-link{display:inline;border:0}
+  table{font-size:.8rem}
+}
+@media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}.progressbar{transition:none}}
+@media print{
+  html{scroll-behavior:auto}
+  body,header,.datum,.abstract,footer{background:#fff;color:#172f34}
+  .shell,.hero{display:block}
+  .wrap{max-width:none;padding:0}
+  body{font-size:9.6pt}
+  nav,.actions,button,.progresswrap,.skip,.print-hidden{display:none}
+  main section{break-inside:auto;margin:0 0 15px;padding:0 0 12px}
+  h2,h3,caption{break-after:avoid}
+  h1{font-size:24pt}h2{font-size:16pt}
+  pre{white-space:pre-wrap;overflow-wrap:anywhere;background:#f3f4ee;color:#192f31}
+  .scroll{overflow:visible}
+  table{font-size:8pt}
+  thead th{background:#e7eee5}
+  details{border:1px solid #ccc}
+  details:not([open])>summary~*{display:block}
+}
+</style>
+</head>
+<body>
+<a class="skip" href="#contents">Skip to contents</a>
+
+<header>
+  <div class="wrap">
+    <div class="folio"><span>Execution quality review · procurement pass</span><span>20 November 2026</span></div>
+    <div class="hero">
+      <div>
+        <h1>Procurement completeness &amp; execution quality review</h1>
+        <p class="abstract">A governed, receive-only audit of the NFMI / public-FM characterisation bill of materials. Three passes are applied: a <strong>completeness pass</strong> (does every required capability have an owned, substitutable instrument?), an <strong>abundance-prioritisation refinement pass</strong> (what to buy first, what is redundant, what is parked), and an <strong>execution quality review</strong> (pass/fail gates G0–G8 with numeric acceptance criteria and evidence artefacts). Every instruction below is receive-only: no transmit blocks, no replay, no jamming, no active probing, and no DC bias into any coil or medical device.</p>
+        <div class="actions">
+          <a class="action primary" href="#prioritisation">Jump to prioritisation verdicts</a>
+          <a class="action" href="#gates">Jump to quality gates</a>
+          <a class="action" href="#commands">Jump to command sheet</a>
+        </div>
+      </div>
+      <div class="datum">
+        <span>Review outcome</span>
+        <strong>16 gaps<small> found &amp; dispositioned</small></strong>
+        <p>BOM is ~2.4× over-provisioned on receivers and ~4× on loop probes for this single workflow. A two-receiver, two-loop, one-scope minimum viable bench covers Stages 0/A/B/C.</p>
+      </div>
+    </div>
+  </div>
+</header>
+
+<div class="wrap shell">
+  <nav aria-label="Contents">
+    <h2 id="contents">Contents</h2>
+    <ol>
+      <li><a href="#s1">1 · Scope &amp; governance</a></li>
+      <li><a href="#s2">2 · Review method</a></li>
+      <li><a href="#s3">3 · Capability coverage matrix</a></li>
+      <li><a href="#s4">4 · Gap register (GAP-01…16)</a></li>
+      <li><a href="#s5">5 · Source-document findings</a></li>
+      <li><a href="#s6">6 · Abundance prioritisation</a></li>
+      <li><a href="#s7">7 · Bench configurations</a></li>
+      <li><a href="#s8">8 · Execution quality gates</a></li>
+      <li><a href="#s9">9 · Numerical acceptance table</a></li>
+      <li><a href="#s10">10 · Command sheet</a></li>
+      <li><a href="#s11">11 · Risk register</a></li>
+      <li><a href="#s12">12 · Evidence package manifest</a></li>
+      <li><a href="#s13">13 · Traceability matrix</a></li>
+      <li><a href="#s14">14 · Decisions log</a></li>
+    </ol>
+    <a class="manual-link" href="#checkmaster">Master checklist</a>
+    <a class="manual-link" href="#s15">Sign-off block</a>
+  </nav>
+
+  <main>
+
+  <!-- ============================================================ 1 -->
+  <section id="s1">
+    <p class="rubric">Section 1</p>
+    <h2>Scope, boundary conditions, and what this document adds</h2>
+
+    <h3>1.1 What this document is</h3>
+    <p>This is the <strong>procurement and readiness</strong> layer that sits between the execution specification and the measurement itself. The execution specification defines <em>what</em> is measured; the supplementary methods HTML defines <em>how the synthetic validation proves the analyser is correct</em>. Neither document answers three questions that must be answered before any money is spent or any probe is placed:</p>
+    <ol>
+      <li><strong>Completeness:</strong> for each required measurement capability, is there an owned instrument that can actually reach it, and is there a substitute if it fails?</li>
+      <li><strong>Abundance:</strong> the inventory lists six receivers, four loop-probe options and two oscilloscopes. Which of these are on the critical path, which are redundant, and which add governance burden without adding capability?</li>
+      <li><strong>Quality:</strong> what numeric result separates "the workflow ran" from "the workflow produced defensible data"?</li>
+    </ol>
+    <p>This document supplies all three, plus the de-duplicated command sheet and the evidence manifest that a reviewer will ask for.</p>
+
+    <h3>1.2 Boundary condition 0 — restated and enforced</h3>
+    <div class="stop">
+      <p><strong>Receive-only. Non-destructive. No exceptions.</strong> Nothing in this document instructs, implies, or enables transmission, replay, jamming, active probing, or the application of DC bias-tee voltage into a coil or a medical device. Where a measurement would ordinarily require an active source (probe calibration, two-tone linearity, noise figure), this review <em>refuses to supply that method</em> and substitutes a passive equivalent or marks the limitation explicitly. See <a href="#s4">GAP-01</a> and <a href="#s4">GAP-08</a>.</p>
+    </div>
+
+    <h3>1.3 The three evidentiary tiers, as applied to procurement</h3>
+    <div class="scroll">
+      <table>
+        <caption>Table 1.1 — Tier definitions and their procurement consequence</caption>
+        <thead><tr><th scope="col">Tier</th><th scope="col">Content</th><th scope="col">Procurement consequence</th></tr></thead>
+        <tbody>
+          <tr><th scope="row">Tier 1<br><span class="tiny">Established mechanics</span></th>
+            <td>Maxwell–Faraday inductive coupling with 1/r³ near-field falloff; Nyquist sampling; periodic-Hann Welch PSD with ENBW = 1.5 bins; finite-window DTFT scalloping loss; coherent full-record DFT projection; Manchester line coding; SHA-256 / SHA-512 integrity; SigMF v1.2.6 schema compliance.</td>
+            <td>These are <strong>software and procedure</strong> requirements. They need no purchase beyond the pinned Python kit. They are the only basis on which any quantitative claim may rest.</td></tr>
+          <tr><th scope="row">Tier 2<br><span class="tiny">Device-specific frontier</span></th>
+            <td>Carrier frequency (6.78 / 13.56 / 27.12 MHz ISM, 49 MHz legacy, 148.5 kHz–30 MHz patent corridor); symbol rate ~0.5–1.1 Mbps; word/frame grouping; reverse-telemetry load modulation; encryption / NVRAM state.</td>
+            <td>Every Tier 2 value must be <strong>measured, recorded with uncertainty, or logged as UNKNOWN</strong>. Procurement must therefore include a <em>recording</em> capability (storage, time discipline, geometry repeatability) and not only a <em>detection</em> capability. This is where most of the 16 gaps live.</td></tr>
+          <tr><th scope="row">Tier 3<br><span class="tiny">Out of scope</span></th>
+            <td>Diagnosis, device presence in a person, cortical/BCI speech decoding, causation of any reported experience.</td>
+            <td><strong>No instrument may be procured to support a Tier 3 claim.</strong> Any hardware line item whose stated purpose is diagnostic is rejected at this review.</td></tr>
+        </tbody>
+      </table>
+    </div>
+
+    <h3>1.4 How to use this document</h3>
+    <ul>
+      <li>Read <a href="#s3">§3</a> to confirm every capability is covered. Anything marked <span class="pill gap">GAP</span> or <span class="pill cond">CONDITIONAL</span> must be dispositioned in <a href="#s4">§4</a> before purchase.</li>
+      <li>Use <a href="#s6">§6</a> to place orders in tier order. Do not buy P2 or P3 items before P0 items are on the bench and G0–G3 have passed.</li>
+      <li>Use <a href="#s8">§8</a> and <a href="#s9">§9</a> as the pass/fail authority during execution. A stage that fails its gate is not "mostly done"; it is failed.</li>
+      <li>Work the <a href="#checkmaster">master checklist</a>; tick state persists locally in this file (no network, no external resources).</li>
+    </ul>
+    <div class="note"><strong>Serverless note.</strong> This file loads nothing from the network. Its Content-Security-Policy is <code>default-src 'none'</code> with inline style and script only, matching the posture of the supplementary methods document. Checkbox state is stored in <code>localStorage</code> under the key <code>nfmi-proc-review-v1</code>; if storage is unavailable the page still works, it simply will not remember ticks.</div>
+  </section>
+
+  <!-- ============================================================ 2 -->
+  <section id="s2">
+    <p class="rubric">Section 2</p>
+    <h2>Review method — three passes, one artefact</h2>
+
+    <h3>2.1 Pass A — Completeness (capability-first, not item-first)</h3>
+    <p>The inventory was reorganised from <em>item-first</em> (a list of things) to <em>capability-first</em> (a list of jobs). For each capability the questions are: is there an owned item that reaches it; is the reach verified by a specification and not by assumption; and is there a second item that can substitute if the first fails. Capabilities with no answer become gap register entries. The output is the <a href="#s3">coverage matrix</a>.</p>
+
+    <h3>2.2 Pass B — Abundance prioritisation</h3>
+    <p>Each item was scored on four axes and assigned a tier:</p>
+    <div class="kv">
+      <dt>Criticality</dt><dd>Does the workflow stop without it? (Blocks Stage 0, A, B or C.)</dd>
+      <dt>Substitutability</dt><dd>Can another owned item perform the same function? If yes, the item drops a tier.</dd>
+      <dt>Governance burden</dt><dd>Transmit-capable hardware, or hardware that invites active probing, is penalised. The mandate is receive-only; an item that must be <em>prevented</em> from transmitting carries an ongoing procedural cost.</dd>
+      <dt>Marginal capability</dt><dd>Does the item enable a claim that no other item enables (absolute field level, 14-bit dynamic range, 148.5–500 kHz coverage)? If not, it is parked.</dd>
+    </div>
+    <div class="scroll">
+      <table>
+        <caption>Table 2.1 — Tier definitions used in Section 6</caption>
+        <thead><tr><th scope="col">Tier</th><th scope="col">Meaning</th><th scope="col">Purchase rule</th></tr></thead>
+        <tbody>
+          <tr><td><span class="pill p0">P0</span></td><td>Blocking. A stage cannot be executed or cannot be trusted without it.</td><td>Buy / confirm first. Nothing else proceeds.</td></tr>
+          <tr><td><span class="pill p1">P1</span></td><td>Required for credible Stage C data (geometry, isolation, dynamic range, storage).</td><td>Buy after P0 is on the bench and G0–G4 pass.</td></tr>
+          <tr><td><span class="pill p2">P2</span></td><td>Required only for calibration-grade or absolute-level claims, or for convenience/repeatability.</td><td>Buy only if the claim is actually being attempted. Otherwise defer indefinitely.</td></tr>
+          <tr><td><span class="pill p3">P3</span></td><td>Redundant, marginal, or governance-burdening for this workflow.</td><td>Park. Re-enter only against a written "buy only if" condition.</td></tr>
+        </tbody>
+      </table>
+    </div>
+
+    <h3>2.3 Pass C — Execution quality review</h3>
+    <p>Each stage is converted into a gate with (i) a <em>numeric or binary</em> pass criterion, (ii) a named evidence artefact, and (iii) a defined failure action. Gates are sequential: a failed gate stops the run, it does not degrade it. The gate set is <a href="#s8">G0–G8</a>.</p>
+
+    <h3>2.4 Deliberate non-duplication</h3>
+    <p>The execution specification and the supplementary methods document are not reproduced here. Where a procedure is unchanged, this document cites it and supplies only the <em>acceptance criterion</em> and the <em>evidence artefact</em> that the source documents omit. The command sheet in <a href="#s10">§10</a> is de-duplicated: each command appears exactly once, in execution order.</p>
+  </section>
+
+  <!-- ============================================================ 3 -->
+  <section id="s3">
+    <p class="rubric">Section 3</p>
+    <h2>Capability coverage matrix — completeness pass</h2>
+    <p>Twenty-four capabilities are required by the four-stage protocol. Each is mapped to the candidate inventory items that can serve it. Coverage status: <span class="pill okc">COVERED</span> means an owned item reaches it and the reach is specified; <span class="pill cond">CONDITIONAL</span> means it is reachable only by a coupled pair or only if a corridor is in scope; <span class="pill gap">GAP</span> means nothing in the inventory reaches it, or the acceptance method is undefined.</p>
+
+    <div class="scroll">
+      <table>
+        <caption>Table 3.1 — Capability coverage. "SDR" items are receivers; "Probe" items are magnetic-loop transducers; "Scope" is the time-domain instrument.</caption>
+        <thead>
+          <tr><th scope="col">ID</th><th scope="col">Capability required</th><th scope="col">Required by</th><th scope="col">Inventory items that can serve it</th><th scope="col">Status</th><th scope="col">Action</th></tr>
+        </thead>
+        <tbody>
+          <tr><td>C01</td><td>Receive 88–108 MHz FM broadcast with ≥2.4 MS/s baseband export</td><td>Stage B</td><td>NESDR SMArt v5 (25 MHz–1.75 GHz); RTL-SDR Blog V4 (500 kHz–1.766 GHz); SDRplay RSP1B (1 kHz–2 GHz)</td><td><span class="pill okc">COVERED</span></td><td>Assign SMArt v5 as FM-primary.</td></tr>
+          <tr><td>C02</td><td>Receive NFMI carriers at 6.78 / 13.56 / 27.12 MHz and 49 MHz, plus 3–15 MHz sweep</td><td>Stage C.2</td><td>RTL-SDR Blog V4 (HF upconverter built in, 1 ppm); RSP1B</td><td><span class="pill okc">COVERED</span></td><td>Assign V4 as NFMI-primary.</td></tr>
+          <tr><td>C03</td><td>Receive 148.5 kHz–500 kHz corridor</td><td>Stage C.2 lower bound</td><td>V4 floor is 500 kHz → cannot. E4000 dongle + Ham It Up (+125 MHz LO) → can. Scope → can.</td><td><span class="pill cond">CONDITIONAL</span></td><td>Coverage exists only via a <em>coupled pair</em> (E4000 + upconverter), never by one item. See GAP-02.</td></tr>
+          <tr><td>C04</td><td>Wideband survey 1 MHz–6 GHz</td><td>Not required by any stage</td><td>HackRF One; USRP B210</td><td><span class="pill p3">NOT REQUIRED</span></td><td>Park. Both are transmit-capable.</td></tr>
+          <tr><td>C05</td><td>≥14-bit dynamic range for weak load-modulation sidebands</td><td>Stage C.2 (weak sidebands)</td><td>RSP1B / RSPdx-R2 (14-bit, 2–6.048 MS/s)</td><td><span class="pill okc">COVERED</span> at P1</td><td>Promote to P0 if sidebands below −50 dBc are the target.</td></tr>
+          <tr><td>C06</td><td>Shielded H-field sensing, 10 kHz–300 MHz, no bias tee</td><td>Stage C.1–C.3</td><td>Airspy YouLoop (passive shielded loop); 5-turn hand-wound coaxial / Fair-Rite #43/#61 loop</td><td><span class="pill okc">COVERED</span></td><td>Two loops minimum, for common-mode rejection and gradient checks.</td></tr>
+          <tr><td>C07</td><td>Absolute H-field calibration (probe antenna factor with certificate)</td><td>Any absolute-level claim</td><td>Beehive 100A / Tekbox TBPS01 — <em>only if supplied with a calibration certificate</em></td><td><span class="pill gap">GAP</span></td><td>GAP-01. Until resolved, all NFMI levels are relative only.</td></tr>
+          <tr><td>C08</td><td>Time-domain envelope capture ≥20 MS/s</td><td>Stage C.3</td><td>Rigol DHO804 (12-bit, 1.25 GS/s, battery-isolated); DS1054Z (8-bit, 1 GS/s)</td><td><span class="pill okc">COVERED</span></td><td>DHO804 preferred: 12-bit gives ~72 dB vs ~48 dB.</td></tr>
+          <tr><td>C09</td><td>DC-bias protection in the receive path</td><td>Stage C.1 (mandatory)</td><td>Mini-Circuits BLK-89-S+ / SMA inline DC block</td><td><span class="pill okc">COVERED</span></td><td>Physically verify in-line before every C session.</td></tr>
+          <tr><td>C10</td><td>Overload and linearity control</td><td>Stage C.2</td><td>3 / 6 / 10 / 20 dB SMA inline attenuators</td><td><span class="pill okc">COVERED</span></td><td>10 dB in-line by default; see GAP-08 for the verification method.</td></tr>
+          <tr><td>C11</td><td>Common-mode / EMI suppression on USB and coax</td><td>Stage C.1</td><td>Fair-Rite #31/#43 snap-on chokes; shielded USB extension; <em>no galvanic USB isolator listed</em></td><td><span class="pill cond">PARTIAL</span></td><td>GAP-11. Add a USB isolator at P1.</td></tr>
+          <tr><td>C12</td><td>Null control, &gt;85 dB Faraday isolation</td><td>Stage C.1</td><td>RF Faraday isolation bag (&gt;85 dB claimed)</td><td><span class="pill cond">PARTIAL</span></td><td>GAP-06. The claim has no acceptance method in the sources.</td></tr>
+          <tr><td>C13</td><td>Deterministic synthetic verification of the analyser</td><td>Stage A.2–A.3</td><td><code>rf_reference.py</code>, <code>verified-example/</code>, <code>offbin-example/</code>, <code>offbin_check.py</code></td><td><span class="pill okc">COVERED</span></td><td>Pin the kit; archive <code>pip freeze</code>.</td></tr>
+          <tr><td>C14</td><td>SigMF v1.2.6 schema + <code>core:sha512</code> validation</td><td>Stage A.3</td><td><code>check_sigmf_example.py</code>; sigmf 1.2.6 pinned</td><td><span class="pill okc">COVERED</span></td><td>Record both hash algorithms explicitly (GAP-09).</td></tr>
+          <tr><td>C15</td><td>Two-file integrity handoff across hosts</td><td>Stage B.2</td><td><code>handoff.py</code> (<code>rf-two-file-sha256-v1</code>)</td><td><span class="pill okc">COVERED</span></td><td>SHA-256 manifest ≠ SigMF <code>core:sha512</code>; do not conflate.</td></tr>
+          <tr><td>C16</td><td>Protocol analysis: Manchester transitions, word/frame periodicity</td><td>Stage C.3</td><td>URH 2.10.x (analysis-only), inspectrum, GNU Radio (analysis-only), custom Python</td><td><span class="pill okc">COVERED</span></td><td>Analysis-only mode is a governance requirement, not a preference.</td></tr>
+          <tr><td>C17</td><td>Geometry repeatability for 1/r³ reproducibility</td><td>Stage C.2</td><td><em>No positioning fixture in inventory</em></td><td><span class="pill gap">GAP</span></td><td>GAP-03. Add a non-metallic jig + photo log + n=3 repeats.</td></tr>
+          <tr><td>C18</td><td>Storage and throughput budget</td><td>Stages B and C</td><td><em>Not specified</em></td><td><span class="pill gap">GAP</span></td><td>GAP-04. See Table 4.1 for derived budgets.</td></tr>
+          <tr><td>C19</td><td>Clock / frequency-accuracy budget and verification</td><td>Stages B and C</td><td><em>Not specified</em></td><td><span class="pill gap">GAP</span></td><td>GAP-05. Derived table plus passive FM-carrier reference.</td></tr>
+          <tr><td>C20</td><td>Host and USB enumeration evidence</td><td>Stage 0</td><td>macOS <code>system_profiler</code>; Windows <code>Get-PnpDevice</code></td><td><span class="pill okc">COVERED</span></td><td>Archive output; do not interrupt active recordings.</td></tr>
+          <tr><td>C21</td><td>UTC time discipline with bounded uncertainty</td><td>Stages B and C</td><td>SDR++ UTC export; Gqrx recorder</td><td><span class="pill cond">PARTIAL</span></td><td>GAP-15. Host clock offset must be measured, not assumed.</td></tr>
+          <tr><td>C22</td><td>Per-band negative control (no-target baseline)</td><td>Stage C.1</td><td><em>Not specified</em></td><td><span class="pill gap">GAP</span></td><td>GAP-07. Add terminated-probe control at each band.</td></tr>
+          <tr><td>C23</td><td>Passive linearity verification without transmission</td><td>Stage C.2</td><td><em>Not specified</em></td><td><span class="pill gap">GAP</span></td><td>GAP-08. Attenuator-step method supplied in §4.</td></tr>
+          <tr><td>C24</td><td>Documented control of transmit-capable hardware</td><td>Governance, all stages</td><td>HackRF One; USRP B210</td><td><span class="pill gap">GOVERNANCE</span></td><td>GAP-14. Park, or document RX-port-only cabling with terminated TX port.</td></tr>
+        </tbody>
+      </table>
+    </div>
+
+    <div class="ok"><strong>Coverage summary.</strong> 12 capabilities are fully covered by items already owned or specified. 4 are covered only conditionally (coupled pair, partial suppression, partial isolation, partial time discipline). 6 are genuine gaps. 2 items in the inventory serve no required capability. Coverage alone is therefore <strong>not</strong> a purchase green-light; the gap register must close first.</div>
+  </section>
+
+  <!-- ============================================================ 4 -->
+  <section id="s4">
+    <p class="rubric">Section 4</p>
+    <h2>Gap register — sixteen findings and their dispositions</h2>
+    <p>Each gap is dispositioned as one of: <strong>Add</strong> (procure or specify), <strong>Method</strong> (supply the missing procedure — no purchase), <strong>Accept</strong> (document as a limitation of the claim), or <strong>Park</strong> (out of scope for this workflow).</p>
+
+    <h3>4.1 Blocking gaps</h3>
+
+    <h4>GAP-01 · No absolute H-field calibration path <span class="pill gap">ACCEPT + P2 MITIGATION</span></h4>
+    <p>The inventory lists three loop-probe options but no calibration certificate, no antenna-factor data, and no permitted method of generating a known field. Because active field generation is forbidden by Boundary Condition 0, there is no in-house route to an absolute level. Disposition: <strong>accept</strong>. All Stage C levels are reported as <em>relative</em> — dBc against an in-band reference, or dB relative to the session noise floor. If an absolute claim is ever required, procure a loop probe <em>supplied with a traceable calibration certificate</em> (P2) and cite the certificate number in the report; do not attempt an in-house active calibration.</p>
+    <p class="tiny">Affected claims: any statement of field strength in A/m or dBµA/m; any distance estimate derived from absolute level. Note that 1/r³ falloff remains available as a <em>relative</em> shape test (Tier 1 mechanics) even without absolute calibration.</p>
+
+    <h4>GAP-02 · 148.5–500 kHz corridor unreachable with the primary receiver <span class="pill cond">CONDITIONAL — METHOD + P3</span></h4>
+    <p>The RTL-SDR Blog V4 floors at 500 kHz; the NESDR SMArt v5 floors at 25 MHz; the E4000 dongle floors at ~65 MHz. The execution specification's Stage C.2 lower bound of 148.5 kHz is therefore reachable only by the <em>coupled pair</em> E4000 + Ham It Up (+125 MHz LO), which shifts 148.5 kHz to 125.1485 MHz. Two consequences follow, and both are missing from the source documents:</p>
+    <ul>
+      <li>The pair is a <strong>single capability, not two items</strong>. Adding one without the other adds nothing.</li>
+      <li>If the 148.5–500 kHz corridor is <strong>deprioritised</strong>, both items become pure redundancy and the pair drops to P3.</li>
+    </ul>
+    <p>Disposition: <strong>method</strong> — record the lower bound of the actually-achieved sweep in the run log, and state explicitly whether the corridor was in scope. Procurement: <strong>P3 conditional</strong>.</p>
+
+    <h4>GAP-03 · No geometry / positioning fixture <span class="pill gap">ADD (P1)</span></h4>
+    <p>A 1/r³ claim is meaningless without a repeatable distance. Nothing in the inventory holds the loop at a known, indexed distance from the target coil, and nothing logs the geometry. Disposition: <strong>add</strong> a non-metallic jig — nylon standoffs, a PTFE clamp, a millimetre scale on an indexed base — plus a photo log per session and a repeat protocol of n = 3 at each fixed distance. Total cost is trivial; the evidential value is not.</p>
+
+    <h4>GAP-04 · No storage or throughput budget <span class="pill gap">ADD (P0)</span></h4>
+    <p>Nothing in either source document states how much data the workflow generates. Derived below from the stated rates.</p>
+    <div class="scroll">
+      <table>
+        <caption>Table 4.1 — Derived storage budgets. PCM16 stereo = 4 bytes/sample-pair; cf32 = 8 bytes/sample.</caption>
+        <thead><tr><th scope="col">Capture</th><th scope="col">Rate</th><th scope="col">Format</th><th scope="col">Bytes / s</th><th scope="col">Duration</th><th scope="col">Size</th></tr></thead>
+        <tbody>
+          <tr><td>FM reference (Stage B)</td><td>2.4 MS/s</td><td>PCM16 stereo</td><td class="numeric">9,600,000</td><td>5 s</td><td class="numeric">48 MB</td></tr>
+          <tr><td>FM reference (Stage B)</td><td>2.4 MS/s</td><td>PCM16 stereo</td><td class="numeric">9,600,000</td><td>10 s</td><td class="numeric">96 MB</td></tr>
+          <tr><td>FM reference (Stage B)</td><td>3.2 MS/s</td><td>PCM16 stereo</td><td class="numeric">12,800,000</td><td>10 s</td><td class="numeric">128 MB</td></tr>
+          <tr><td>NFMI long observation (Stage C.2)</td><td>2.4 MS/s</td><td>cf32</td><td class="numeric">19,200,000</td><td>60 s</td><td class="numeric">1.15 GB</td></tr>
+          <tr><td>NFMI long observation (Stage C.2)</td><td>6.048 MS/s</td><td>cf32 (RSP1B max)</td><td class="numeric">48,384,000</td><td>60 s</td><td class="numeric">2.90 GB</td></tr>
+          <tr><td>Off-bin fixture (Stage A.3)</td><td>2.4 MS/s</td><td>cf32</td><td class="numeric">19,200,000</td><td>0.04096 s</td><td class="numeric">786,432 B</td></tr>
+          <tr><td>Scope CSV (Stage C.3, DHO804)</td><td>20 MS/s</td><td>CSV, 2 cols ~22 B/row</td><td class="numeric">~440,000</td><td>10 s</td><td class="numeric">~4.4 MB</td></tr>
+          <tr><td>Scope CSV (Stage C.3, 1 GS/s burst)</td><td>1 GS/s</td><td>CSV</td><td class="numeric">~22,000,000,000</td><td>0.001 s</td><td class="numeric">~22 MB</td></tr>
+        </tbody>
+      </table>
+    </div>
+    <p>Disposition: <strong>add</strong> ≥256 GB free on a dedicated SSD, plus a pre-flight rule of ≥3× the expected capture size free before arming. Note the scope CSV row at 1 GS/s: a 1 ms burst is already ~22 MB, so scope captures must be triggered bursts, never free-running, and must be exported immediately with a SHA-256.</p>
+
+    <h4>GAP-05 · No clock / frequency-accuracy budget <span class="pill gap">ADD (METHOD)</span></h4>
+    <p>Frequency error is a Tier 2 quantity and must be bounded before any symbol-rate or carrier measurement is reported. Derived from the stated TCXO tolerances.</p>
+    <div class="scroll">
+      <table>
+        <caption>Table 4.2 — Derived frequency uncertainty. ppm × carrier = absolute error.</caption>
+        <thead><tr><th scope="col">Device</th><th scope="col">Stated tolerance</th><th scope="col">At 6.78 MHz</th><th scope="col">At 13.56 MHz</th><th scope="col">At 27.12 MHz</th><th scope="col">At 49 MHz</th><th scope="col">At 98 MHz</th></tr></thead>
+        <tbody>
+          <tr><td>NESDR SMArt v5</td><td>0.5 ppm</td><td class="numeric">3.4 Hz</td><td class="numeric">6.8 Hz</td><td class="numeric">13.6 Hz</td><td class="numeric">24.5 Hz</td><td class="numeric">49 Hz</td></tr>
+          <tr><td>RTL-SDR Blog V4</td><td>1 ppm</td><td class="numeric">6.8 Hz</td><td class="numeric">13.6 Hz</td><td class="numeric">27.1 Hz</td><td class="numeric">49 Hz</td><td class="numeric">98 Hz</td></tr>
+          <tr><td>RSP1B / RSPdx-R2</td><td>see datasheet (0.5–1 ppm class)</td><td class="numeric">≤6.8 Hz</td><td class="numeric">≤13.6 Hz</td><td class="numeric">≤27.1 Hz</td><td class="numeric">≤49 Hz</td><td class="numeric">≤98 Hz</td></tr>
+          <tr><td>DHO804 timebase</td><td>±25 ppm typical</td><td colspan="5">At a 2 µs bit period (0.5 Mbps) this is 50 ps — negligible against a 50 ns sample interval at 20 MS/s.</td></tr>
+        </tbody>
+      </table>
+    </div>
+    <p>Disposition: <strong>method</strong>. Report every captured carrier with its device ppm budget converted to Hz. Cross-check the sample clock using a passive reference only: the FM broadcast <strong>19 kHz stereo pilot</strong> and the station carrier are both receivable references, and a measured pilot offset gives a direct estimate of sample-rate error. Do not derive a symbol rate from a single receiver without stating the ppm budget.</p>
+
+    <h4>GAP-06 · Faraday null control has a claimed figure but no method <span class="pill gap">ADD (METHOD)</span></h4>
+    <p>"&gt;85 dB" is a vendor claim, not a measurement. Disposition: <strong>method</strong> — (i) tune to a strong, stable local carrier with the probe outside the bag and record 10 s; (ii) place the probe inside the closed bag, same tune, same gain, record 10 s; (iii) the difference between the two peak-hold levels is the achieved null. Record it in the run log. If the achieved null is below 85 dB, Stage C does not start.</p>
+
+    <h4>GAP-07 · No per-band negative control <span class="pill gap">ADD (METHOD)</span></h4>
+    <p>A signal seen at 13.56 MHz is not evidence of anything until the same band is shown to be quiet in the absence of a target. Disposition: <strong>method</strong> — at each band in the sweep (6.78, 13.56, 27.12, 49 MHz, and each 3–15 MHz step), record a 10 s terminated-probe control (probe terminated into 50 Ω, inside the bag) and a 10 s probe-in-bag-at-distance control. Report both. A target observation is only reportable if it exceeds the per-band control by a stated margin.</p>
+
+    <h4>GAP-08 · No passive linearity verification (transmission prohibited) <span class="pill gap">ADD (METHOD)</span></h4>
+    <p>The usual two-tone linearity test requires a transmitter and is therefore prohibited. A passive substitute exists and should be mandatory. Disposition: <strong>method</strong> — select a strong, steady ambient carrier. Record its level with 0, 10 and 20 dB of inline attenuation. The measured level change must equal the attenuator change within 0.5 dB. A deviation indicates front-end compression, ADC clipping, or an attenuator whose accuracy is not what the label claims. Run this before every Stage C session; it takes two minutes and invalidates an entire session if skipped.</p>
+
+    <h3>4.2 Evidence and integrity gaps</h3>
+
+    <h4>GAP-09 · Two hash algorithms, one handoff <span class="pill cond">METHOD</span></h4>
+    <p>The handoff tool implements <code>rf-two-file-sha256-v1</code> (SHA-256), while SigMF metadata records <code>core:sha512</code>. These are different digests over possibly different byte ranges. Disposition: <strong>method</strong> — record the algorithm name alongside every digest, in the manifest <em>and</em> in the capture JSON. Never infer one digest from the other; never re-hash a destination file and present it as provenance for the source. The provenance chain is: hash at capture → transfer → verify at analysis host → archive both digests.</p>
+
+    <h4>GAP-10 · The pinned dependency list is referenced but not enumerated <span class="pill cond">METHOD</span></h4>
+    <p>Both source documents cite <code>requirements-tested.txt</code> but neither states its contents, so the pin set is unverifiable from the document alone. Disposition: <strong>method</strong> — archive the output of <code>pip freeze</code> and the SHA-256 of <code>requirements-tested.txt</code> as Stage A evidence. A run whose environment cannot be reconstructed is not reproducible.</p>
+
+    <h4>GAP-11 · No galvanic isolation on the USB path <span class="pill gap">ADD (P1)</span></h4>
+    <p>Snap-on chokes suppress common-mode current but do not break the ground loop between a mains-powered host and the receiver. Disposition: <strong>add</strong> a USB galvanic isolator (ADUM4160 class) at P1, and operate the capture laptop on battery with the battery-isolated DHO804 where possible. See risk R-04.</p>
+
+    <h4>GAP-12 · No connector-wear or consumables plan <span class="pill gap">ADD (P1/P2)</span></h4>
+    <p>Repeated SMA mating degrades repeatability and eventually the instrument. Disposition: <strong>add</strong> SMA F-F barrels as connector savers on the scope and receiver ports (P1), a 0.9 N·m torque wrench for repeatable mating (P2), and cable tags with calibration stickers (P1).</p>
+
+    <h4>GAP-13 · No simultaneous scope + SDR observation path <span class="pill gap">ADD (P1)</span></h4>
+    <p>Correlating an envelope edge in the time domain with a spectral feature requires observing the same probe simultaneously. Disposition: <strong>add</strong> a 2-way 50 Ω splitter (P1). Note the consequence in the level budget: a resistive splitter costs ~3.5 dB per port, which must be added to every level reported through it.</p>
+
+    <h4>GAP-14 · Transmit-capable hardware inside a receive-only mandate <span class="pill gap">GOVERNANCE — PARK</span></h4>
+    <p>The inventory lists HackRF One and USRP B210. Both transmit. Neither adds capability over the V4 or RSP1B for this workflow (8-bit and 12-bit respectively, versus 14-bit on the RSP1B). Disposition: <strong>park at P3</strong>. If one is ever used, the following controls are mandatory and must be recorded in the run log: signal taken from the RX port only; TX port terminated into 50 Ω; no transmit block present in any flowgraph; inline DC block fitted; TX capability not exercised at any point.</p>
+
+    <h4>GAP-15 · UTC time discipline without a bounded uncertainty <span class="pill cond">METHOD</span></h4>
+    <p>SDR++ records UTC, but the host clock offset is never measured. Disposition: <strong>method</strong> — record the host clock offset against a reference at session start and end, and report the capture timestamp with that uncertainty. Do not silently assume the host clock is correct.</p>
+
+    <h4>GAP-16 · No repeatability or uncertainty statement for NFMI measurements <span class="pill gap">ADD (METHOD)</span></h4>
+    <p>A single capture is an anecdote. Disposition: <strong>method</strong> — n = 3 repeats at each fixed geometry, report the spread; state explicitly that 1/r³ is used as a Tier 1 <em>shape</em> test and is not inverted to produce a distance measurement. Any distance claim would require GAP-01 to be closed first.</p>
+  </section>
+
+  <!-- ============================================================ 5 -->
+  <section id="s5">
+    <p class="rubric">Section 5</p>
+    <h2>Findings against the two source documents</h2>
+    <p>These are defects or ambiguities in the source material itself, independent of the hardware. Each is resolved here so that the run does not inherit the ambiguity.</p>
+
+    <div class="scroll">
+      <table>
+        <caption>Table 5.1 — Source-document findings. "SPEC" = execution specification; "SUP" = supplementary methods HTML.</caption>
+        <thead><tr><th scope="col">ID</th><th scope="col">Finding</th><th scope="col">Consequence if unaddressed</th><th scope="col">Resolution adopted here</th></tr></thead>
+        <tbody>
+          <tr><td>SPEC-01</td><td>The −6 dB level ratio's <strong>sign convention</strong> is not stated (is it L(+50 kHz) − L(−75 kHz), or the reverse?).</td><td>The scalloping prediction (−5.373090723 dB) appears to have the wrong sign and is dismissed as an error.</td><td>Convention fixed: the reported ratio is <strong>L(−75 kHz) − L(+50 kHz)</strong>. The −75 kHz tone starts 6 dB below; it is not attenuated by the window; the +50 kHz tone loses 0.626909277 dB; hence the ratio moves from −6.000000 to −5.373090723 dB. Consistent.</td></tr>
+          <tr><td>SPEC-02</td><td>"124 frames, 0.25 s" is only self-consistent under an unstated 50 % overlap.</td><td>Frame count and record length cannot be reconciled; the fixture appears mis-specified.</td><td>Hop made explicit: NFFT = 4096, hop = 2048. 124 × 2048 + 2048 = 256,000 samples = 0.25 s at 1.024 MS/s. Exact.</td></tr>
+          <tr><td>SPEC-03</td><td>"47 frames, 0.04096 s" likewise omits the hop.</td><td>Same as SPEC-02.</td><td>47 × 2048 + 2048 = 98,304 samples = 0.04096 s at 2.4 MS/s. Exact, and matches the stated sample count.</td></tr>
+          <tr><td>SPEC-04</td><td>Two different hash algorithms (SHA-256 handoff, SHA-512 SigMF) are used without a reconciliation note.</td><td>An auditor cannot tell which digest protects which bytes.</td><td>See GAP-09. Algorithm recorded with every digest.</td></tr>
+          <tr><td>SPEC-05</td><td>Stage C.2 claims a 148.5 kHz floor, but the listed primary receivers cannot reach it.</td><td>The sweep silently starts at 500 kHz while the report claims 148.5 kHz.</td><td>See GAP-02. Achieved lower bound must be logged.</td></tr>
+          <tr><td>SPEC-06</td><td>Transmit-capable SDRs appear in an inventory governed by a receive-only mandate.</td><td>Procedural ambiguity; a future operator may treat TX as available.</td><td>See GAP-14. Parked, with mandatory controls if ever used.</td></tr>
+          <tr><td>SPEC-07</td><td>No calibration path for the H-field probe.</td><td>Relative measurements may be reported as absolute.</td><td>See GAP-01. Relative-only rule.</td></tr>
+          <tr><td>SPEC-08</td><td><code>requirements-tested.txt</code> is named but not enumerated.</td><td>Reproducibility is asserted, not demonstrated.</td><td>See GAP-10. <code>pip freeze</code> archived.</td></tr>
+          <tr><td>SPEC-09</td><td>The "≥20 MS/s" scope floor is not justified against the 0.5–1.1 Mbps symbol range.</td><td>Margin is unknown; a reviewer cannot confirm adequacy.</td><td>Derived: at 20 MS/s the sample interval is 50 ns; a 0.5 Mbps bit is 2 µs (40 samples/bit); a 1.1 Mbps bit is 0.909 µs (18.2 samples/bit). Adequate. At 1.25 GS/s the margin is 62× larger.</td></tr>
+          <tr><td>SPEC-10</td><td>The FM example names a specific station, which is location-dependent.</td><td>A non-local operator has no valid target.</td><td>Require a documented local assignment; record <code>station_hz</code> separately from <code>center_frequency_hz</code>; record distance and ERP only if a level claim is made.</td></tr>
+          <tr><td>SPEC-11</td><td>No storage budget.</td><td>Capture aborts mid-record; partial files break the hash chain.</td><td>See GAP-04 and Table 4.1.</td></tr>
+          <tr><td>SPEC-12</td><td>No repeatability requirement for NFMI captures.</td><td>Single-capture anecdotes presented as characterisation.</td><td>See GAP-16. n = 3.</td></tr>
+          <tr><td>SUP-01</td><td>The supplementary document is a validation artefact; it contains no procurement acceptance criteria.</td><td>Operators may assume "the HTML exists" means "the bench is qualified".</td><td>Bridged by this document: gates G2–G3 are the procurement acceptance for the analyser.</td></tr>
+          <tr><td>SUP-02</td><td>The kit is delivered as an opaque base64 <code>data:</code> URI zip inside the HTML.</td><td>The archive contents cannot be reviewed without extraction; supply-chain opacity.</td><td>Require the extracted tree plus a per-file SHA-256 manifest archived outside the HTML.</td></tr>
+          <tr><td>SUP-03</td><td>CSP posture is <code>default-src 'none'</code> with inline style/script only.</td><td>—</td><td>Adopted verbatim by this deliverable. No external fetch, no fonts, no images beyond <code>data:</code>.</td></tr>
+          <tr><td>SUP-04</td><td>No pass/fail tolerance bands are stated for the synthetic tests.</td><td>"The numbers looked right" becomes the acceptance criterion.</td><td>Supplied in <a href="#s9">Table 9.1</a>.</td></tr>
+          <tr><td>SUP-05</td><td>The "public-broadcast receiver check" is defined procedurally but has no acceptance criteria.</td><td>The FM stage can never fail, which means it can never detect a broken receiver.</td><td>Gate G5 in <a href="#s8">§8</a> supplies binary and numeric criteria.</td></tr>
+          <tr><td>SUP-06</td><td>Same sign-convention ambiguity as SPEC-01.</td><td>Same as SPEC-01.</td><td>Same resolution.</td></tr>
+        </tbody>
+      </table>
+    </div>
+  </section>
+
+  <!-- ============================================================ 6 -->
+  <section id="s6">
+    <p class="rubric">Section 6</p>
+    <h2>Abundance-prioritisation refinement pass</h2>
+    <p>This is the core procurement output. Every inventory item is placed in a tier, with the substitution logic that put it there. Use the filter buttons to work one tier at a time.</p>
+
+    <div class="filters print-hidden" role="group" aria-label="Filter priority table">
+      <button type="button" data-filter="all" aria-pressed="true">All items</button>
+      <button type="button" data-filter="P0" aria-pressed="false">P0 — blocking</button>
+      <button type="button" data-filter="P1" aria-pressed="false">P1 — credible Stage C</button>
+      <button type="button" data-filter="P2" aria-pressed="false">P2 — calibration / repeatability</button>
+      <button type="button" data-filter="P3" aria-pressed="false">P3 — park</button>
+    </div>
+
+    <div class="scroll">
+      <table id="prio">
+        <caption>Table 6.1 — Abundance-prioritised bill of materials. "Substituted by" is the item that performs the same function if this one fails or is absent.</caption>
+        <thead>
+          <tr><th scope="col">ID</th><th scope="col">Item</th><th scope="col">Capability</th><th scope="col">Substituted by</th><th scope="col">Tier</th><th scope="col">Rationale</th></tr>
+        </thead>
+        <tbody>
+          <tr data-tier="P0"><td>M01</td><th scope="row">Mini-Circuits BLK-89-S+ / SMA inline DC block</th><td>C09</td><td>None. Mandatory.</td><td><span class="pill p0">P0</span></td><td>Safety-critical. Nothing in Stage C runs without it. Single point of failure — hold a spare if budget allows.</td></tr>
+          <tr data-tier="P0"><td>M02</td><th scope="row">RTL-SDR Blog V4 (500 kHz–1.766 GHz, 1 ppm, HF upconverter, driver fork V1.4.0)</th><td>C02, C01</td><td>RSP1B (better, costlier)</td><td><span class="pill p0">P0</span></td><td>Single-dongle NFMI coverage to 500 kHz. Best capability-per-unit in the inventory. Primary NFMI receiver.</td></tr>
+          <tr data-tier="P0"><td>M03</td><th scope="row">Nooelec NESDR SMArt v5 (25 MHz–1.75 GHz, 0.5 ppm)</th><td>C01</td><td>V4</td><td><span class="pill p0">P0</span></td><td>FM-primary. Kept separate from the NFMI dongle so Stage B and Stage C can run without re-cabling. 0.5 ppm is the tightest clock in the RTL class.</td></tr>
+          <tr data-tier="P0"><td>M04</td><th scope="row">Airspy YouLoop passive shielded magnetic loop (10 kHz–300 MHz)</th><td>C06</td><td>Hand-wound loop M05</td><td><span class="pill p0">P0</span></td><td>Passive, shielded, no bias tee, covers every NFMI band. Primary H-field probe.</td></tr>
+          <tr data-tier="P0"><td>M05</td><th scope="row">5-turn 3 cm hand-wound coaxial / Fair-Rite #43 or #61 core loop</th><td>C06</td><td>YouLoop M04</td><td><span class="pill p0">P0</span></td><td>Second loop is required, not optional: two loops permit a common-mode rejection check and a gradient measurement. Cheap and replaceable.</td></tr>
+          <tr data-tier="P0"><td>M06</td><th scope="row">Telescopic VHF dipole / whip, 88–108 MHz</th><td>C01</td><td>Any resonant FM antenna</td><td><span class="pill p0">P0</span></td><td>Stage B requires a real antenna; a dummy load produces no valid FM check.</td></tr>
+          <tr data-tier="P0"><td>M07</td><th scope="row">50 Ω BNC feedthrough terminator</th><td>C08, GAP-07</td><td>None</td><td><span class="pill p0">P0</span></td><td>Terminates the 50 Ω loop into the scope correctly and provides the per-band negative control. A 1 MΩ scope input on a loop probe produces a meaningless waveform.</td></tr>
+          <tr data-tier="P0"><td>M08</td><th scope="row">3 / 6 / 10 / 20 dB SMA inline attenuators</th><td>C10, GAP-08</td><td>Partial: a single 10 dB still permits the step test at reduced range</td><td><span class="pill p0">P0</span></td><td>The attenuator-step linearity check (GAP-08) needs at least three settings. 10 dB lives in-line permanently.</td></tr>
+          <tr data-tier="P0"><td>M09</td><th scope="row">50 Ω RG-316 double-shielded SMA cables (≥2, one spare)</th><td>C06–C10</td><td>None</td><td><span class="pill p0">P0</span></td><td>Single-shielded cable radiates common-mode pickup straight into a magnetic-loop measurement.</td></tr>
+          <tr data-tier="P0"><td>M10</td><th scope="row">SMA-to-BNC adapters</th><td>C08</td><td>None</td><td><span class="pill p0">P0</span></td><td>Scope is BNC, chain is SMA. Without adapters the scope path does not exist.</td></tr>
+          <tr data-tier="P0"><td>M11</td><th scope="row">Fair-Rite #31 / #43 snap-on EMI chokes</th><td>C11</td><td>None</td><td><span class="pill p0">P0</span></td><td>Suppresses the USB and coax common-mode currents that otherwise appear as a 50/60 Hz comb across the NFMI bands.</td></tr>
+          <tr data-tier="P0"><td>M12</td><th scope="row">RF Faraday isolation bag (&gt;85 dB claimed)</th><td>C12</td><td>None</td><td><span class="pill p0">P0</span></td><td>Provides the null control and the per-band baseline. Claim must be <em>measured</em> (GAP-06), not trusted.</td></tr>
+          <tr data-tier="P0"><td>M13</td><th scope="row">Capture host laptop, capable of running on battery</th><td>C20, C21</td><td>None</td><td><span class="pill p0">P0</span></td><td>Battery operation is the cheapest available ground-loop break. Procedural, not a purchase.</td></tr>
+          <tr data-tier="P0"><td>M14</td><th scope="row">Dedicated SSD, ≥256 GB free</th><td>C18</td><td>Any ≥256 GB free volume</td><td><span class="pill p0">P0</span></td><td>See Table 4.1. A 60 s cf32 capture at 6.048 MS/s is already 2.9 GB.</td></tr>
+          <tr data-tier="P0"><td>M15</td><th scope="row">Pinned Python kit: CPython 3.12.14, NumPy 2.3.5 (or 2.5.5), Pillow 13.0.0, SigMF 1.2.6, <code>rf_reference.py</code>, <code>offbin_check.py</code>, <code>check_sigmf_example.py</code>, <code>handoff.py</code></td><td>C13–C15</td><td>None</td><td><span class="pill p0">P0</span></td><td>The entire Tier 1 claim rests on this kit. Without it there is no analyser to validate.</td></tr>
+          <tr data-tier="P0"><td>M16</td><th scope="row">OS-provided hashing: <code>shasum -a 256</code> / <code>Get-FileHash</code>, and a SHA-512 tool</th><td>C14, C15</td><td>Python <code>hashlib</code></td><td><span class="pill p0">P0</span></td><td>Both algorithms are needed; see GAP-09.</td></tr>
+          <tr data-tier="P0"><td>M17</td><th scope="row">Acquisition software: SDR++ Nightly 1.3.2 (WAV Int16, UTC) or Gqrx v2.17.7</th><td>Stages B, C</td><td>Each other</td><td><span class="pill p0">P0</span></td><td>Two independent recorders is deliberate redundancy at zero cost.</td></tr>
+
+          <tr data-tier="P1"><td>M18</td><th scope="row">Rigol DHO804 (12-bit, 1.25 GS/s, 70–100 MHz, USB-C battery-isolated)</th><td>C08</td><td>DS1054Z M24 (degraded)</td><td><span class="pill p1">P1</span></td><td>12-bit gives ~72 dB versus ~48 dB for 8-bit. Envelope depth and Manchester mid-bit transitions on a weak signal need the extra range. Battery isolation also removes a ground loop.</td></tr>
+          <tr data-tier="P1"><td>M19</td><th scope="row">SDRplay RSP1B / RSPdx-R2 (14-bit, 1 kHz–2 GHz, 2–6.048 MS/s)</th><td>C05</td><td>V4 (8-bit) — marginal</td><td><span class="pill p1">P1</span></td><td>Load-modulation sidebands 40–60 dB below the carrier are not reliably resolved at 8-bit. If sideband work is the goal, promote to P0.</td></tr>
+          <tr data-tier="P1"><td>M20</td><th scope="row">USB galvanic isolator (ADUM4160 class)</th><td>C11, GAP-11</td><td>Battery laptop only (partial)</td><td><span class="pill p1">P1</span></td><td>Breaks the host ground loop that ferrites only attenuate.</td></tr>
+          <tr data-tier="P1"><td>M21</td><th scope="row">Non-metallic positioning jig: nylon standoffs, PTFE clamp, mm scale, indexed base</th><td>C17, GAP-03</td><td>None</td><td><span class="pill p1">P1</span></td><td>Without indexed geometry, 1/r³ is unreproducible and n = 3 repeats are not comparable.</td></tr>
+          <tr data-tier="P1"><td>M22</td><th scope="row">2-way 50 Ω SMA splitter</th><td>GAP-13</td><td>Sequential (not simultaneous) capture</td><td><span class="pill p1">P1</span></td><td>Enables simultaneous scope + SDR observation of one probe. Budget ~3.5 dB per port.</td></tr>
+          <tr data-tier="M23"><td>M23</td><th scope="row">SMA F-F barrels / connector savers</th><td>GAP-12</td><td>None</td><td><span class="pill p1">P1</span></td><td>Protects scope and receiver ports from repeated mating wear.</td></tr>
+          <tr data-tier="P1"><td>M24</td><th scope="row">Protocol analysers: URH 2.10.x (analysis-only), inspectrum, GNU Radio (analysis-only)</th><td>C16</td><td>Custom Python</td><td><span class="pill p1">P1</span></td><td>Manchester and frame periodicity work needs an interactive tool. Analysis-only mode is mandatory.</td></tr>
+          <tr data-tier="P1"><td>M25</td><th scope="row">DMM with DC and AC mV ranges</th><td>C09 verification</td><td>Scope on DC coupling</td><td><span class="pill p1">P1</span></td><td>Confirms no DC is present on the probe line before connecting the receiver. Passive measurement only.</td></tr>
+          <tr data-tier="P1"><td>M26</td><th scope="row">Camera plus a written photo log for geometry</th><td>C17</td><td>None</td><td><span class="pill p1">P1</span></td><td>A photograph with the scale visible is the only credible evidence of probe placement.</td></tr>
+          <tr data-tier="P1"><td>M27</td><th scope="row">Cable tags, calibration stickers, bound run log</th><td>All</td><td>None</td><td><span class="pill p1">P1</span></td><td>An unlabelled attenuator of unknown value invalidates the linearity check.</td></tr>
+
+          <tr data-tier="P2"><td>M28</td><th scope="row">Beehive 100A or Tekbox TBPS01 shielded magnetic loop <em>with calibration certificate</em></th><td>C07</td><td>None</td><td><span class="pill p2">P2</span></td><td>Only route to an absolute field claim (GAP-01). Without the certificate it is an expensive version of M04. Buy only if an absolute-level claim is being attempted.</td></tr>
+          <tr data-tier="P2"><td>M29</td><th scope="row">SMA torque wrench, 0.9 N·m</th><td>GAP-12</td><td>Hand-tight (degraded repeatability)</td><td><span class="pill p2">P2</span></td><td>Improves mating repeatability. Convenience, not capability.</td></tr>
+          <tr data-tier="P2"><td>M30</td><th scope="row">RP2200 1x/10x passive probe</th><td>Non-50 Ω nodes</td><td>None</td><td><span class="pill p2">P2</span></td><td>Not usable on a 50 Ω loop path (M07 is the correct termination). Buy only if a high-impedance node is ever measured.</td></tr>
+          <tr data-tier="P2"><td>M31</td><th scope="row">Rigol DS1054Z (8-bit, 1 GS/s)</th><td>C08 backup</td><td>DHO804 M18</td><td><span class="pill p2">P2</span></td><td>Backup only. 8-bit is marginal for envelope depth. Do not buy both scopes new; keep the DS1054Z only if already owned.</td></tr>
+
+          <tr data-tier="P3"><td>M32</td><th scope="row">HackRF One (1 MHz–6 GHz, 8-bit, transmit-capable)</th><td>C04</td><td>V4 / RSP1B</td><td><span class="pill p3">P3</span></td><td>No capability gain (8-bit), adds governance burden (GAP-14). Park.</td></tr>
+          <tr data-tier="P3"><td>M33</td><th scope="row">USRP B210 (12-bit, transmit-capable)</th><td>C04</td><td>RSP1B</td><td><span class="pill p3">P3</span></td><td>High cost, transmit-capable, no advantage over a 14-bit receive-only receiver. Park.</td></tr>
+          <tr data-tier="P3"><td>M34</td><th scope="row">Nooelec NESDR SMArTee XTR (E4000, ~65 MHz floor)</th><td>C03 (paired)</td><td>V4 for all bands above 500 kHz</td><td><span class="pill p3">P3</span></td><td>Useful only as one half of the M35 pair, and only if the 148.5–500 kHz corridor is in scope. Redundant otherwise.</td></tr>
+          <tr data-tier="P3"><td>M35</td><th scope="row">Nooelec Ham It Up v1.3 / Plus v2 (+125 MHz LO)</th><td>C03 (paired)</td><td>Scope for the same corridor</td><td><span class="pill p3">P3</span></td><td>Meaningless without M34; a single capability split across two purchase orders. Park unless the corridor is in scope.</td></tr>
+          <tr data-tier="P3"><td>M36</td><th scope="row">Additional attenuator values beyond 3/6/10/20 dB</th><td>C10</td><td>M08</td><td><span class="pill p3">P3</span></td><td>Diminishing returns. The step test needs three settings, which M08 already provides.</td></tr>
+        </tbody>
+      </table>
+    </div>
+
+    <h3>6.1 Abundance verdict</h3>
+    <div class="scroll">
+      <table>
+        <caption>Table 6.2 — Inventory abundance versus the actual requirement of the four-stage protocol</caption>
+        <thead><tr><th scope="col">Category</th><th scope="col">Items listed in source BOM</th><th scope="col">Items actually required</th><th scope="col">Abundance factor</th><th scope="col">Verdict</th></tr></thead>
+        <tbody>
+          <tr><td>SDR receivers</td><td class="numeric">6</td><td class="numeric">2 (V4 + SMArt v5), 3 with RSP1B</td><td class="numeric">2.0–3.0×</td><td>Over-provisioned. Two receivers cover every stage. Park three.</td></tr>
+          <tr><td>Magnetic loop probes</td><td class="numeric">4 options (Beehive, Tekbox, YouLoop, hand-wound)</td><td class="numeric">2 (YouLoop + hand-wound)</td><td class="numeric">2.0×</td><td>Over-provisioned. Two loops are genuinely needed (common-mode / gradient), four are not.</td></tr>
+          <tr><td>Oscilloscopes</td><td class="numeric">2</td><td class="numeric">1</td><td class="numeric">2.0×</td><td>One 12-bit battery-isolated scope is sufficient; the 8-bit unit is backup.</td></tr>
+          <tr><td>Attenuators</td><td class="numeric">4 values</td><td class="numeric">3 values minimum</td><td class="numeric">1.3×</td><td>Appropriate. Keep all four.</td></tr>
+          <tr><td>Transmit-capable SDRs</td><td class="numeric">2</td><td class="numeric">0</td><td>—</td><td>Pure governance burden. Park.</td></tr>
+          <tr><td>Calibrated absolute-level path</td><td class="numeric">0</td><td class="numeric">0 (relative claims only) or 1</td><td>—</td><td>Under-provisioned <em>if</em> an absolute claim is attempted; correctly provisioned if not.</td></tr>
+          <tr><td>Geometry / repeatability</td><td class="numeric">0</td><td class="numeric">1 jig + photo log</td><td>—</td><td>Under-provisioned. See GAP-03.</td></tr>
+          <tr><td>Isolation / grounding</td><td class="numeric">Ferrites only</td><td class="numeric">Ferrites + USB isolator</td><td>—</td><td>Under-provisioned. See GAP-11.</td></tr>
+        </tbody>
+      </table>
+    </div>
+    <p class="tiny">The headline abundance figure in the masthead (~2.4× overall) is the mean of the receiver, probe and scope factors weighted by item count; it is a summary, not a precise metric.</p>
+  </section>
+
+  <!-- ============================================================ 7 -->
+  <section id="s7">
+    <p class="rubric">Section 7</p>
+    <h2>Bench configurations — three purchase profiles</h2>
+
+    <h3>7.1 Minimum Viable Bench (MVB) — the smallest set that executes all four stages</h3>
+    <div class="note">
+      <p><strong>MVB inventory:</strong> M01 DC block · M02 V4 · M03 SMArt v5 · M04 YouLoop · M05 hand-wound loop · M06 FM dipole · M07 50 Ω terminator · M08 attenuators (10 dB mandatory, plus one other) · M09 RG-316 ×2 · M10 SMA-BNC adapters · M11 ferrites · M12 Faraday bag · M13 battery laptop · M14 ≥256 GB SSD · M15 Python kit · M16 hashing tools · M17 SDR++/Gqrx · M18 DHO804 · M21 positioning jig · M26 photo log.</p>
+      <p><strong>What it can claim:</strong> Tier 1 mechanics; synthetic analyser validation to the tolerances in Table 9.1; FM reference reception; relative NFMI carrier detection and Manchester/frame structure at the achieved bands; 1/r³ <em>shape</em> reproducibility.</p>
+      <p><strong>What it cannot claim:</strong> absolute field level (GAP-01); the 148.5–500 kHz corridor (GAP-02); weak sidebands below about −50 dBc (GAP-05/C05); USB ground-loop immunity better than ferrite attenuation (GAP-11).</p>
+    </div>
+
+    <h3>7.2 Reference-Grade Bench (RGB) — adds every capability the inventory can legitimately provide</h3>
+    <div class="note">
+      <p><strong>RGB adds to MVB:</strong> M19 RSP1B · M20 USB isolator · M22 2-way splitter · M23 connector savers · M24 protocol analysers · M25 DMM · M27 cable tags and logbook · M28 calibrated loop <em>with certificate</em> · M29 torque wrench.</p>
+      <p><strong>What it adds:</strong> 14-bit dynamic range; simultaneous time/frequency observation; an absolute field claim route (only with the certificate); repeatable mating; formal uncertainty propagation.</p>
+    </div>
+
+    <h3>7.3 Parked (P3) — with explicit re-entry conditions</h3>
+    <div class="scroll">
+      <table>
+        <caption>Table 7.1 — Parked items and the written condition under which each may re-enter procurement</caption>
+        <thead><tr><th scope="col">Item</th><th scope="col">Re-entry condition</th></tr></thead>
+        <tbody>
+          <tr><td>HackRF One</td><td>Only if a future workflow requires &gt;3.2 MS/s instantaneous receive bandwidth <em>and</em> a written receive-only control document exists for the device.</td></tr>
+          <tr><td>USRP B210</td><td>Same, plus a documented justification for 12-bit over the 14-bit RSP1B.</td></tr>
+          <tr><td>E4000 dongle + Ham It Up pair</td><td>Only if the 148.5–500 kHz corridor is added back into
