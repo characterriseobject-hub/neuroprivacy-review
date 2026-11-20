@@ -1,0 +1,1270 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Modernized Cochlear-Implant RF Pipeline — Boundary-Condition Advisor</title>
+<style>
+  :root{
+    --bg:#0b0f14; --panel:#121a23; --panel2:#0f1620; --line:#24303d;
+    --ink:#dce7f1; --muted:#8fa3b8; --accent:#5cc8ff; --accent2:#8ef0c8;
+    --warn:#ffb86b; --danger:#ff6b6b; --code:#0a1017; --ok:#63e6a4;
+    --shadow:0 10px 30px rgba(0,0,0,.45); --radius:14px;
+  }
+  *{box-sizing:border-box}
+  html{scroll-behavior:smooth}
+  body{
+    margin:0; background:
+      radial-gradient(1200px 600px at 20% -10%, #173049 0%, transparent 60%),
+      radial-gradient(900px 500px at 110% 10%, #103a33 0%, transparent 55%),
+      var(--bg);
+    color:var(--ink);
+    font:16px/1.6 ui-sans-serif,system-ui,-apple-system,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
+  }
+  a{color:var(--accent);text-decoration:none;border-bottom:1px dotted rgba(92,200,255,.45)}
+  a:hover{border-bottom-style:solid}
+  code,kbd,pre{font-family:ui-monospace,SFMono-Regular,Menlo,Consolas,"Liberation Mono",monospace}
+  code{background:#0a121a;padding:.12em .35em;border-radius:6px;font-size:.92em;border:1px solid #1c2a37}
+  pre{background:var(--code);border:1px solid var(--line);border-radius:12px;padding:14px 16px;overflow:auto;font-size:.88rem;line-height:1.55}
+  pre code{background:none;border:0;padding:0}
+  .wrap{max-width:1180px;margin:0 auto;padding:26px 18px 80px}
+  header.hero{
+    border:1px solid var(--line); border-radius:20px; padding:28px 28px 24px;
+    background:linear-gradient(180deg,rgba(18,26,35,.92),rgba(12,18,25,.92));
+    box-shadow:var(--shadow);
+  }
+  .kicker{letter-spacing:.16em;text-transform:uppercase;font-size:.72rem;color:var(--accent2);font-weight:700}
+  h1{font-size:clamp(1.45rem,3vw,2.15rem);line-height:1.2;margin:.4rem 0 .5rem}
+  h2{font-size:1.28rem;margin:2.2rem 0 .7rem;padding-bottom:.35rem;border-bottom:1px solid var(--line)}
+  h3{font-size:1.05rem;margin:1.2rem 0 .4rem;color:var(--accent)}
+  h4{font-size:.95rem;margin:.9rem 0 .3rem;color:var(--accent2)}
+  .lede{color:var(--muted);max-width:90ch}
+  .tagline{display:inline-block;margin-top:12px;padding:6px 12px;border-radius:999px;background:#0e2a2a;border:1px solid #1e4a45;color:var(--accent2);font-size:.82rem}
+  .grid{display:grid;gap:16px}
+  .grid.two{grid-template-columns:repeat(auto-fit,minmax(280px,1fr))}
+  .grid.three{grid-template-columns:repeat(auto-fit,minmax(230px,1fr))}
+  .card{background:var(--panel);border:1px solid var(--line);border-radius:var(--radius);padding:18px}
+  .card.tight{padding:14px}
+  .badge{display:inline-block;font-size:.72rem;font-weight:700;letter-spacing:.04em;padding:3px 8px;border-radius:999px;margin-right:6px;vertical-align:middle}
+  .badge.ok{background:#0e2f24;color:var(--ok);border:1px solid #1d5a43}
+  .badge.warn{background:#33240f;color:var(--warn);border:1px solid #5a3d18}
+  .badge.danger{background:#341414;color:var(--danger);border:1px solid #5c2020}
+  .badge.info{background:#0e2436;color:var(--accent);border:1px solid #1c4a6b}
+  .notice{border-left:4px solid var(--warn);background:#1a140b;padding:14px 16px;border-radius:0 12px 12px 0;margin:16px 0}
+  .notice.danger{border-left-color:var(--danger);background:#1e0f0f}
+  .notice.ok{border-left-color:var(--ok);background:#0c1b15}
+  .sticky-progress{position:sticky;top:0;z-index:40;background:rgba(11,15,20,.92);backdrop-filter:blur(10px);border-bottom:1px solid var(--line);padding:10px 0;margin:18px 0 8px}
+  .progress-row{display:flex;align-items:center;gap:12px}
+  .progress-track{flex:1;height:9px;background:#0a121a;border-radius:999px;border:1px solid #1c2a37;overflow:hidden}
+  .progress-fill{height:100%;width:0%;background:linear-gradient(90deg,#2a7fff,#5cc8ff,#8ef0c8);transition:width .3s ease}
+  .progress-label{font-size:.78rem;color:var(--muted);white-space:nowrap}
+  details{border:1px solid var(--line);border-radius:12px;background:var(--panel2);margin:10px 0;overflow:hidden}
+  details[open]{background:var(--panel)}
+  summary{cursor:pointer;padding:12px 14px;font-weight:650;color:var(--ink);list-style:none;display:flex;gap:10px;align-items:center}
+  summary::-webkit-details-marker{display:none}
+  summary:before{content:"▸";color:var(--accent);transition:transform .2s;display:inline-block}
+  details[open] summary:before{transform:rotate(90deg)}
+  .details-body{padding:0 14px 14px 14px;border-top:1px solid var(--line)}
+  .checklist{display:grid;gap:8px;margin:10px 0}
+  .check{display:flex;gap:10px;align-items:flex-start;padding:9px 11px;border:1px solid var(--line);border-radius:10px;background:#0c141c}
+  .check input{margin-top:.35rem;accent-color:var(--accent);width:16px;height:16px;flex:0 0 auto}
+  .check label{cursor:pointer;font-size:.92rem}
+  .check:has(input:checked){border-color:#1d5a43;background:#0d1b17}
+  .cmd{position:relative}
+  .copy-btn{position:absolute;top:8px;right:8px;background:#142130;color:var(--muted);border:1px solid #24384a;border-radius:8px;padding:4px 8px;font-size:.72rem;cursor:pointer}
+  .copy-btn:hover{color:var(--accent);border-color:var(--accent)}
+  .copy-btn.copied{color:var(--ok);border-color:var(--ok)}
+  table{width:100%;border-collapse:collapse;font-size:.88rem;margin:12px 0}
+  th,td{border:1px solid var(--line);padding:9px 10px;text-align:left;vertical-align:top}
+  th{background:#101b25;color:var(--accent2);font-weight:650}
+  tr:nth-child(even) td{background:#0d151d}
+  .small{font-size:.84rem;color:var(--muted)}
+  .tiny{font-size:.76rem;color:var(--muted)}
+  .pill-row{display:flex;flex-wrap:wrap;gap:8px;margin:10px 0}
+  .pill{padding:5px 10px;border-radius:999px;border:1px solid var(--line);background:#0c141c;font-size:.78rem;color:var(--muted)}
+  canvas{width:100%;height:auto;display:block;border-radius:10px;border:1px solid var(--line);background:#060a0e}
+  .canvas-wrap{position:relative}
+  .canvas-legend{display:flex;gap:14px;flex-wrap:wrap;font-size:.78rem;color:var(--muted);margin:6px 0 0}
+  .dot{display:inline-block;width:9px;height:9px;border-radius:50%;margin-right:5px}
+  .kv{display:grid;grid-template-columns:minmax(120px,180px) 1fr;gap:4px 14px;font-size:.88rem}
+  .kv dt{color:var(--muted)}
+  .kv dd{margin:0}
+  .step-head{display:flex;gap:12px;align-items:baseline;flex-wrap:wrap}
+  .step-num{font-size:.75rem;letter-spacing:.12em;color:var(--accent2);font-weight:800}
+  .hr{height:1px;background:var(--line);margin:26px 0}
+  .footer{margin-top:44px;color:var(--muted);font-size:.82rem;border-top:1px solid var(--line);padding-top:18px}
+  .linklist a{display:inline-block;margin:2px 0}
+  .mono{font-family:ui-monospace,SFMono-Regular,Menlo,Consolas,monospace}
+  @media print{
+    body{background:#fff;color:#111}
+    .sticky-progress,.copy-btn{display:none}
+    .card,details,pre{border-color:#ccc;background:#fff}
+    a{color:#0645ad}
+  }
+</style>
+</head>
+<body>
+<div class="wrap">
+
+<header class="hero">
+  <div class="kicker">Formalized Boundary-Condition Advisor · Modernized Task Specification</div>
+  <h1>Receive-Only RF Characterization of a Reported Cochlear-Implant NFMI Link</h1>
+  <p class="lede">
+    A 2024–2026 reconstruction of the Jeff Dodge 2017 “Cyborg Self-Hacking” task, translated into a reproducible,
+    non-destructive, scientifically auditable workflow. The original task used an RTL-SDR for discovery and an
+    oscilloscope for waveform capture. This version keeps that baseline, then adds SigMF metadata discipline,
+    modern SDR coverage, Universal Radio Hacker / inspectrum decoding, synthetic-IQ validation, and explicit
+    boundary conditions between what is measured, what is inferred, and what remains reported-only.
+  </p>
+  <div class="tagline">realism advisor balances scientific rigor with storytelling</div>
+</div>
+
+<div class="notice danger">
+  <strong>Boundary condition 0 — read first.</strong>
+  This document describes <strong>receive-only</strong> measurement. It does not authorize transmission, jamming,
+  replay, device modification, or any interaction with an implanted medical device. RF capture of a medical device
+  may be regulated; obtain independent legal, clinical, and institutional-review guidance before proceeding.
+  Nothing here confirms or diagnoses an implant, establishes causation, or validates any allegation. Reported
+  experiences remain <em>reported</em> until independently corroborated by qualified clinical and forensic review.
+</div>
+
+<div class="sticky-progress" role="region" aria-label="Workflow progress">
+  <div class="progress-row">
+    <span class="progress-label" id="progressText">0 of 0 steps complete</span>
+    <div class="progress-track"><div class="progress-fill" id="progressFill"></div></div>
+    <span class="progress-label" id="progressPct">0%</span>
+  </div>
+</div>
+
+<h2 id="framing">1. Boundary-condition framing: what this task is and is not</h2>
+<div class="grid two">
+  <div class="card">
+    <h3>Theoretical-frontier corridor (anchored)</h3>
+    <p class="small">
+      Near-field magnetic induction (NFMI) is an established physical layer: a localized, non-propagating magnetic
+      field couples a transmitter coil to a receiver coil across a short gap. Cochlear-implant external processors
+      and implanted receivers have used NFMI for power and data for decades. Manchester line coding, fixed word
+      lengths, and framed packets are ordinary digital-communications constructs. These are the anchored mechanics.
+    </p>
+  </div>
+  <div class="card">
+    <h3>Operational/physical corridor (bounded)</h3>
+    <p class="small">
+      The specific device, its carrier frequency, packet structure, encryption state, telemetry behavior, and any
+      claimed remote interaction are <strong>not</strong> established by this workflow. The 2017 talk reported a
+      12-bit word, 300-word packet structure, Manchester encoding, plaintext forward link, and no NVRAM. Those are
+      historical findings from one researcher’s device and must be re-verified, not generalized. This workflow
+      produces evidence; it does not produce a diagnosis or an attribution.
+    </p>
+  </div>
+</div>
+
+<div class="notice">
+  <strong>Advisor posture.</strong> Use the strongest established evidence for the measurement chain (Maxwell,
+  Faraday, sampling theory, FFT, Manchester coding, hash-based integrity). Push the open frontier only where the
+  data supports it (carrier search, packet framing, telemetry asymmetry). Never let an inferred narrative
+  overwrite a null result.
+</div>
+
+<h2 id="changes">2. What changed since 2017 — and what did not</h2>
+<table>
+  <thead>
+    <tr><th>Layer</th><th>2017 baseline</th><th>2024–2026 modernization</th><th>Boundary note</th></tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Discovery SDR</td>
+      <td>RTL-SDR, ~24–1766 MHz, 8-bit</td>
+      <td>Nooelec NESDR SMArTee XTR (~65 MHz–2.3 GHz, 0.5 ppm TCXO) or RTL-SDR Blog V4; add Ham It Up upconverter for &lt;30 MHz; consider SDRplay RSPdx or HackRF for wider coverage</td>
+      <td>NFMI carriers are often below 65 MHz; confirm tuning coverage before assuming an RTL-SDR can see the link.</td>
+    </tr>
+    <tr>
+      <td>Waveform capture</td>
+      <td>Analog oscilloscope + hand-wound loop</td>
+      <td>Digital oscilloscope with CSV export, or high-speed digitizer; differential probe; shielded loop; ferrite-core probe</td>
+      <td>The oscilloscope remains the right instrument for baseband NFMI waveforms; SDR is a discovery tool, not a substitute for scope-grade edge timing.</td>
+    </tr>
+    <tr>
+      <td>Metadata</td>
+      <td>Hand-written notes, ad hoc file names</td>
+      <td>SigMF (<code>.sigmf-data</code> + <code>.sigmf-meta</code>) with global/captures/annotations; SHA-256 or SHA-512 integrity</td>
+      <td>SigMF is a container, not a truth claim; hashes prove integrity, not authenticity.</td>
+    </tr>
+    <tr>
+      <td>Decoding</td>
+      <td>Manual bit alignment in a text editor</td>
+      <td>Universal Radio Hacker 2.10.x, inspectrum, GNU Radio, custom Python; optional ML-assisted modulation ID</td>
+      <td>Automated classifiers can be wrong; every automated decode must be confirmed against raw transitions.</td>
+    </tr>
+    <tr>
+      <td>Validation</td>
+      <td>Visual comparison</td>
+      <td>Synthetic complex IQ with known tones, FFT-bin tolerance, relative-level tolerance, separate synthetic and live reports</td>
+      <td>A pipeline that cannot pass the synthetic test cannot be trusted on a live capture.</td>
+    </tr>
+    <tr>
+      <td>Safety/security framing</td>
+      <td>Physical proximity as the main mitigation</td>
+      <td>Explicit receive-only rule; Faraday isolation test; no active injection; documented chain of custody</td>
+      <td>“No encryption” is a historical finding, not a license to transmit.</td>
+    </tr>
+  </tbody>
+</table>
+
+<h2 id="phase0">3. Phase 0 — Establish host, SDR host, and capture folder</h2>
+
+<details open>
+  <summary>Phase 0.1 — Identify the Codex host and the SDR host</summary>
+  <div class="details-body">
+    <p class="small">Record both hosts before touching the receiver. Do not interrupt an active recording session.</p>
+    <div class="grid two">
+      <div class="card tight">
+        <h4>macOS (if Codex or SDR runs on a Mac)</h4>
+        <div class="cmd">
+          <button class="copy-btn" data-copy="sw_vers; uname -a; system_profiler SPHardwareDataType | head -40; system_profiler SPUSBDataType | grep -i -A6 'rtl\|nooelec\|sdr'">Copy</button>
+<pre><code>sw_vers
+uname -a
+system_profiler SPHardwareDataType | head -40
+system_profiler SPUSBDataType | grep -i -A6 'rtl\|nooelec\|sdr'</code></pre>
+        </div>
+        <div class="cmd">
+          <button class="copy-btn" data-copy="brew install librtlsdr 2>/dev/null; rtl_test -t">Copy</button>
+<pre><code>brew install librtlsdr 2>/dev/null
+rtl_test -t</code></pre>
+        </div>
+      </div>
+      <div class="card tight">
+        <h4>Windows (if Codex or SDR runs on Windows)</h4>
+        <div class="cmd">
+          <button class="copy-btn" data-copy="Get-ComputerInfo | Select-Object CsName,OsName,OsVersion,CsSystemType; Get-PnpDevice -Class USB | Where-Object {$_.FriendlyName -match 'RTL|Nooelec|SDR|Bulk'} | Format-List FriendlyName,InstanceId,Status">Copy</button>
+<pre><code>Get-ComputerInfo | Select-Object CsName,OsName,OsVersion,CsSystemType
+Get-PnpDevice -Class USB | Where-Object {
+  $_.FriendlyName -match 'RTL|Nooelec|SDR|Bulk'
+} | Format-List FriendlyName,InstanceId,Status</code></pre>
+        </div>
+        <div class="cmd">
+          <button class="copy-btn" data-copy="rtl_test.exe -t">Copy</button>
+<pre><code>rtl_test.exe -t</code></pre>
+        </div>
+      </div>
+    </div>
+    <div class="checklist">
+      <div class="check"><input type="checkbox" id="p0a"><label for="p0a">Record Codex host OS, architecture, and working directory.</label></div>
+      <div class="check"><input type="checkbox" id="p0b"><label for="p0b">Record SDR host OS, USB device string, and active SDR application (e.g., SDR#, SDR++, CubicSDR, GQRX, GNU Radio).</label></div>
+      <div class="check"><input type="checkbox" id="p0c"><label for="p0c">Record receiver model and serial if visible; if not visible, mark <strong>UNKNOWN</strong> explicitly in the sidecar.</label></div>
+      <div class="check"><input type="checkbox" id="p0d"><label for="p0d">Confirm the current session and any in-progress recording are left intact.</label></div>
+    </div>
+  </div>
+</details>
+
+<details>
+  <summary>Phase 0.2 — Create a capture folder and chain-of-custody skeleton</summary>
+  <div class="details-body">
+    <p class="small">Use a deterministic directory name. Keep originals read-only.</p>
+    <div class="cmd">
+      <button class="copy-btn" data-copy="mkdir -p ~/SDR/captures/$(date -u +%Y-%m-%dT%H%M%SZ) && cd ~/SDR/captures/$(date -u +%Y-%m-%dT%H%M%SZ) && pwd">Copy</button>
+<pre><code>mkdir -p ~/SDR/captures/$(date -u +%Y-%m-%dT%H%M%SZ)
+cd ~/SDR/captures/$(date -u +%Y-%m-%dT%H%M%SZ)
+pwd</code></pre>
+    </div>
+    <p class="tiny">Suggested layout: <code>capture.sigmf-data</code>, <code>capture.sigmf-meta</code>, <code>NOTES.md</code>, <code>sha256.txt</code>, <code>plots/</code>, <code>decode/</code>.</p>
+  </div>
+</details>
+
+<h2 id="phase1">4. Phase 1 — Characterize the target without touching it</h2>
+
+<details open>
+  <summary>Phase 1.1 — Establish the NFMI physical-layer baseline</summary>
+  <div class="details-body">
+    <p class="small">
+      NFMI is a magnetic near-field link. The field strength falls off steeply with distance, and a loop antenna
+      must be placed close to the transmitter coil. A distant whip antenna is the wrong tool. The 2017 work used a
+      hand-wound loop held against the head; that remains the correct first principle.
+    </p>
+    <table>
+      <thead><tr><th>Property</th><th>Established baseline</th><th>What to verify, not assume</th></tr></thead>
+      <tbody>
+        <tr><td>Physical layer</td><td>Magnetic induction; non-propagating near field</td><td>Carrier frequency, coil orientation, modulation depth</td></tr>
+        <tr><td>Line coding (reported 2017)</td><td>Manchester, 12-bit words, 300-word packets</td><td>Whether the same framing exists on the current device</td></tr>
+        <tr><td>Forward link</td><td>External processor → implant: power + data</td><td>Carrier, symbol rate, preamble, packet boundaries</td></tr>
+        <tr><td>Reverse telemetry</td><td>Implant → external: much weaker signal</td><td>Whether it is detectable above noise with a high-gain, low-noise front end</td></tr>
+        <tr><td>Encryption state</td><td>Historical device reported plaintext</td><td>Do not generalize; current devices may differ</td></tr>
+      </tbody>
+    </table>
+    <div class="notice">
+      <strong>Boundary note.</strong> “No encryption” and “no NVRAM” are historical observations from one 1998-era
+      device. They are not properties of all cochlear implants and are not a justification for any active test.
+    </div>
+  </div>
+</details>
+
+<details>
+  <summary>Phase 1.2 — Survey the spectrum with the SDR (receive-only)</summary>
+  <div class="details-body">
+    <p class="small">
+      Use the SDR to look for carrier energy and pulse envelopes. Do not transmit. If the SDR cannot tune the
+      suspected NFMI band, use an upconverter or a different receiver rather than guessing.
+    </p>
+    <div class="cmd">
+      <button class="copy-btn" data-copy="# Example: GNU Radio or rtl_power sweep (receive-only)\nrtl_power -f 10M:60M:100k -i 1 -e 60s survey.csv">Copy</button>
+<pre><code># Example: rtl_power sweep (receive-only)
+rtl_power -f 10M:60M:100k -i 1 -e 60s survey.csv</code></pre>
+    </div>
+    <p class="tiny">
+      <code>rtl_power</code> is a discovery tool. It does not capture complex I/Q and cannot resolve Manchester
+      transitions. Use it only to identify candidate bands.
+    </p>
+    <div class="checklist">
+      <div class="check"><input type="checkbox" id="p1a"><label for="p1a">Confirm the SDR’s tunable range covers the candidate NFMI band; if not, record the limitation.</label></div>
+      <div class="check"><input type="checkbox" id="p1b"><label for="p1b">Record any carrier candidates with UTC time, center frequency, and observed pulse rate.</label></div>
+      <div class="check"><input type="checkbox" id="p1c"><label for="p1c">Do not conclude that a candidate is the implant link without a coherent waveform capture.</label></div>
+    </div>
+  </div>
+</details>
+
+<h2 id="phase2">5. Phase 2 — Build the receive chain</h2>
+
+<details open>
+  <summary>Phase 2.1 — SDR and antenna choices</summary>
+  <div class="details-body">
+    <div class="grid three">
+      <div class="card tight">
+        <h4>Discovery</h4>
+        <p class="small"><strong>Nooelec NESDR SMArTee XTR</strong> — ~65 MHz–2.3 GHz, 0.5 ppm TCXO, bias tee. Good general-purpose receiver; <strong>may not cover 10–30 MHz NFMI</strong> without an upconverter.</p>
+      </div>
+      <div class="card tight">
+        <h4>Low-band coverage</h4>
+        <p class="small"><strong>Nooelec Ham It Up v1.3 / Plus v2</strong> upconverter extends coverage down to HF/LF. Or use an <strong>SDRplay RSPdx</strong> for better dynamic range at MF/HF.</p>
+      </div>
+      <div class="card tight">
+        <h4>Wideband / high dynamic range</h4>
+        <p class="small"><strong>HackRF One</strong> (1 MHz–6 GHz, 8-bit) for coverage; <strong>USRP B210</strong> or similar for 12-bit dynamic range if budget and setup permit. More bits help weak reverse telemetry.</p>
+      </div>
+    </div>
+    <p class="small">
+      Antenna: a shielded loop or ferrite rod tuned to the carrier is preferable to a broadband whip for NFMI.
+      Keep the loop small and close; orientation matters. For the oscilloscope path, a hand-wound air-core loop
+      remains adequate for discovery, but a shielded loop reduces electric-field pickup.
+    </p>
+    <div class="checklist">
+      <div class="check"><input type="checkbox" id="p2a"><label for="p2a">Record exact SDR model, tuner, sample-rate capability, and gain settings.</label></div>
+      <div class="check"><input type="checkbox" id="p2b"><label for="p2b">Record antenna type, loop diameter/turns, orientation, and distance from the transmitter coil.</label></div>
+      <div class="check"><input type="checkbox" id="p2c"><label for="p2c">Confirm receive-only: no transmit path, no bias tee into the body, no active probing.</label></div>
+    </div>
+  </div>
+</details>
+
+<details>
+  <summary>Phase 2.2 — Oscilloscope fallback (when SDR fidelity is insufficient)</summary>
+  <div class="details-body">
+    <p class="small">
+      The 2017 lesson still holds: an SDR is for discovery; an oscilloscope is for raw waveform and edge timing.
+      Use a digital scope with CSV export, at least 20 MS/s, and a high-impedance probe or a shielded loop into
+      a differential input. Trigger on the envelope or a known preamble.
+    </p>
+    <div class="checklist">
+      <div class="check"><input type="checkbox" id="p2d"><label for="p2d">Record scope model, sample rate, bandwidth, probe type, and trigger settings.</label></div>
+      <div class="check"><input type="checkbox" id="p2e"><label for="p2e">Export raw voltage-vs-time CSV; preserve the original scope file if available.</label></div>
+      <div class="check"><input type="checkbox" id="p2f"><label for="p2f">Hash the exported file immediately.</label></div>
+    </div>
+  </div>
+</details>
+
+<h2 id="phase3">6. Phase 3 — Capture and preserve one reference recording</h2>
+
+<details open>
+  <summary>Phase 3.1 — Reference-capture policy</summary>
+  <div class="details-body">
+    <p class="small">
+      Prefer 5–10 seconds of raw complex I/Q from a <strong>known local FM broadcast station</strong> as the
+      pipeline reference. This is not the implant link; it is a known-good signal with a published frequency,
+      used to prove that the frequency axis, FFT scaling, and waterfall time axis are correct. The implant-link
+      capture is a separate, later step and must not be conflated with the reference validation.
+    </p>
+    <div class="grid two">
+      <div class="card tight">
+        <h4>FM reference capture</h4>
+        <ul class="small">
+          <li>Center frequency: published station frequency (e.g., 98.7 MHz).</li>
+          <li>Sample rate: ≥ 2.4 MS/s for a ~200 kHz FM channel; 2.4 MS/s is adequate.</li>
+          <li>Duration: 5–10 s.</li>
+          <li>Format: complex float32 or complex int16; record I/Q order.</li>
+          <li>Gain: fixed, not AGC, if the receiver supports it.</li>
+        </ul>
+      </div>
+      <div class="card tight">
+        <h4>Why this reference matters</h4>
+        <p class="small">
+          An FM broadcast signal has a known absolute frequency and a recognizable spectral shape. If the
+          spectrum appears at the wrong offset, the frequency-axis mapping is wrong. If the waterfall time axis
+          is wrong, the sample-rate interpretation is wrong. This catches errors before they contaminate a
+          weaker, unknown NFMI capture.
+        </p>
+      </div>
+    </div>
+    <div class="checklist">
+      <div class="check"><input type="checkbox" id="p3a"><label for="p3a">Capture 5–10 s of raw complex I/Q from a known FM station.</label></div>
+      <div class="check"><input type="checkbox" id="p3b"><label for="p3b">Record the station’s published frequency and the receiver’s center frequency separately.</label></div>
+      <div class="check"><input type="checkbox" id="p3c"><label for="p3c">Do not use demodulated audio as the primary reference; raw I/Q is preferred.</label></div>
+    </div>
+  </div>
+</details>
+
+<details>
+  <summary>Phase 3.2 — Metadata sidecar (SigMF or explicit JSON)</summary>
+  <div class="details-body">
+    <p class="small">
+      A bare IQ file is a wall of numbers. SigMF pairs <code>.sigmf-data</code> with a JSON <code>.sigmf-meta</code>
+      that records datatype, sample rate, center frequency, captures, and annotations. If SigMF tooling is not
+      available, use an explicit JSON sidecar with the same fields.
+    </p>
+    <div class="cmd">
+      <button class="copy-btn" data-copy='{
+  "global": {
+    "core:datatype": "cf32_le",
+    "core:sample_rate": 2400000,
+    "core:version": "1.0.0",
+    "core:description": "FM reference capture, receive-only",
+    "core:author": "YOUR_NAME",
+    "core:hw": "Nooelec NESDR SMArTee XTR + Ham It Up v1.3"
+  },
+  "captures": [
+    {
+      "core:sample_start": 0,
+      "core:frequency": 98700000,
+      "core:datetime": "2026-11-20T12:00:00Z"
+    }
+  ],
+  "annotations": [
+    {
+      "core:sample_start": 0,
+      "core:sample_count": 2400000,
+      "core:label": "FM broadcast reference"
+    }
+  ]
+}'>Copy</button>
+<pre><code>{
+  "global": {
+    "core:datatype": "cf32_le",
+    "core:sample_rate": 2400000,
+    "core:version": "1.0.0",
+    "core:description": "FM reference capture, receive-only",
+    "core:author": "YOUR_NAME",
+    "core:hw": "Nooelec NESDR SMArTee XTR + Ham It Up v1.3"
+  },
+  "captures": [
+    {
+      "core:sample_start": 0,
+      "core:frequency": 98700000,
+      "core:datetime": "2026-11-20T12:00:00Z"
+    }
+  ],
+  "annotations": [
+    {
+      "core:sample_start": 0,
+      "core:sample_count": 2400000,
+      "core:label": "FM broadcast reference"
+    }
+  ]
+}</code></pre>
+    </div>
+    <table>
+      <thead><tr><th>Field</th><th>Required?</th><th>Example / note</th></tr></thead>
+      <tbody>
+        <tr><td>UTC capture time</td><td>Yes</td><td><code>2026-11-20T12:00:00Z</code></td></tr>
+        <tr><td>Receiver model</td><td>Yes</td><td>Nooelec NESDR SMArTee XTR</td></tr>
+        <tr><td>Application</td><td>Yes</td><td>SDR++, GQRX, GNU Radio, custom Python</td></tr>
+        <tr><td>Center frequency (Hz)</td><td>Yes</td><td><code>98700000</code></td></tr>
+        <tr><td>Sample rate (I/Q pairs/s)</td><td>Yes</td><td><code>2400000</code></td></tr>
+        <tr><td>Sample format</td><td>Yes</td><td><code>cf32_le</code>, <code>ci16_le</code>, <code>cu8</code></td></tr>
+        <tr><td>I/Q order</td><td>Yes</td><td>I first, then Q</td></tr>
+        <tr><td>Gain / AGC state</td><td>Yes</td><td>Fixed 30 dB; AGC off; mark UNKNOWN if not exposed</td></tr>
+        <tr><td>Antenna</td><td>Recommended</td><td>Shielded loop, 5 turns, 3 cm diameter</td></tr>
+        <tr><td>Host / SDR host</td><td>Recommended</td><td>macOS 15.x / Windows 11 24H2</td></tr>
+      </tbody>
+    </table>
+    <div class="checklist">
+      <div class="check"><input type="checkbox" id="p3d"><label for="p3d">Every field is present; unknown fields are explicitly marked <code>UNKNOWN</code>.</label></div>
+      <div class="check"><input type="checkbox" id="p3e"><label for="p3e">The sidecar is stored next to the data file and hashed.</label></div>
+    </div>
+  </div>
+</details>
+
+<details>
+  <summary>Phase 3.3 — Hash the original and verify the copy</summary>
+  <div class="details-body">
+    <div class="grid two">
+      <div class="card tight">
+        <h4>macOS</h4>
+        <div class="cmd">
+          <button class="copy-btn" data-copy="shasum -a 256 capture.sigmf-data > sha256.txt; shasum -a 256 -c sha256.txt">Copy</button>
+<pre><code>shasum -a 256 capture.sigmf-data &gt; sha256.txt
+shasum -a 256 -c sha256.txt</code></pre>
+        </div>
+      </div>
+      <div class="card tight">
+        <h4>Windows PowerShell</h4>
+        <div class="cmd">
+          <button class="copy-btn" data-copy="Get-FileHash .\capture.sigmf-data -Algorithm SHA256 | Format-List > sha256.txt; Get-FileHash .\capture.sigmf-data -Algorithm SHA256">Copy</button>
+<pre><code>Get-FileHash .\capture.sigmf-data -Algorithm SHA256 |
+  Format-List &gt; sha256.txt
+Get-FileHash .\capture.sigmf-data -Algorithm SHA256</code></pre>
+        </div>
+      </div>
+    </div>
+    <p class="small">
+      Verify the copied file on the analysis host against the digest computed on the SDR host. A matching hash
+      proves byte-level integrity of the copy; it does not prove that the original capture is authentic,
+      uncorrupted at the receiver, or attributable to a particular device.
+    </p>
+    <div class="checklist">
+      <div class="check"><input type="checkbox" id="p3f"><label for="p3f">Original hash recorded before any copy or conversion.</label></div>
+      <div class="check"><input type="checkbox" id="p3g"><label for="p3g">Copied file hash matches the original hash.</label></div>
+      <div class="check"><input type="checkbox" id="p3h"><label for="p3h">Original preserved read-only; derivatives clearly labeled.</label></div>
+    </div>
+  </div>
+</details>
+
+<h2 id="phase4">7. Phase 4 — Analysis: spectrum, waterfall, and decoding</h2>
+
+<details open>
+  <summary>Phase 4.1 — Python analysis script (raw complex I/Q)</summary>
+  <div class="details-body">
+    <p class="small">
+      The script below produces a centered power spectrum and a waterfall with an absolute RF frequency axis and
+      elapsed time. It records FFT length, window, overlap, and relative dB units. It does not claim absolute
+      amplitude calibration.
+    </p>
+    <div class="cmd">
+      <button class="copy-btn" data-copy='#!/usr/bin/env python3
+"""
+analyze_iq.py — receive-only spectrum + waterfall for raw complex I/Q.
+Usage:
+  python analyze_iq.py capture.sigmf-data --fs 2400000 --fc 98700000 --fmt cf32 --nfft 4096 --out plots/
+"""
+import argparse, json, os, sys
+import numpy as np
+import matplotlib
+matplotlib.use("Agg")
+import matplotlib.pyplot as plt
+
+def load_iq(path, fmt):
+    if fmt == "cf32":
+        return np.fromfile(path, dtype=np.complex64)
+    if fmt == "ci16":
+        raw = np.fromfile(path, dtype=np.int16)
+        return (raw[0::2] + 1j*raw[1::2]).astype(np.complex64) / 32768.0
+    if fmt == "cu8":
+        raw = np.fromfile(path, dtype=np.uint8)
+        return ((raw[0::2].astype(np.float32)-127.5) +
+                1j*(raw[1::2].astype(np.float32)-127.5)) / 128.0
+    raise ValueError("fmt must be cf32, ci16, or cu8")
+
+def main():
+    ap = argparse.ArgumentParser()
+    ap.add_argument("data")
+    ap.add_argument("--fs", type=float, required=True, help="sample rate, I/Q pairs/s")
+    ap.add_argument("--fc", type=float, required=True, help="center frequency, Hz")
+    ap.add_argument("--fmt", default="cf32", choices=["cf32","ci16","cu8"])
+    ap.add_argument("--nfft", type=int, default=4096)
+    ap.add_argument("--overlap", type=float, default=0.5)
+    ap.add_argument("--out", default="plots")
+    args = ap.parse_args()
+
+    os.makedirs(args.out, exist_ok=True)
+    x = load_iq(args.data, args.fmt)
+    if x.size == 0:
+        sys.exit("empty capture")
+
+    # --- Power spectrum (Welch-like average) ---
+    step = int(args.nfft * (1 - args.overlap))
+    if step <= 0: step = args.nfft // 2
+    n_frames = max(1, (len(x) - args.nfft) // step + 1)
+    window = np.hanning(args.nfft).astype(np.float32)
+    psd = np.zeros(args.nfft, dtype=np.float64)
+    for i in range(n_frames):
+        seg = x[i*step : i*step + args.nfft] * window
+        psd += np.abs(np.fft.fftshift(np.fft.fft(seg)))**2
+    psd /= n_frames
+    psd_db = 10*np.log10(np.maximum(psd, 1e-20))
+
+    freqs = args.fc + np.fft.fftshift(np.fft.fftfreq(args.nfft, d=1/args.fs))
+
+    fig, ax = plt.subplots(figsize=(11,4))
+    ax.plot(freqs/1e6, psd_db, lw=0.8)
+    ax.set_xlabel("RF frequency (MHz)")
+    ax.set_ylabel("Relative power (dB, uncalibrated)")
+    ax.set_title(f"Power spectrum — fc={args.fc/1e6:.3f} MHz, fs={args.fs/1e6:.3f} MS/s, NFFT={args.nfft}, Hann, {int(args.overlap*100)}% overlap")
+    ax.grid(alpha=.25)
+    fig.tight_layout()
+    fig.savefig(os.path.join(args.out, "spectrum.png"), dpi=160)
+    plt.close(fig)
+
+    # --- Waterfall (spectrogram) ---
+    fig, ax = plt.subplots(figsize=(11,5))
+    ax.specgram(x, NFFT=args.nfft, Fs=args.fs, noverlap=int(args.nfft*args.overlap),
+                cmap="magma", scale="dB")
+    ax.set_xlabel("Elapsed time (s)")
+    ax.set_ylabel("Baseband frequency (Hz, relative to center)")
+    ax.set_title("Waterfall — relative dB, no absolute calibration")
+    fig.tight_layout()
+    fig.savefig(os.path.join(args.out, "waterfall.png"), dpi=160)
+    plt.close(fig)
+
+    meta = {
+        "data": args.data, "fs": args.fs, "fc": args.fc, "fmt": args.fmt,
+        "nfft": args.nfft, "window": "Hann", "overlap": args.overlap,
+        "units": "relative dB (uncalibrated)",
+        "n_samples": int(len(x)), "duration_s": len(x)/args.fs
+    }
+    with open(os.path.join(args.out, "analysis_meta.json"), "w") as f:
+        json.dump(meta, f, indent=2)
+    print(json.dumps(meta, indent=2))
+
+if __name__ == "__main__":
+    main()'>Copy</button>
+<pre><code>#!/usr/bin/env python3
+&quot;&quot;&quot;
+analyze_iq.py — receive-only spectrum + waterfall for raw complex I/Q.
+Usage:
+  python analyze_iq.py capture.sigmf-data --fs 2400000 --fc 98700000 --fmt cf32 --nfft 4096 --out plots/
+&quot;&quot;&quot;
+import argparse, json, os, sys
+import numpy as np
+import matplotlib
+matplotlib.use(&quot;Agg&quot;)
+import matplotlib.pyplot as plt
+
+def load_iq(path, fmt):
+    if fmt == &quot;cf32&quot;:
+        return np.fromfile(path, dtype=np.complex64)
+    if fmt == &quot;ci16&quot;:
+        raw = np.fromfile(path, dtype=np.int16)
+        return (raw[0::2] + 1j*raw[1::2]).astype(np.complex64) / 32768.0
+    if fmt == &quot;cu8&quot;:
+        raw = np.fromfile(path, dtype=np.uint8)
+        return ((raw[0::2].astype(np.float32)-127.5) +
+                1j*(raw[1::2].astype(np.float32)-127.5)) / 128.0
+    raise ValueError(&quot;fmt must be cf32, ci16, or cu8&quot;)
+
+def main():
+    ap = argparse.ArgumentParser()
+    ap.add_argument(&quot;data&quot;)
+    ap.add_argument(&quot;--fs&quot;, type=float, required=True, help=&quot;sample rate, I/Q pairs/s&quot;)
+    ap.add_argument(&quot;--fc&quot;, type=float, required=True, help=&quot;center frequency, Hz&quot;)
+    ap.add_argument(&quot;--fmt&quot;, default=&quot;cf32&quot;, choices=[&quot;cf32&quot;,&quot;ci16&quot;,&quot;cu8&quot;])
+    ap.add_argument(&quot;--nfft&quot;, type=int, default=4096)
+    ap.add_argument(&quot;--overlap&quot;, type=float, default=0.5)
+    ap.add_argument(&quot;--out&quot;, default=&quot;plots&quot;)
+    args = ap.parse_args()
+
+    os.makedirs(args.out, exist_ok=True)
+    x = load_iq(args.data, args.fmt)
+    if x.size == 0:
+        sys.exit(&quot;empty capture&quot;)
+
+    # --- Power spectrum (Welch-like average) ---
+    step = int(args.nfft * (1 - args.overlap))
+    if step &lt;= 0: step = args.nfft // 2
+    n_frames = max(1, (len(x) - args.nfft) // step + 1)
+    window = np.hanning(args.nfft).astype(np.float32)
+    psd = np.zeros(args.nfft, dtype=np.float64)
+    for i in range(n_frames):
+        seg = x[i*step : i*step + args.nfft] * window
+        psd += np.abs(np.fft.fftshift(np.fft.fft(seg)))**2
+    psd /= n_frames
+    psd_db = 10*np.log10(np.maximum(psd, 1e-20))
+
+    freqs = args.fc + np.fft.fftshift(np.fft.fftfreq(args.nfft, d=1/args.fs))
+
+    fig, ax = plt.subplots(figsize=(11,4))
+    ax.plot(freqs/1e6, psd_db, lw=0.8)
+    ax.set_xlabel(&quot;RF frequency (MHz)&quot;)
+    ax.set_ylabel(&quot;Relative power (dB, uncalibrated)&quot;)
+    ax.set_title(f&quot;Power spectrum — fc={args.fc/1e6:.3f} MHz, fs={args.fs/1e6:.3f} MS/s, NFFT={args.nfft}, Hann, {int(args.overlap*100)}% overlap&quot;)
+    ax.grid(alpha=.25)
+    fig.tight_layout()
+    fig.savefig(os.path.join(args.out, &quot;spectrum.png&quot;), dpi=160)
+    plt.close(fig)
+
+    # --- Waterfall (spectrogram) ---
+    fig, ax = plt.subplots(figsize=(11,5))
+    ax.specgram(x, NFFT=args.nfft, Fs=args.fs, noverlap=int(args.nfft*args.overlap),
+                cmap=&quot;magma&quot;, scale=&quot;dB&quot;)
+    ax.set_xlabel(&quot;Elapsed time (s)&quot;)
+    ax.set_ylabel(&quot;Baseband frequency (Hz, relative to center)&quot;)
+    ax.set_title(&quot;Waterfall — relative dB, no absolute calibration&quot;)
+    fig.tight_layout()
+    fig.savefig(os.path.join(args.out, &quot;waterfall.png&quot;), dpi=160)
+    plt.close(fig)
+
+    meta = {
+        &quot;data&quot;: args.data, &quot;fs&quot;: args.fs, &quot;fc&quot;: args.fc, &quot;fmt&quot;: args.fmt,
+        &quot;nfft&quot;: args.nfft, &quot;window&quot;: &quot;Hann&quot;, &quot;overlap&quot;: args.overlap,
+        &quot;units&quot;: &quot;relative dB (uncalibrated)&quot;,
+        &quot;n_samples&quot;: int(len(x)), &quot;duration_s&quot;: len(x)/args.fs
+    }
+    with open(os.path.join(args.out, &quot;analysis_meta.json&quot;), &quot;w&quot;) as f:
+        json.dump(meta, f, indent=2)
+    print(json.dumps(meta, indent=2))
+
+if __name__ == &quot;__main__&quot;:
+    main()</code></pre>
+    </div>
+    <div class="checklist">
+      <div class="check"><input type="checkbox" id="p4a"><label for="p4a">FFT length, window, overlap, and units recorded in the output metadata.</label></div>
+      <div class="check"><input type="checkbox" id="p4b"><label for="p4b">Frequency axis is absolute RF, not baseband-only.</label></div>
+      <div class="check"><input type="checkbox" id="p4c"><label for="p4c">If the export is demodulated audio, produce an audio-frequency plot and label it as such.</label></div>
+    </div>
+  </div>
+</details>
+
+<details>
+  <summary>Phase 4.2 — Decoding tools for NFMI and Manchester</summary>
+  <div class="details-body">
+    <p class="small">
+      For the 2017-style NFMI link, the likely chain is: envelope detection → threshold → Manchester decode →
+      word/packet framing. Use multiple tools and compare.
+    </p>
+    <div class="grid two">
+      <div class="card tight">
+        <h4>Universal Radio Hacker (URH) 2.10.x</h4>
+        <p class="small">
+          Investigate unknown wireless protocols; supports Manchester/PWM/PDM decoders, protocol analysis, and
+          signal generation (generation must remain disabled for this task). URH-NG forks add optional
+          ML-assisted modulation identification, but automated results require manual confirmation.
+        </p>
+      </div>
+      <div class="card tight">
+        <h4>inspectrum</h4>
+        <p class="small">
+          Visual analysis of large captures: amplitude, frequency, phase, IQ plots; cursors for symbol rate and
+          period; symbol extraction. Ideal for finding Manchester transitions by eye before scripting.
+        </p>
+      </div>
+      <div class="card tight">
+        <h4>GNU Radio</h4>
+        <p class="small">
+          Build a receive-only flowgraph: File Source → Throttle → QT GUI Frequency/Waterfall Sink. Use the
+          frequency sink’s absolute center frequency for RF-axis verification. Avoid any TX block.
+        </p>
+      </div>
+      <div class="card tight">
+        <h4>Custom Python Manchester decoder</h4>
+        <p class="small">
+          Threshold the envelope; detect mid-bit transitions; pair half-bits; validate against known preamble or
+          frame length. A simple decoder is often more auditable than a GUI tool for a fixed protocol.
+        </p>
+      </div>
+    </div>
+    <div class="notice">
+      <strong>Critical boundary.</strong> URH and similar tools can transmit. For this task, use them in
+      <strong>analysis-only</strong> mode. Disconnect or disable any TX-capable radio during decoding.
+    </div>
+  </div>
+</details>
+
+<h2 id="phase5">8. Phase 5 — Synthetic validation before trusting live data</h2>
+
+<details open>
+  <summary>Phase 5.1 — Generate complex I/Q with known tones</summary>
+  <div class="details-body">
+    <p class="small">
+      Requirements: one tone 50 kHz <em>above</em> center; a second tone 75 kHz <em>below</em> center, 6 dB weaker.
+      Choose a sample rate that contains both (e.g., 2.4 MS/s). Verify frequency signs, peak locations within one
+      FFT bin, and relative level within 1 dB.
+    </p>
+    <div class="cmd">
+      <button class="copy-btn" data-copy='#!/usr/bin/env python3
+import numpy as np
+fs = 2_400_000
+duration = 2.0
+t = np.arange(int(fs*duration)) / fs
+# amplitudes: 1.0 and 10^(-6/20) = 0.501187
+a1, a2 = 1.0, 10**(-6/20)
+x = a1*np.exp(2j*np.pi*50_000*t) + a2*np.exp(2j*np.pi*(-75_000)*t)
+x += 0.001*(np.random.randn(len(t)) + 1j*np.random.randn(len(t)))  # small noise
+x.astype(np.complex64).tofile("synthetic_tones.cf32")
+print("wrote synthetic_tones.cf32", len(x), "samples")'>Copy</button>
+<pre><code>#!/usr/bin/env python3
+import numpy as np
+fs = 2_400_000
+duration = 2.0
+t = np.arange(int(fs*duration)) / fs
+# amplitudes: 1.0 and 10^(-6/20) = 0.501187
+a1, a2 = 1.0, 10**(-6/20)
+x = a1*np.exp(2j*np.pi*50_000*t) + a2*np.exp(2j*np.pi*(-75_000)*t)
+x += 0.001*(np.random.randn(len(t)) + 1j*np.random.randn(len(t)))
+x.astype(np.complex64).tofile(&quot;synthetic_tones.cf32&quot;)
+print(&quot;wrote synthetic_tones.cf32&quot;, len(x), &quot;samples&quot;)</code></pre>
+    </div>
+  </div>
+</details>
+
+<details>
+  <summary>Phase 5.2 — Pass/fail criteria</summary>
+  <div class="details-body">
+    <table>
+      <thead><tr><th>Check</th><th>Requirement</th><th>Why it matters</th></tr></thead>
+      <tbody>
+        <tr><td>Frequency sign</td><td>+50 kHz appears above center; −75 kHz appears below center</td><td>Catches FFT-shift or conjugate errors</td></tr>
+        <tr><td>Peak location</td><td>Within one FFT bin of the true frequency</td><td>Bin width = fs/NFFT; with fs=2.4 MS/s and NFFT=4096, bin ≈ 586 Hz</td></tr>
+        <tr><td>Relative level</td><td>Difference between peaks = 6.0 dB ± 1.0 dB</td><td>Catches window/scaling errors and amplitude mis-scaling</td></tr>
+        <tr><td>Units</td><td>Relative dB, labeled uncalibrated</td><td>Prevents false absolute-power claims</td></tr>
+      </tbody>
+    </table>
+    <div class="checklist">
+      <div class="check"><input type="checkbox" id="p5a"><label for="p5a">Synthetic test passes all three criteria.</label></div>
+      <div class="check"><input type="checkbox" id="p5b"><label for="p5b">Synthetic test reported separately from the live receiver check.</label></div>
+      <div class="check"><input type="checkbox" id="p5c"><label for="p5c">If synthetic test fails, stop and fix the pipeline before analyzing live data.</label></div>
+    </div>
+  </div>
+</details>
+
+<h2 id="demo">9. Interactive demonstration — synthetic spectrum and waterfall</h2>
+<div class="card">
+  <p class="small">
+    This canvas is a self-contained visualization of the validation concept. It generates a noise floor plus two
+    tones at +50 kHz and −75 kHz (6 dB weaker) and paints a spectrum and waterfall. It is <strong>not</strong> live
+    SDR data and does not prove receiver performance. Use it to verify that you understand the axes before
+    applying the same mapping to real captures.
+  </p>
+  <div class="canvas-wrap">
+    <canvas id="demoCanvas" width="1100" height="460" aria-label="Synthetic spectrum and waterfall demonstration"></canvas>
+  </div>
+  <div class="canvas-legend">
+    <span><span class="dot" style="background:#5cc8ff"></span>Spectrum (relative dB)</span>
+    <span><span class="dot" style="background:#ffb86b"></span>+50 kHz tone</span>
+    <span><span class="dot" style="background:#8ef0c8"></span>−75 kHz tone, 6 dB weaker</span>
+  </div>
+  <div class="pill-row">
+    <button class="copy-btn" style="position:static" id="redrawDemo">Redraw synthetic frame</button>
+    <span class="pill">Center = 0 Hz (baseband)</span>
+    <span class="pill">Span = 2.4 MHz</span>
+    <span class="pill">NFFT = 4096</span>
+    <span class="pill">Relative dB</span>
+  </div>
+</div>
+
+<h2 id="phase6">10. Phase 6 — Findings report template</h2>
+<div class="card">
+  <p class="small">Deliver the following as a separate, dated report. Do not merge synthetic validation with live measurements.</p>
+  <div class="cmd">
+    <button class="copy-btn" data-copy='# Findings Report — Receive-Only RF Characterization
+
+## 1. Scope and boundary conditions
+- Receive-only; no transmit, replay, jamming, or device modification.
+- Independent clinical/legal review pending.
+
+## 2. Hosts and receiver
+- Codex host:
+- SDR host:
+- Receiver model:
+- SDR application:
+- Antenna:
+
+## 3. Reference capture
+- File:
+- SHA-256:
+- UTC time:
+- Center frequency (Hz):
+- Sample rate (I/Q pairs/s):
+- Format / I/Q order:
+- Gain / AGC:
+- Duration:
+
+## 4. Synthetic validation (separate)
+- Tone A: +50 kHz; Tone B: −75 kHz, −6 dB.
+- Peak A location / expected:
+- Peak B location / expected:
+- Relative level / expected:
+- Pass/fail:
+
+## 5. Live receiver check
+- What was observed:
+- Spectrum plot:
+- Waterfall plot:
+- FFT length / window / overlap / units:
+
+## 6. Decoding attempts
+- Tool(s):
+- Manchester framing observed?:
+- Word length / packet structure (if any):
+- Confidence and limitations:
+
+## 7. What is established vs inferred
+- Established by measurement:
+- Inferred:
+- Unknown / requires independent confirmation:
+
+## 8. Chain of custody
+- Original hash:
+- Copy hash verified by:
+- Derivatives labeled:')</button>
+<pre><code># Findings Report — Receive-Only RF Characterization
+
+## 1. Scope and boundary conditions
+- Receive-only; no transmit, replay, jamming, or device modification.
+- Independent clinical/legal review pending.
+
+## 2. Hosts and receiver
+- Codex host:
+- SDR host:
+- Receiver model:
+- SDR application:
+- Antenna:
+
+## 3. Reference capture
+- File:
+- SHA-256:
+- UTC time:
+- Center frequency (Hz):
+- Sample rate (I/Q pairs/s):
+- Format / I/Q order:
+- Gain / AGC:
+- Duration:
+
+## 4. Synthetic validation (separate)
+- Tone A: +50 kHz; Tone B: −75 kHz, −6 dB.
+- Peak A location / expected:
+- Peak B location / expected:
+- Relative level / expected:
+- Pass/fail:
+
+## 5. Live receiver check
+- What was observed:
+- Spectrum plot:
+- Waterfall plot:
+- FFT length / window / overlap / units:
+
+## 6. Decoding attempts
+- Tool(s):
+- Manchester framing observed?:
+- Word length / packet structure (if any):
+- Confidence and limitations:
+
+## 7. What is established vs inferred
+- Established by measurement:
+- Inferred:
+- Unknown / requires independent confirmation:
+
+## 8. Chain of custody
+- Original hash:
+- Copy hash verified by:
+- Derivatives labeled:</code></pre>
+  </div>
+</div>
+
+<h2 id="rerun">11. Rerun commands</h2>
+<div class="cmd">
+  <button class="copy-btn" data-copy="python analyze_iq.py capture.sigmf-data --fs 2400000 --fc 98700000 --fmt cf32 --nfft 4096 --overlap 0.5 --out plots/">Copy</button>
+<pre><code>python analyze_iq.py capture.sigmf-data \
+  --fs 2400000 \
+  --fc 98700000 \
+  --fmt cf32 \
+  --nfft 4096 \
+  --overlap 0.5 \
+  --out plots/</code></pre>
+</div>
+<p class="small">
+  For a SigMF pair, read metadata with the <code>sigmf</code> Python library and pass its
+  <code>core:sample_rate</code> and <code>core:frequency</code> values into the script. Do not retype them from
+  memory.
+</p>
+
+<h2 id="links">12. Selected current tools and references</h2>
+<div class="grid two">
+  <div class="card tight linklist">
+    <h4>Hardware</h4>
+    <p class="small">
+      <a href="https://www.nooelec.com/store/sdr/sdr-receivers/nesdr-smartee-xtr.html" target="_blank" rel="noopener">Nooelec NESDR SMArTee XTR</a><br>
+      <a href="https://www.nooelec.com/store/ham-it-up.html" target="_blank" rel="noopener">Nooelec Ham It Up upconverter</a><br>
+      <a href="https://www.rtl-sdr.com/" target="_blank" rel="noopener">RTL-SDR Blog</a><br>
+      <a href="https://greatscottgadgets.com/hackrf/one/" target="_blank" rel="noopener">HackRF One</a>
+    </p>
+  </div>
+  <div class="card tight linklist">
+    <h4>Metadata and capture</h4>
+    <p class="small">
+      <a href="https://sigmf.org/" target="_blank" rel="noopener">SigMF specification</a><br>
+      <a href="https://github.com/sigmf/sigmf-python" target="_blank" rel="noopener">sigmf-python</a><br>
+      <a href="https://github.com/miek/inspectrum" target="_blank" rel="noopener">inspectrum</a>
+    </p>
+  </div>
+  <div class="card tight linklist">
+    <h4>Decoding and analysis</h4>
+    <p class="small">
+      <a href="https://github.com/jopohl/urh" target="_blank" rel="noopener">Universal Radio Hacker (URH)</a><br>
+      <a href="https://github.com/haxorthematrix/urh-ng-ai" target="_blank" rel="noopener">URH-NG AI fork (optional)</a><br>
+      <a href="https://www.gnuradio.org/" target="_blank" rel="noopener">GNU Radio</a><br>
+      <a href="https://numpy.org/" target="_blank" rel="noopener">NumPy</a> · <a href="https://scipy.org/" target="_blank" rel="noopener">SciPy</a>
+    </p>
+  </div>
+  <div class="card tight linklist">
+    <h4>Background</h4>
+    <p class="small">
+      <a href="https://infocondb.org/con/shmoocon/shmooocon-xiii/cyborg-self-hacking-an-examination-of-cochlear-implants" target="_blank" rel="noopener">Jeff Dodge, ShmooCon XIII (2017)</a><br>
+      <a href="https://pubmed.ncbi.nlm.nih.gov/39010242/" target="_blank" rel="noopener">UmboMic: PVDF cantilever microphone (2024)</a><br>
+      <a href="https://arxiv.org/html/2507.19609v1" target="_blank" rel="noopener">IoMT real-world attack survey (2025)</a>
+    </p>
+  </div>
+</div>
+
+<h2 id="boundary-close">13. Closing boundary-condition statement</h2>
+<div class="notice ok">
+  <p class="small">
+    <strong>What this workflow can establish:</strong> that a receiver, antenna, capture chain, metadata sidecar,
+    hash, FFT mapping, waterfall time axis, and Manchester decoder are working correctly on known signals; that a
+    candidate emission exists at a given frequency and time under documented receiver settings; that a captured
+    bitstream is consistent with a particular line code or frame length <em>if</em> the decode is reproducible.
+  </p>
+  <p class="small">
+    <strong>What this workflow cannot establish:</strong> the presence of an implant in a person; consent or lack
+    of consent; the identity of any operator; causation of any reported experience; the security posture of a
+    specific implanted device; or the truth of any allegation. Those require independent clinical examination,
+    device forensics with lawful authority, and corroborated records.
+  </p>
+  <p class="small">
+    The Formalized Boundary-Condition Advisor position is therefore: measure what can be measured, label what is
+    inferred, preserve what is original, and refuse to let an extreme narrative overwrite a null result.
+  </p>
+</div>
+
+<div class="footer">
+  <p>
+    Modernized task specification · receive-only · non-destructive · single-file HTML · no server required.
+    Hyperlinks open in a new tab. Hashes and Git history can document handling; they do not establish factual
+    authentication, device presence, attribution, causation, or wrongdoing.
+  </p>
+</div>
+
+</div>
+
+<script>
+(function(){
+  // ---------- Progress tracking ----------
+  const checks = Array.from(document.querySelectorAll('input[type="checkbox"]'));
+  const fill = document.getElementById('progressFill');
+  const text = document.getElementById('progressText');
+  const pct = document.getElementById('progressPct');
+  function updateProgress(){
+    const total = checks.length;
+    const done = checks.filter(c => c.checked).length;
+    const p = total ? Math.round(100 * done / total) : 0;
+    fill.style.width = p + '%';
+    text.textContent = done + ' of ' + total + ' steps complete';
+    pct.textContent = p + '%';
+  }
+  checks.forEach(c => c.addEventListener('change', updateProgress));
+  updateProgress();
+
+  // ---------- Copy buttons ----------
+  document.querySelectorAll('.copy-btn[data-copy]').forEach(btn => {
+    btn.addEventListener('click', async () => {
+      const payload = btn.getAttribute('data-copy');
+      try {
+        await navigator.clipboard.writeText(payload);
+        btn.textContent = 'Copied';
+        btn.classList.add('copied');
+        setTimeout(() => { btn.textContent = 'Copy'; btn.classList.remove('copied'); }, 1400);
+      } catch (e) {
+        // Fallback for older browsers / non-secure contexts
+        const ta = document.createElement('textarea');
+        ta.value = payload;
+        document.body.appendChild(ta);
+        ta.select();
+        try { document.execCommand('copy'); btn.textContent = 'Copied'; } catch(_) { btn.textContent = 'Select manually'; }
+        document.body.removeChild(ta);
+        setTimeout(() => { btn.textContent = 'Copy'; }, 1600);
+      }
+    });
+  });
+
+  // ---------- Synthetic spectrum + waterfall demo ----------
+  const canvas = document.getElementById('demoCanvas');
+  const ctx = canvas.getContext('2d');
+  const W = canvas.width, H = canvas.height;
+  const specH = 190;          // spectrum panel height
+  const wfTop = specH + 26;
+  const wfH = H - wfTop - 8;
+
+  function gaussian(x, mu, sigma){
+    return Math.exp(-0.5 * Math.pow((x - mu) / sigma, 2));
+  }
+
+  function makeFrame(){
+    const N = 512;
+    const fs = 2.4e6;
+    const noiseFloor = -82;
+    const bins = new Float32Array(N);
+    for (let i=0;i<N;i++){
+      const f = (i/(N-1) - 0.5) * fs; // -1.2 MHz .. +1.2 MHz
+      // noise floor with slight ripple
+      let v = noiseFloor + (Math.random()-0.5)*2.2;
+      // +50 kHz tone, 1.0 amplitude -> ~0 dB reference
+      v += 54 * gaussian(f, 50000, 1800);
+      // -75 kHz tone, 6 dB weaker -> 48 dB above floor
+      v += 48 * gaussian(f, -75000, 2200);
+      bins[i] = v;
+    }
+    return bins;
+  }
+
+  let waterfallRows = [];
+  const rowCount = Math.floor(wfH / 3);
+
+  function drawAxes(){
+    ctx.clearRect(0,0,W,H);
+
+    // Background
+    ctx.fillStyle = '#060a0e';
+    ctx.fillRect(0,0,W,H);
+
+    // Spectrum panel background
+    ctx.fillStyle = '#08111a';
+    ctx.fillRect(0,0,W,specH);
+
+    // Grid lines
+    ctx.strokeStyle = 'rgba(92,200,255,.12)';
+    ctx.lineWidth = 1;
+    for (let i=0;i<=4;i++){
+      const y = 12 + i*(specH-24)/4;
+      ctx.beginPath(); ctx.moveTo(44,y); ctx.lineTo(W-12,y); ctx.stroke();
+    }
+    for (let i=0;i<=6;i++){
+      const x = 44 + i*(W-56)/6;
+      ctx.beginPath(); ctx.moveTo(x,12); ctx.lineTo(x,specH-12); ctx.stroke();
+    }
+
+    // Axis labels
+    ctx.fillStyle = '#8fa3b8';
+    ctx.font = '12px ui-monospace, monospace';
+    ctx.fillText('Relative dB', 6, 18);
+    ctx.fillText('+1.2 MHz', W-82, specH-2);
+    ctx.fillText('-1.2 MHz', 46, specH-2);
+    ctx.fillText('0 Hz', W/2-14, specH-2);
+  }
+
+  function drawSpectrum(bins){
+    const N = bins.length;
+    const x0 = 44, x1 = W-12;
+    const y0 = 12, y1 = specH-12;
+    let min = -90, max = -20;
+    // normalize to observed min/max
+    let bmin = Infinity, bmax = -Infinity;
+    for (const v of bins){ if (v<bmin) bmin=v; if (v>bmax) bmax=v; }
+    min = Math.floor(bmin/5)*5;
+    max = Math.ceil(bmax/5)*5;
+    if (max - min < 20) max = min + 20;
+
+    ctx.beginPath();
+    for (let i=0;i<N;i++){
+      const x = x0 + (i/(N-1))*(x1-x0);
+      const y = y1 - ((bins[i]-min)/(max-min))*(y1-y0);
+      if (i===0) ctx.moveTo(x,y); else ctx.lineTo(x,y);
+    }
+    ctx.strokeStyle = '#5cc8ff';
+    ctx.lineWidth = 1.6;
+    ctx.stroke();
+
+    // Fill under curve
+    ctx.lineTo(x1, y1);
+    ctx.lineTo(x0, y1);
+    ctx.closePath();
+    ctx.fillStyle = 'rgba(92,200,255,.10)';
+    ctx.fill();
+
+    // Mark tone positions
+    const toneX = (freq) => {
+      const idx = (freq/2.4e6 + 0.5) * (N-1);
+      return x0 + (idx/(N-1))*(x1-x0);
+    };
+    const x50 = toneX(50000);
+    const x75 = toneX(-75000);
+    ctx.strokeStyle = '#ffb86b';
+    ctx.setLineDash([4,4]);
+    ctx.beginPath(); ctx.moveTo(x50, y0); ctx.lineTo(x50, y1); ctx.stroke();
+    ctx.strokeStyle = '#8ef0c8';
+    ctx.beginPath(); ctx.moveTo(x75, y0); ctx.lineTo(x75, y1); ctx.stroke();
+    ctx.setLineDash([]);
+
+    ctx.fillStyle = '#ffb86b';
+    ctx.font = '11px ui-monospace, monospace';
+    ctx.fillText('+50 kHz', x50+4, y0+14);
+    ctx.fillStyle = '#8ef0c8';
+    ctx.fillText('-75 kHz', x75+4, y0+28);
+
+    return {min,max};
+  }
+
+  function drawWaterfall(){
+    const x0 = 44, x1 = W-12;
+    const y0 = wfTop, y1 = wfTop + wfH;
+    // Draw rows
+    for (let r=0;r<waterfallRows.length;r++){
+      const row = waterfallRows[r];
+      const y = y0 + (r/rowCount)*(y1-y0);
+      const h = (y1-y0)/rowCount + 1;
+      const N = row.length;
+      for (let i=0;i<N;i++){
+        const v = Math.max(0, Math.min(1, (row[i] + 90) / 70));
+        // simple magma-ish colormap
+        const R = Math.round(255 * Math.pow(v, 1.7));
+        const G = Math.round(140 * Math.pow(v, 2.2) + 20 * v);
+        const B = Math.round(180 * Math.pow(v, 3.0) + 60 * (1-v) * v);
+        ctx.fillStyle = `rgb(${R},${G},${B})`;
+        const x = x0 + (i/N)*(x1-x0);
+        ctx.fillRect(x, y, (x1-x0)/N + 0.6, h);
+      }
+    }
+
+    // Waterfall frame
+    ctx.strokeStyle = 'rgba(92,200,255,.35)';
+    ctx.strokeRect(x0, y0, x1-x0, y1-y0);
+
+    // Labels
+    ctx.fillStyle = '#8fa3b8';
+    ctx.font = '11px ui-monospace, monospace';
+    ctx.fillText('Waterfall — synthetic, relative dB', x0+4, y0+14);
+    ctx.fillText('time ↓', 6, y0+14);
+    ctx.fillText('frequency →', W-104, y1+14);
+  }
+
+  function render(){
+    drawAxes();
+    const bins = waterfallRows[waterfallRows.length-1] || makeFrame();
+    drawSpectrum(bins);
+    drawWaterfall();
+  }
+
+  function redraw(){
+    waterfallRows = [];
+    for (let i=0;i<rowCount;i++){
+      // slight temporal variation to look like a live waterfall
+      const f = makeFrame();
+      for (let k=0;k<f.length;k++){
+        f[k] += (Math.random()-0.5)*1.2;
+      }
+      waterfallRows.push(f);
+    }
+    render();
+  }
+
+  document.getElementById('redrawDemo').addEventListener('click', redraw);
+  redraw();
+
+  // Animate a few initial rows for visual effect
+  let anim = 0;
+  const animTimer = setInterval(() => {
+    if (anim++ > 12){ clearInterval(animTimer); return; }
+    waterfallRows.shift();
+    const f = makeFrame();
+    for (let k=0;k<f.length;k++) f[k] += (Math.random()-0.5)*1.2;
+    waterfallRows.push(f);
+    render();
+  }, 90);
+
+})();
+</script>
+</body>
+</html>
