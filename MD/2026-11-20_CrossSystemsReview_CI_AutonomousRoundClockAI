@@ -1,0 +1,170 @@
+## Cross-evaluation memo
+### Reported system characteristics vs. the supplied *Awesome AI Companions* directory
+**Purpose:** identify the closest *functional* software matches as a starting point for lawful match identification.  
+**Caveat:** This is a feature/architecture comparison only. It does not verify any allegation, identify any person, or establish that any listed app was involved. App names are examples from the supplied public directory, not suspects. No app in that directory supplies a cochlear implant, neural stimulation, concealed controller, or enterprise remote-view capability.
+
+---
+
+## 1. Bottom line
+
+The *Awesome AI Companions* list is a useful **software-layer candidate taxonomy**, not a device-layer or medical match. The strongest functional overlaps are:
+
+1. **Persistent character/context + TTS + self-hosted logs** → SillyTavern ecosystem.  
+2. **Stateful agent memory + orchestration + human-in-the-loop** → Letta/MemGPT.  
+3. **Proactive cross-platform agent + voice + long-term memory** → Omoi, PiPar.  
+4. **Persistent voice companion with persona and memory** → Kindroid, Nomi, Replika, Local Waifu.  
+5. **Self-hosted/auditable/local-first systems** → Local Waifu, HammerAI, Enclave, Scowld.
+
+**Critical non-match:** none of the listed systems provides:
+- nonconsensual or concealed cochlear implantation;
+- neural stimulation to percept;
+- decoding of “planned” speech from neural signals;
+- remote-view across personal and enterprise devices;
+- two-way telemetry into an implant;
+- an inaccessible controller that cannot be stopped by the user.
+
+Those remain **medical/device/forensic verification questions**, not app-directory match questions. The architecture survey’s closest engineering figure is the **full auditory loop**; the closest directory figure is **Context, Character & Voice**. Keep those two match tracks separate.
+
+---
+
+## 2. Extracted system characteristics from the statement
+
+| ID | Reported characteristic | Evidence class for matching |
+|---|---|---|
+| S1 | Persistent long-running interaction/context, reportedly >3 months | Software-layer comparable |
+| S2 | Voice/audio chat and intelligible audio output | Software-layer comparable |
+| S3 | Proactive/outbound messaging or calls | Software-layer comparable |
+| S4 | Multi-device / cross-platform / Discord / mobile / enterprise context | Partially comparable |
+| S5 | External controller/software orchestration with human-in-the-loop | Partially comparable |
+| S6 | Self-hosted/BYOK/API/log-audit capability | Software-layer comparable |
+| S7 | Persona/multi-character/voice assignment | Software-layer comparable |
+| S8 | Queue, review, stop/pause controls | Software-layer comparable |
+| S9 | Decoding “planned” speech to text | Not standard in directory; research-only |
+| S10 | Remote-view across personal and enterprise devices | Not standard in directory |
+| S11 | Two-way telemetry: activity OUT, audio-chat IN to implant | Not in directory |
+| S12 | Cochlear/implant stimulation and inaccessible controller | Not in directory; medical/device review |
+
+---
+
+## 3. Illustrative similarity rubric
+
+Scores below are **functional similarity to the reported software-layer profile**, not probability of involvement or evidence of use.
+
+| Dimension | Weight |
+|---|---:|
+| Persistent memory/context | 15 |
+| Voice/TTS/STT/audio chat | 15 |
+| Proactive outbound messaging/calls | 10 |
+| Multi-platform/Discord/Telegram/mobile | 10 |
+| Agent orchestration/human-in-loop | 10 |
+| Self-host/BYOK/API/audit logs | 10 |
+| Persona/multi-character/voice assignment | 10 |
+| Queue/stop/review controls | 5 |
+| Planned-speech/neural decoding | 5 |
+| Remote-view/enterprise access | 5 |
+| Implant stimulation/two-way telemetry | 5 |
+| **Total** | **100** |
+
+---
+
+## 4. Prioritized similarity-match order
+
+### Tier A — highest software-layer similarity
+
+| Rank | Candidate / cluster | Illustrative score | Strongest overlap with statement | Critical gaps | Actionable next check |
+|---:|---|---:|---|---|---|
+| 1 | **SillyTavern + World Info + TTS + API connections** | 60–62 | Character cards, lorebook/context memory, group chat, TTS, local/remote API, self-hosted logs, user-visible stop/review | No proactive agent by default; no neural output; no remote-view; no implant telemetry | Look for local server ports, `characters/`, World Info files, TTS cache, API endpoint configs, chat logs |
+| 2 | **Letta / MemGPT** | 56–58 | Durable agent state, long-term memory, tool orchestration, human-in-loop patterns | Not a consumer voice companion; no persona UI; no implant/device layer | Look for agent-state DB, Postgres, API keys, tool-call logs |
+| 3 | **Omoi** | 55–57 | Discord agents, proactive messaging, emotional voice, long-term memory, web search, cross-platform | Discord-centric; no enterprise remote-view; no implant | Look for Discord bot IDs, webhooks, DM/voice-channel logs |
+| 4 | **PiPar** | 53–55 | Proactive calls/reminders, multi-model routing, audio/document analysis, companion/productivity hybrid | Not primarily persistent character memory; no neural/device layer | Look for Android app records, call/reminder logs, model-provider keys |
+| 5 | **Kindroid** | 52–54 | Lifelike persona, voice calls, selfies, social feed, persistent chat | No proactive agent/controller orchestration; no enterprise access | Look for account/session logs, voice-call records, app identifiers |
+
+### Tier B — adjacent persistent-companion or self-hosted matches
+
+| Rank | Candidate / cluster | Illustrative score | Strongest overlap | Critical gaps | Actionable next check |
+|---:|---|---:|---|---|---|
+| 6 | **Local Waifu** | 50–53 | Local LLM, offline operation, voice, vision, persistent memory, no account | Single-machine; no multi-device/remote-view | Look for local model files, local ports, no-account install artifacts |
+| 7 | **Nomi** | 49–52 | Strong long-term memory, group chats, deep personalization | Voice/proactive/enterprise features limited; no device layer | Check account history, group-chat and memory records |
+| 8 | **Replika** | 48–51 | Long track record, voice, AR, coaching, persistent relationship | No controller/enterprise telemetry; no neural output | Check app account, voice-call, AR permission logs |
+| 9 | **CharacterSphere.ai** | 46–49 | Persistent memory, multi-language, Discord/Telegram, no message caps | No clear voice/implant/controller layer | Check Discord/Telegram bot integrations |
+| 10 | **RealmsAI** | 45–48 | Multi-character chats, custom RAG memory, director/god mode | No voice/enterprise/device layer | Check RAG memory stores and director-mode logs |
+| 11 | **Kissable** | 44–47 | Persistent memory, emotional voice, photo/video generation | No agent orchestration; no enterprise access | Check account, media-generation, voice records |
+| 12 | **Scowld** | 42–45 | Open-source iOS, VRM avatar, voice/text, BYOK STT/TTS, optional camera context | No long-term agent memory; no remote-view/enterprise | Check iOS app, STT/TTS provider keys, camera permission logs |
+
+### Tier C — infrastructure or narrower matches
+
+| Rank | Candidate / cluster | Illustrative score | Why lower | Actionable next check |
+|---:|---|---:|---|---|
+| 13 | **Enclave** | 41–44 | Self-hosted AI social simulation; schedules/posts/group chats | No voice/device/enterprise match | Check Docker Compose, feed/post logs |
+| 14 | **HammerAI** | 40–43 | Local LLM, proxy mode, lorebooks, image gen | Frontend/tool, not proactive controller | Check local model files, proxy configs |
+| 15 | **UnoRouter** | 37–40 | API routing/failover, card import | Infrastructure only | Check API routing/failover logs |
+| 16 | **BodyBuddy** | 35–38 | Proactive iMessage accountability, memory | Narrow health domain; no character/voice/device match | Check iMessage extension and health-data logs |
+| 17 | **Character.AI, Talkie, JanitorAI, SpicyChat, CrushOn.AI** | 30–35 | Character/roleplay chat | Weak persistent controller/voice/proactive/audit overlap | Lower priority unless logs point to these platforms |
+
+---
+
+## 5. Feature coverage by cluster
+
+| Reported feature | Closest directory coverage | Match quality |
+|---|---|---|
+| Persistent memory >3 months | Nomi, Kindroid, Replika, SillyTavern World Info, Letta, Local Waifu | Strong software-layer |
+| Voice/audio chat | Kindroid, Replika, Omoi, PiPar, Scowld, Kissable | Strong software-layer |
+| Proactive outbound messaging/calls | Omoi, PiPar, BodyBuddy, Enclave | Partial |
+| Multi-device/Discord/Telegram | Omoi, CharacterSphere, PiPar, Replika | Partial |
+| Human-in-the-loop/director/review | RealmsAI, SillyTavern, Letta, governance-control patterns | Partial |
+| Self-host/BYOK/audit logs | SillyTavern, Local Waifu, HammerAI, Enclave, Scowld | Strong for self-hosted clusters |
+| Queue/stop/review controls | SillyTavern TTS queue, most companion apps | Strong but user-accessible, unlike reported inaccessible controller |
+| “Planned speech” decoding | No directory app; research-only speech-decoding literature | No off-the-shelf match |
+| Remote-view across enterprise devices | No directory app; optional camera/media context only in Scowld/PiPar | No match |
+| Two-way implant telemetry | None | No match |
+| Cochlear stimulation/inaccessible controller | None | No match; requires medical/device review |
+
+---
+
+## 6. Actionable match-identification protocol
+
+### P0 — preserve first
+- [ ] Preserve all devices, phones, laptops, routers, MDM/cloud audit logs, account logs, and communications.  
+- [ ] Do not wipe, reset, replace, or “clean” devices before forensic imaging.  
+- [ ] Preserve any controller, packaging, serial numbers, manuals, receipts, and medical records under chain of custody.  
+- [ ] Do not attempt unauthorized access, interception, or self-surgery.
+
+### P1 — independent medical/device track
+- [ ] Independent neurotology/otolaryngology and audiology examination.  
+- [ ] Device interrogation by manufacturer-trained representative or clinical audiologist under consent/counsel: model, serial, electrode status, stimulation parameters, pairing history, firmware, logs.  
+- [ ] Subpoena/preserve operative, anesthesia, consent, device, manufacturer, and controller records.
+
+### P2 — software-signature triage
+Build an inventory of installed apps, browser extensions, Discord bots/webhooks, API keys, TTS providers, local model files, local ports, MDM profiles, and remote-support tools. Then compare:
+
+| If evidence shows… | Prioritize… |
+|---|---|
+| Discord bot/webhooks/proactive DMs | Omoi, CharacterSphere |
+| Android/iMessage proactive calls/reminders | PiPar, BodyBuddy |
+| Local model files/GGUF/localhost services | Local Waifu, HammerAI, SillyTavern |
+| Character cards, lorebooks, TTS queue files | SillyTavern ecosystem |
+| Stateful agent DB/Postgres/tool-call logs | Letta/MemGPT |
+| iOS VRM/camera/STT/TTS BYOK | Scowld |
+| API routing/failover configs | UnoRouter |
+| No matching app signature | Custom/non-directory controller; escalate to forensic, medical, and legal review |
+
+### P3 — lawful records requests
+- [ ] Preservation letters to employer, enterprise IT/MDM providers, “Feldman ENT,” associated surgical facility, device manufacturer, and any controller/software vendor.  
+- [ ] Preserve **25SEP2026** law-enforcement call, dispatch, commitment, and originating-source records.  
+- [ ] Obtain app/cloud account audit logs and session records only through lawful process.
+
+### P4 — avoid premature attribution
+- [ ] Do not treat a feature resemblance, persona resemblance, or diagram label as identification.  
+- [ ] Do not accuse a listed app or vendor without account/session/device evidence.  
+- [ ] If a candidate match is found, preserve it and place it in chain of custody before further review.
+
+---
+
+## 7. Critical conclusion
+
+The best “starting point” is **not a single app name**. It is a **two-track match**:
+
+1. **Software track:** SillyTavern-like character/TTS/memory stack, Letta-like stateful agent, or Omoi/PiPar-like proactive voice agent.  
+2. **Device track:** independent neurotology/audiology/device interrogation and manufacturer/controller records.
+
+The *Awesome AI Companions* directory can help classify software behavior and generate lawful records-request targets. It cannot establish the reported implant, neural decoding, remote-view, or two-way implant telemetry. Those require independent medical, forensic, and legal verification. If acute medical symptoms occur, seek emergency clinical care.
